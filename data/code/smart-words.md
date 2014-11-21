@@ -1,0 +1,17 @@
+# smart words
+
+Words that make you sound smart. Programmer _$wag_.
+
+###### idempotance [(wiki)](http://en.wikipedia.org/wiki/Idempotence)
+> Idempotence is the property of certain operations in mathematics and computer
+> science, that can be applied multiple times without changing the result beyond
+> the initial application.
+
+###### atomicity [(wiki)](http://en.wikipedia.org/wiki/Atomicity#Computing)
+Databases:
+> a property of database transactions which are guaranteed to either completely
+> occur, or have no effects
+
+Programming:
+> in computer science, especially parallel algorithms, an operation appears
+> to occur at a single instant between its invocation and its response
