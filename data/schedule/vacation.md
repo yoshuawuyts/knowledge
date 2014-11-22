@@ -10,3 +10,9 @@ this is how they make money
 - smaller airports often have better prices
 - check if the flight no. you're planning to go on is available somewhere else,
 sometimes the same flight is available for less somewhere else
+
+# Planning a trip
+- Investigate when you want to travel first, off-season can save 80% in costs
+- Check out what you can do in the towns you're heading at. Make a day by day
+plan.
+- Never _just go somewhere_, planning on site is a waste of vacation time.
