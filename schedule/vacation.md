@@ -2,7 +2,7 @@
 
 ## Booking a plane
 - clear cache often, prices are set by cookies
-- [skyscanner](www.skyscanner.com) is presumably pretty good to compare prices
+- [skyscanner](http://skyscanner.com) is presumably pretty good to compare prices
 - early vs last minute bookings? no idea which one is best
 - most people often already have a cancellation insurance, don't get one twice
 - be careful you don't tick extra options when travelling with a cheap company,
