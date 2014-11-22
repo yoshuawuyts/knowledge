@@ -21,7 +21,6 @@ them to be.
 
 ## See also
 - [linklocal](http://github.com/timoxley/linklocal) (node)
-- [stow](http://www.gnu.org/software/stow/) (unix/dotfiles)
 
 [fhs]: http://www.pathname.com/fhs/
 [large-apps]: https://github.com/timoxley/best-practices#never-build-large-apps
