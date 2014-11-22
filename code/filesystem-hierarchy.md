@@ -1,18 +1,6 @@
 # Filesystem hierarchy
 
-## Unix Filesystem Hierarchy Standard
-
-## Node Module Filesystem Hierarchy
-```
-bin              -> executables
-docs             -> documentation
-lib              -> source files
-pkg              -> packages (local modules)
-sh               -> shell scripts
-test             -> tests
-```
-
-## Project Filesystem Hierarchy [(wiki)][fhs]
+## Unix Filesystem Hierarchy Standard [(wiki)][fhs]
 ```
 /              Root dir
 /bin           Binaries
@@ -47,6 +35,24 @@ test             -> tests
 /var/run       Information about running system since boot
 /var/spool     Tasks waiting to be processed
 /var/tmp       Temp files preserved between boots
+```
+
+## Node Module Filesystem Hierarchy
+```
+bin              -> executable
+docs             -> documentation
+lib              -> source files
+test             -> tests
+```
+
+## Project Filesystem Hierarchy
+```
+bin              -> executable
+docs             -> documentation
+lib              -> source files
+pkg              -> packages (local modules)
+sh               -> shell scripts
+test             -> integration tests
 ```
 
 ## See also 
