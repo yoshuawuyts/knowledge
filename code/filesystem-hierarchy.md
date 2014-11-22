@@ -6,9 +6,9 @@
 ```
 bin              -> executables
 docs             -> documentation
+lib              -> source files
 pkg              -> packages (local modules)
 sh               -> shell scripts
-lib              -> source files
 test             -> tests
 ```
 
