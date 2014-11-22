@@ -55,5 +55,17 @@ Solid.
 - Explain what you shouldn't do to screenshots
 - Provide a bunch of quality screenshots in the press kit
 
+#### Use of the materials
+Here comes a whole slew of examples that probably cover your use case.
+- In general
+- Advertising, promotional, and sales materials
+- Education and instruction (books, guides, publications, and conferences)
+- Products, websites, names and logos
+- Functional Uses (UIs / buttons)
+- Linking to Dropbox
+- Merchandise
+- More questions? (and include screenshots so we can judge faster) (also don't
+assume no answer = we agreed to whatever you're planning)
+
 ## See also
 - [dropbox branding](https://www.dropbox.com/branding#dropbox-colors)
