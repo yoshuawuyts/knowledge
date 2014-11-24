@@ -68,4 +68,4 @@ Here comes a whole slew of examples that probably cover your use case.
 assume no answer = we agreed to whatever you're planning)
 
 ## See also
-- [dropbox branding](https://www.dropbox.com/branding#dropbox-colors)
+- [dropbox branding](https://www.dropbox.com/branding)
