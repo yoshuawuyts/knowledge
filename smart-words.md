@@ -15,3 +15,7 @@ Databases:
 Programming:
 > in computer science, especially parallel algorithms, an operation appears
 > to occur at a single instant between its invocation and its response
+
+###### atomicity [(article)](http://blog.intercom.io/design-futures-1-creating-systems-not-products/)
+> The job of designers is to create amazing atomic units, and have people
+> consume and interact with them.
