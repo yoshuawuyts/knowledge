@@ -18,6 +18,7 @@
 -u filename     check if file set-user-id bit is set
 -w filename     check if file is writable
 -x filename     check if file is executable
+-z <string> ... true if the length of the string is non-zero
 ```
 
 __example__
