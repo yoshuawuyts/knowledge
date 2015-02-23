@@ -21,6 +21,10 @@ curl -H "Content-Type: application/json" http://localhost:3000
 curl -H "Content-Type: application/json" -d \
 '{"username":"xyz","password":"xyz"}' http://localhost:3000/api/login
 ```
+or with `--data-binary`
+```sh
+curl --data-binary @myFile.json http://localhost:3000/api
+```
 
 ## See Also
 - [curl(1)](http://man.cx/curl)
