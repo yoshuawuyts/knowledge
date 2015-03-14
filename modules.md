@@ -11,6 +11,11 @@
 
 ## Tools
 - [browserify](http://ghub.io/browserify)
+- [watchify](https://github.com/substack/watchify) - watch mode for browserify builds
+- [standard](http://ghub.io/standard) - JavaScript standard style linter
+- [standard-format](http://ghub.io/standard-format) - JavaScript standard style formatter
+- [recess](http://ghub.io/recess) - CSS linter
+- [wzrd](http://github.com/maxogden/wzrd) - Super minimal browserify development server
 
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer)
@@ -22,5 +27,3 @@
 
 ## Server MVC
 - [koa](https://github.com/koajs/koa)
-
-
