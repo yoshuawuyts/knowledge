@@ -1,36 +1,9 @@
 # git
 
-#### Branches
+## remove a current tracking relationship
+```sh
+$ git branch --unset-upstream
 ```
-<username>/<verb>-<topic>
-```
-
-Example
-```
-yoshuawuyts/update-project-specification
-```
-
-#### Commits
-```
-<subject>: <verb> <topic>
-```
-
-Example
-```
-deps: update sheetify version
-```
-
-#### Aliases
-log
-```
-git log --color --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
-```
-
-status
-```
-git status -s
-```
-
 
 ## See also
-- [dotfiles](https://github.com/yoshuawuyts/dotfiles/blob/master/lib/.aliases)
+- [understanding tracking branches in git](http://www.lornajane.net/posts/2014/understanding-tracking-branches-in-git)
