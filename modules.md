@@ -14,6 +14,10 @@
 - [standard-format](http://ghub.io/standard-format) - JavaScript standard style formatter
 - [recess](http://ghub.io/recess) - CSS linter
 - [wzrd](http://github.com/maxogden/wzrd) - Super minimal browserify development server
+- [changelog-maker](https://github.com/rvagg/changelog-maker) - A git log to CHANGELOG.md tool
+- [vtop](https://github.com/MrRio/vtop) - visual `top`
+- [pkg-name](https://github.com/sindresorhus/pkg-name) - Check whether a package name is available on npm
+
 
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer)
