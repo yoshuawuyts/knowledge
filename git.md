@@ -1,9 +1,14 @@
 # git
 
-## remove a current tracking relationship
+### Remove a current tracking relationship
 ```sh
 $ git branch --unset-upstream
 ```
+[source](http://www.lornajane.net/posts/2014/understanding-tracking-branches-in-git)
 
-## See also
-- [understanding tracking branches in git](http://www.lornajane.net/posts/2014/understanding-tracking-branches-in-git)
+
+### Cryptographically sign all commits
+```text
+commit.gpgsign
+```
+[source](http://stackoverflow.com/a/20628543/1541707)
