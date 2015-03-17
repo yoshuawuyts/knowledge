@@ -4,9 +4,6 @@
 - [mattdesl/modules](https://gist.github.com/mattdesl/73e3b9f902f9c834b721)
 - [ferros/mad-science-modules](https://github.com/feross/mad-science-modules)
 
-## DOM events
-- [value-event](https://github.com/Raynos/value-event)
-
 ## Graphics
 - [stack.gl](http://stack.gl/packages/)
 
@@ -28,3 +25,10 @@
 
 ## Server MVC
 - [koa](https://github.com/koajs/koa)
+
+## DOM manipulation
+- [virtual-dom](https://github.com/Matt-Esch/virtual-dom) - A Virtual DOM and diffing algorithm
+- [vdom-to-html](https://github.com/nthtran/vdom-to-html) - Turn virtual-dom nodes into HTML
+- [virtual-html](https://github.com/azer/virtual-html) - Convert given HTML into Virtual DOM object
+- [virtual-hyperscript-svg](https://github.com/substack/virtual-hyperscript-svg) - create virtual-dom nodes for svg using hyperscript syntax
+- [value-event](https://github.com/Raynos/value-event) - Create DOM event handlers that write to listeners
