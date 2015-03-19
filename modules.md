@@ -36,3 +36,6 @@
 - [virtual-html](https://github.com/azer/virtual-html) - Convert given HTML into Virtual DOM object
 - [virtual-hyperscript-svg](https://github.com/substack/virtual-hyperscript-svg) - create virtual-dom nodes for svg using hyperscript syntax
 - [value-event](https://github.com/Raynos/value-event) - Create DOM event handlers that write to listeners
+
+## Data manipulation
+- [protocol-buffers](https://github.com/mafintosh/protocol-buffers) - [Protocol Buffers](https://developers.google.com/protocol-buffers/) for Node.js
