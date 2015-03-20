@@ -39,3 +39,8 @@
 
 ## Data manipulation
 - [protocol-buffers](https://github.com/mafintosh/protocol-buffers) - [Protocol Buffers](https://developers.google.com/protocol-buffers/) for Node.js
+- [format-data](https://github.com/finnp/format-data) - Format tabular data from an object stream to different standard formats
+- [CSV-write-stream](https://github.com/maxogden/csv-write-stream) - A CSV encoder stream that produces properly escaped CSVs
+- [CSV-parser](https://github.com/mafintosh/csv-parser) - Streaming csv parser inspired by binary-csv that aims to be faster than everyone else
+- [ndjson](https://github.com/maxogden/ndjson) - streaming line delimited json parser + serializer
+- [ssejson](https://github.com/finnp/ssejson) - Parse and Serialize object streams over SSE/EventSource
