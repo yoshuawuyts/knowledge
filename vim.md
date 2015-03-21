@@ -1,4 +1,6 @@
 # vim
+## Resources
+- [vim cheat sheet](http://vim.rtorr.com/)
 
 ## Load vim with no plugins enabled
 ```sh
@@ -13,7 +15,7 @@ All yank and delete operations write to the unnamed register by default. However
 In other words, a delete overwrites the most recent yank in the unnamed register, but it's still there in the 0 register. The blackhole-register trick (`"_dd`) mentioned in the other answers works because it prevents overwriting the unnamed register.
 
 You reference a register using double quotes, so pasting the most recently yanked text can be done like this:
-```vi
+```txt
 "0p
 ```
 This is an excellent reference:
@@ -21,3 +23,30 @@ This is an excellent reference:
 - http://blog.sanctum.geek.nz/advanced-vim-registers/
 
 [source](http://stackoverflow.com/a/14241768/1541707)
+
+## Commenting lines
+Using the [`vim-commentary`](https://github.com/tpope/vim-commentary) plugin:
+```txt
+gcc  comment out a line
+gc   comment out the target of a motion
+gcap comment out a paragraph
+```
+
+## Surrounding
+Surrounding words with quotes, brackets, XML tags and more can be done with
+the [`vim-surround`](https://github.com/tpope/vim-surround) plugin.
+```txt
+cs"'  change the surroundings from " to '
+cs'   delete the ' surroundings
+ysiw] change surroundings to ]
+```
+
+## Substitute multiple variants of a word
+With [`vim-abolish`](https://github.com/tpope/vim-abolish) plugin installed:
+```txt
+:%Subvert/facilit{y,ies}/building{,s}/g
+```
+
+## Faster actions
+Use the [`vim-unimpaired`](https://github.com/tpope/vim-unimpaired) plugin to
+quickly access pairs of mappings (new lines, next files, etc.)
