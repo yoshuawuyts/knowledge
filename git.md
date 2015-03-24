@@ -12,3 +12,8 @@ $ git branch --unset-upstream
 commit.gpgsign
 ```
 [source](http://stackoverflow.com/a/20628543/1541707)
+
+## Revert a single file with uncommitted changes to HEAD
+```sh
+git checkout <filename>
+```
