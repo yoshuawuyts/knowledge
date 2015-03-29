@@ -50,3 +50,15 @@ With [`vim-abolish`](https://github.com/tpope/vim-abolish) plugin installed:
 ## Faster actions
 Use the [`vim-unimpaired`](https://github.com/tpope/vim-unimpaired) plugin to
 quickly access pairs of mappings (new lines, next files, etc.)
+
+## Marks
+Marks are a dope way to navigate between files or within a file. If Ctags
+aren't working as planned, having marks is pretty neat. It's also neat when
+there's a large file in which you have to jump between sections (and `(` and `)`
+won't do).
+```text
+ma      set mark at current cursor position
+'a      jump to location of mark a
+`a      jump to position (line and column) of mark a
+:marks  list all current marks
+```
