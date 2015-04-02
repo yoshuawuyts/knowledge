@@ -82,7 +82,7 @@ function updateTimeEls () {
 }
 ```
 
-## Sharing data
+## Data sharing in an application
 In a real application there's a hierarchy in the way your application is
 structured. Components are consumed by views, and views are directed by a
 router. Also: data must be retrieved from sources, and to prevent duplicate
