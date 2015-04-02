@@ -82,6 +82,37 @@ function updateTimeEls () {
 }
 ```
 
+## Sharing data
+In a real application there's a hierarchy in the way your application is
+structured. Components are consumed by views, and views are directed by a
+router. Also: data must be retrieved from sources, and to prevent duplicate
+calls from happening it's preferable that the data is shared. The
+`custom-element` module enables attaching multiple listeners to a single event,
+which allows a separation between module-level listeners and application-level
+listeners. An example of a `flux` application component (not on the module level):
+
+```js
+const customElement = require('custom-element')
+const emitter = require('@ns/my-event-emitter')
+
+// we're extending the custom element that we defined in the previous
+// example to listen to changes in our event emitter. Whenever the
+// timezone changes we update the `datetime` attribute with the
+// corresponding offset.
+var TimezoneTimeElement = customElement(window.customTimeElement)
+TimezoneTimeElement.on('attached', function () {
+  emitter.on('timezone:change', (timezoneOffset) => {
+    const datetime = this.getAttribute('datetime')
+    this.setAttribute('datetime', datetime + timezoneOffset)
+  })
+})
+
+document.registerElement('timezone-time-element', TimezoneTimeElement)
+```
+
+## High performance components
+[tbd]
+
 ## See Also
 - [timoxley/polyfill-webcomponents](https://github.com/timoxley/polyfill-webcomponents)
 - [github/time-elements](https://github.com/github/time-elements/blob/master/time-elements.js)
