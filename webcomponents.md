@@ -117,7 +117,20 @@ document.registerElement('timezone-time-element', TimezoneTimeElement)
 ```
 
 ## High performance components
-[tbd]
+Sometimes regular dom updates are too slow, and you need a more performant way
+of rendering elements. There are two choices for this: `virtual-dom` and
+`webGL`. WebGL is it's own programming language with various nooks and crannies
+(you render pixels, not elements) so usually `virtual-dom` will be your go-to
+tool in these kinds of situations. By using `virtual-dom` within web
+components you combine high performance data rendering with self-encapsulation.
+
+#### unresolved questions
+- how do you pass data into a complex webcomponent? (don't want enormous lines
+  of json injected into an html property).
+- is it possible to expose both a `js` + `html` api for `virtual-dom` nodes?
+  That way the amount of render loops can be minimized.
+
+[examples tbd]
 
 ## Testing
 In order to guarantee correctness of self-contained elements, they must be
