@@ -1,7 +1,7 @@
 # web components
 A quick overview of how web components work. Web components are the umbrella
 term for a bunch of technologies, but based on conversations with people who've
-used them extensively (>1 year) the only interesting parts are `custom
+used them extensively (`>1 year`) the only interesting parts are `custom
 elements` and `shadow dom`.
 
 ## Create
