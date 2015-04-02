@@ -90,3 +90,5 @@ function updateTimeEls () {
 - [mdn/register-element](https://developer.mozilla.org/en-US/docs/Web/API/Document/registerElement)
 - [introduction to custom elements](http://webcomponents.org/articles/introduction-to-custom-elements/)
 - [how GH is using webcomponents in production](http://webcomponents.org/articles/interview-with-joshua-peek/)
+- [requireio/custom-element](https://github.com/requireio/custom-element)
+- [webcomponents/webcomponentsjs](https://github.com/webcomponents/webcomponentsjs)
