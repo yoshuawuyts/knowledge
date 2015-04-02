@@ -20,6 +20,7 @@ const customButton = new CustomButton()
 
 // an existing element was extended
 document.createElement('custom-button')
+document.createElement('button', 'custom-button')
 ```
 and because we're extending we can do in html:
 ```html
@@ -89,7 +90,12 @@ router. Also: data must be retrieved from sources, and to prevent duplicate
 calls from happening it's preferable that the data is shared. The
 `custom-element` module enables attaching multiple listeners to a single event,
 which allows a separation between module-level listeners and application-level
-listeners. An example of a `flux` application component (not on the module level):
+listeners.
+
+An important note is that with webcomponents all injected data should be shared
+through the attributes, analogous to react's `props`.
+
+An example of a `flux` application component (not on the module level):
 
 ```js
 const customElement = require('custom-element')
@@ -113,6 +119,54 @@ document.registerElement('timezone-time-element', TimezoneTimeElement)
 ## High performance components
 [tbd]
 
+## Testing
+In order to guarantee correctness of self-contained elements, they must be
+tested. Examples below are extracted from
+[`github/time-element`](https://github.com/github/time-elements/tree/master/test):
+
+#### Test element creation
+Create the element and test its attributes
+```js
+// from document.createElement()
+const time = document.createElement('time', 'local-time')
+
+// from constructor
+const time = new window.LocalTimeElement()
+```
+
+#### Test attributes on creation
+```js
+const time = new window.LocalTimeElement()
+assert.equal(time.nodeName, 'TIME')
+assert.equal(time.getAttribute('is'), 'local-time')
+// also test for blank states, e.g. the behavior if an attribute is not set
+```
+
+#### Test results based on attributes
+After having asserted that the element is indeed created as the right type, you
+can proceed to check if the content of the element is what was expected based
+on the input values. Module level components should be self-contained, which
+means there should be no unwanted side effects (like triggering a router).
+Examples:
+##### simple
+```js
+const time = document.createElement('time', 'relative-time')
+time.textContent = 'Jun 30'
+time.setAttribute('datetime', 'bogus')
+assert.equal(time.textContent, 'Jun 30')
+```
+
+##### complicated
+```js
+const now = new Date().toISOString();
+const root = document.createElement('div')
+root.innerHTML = '<time is="relative-time" datetime="' + now + '"></time>'
+if ('CustomElements' in window) {
+  window.CustomElements.upgradeSubtree(root)
+}
+assert.equal(root.children[0].textContent, 'just now')
+```
+
 ## See Also
 - [timoxley/polyfill-webcomponents](https://github.com/timoxley/polyfill-webcomponents)
 - [github/time-elements](https://github.com/github/time-elements/blob/master/time-elements.js)
@@ -123,3 +177,4 @@ document.registerElement('timezone-time-element', TimezoneTimeElement)
 - [how GH is using webcomponents in production](http://webcomponents.org/articles/interview-with-joshua-peek/)
 - [requireio/custom-element](https://github.com/requireio/custom-element)
 - [webcomponents/webcomponentsjs](https://github.com/webcomponents/webcomponentsjs)
+- [async-form-element](https://github.com/josh/async-form-element)
