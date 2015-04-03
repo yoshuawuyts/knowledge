@@ -51,3 +51,27 @@ interact with the program.
 - __client__: Common functionality. These functions are used by the `interface` and
     `store` modules. Think: api interfaces, middleware, local persistance
     layers, socket clients, emitting logic.
+
+## Circuit breakers
+Provide stability and prevent cascading failures in distributed systems.
+
+#### States
+- closed (all is well)
+- open (it's not ok, don't contact me. Sets a timeout, and tries to recover)
+- half-open (allow next request to talk to the service, and see if it passes)
+
+Pieces (for example: levee)
+- timeout
+- max tries before timeout
+- reset timeout
+
+All requests flow through the circuit breaker to check if things work. Lives in
+service invocation library.
+
+- track the request
+- see where it flowed through
+- see what services passed
+- see which services failed
+
+That way you can see which parts of your client are slowing down your
+application. A useful client to do this in a distributed service is with `hystrix`.
