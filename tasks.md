@@ -103,3 +103,5 @@ task version                        # show the version
 ## See also
 - [Productivity advice](http://tnw.to/h4tIH)
 - [getting things done with taskwarrior](http://chariotsolutions.com/blog/post/getting-things-done-with-task-warrior/)
+- [inthe.am](https://inthe.am/about) - task sync server
+- [freecinc.com](https://freecinc.com/) - task sync server
