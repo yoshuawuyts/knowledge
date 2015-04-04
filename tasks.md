@@ -100,6 +100,13 @@ task version                        # show the version
 #### Context
 [tbd]
 
+#### Regexes
+Regexes are kind of tricky. Here's an example to add a new context that matches
+a regex:
+```sh
+$ task context define myProject "project ~ 'myProject/*'"
+```
+
 ## See also
 - [Productivity advice](http://tnw.to/h4tIH)
 - [getting things done with taskwarrior](http://chariotsolutions.com/blog/post/getting-things-done-with-task-warrior/)
