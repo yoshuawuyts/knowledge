@@ -28,6 +28,9 @@ const nw = generate()
 const ot = generate()
 
 nw === ot           // => false
-nw[sym] === ot[sym] // => true
 nw[sym]             // => true
+
+// don't ever do this, as if both values
+// are undefined, it will also return true
+nw[sym] === ot[sym]
 ```
