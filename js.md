@@ -34,3 +34,12 @@ nw[sym]             // => true
 // are undefined, it will also return true
 nw[sym] === ot[sym]
 ```
+
+## Only execute function if it exists
+Cute little trick to only execute functions if they exist. Removes the need for
+noop functions.
+```js
+function myFunc (fn) {
+  fn && fn()
+}
+```
