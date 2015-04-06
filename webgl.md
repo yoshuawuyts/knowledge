@@ -37,3 +37,6 @@ in a single location.
 - [shadertoy](https://www.shadertoy.com/) - graphics playground & demo room
 - [glslb.in](http://glslb.in/) - modular graphics playground
 - [the book of shaders](http://patriciogonzalezvivo.com/2015/thebookofshaders) - damn good tutorial
+- [Inigo Quilez](http://www.iquilezles.org/) - hub of everything you'll ever need to know about graphics
+- [geeks3d](http://www.geeks3d.com/) - articles on 3d stuff
+- [learningwebgl](http://learningwebgl.com/) - articles on WebGL stuff
