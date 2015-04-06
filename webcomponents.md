@@ -180,6 +180,17 @@ if ('CustomElements' in window) {
 assert.equal(root.children[0].textContent, 'just now')
 ```
 
+## Reusable webcomponents
+Probably the hardest part of building webcomponents is finding the right
+abstractions for reusability. Since we're mostly extending prototypes it can be
+hard to find the correct abstractions for good base classes. In userland this
+is about the only interface you should need to expose:
+```js
+document.registerElement('search-sidebar', require('@ns/search-sidebar'))
+const sidebar = document.createElement('aside', 'search-sidebar')
+sidebar.on('query', () => /*do something*/)
+```
+
 ## See Also
 - [timoxley/polyfill-webcomponents](https://github.com/timoxley/polyfill-webcomponents)
 - [github/time-elements](https://github.com/github/time-elements/blob/master/time-elements.js)
