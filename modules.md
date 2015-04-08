@@ -18,7 +18,6 @@
 - [vtop](https://github.com/MrRio/vtop) - visual `top`
 - [pkg-name](https://github.com/sindresorhus/pkg-name) - Check whether a package name is available on npm
 
-
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer)
 - [simple-store](http://github.com/yoshuawuyts/simple-store)
@@ -44,3 +43,6 @@
 - [CSV-parser](https://github.com/mafintosh/csv-parser) - Streaming csv parser inspired by binary-csv that aims to be faster than everyone else
 - [ndjson](https://github.com/maxogden/ndjson) - streaming line delimited json parser + serializer
 - [ssejson](https://github.com/finnp/ssejson) - Parse and Serialize object streams over SSE/EventSource
+
+## Neato functions
+- [curry](https://github.com/dominictarr/curry)
