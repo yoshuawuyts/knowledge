@@ -29,12 +29,14 @@
 ## Server MVC
 - [koa](https://github.com/koajs/koa)
 
-## DOM manipulation
+## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) - A Virtual DOM and diffing algorithm
 - [vdom-to-html](https://github.com/nthtran/vdom-to-html) - Turn virtual-dom nodes into HTML
 - [virtual-html](https://github.com/azer/virtual-html) - Convert given HTML into Virtual DOM object
 - [virtual-hyperscript-svg](https://github.com/substack/virtual-hyperscript-svg) - create virtual-dom nodes for svg using hyperscript syntax
 - [value-event](https://github.com/Raynos/value-event) - Create DOM event handlers that write to listeners
+- [domify](https://github.com/component/domify) - Turn HTML into DOM elements x-browser
+- [custom-element](https://github.com/requireio/custom-element) - Convenience wrapper for creating custom element prototypes
 
 ## Data manipulation
 - [protocol-buffers](https://github.com/mafintosh/protocol-buffers) - [Protocol Buffers](https://developers.google.com/protocol-buffers/) for Node.js
@@ -43,6 +45,11 @@
 - [CSV-parser](https://github.com/mafintosh/csv-parser) - Streaming csv parser inspired by binary-csv that aims to be faster than everyone else
 - [ndjson](https://github.com/maxogden/ndjson) - streaming line delimited json parser + serializer
 - [ssejson](https://github.com/finnp/ssejson) - Parse and Serialize object streams over SSE/EventSource
+
+## Testing
+- [tape](https://github.com/substack/tape) - tap-producing test harness for node and browsers
+- [Smokestack](https://github.com/hughsk/smokestack) - Pipe your JavaScript into a browser, logging console output in Node<F37>
+- [tap-closer](https://github.com/hughsk/tap-closer) - Close process on exit
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry)
