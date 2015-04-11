@@ -19,3 +19,6 @@ Programming:
 ###### atomicity [(article)](http://blog.intercom.io/design-futures-1-creating-systems-not-products/)
 > The job of designers is to create amazing atomic units, and have people
 > consume and interact with them.
+
+##### quantified self
+> Gathering data about your everyday life and logging it.
