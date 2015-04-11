@@ -9,6 +9,7 @@
 
 ## Tools
 - [browserify](http://ghub.io/browserify)
+- [errorify](https://github.com/zertosh/errorify) - Browserify plugin to write failed build error messages to the output file
 - [watchify](https://github.com/substack/watchify) - watch mode for browserify builds
 - [standard](http://ghub.io/standard) - JavaScript standard style linter
 - [standard-format](http://ghub.io/standard-format) - JavaScript standard style formatter
