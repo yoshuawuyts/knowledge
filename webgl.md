@@ -33,6 +33,11 @@ in a single location.
 #pragma glslify: camera = require('glsl-turntable-camera')
 ```
 
+## Noise functions
+- curl noise: used for particle motion, particular useful for smoke and other similar effects
+- perlin noise: kind of like photoshop's cloud filter
+- simplex noise: similar to perlin noise, but a hella lot faster
+
 ## See Also
 - [shadertoy](https://www.shadertoy.com/) - graphics playground & demo room
 - [glslb.in](http://glslb.in/) - modular graphics playground
