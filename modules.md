@@ -38,6 +38,7 @@
 - [value-event](https://github.com/Raynos/value-event) - Create DOM event handlers that write to listeners
 - [domify](https://github.com/component/domify) - Turn HTML into DOM elements x-browser
 - [custom-element](https://github.com/requireio/custom-element) - Convenience wrapper for creating custom element prototypes
+- [synthetic-dom-events](https://www.npmjs.com/package/synthetic-dom-events) - create DOM compliant custom events
 
 ## Data manipulation
 - [protocol-buffers](https://github.com/mafintosh/protocol-buffers) - [Protocol Buffers](https://developers.google.com/protocol-buffers/) for Node.js
