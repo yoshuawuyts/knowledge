@@ -17,3 +17,8 @@ commit.gpgsign
 ```sh
 git checkout <filename>
 ```
+
+## Unstage a file
+```sh
+$ git reset HEAD <file>
+```
