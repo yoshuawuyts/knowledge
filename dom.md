@@ -37,3 +37,12 @@ use the `this.preventDefault()` method within the form element.
 
 - [source](http://stackoverflow.com/questions/2549296/whats-the-difference-between-reflow-and-repaint)
 - [csstriggers.com](http://csstriggers.com/)
+
+## Buttons
+Creating a button can be done in multiple ways (all dependending on style).
+Function comes down to semantics. Best practices for this are:
+- __a__: use anchor tags for external links
+- __button__: use buttons for all non-form related actions
+- __input__: use input tags for all form related actions
+
+[source](http://davidwalsh.name/html5-buttons)
