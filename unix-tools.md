@@ -15,3 +15,9 @@ tail          with `-f` you can follow new changes on a file, useful for logs
 ps            log running processes. Get PIDs. `ps -aux` is pretty common
 *top          show sys info, available in different flavors (vtop is dope)
 ```
+
+## npm
+party tricks
+```txt
+npm ex <module name> <command> ... execute a command in the module dir
+```
