@@ -13,9 +13,15 @@
 - data should be made available through an api.
 - dynamic frontend content should be generated on the client using data from
   the api, rather than being generated on the server
+- modules should have an `npm start` command, which allows separate viewing of
+  the element.
 
 ## order
 - build system
 - html & css (in parallel)
 - frontend JS
 - backend JS
+
+## content
+Use the `marked.lexer` to unwrap markdown to key-value blobs. Key value blobs
+can optionally contain an html and raw version.
