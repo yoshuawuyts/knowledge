@@ -46,3 +46,4 @@ in a single location.
 - [geeks3d](http://www.geeks3d.com/) - articles on 3d stuff
 - [learningwebgl](http://learningwebgl.com/) - articles on WebGL stuff
 - [webglplayground](http://webglplayground.net/gallery) - nice urt
+- [Essential Mathematics for Games and Interactive Applications](http://www.amazon.co.uk/dp/0123742978) - neat book
