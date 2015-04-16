@@ -7,6 +7,9 @@
 ## Graphics
 - [stack.gl](http://stack.gl/packages/)
 
+## Audio
+- []
+
 ## Tools
 - [browserify](http://ghub.io/browserify)
 - [errorify](https://github.com/zertosh/errorify) - Browserify plugin to write failed build error messages to the output file
@@ -43,6 +46,7 @@
 - [domify](https://github.com/component/domify) - Turn HTML into DOM elements x-browser
 - [custom-element](https://github.com/requireio/custom-element) - Convenience wrapper for creating custom element prototypes
 - [synthetic-dom-events](https://www.npmjs.com/package/synthetic-dom-events) - create DOM compliant custom events
+- [main-loop](https://github.com/Raynos/main-loop) - A rendering loop for diffable UIs
 
 ## Data manipulation
 - [protocol-buffers](https://github.com/mafintosh/protocol-buffers) - [Protocol Buffers](https://developers.google.com/protocol-buffers/) for Node.js
