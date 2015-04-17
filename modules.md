@@ -25,6 +25,7 @@
 - [garnish]()
 - [opnr]()
 - [rm-modules]()
+- [wsnc](https://github.com/substack/wsnc) - websocket netcat
 
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer)
@@ -60,6 +61,10 @@
 - [tape](https://github.com/substack/tape) - tap-producing test harness for node and browsers
 - [Smokestack](https://github.com/hughsk/smokestack) - Pipe your JavaScript into a browser, logging console output in Node<F37>
 - [tap-closer](https://github.com/hughsk/tap-closer) - Close process on exit
+
+## WebRTC
+- [signalhub](https://github.com/mafintosh/signalhub) - Simple signalling server that can be used to coordinate handshaking with webrtc or other fun stuff
+- [simple-peer](https://github.com/feross/simple-peer) - Simple WebRTC video/voice and data channels
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry)
