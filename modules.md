@@ -8,7 +8,8 @@
 - [stack.gl](http://stack.gl/packages/)
 
 ## Audio
-- []
+- [gl-audio-analyzer](https://github.com/stackgl/gl-audio-analyser) - Pull audio waveform/frequency data into WebGL for realtime audio visualisation
+- [soundcloud-badge](https://github.com/hughsk/soundcloud-badge) - A SoundCloud 'now-playing' badge you can just drop into browserify demos
 
 ## Tools
 - [browserify](http://ghub.io/browserify)
