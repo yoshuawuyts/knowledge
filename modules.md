@@ -69,3 +69,6 @@
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry)
+
+## Database
+- [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store) - streamable content addressable blob object store
