@@ -22,3 +22,6 @@ Programming:
 
 ##### quantified self
 > Gathering data about your everyday life and logging it.
+
+#### conway's law
+> People will build systems that mimic the social structures the people are used to.
