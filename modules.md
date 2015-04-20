@@ -27,6 +27,7 @@
 - [opnr]()
 - [rm-modules]()
 - [wsnc](https://github.com/substack/wsnc) - websocket netcat
+- [taco](https://github.com/maxogden/taco) - a modular deployment system for unix
 
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer)
