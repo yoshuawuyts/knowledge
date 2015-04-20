@@ -69,6 +69,7 @@
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry)
+- [string-editor](https://github.com/mafintosh/string-editor) - Edit a string using $EDITOR from within your node app
 
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store) - streamable content addressable blob object store
