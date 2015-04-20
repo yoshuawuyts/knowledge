@@ -70,6 +70,12 @@
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry)
+
+## CLI
+- [minimist](https://github.com/substack/minimist) - parse argument options
+- [cliclopts](https://github.com/finnp/cliclopts) - CLI options helper and usage printer
+- [subcommand](https://github.com/maxogden/subcommand) - Create CLI tools with subcommands
+- [subarg-replace](https://github.com/mattdesl/subarg-replace) - regex replace on subarg list
 - [string-editor](https://github.com/mafintosh/string-editor) - Edit a string using $EDITOR from within your node app
 
 ## Database
