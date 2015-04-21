@@ -28,6 +28,7 @@
 - [rm-modules]()
 - [wsnc](https://github.com/substack/wsnc) - websocket netcat
 - [taco](https://github.com/maxogden/taco) - a modular deployment system for unix
+- [webworkify](https://github.com/substack/webworkify) - launch a web worker that can require() in the browser with browserify
 
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer)
