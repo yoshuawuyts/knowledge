@@ -59,6 +59,7 @@
 - [CSV-parser](https://github.com/mafintosh/csv-parser) - Streaming csv parser inspired by binary-csv that aims to be faster than everyone else
 - [ndjson](https://github.com/maxogden/ndjson) - streaming line delimited json parser + serializer
 - [ssejson](https://github.com/finnp/ssejson) - Parse and Serialize object streams over SSE/EventSource
+- [trumpet](https://github.com/substack/node-trumpet) - parse and transform streaming html using css selectors
 
 ## Testing
 - [tape](https://github.com/substack/tape) - tap-producing test harness for node and browsers
