@@ -62,3 +62,9 @@ ma      set mark at current cursor position
 `a      jump to position (line and column) of mark a
 :marks  list all current marks
 ```
+
+## Stash vim session
+In vim do `C-z` to stash the window in the background. To pop it run:
+```sh
+$ fg
+```
