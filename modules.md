@@ -73,6 +73,12 @@
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry)
 
+## Streams
+- [bl](https://github.com/rvagg/bl) - Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
+- [from2]()
+- [through2]()
+- [pumpify]()
+
 ## CLI
 - [minimist](https://github.com/substack/minimist) - parse argument options
 - [cliclopts](https://github.com/finnp/cliclopts) - CLI options helper and usage printer
