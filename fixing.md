@@ -32,3 +32,11 @@ From `joyent/nodejs-advisory-board`:
 
 ## See also
 - [Bert Belder being a boss](https://github.com/joyent/nodejs-advisory-board/issues/17#issue-49734034)
+
+## bug reports
+bug reports should have sections and a repro
+- title of bug report is a descriptor of the bug
+- start off with vendor info
+- heading: steps to reproduce
+- heading: actual results
+- heading: expected results
