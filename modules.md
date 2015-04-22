@@ -71,7 +71,7 @@
 
 ## Testing
 - [tape](https://github.com/substack/tape) - tap-producing test harness for node and browsers
-- [Smokestack](https://github.com/hughsk/smokestack) - Pipe your JavaScript into a browser, logging console output in Node<F37>
+- [Smokestack](https://github.com/hughsk/smokestack) - Pipe your JavaScript into a browser, logging console output in Node
 - [tap-closer](https://github.com/hughsk/tap-closer) - Close process on exit
 
 ## WebRTC
@@ -83,6 +83,8 @@
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
+- [duplexify](https://github.com/Raynos/duplexer) - Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input
+- [concat-stream](https://github.com/maxogden/concat-stream) - writable stream that concatenates strings or data and calls a callback with the result
 - [from2]()
 - [through2]()
 - [pumpify]()
