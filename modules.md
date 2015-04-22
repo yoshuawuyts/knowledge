@@ -34,12 +34,19 @@
 - [wayfarer](http://ghub.io/wayfarer)
 - [simple-store](http://github.com/yoshuawuyts/simple-store)
 - [barracks](https://github.com/yoshuawuyts/barracks)
+- [whatwg-fetch](https://github.com/github/fetch) - A window.fetch JavaScript polyfill
+- [webcomponents.js](https://github.com/webcomponents/webcomponentsjs) - A suite of polyfills supporting the HTML Web Components specs
 
 ## CSS
-- [myth](https://github.com/segmentio/myth)
+- [rework](https://github.com/reworkcss/rework) - Plugin framework for CSS preprocessing in Node.js
+- [rework-npm](https://github.com/reworkcss/rework-npm) - Import CSS from npm modules using rework
+- [myth](https://github.com/segmentio/myth) - A CSS preprocessor that acts like a polyfill for future versions of the spec
+- [css-wipe](https://github.com/yoshuawuyts/css-wipe) - Reset the browser's styles
 
 ## Server MVC
 - [koa](https://github.com/koajs/koa)
+- [http](https://github.com/Raynos/http-framework/) - A web framework based purely on require('http')
+- [brick-router](https://github.com/yoshuawuyts/brick-router) - Modular router for serving static assets
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) - A Virtual DOM and diffing algorithm
