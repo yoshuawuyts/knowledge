@@ -27,3 +27,16 @@ still).
 Use 'em.
 
 per element groep een comment om aan te duiden dat de volgende begint. Als je te veel verschillende elementen in een file krijgt is het tijd om ze te splitsen.
+
+## code organization
+
+## variables
+- have a main color
+- light colors
+- dark colors
+- err, warn, suc6, action
+- have a complimentary color
+- head, body, mono fonts
+- z-indeces, colors, fonts are always a variable
+- variables for everything
+- all variables in one file
