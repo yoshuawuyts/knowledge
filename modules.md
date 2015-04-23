@@ -61,7 +61,7 @@
 - [main-loop](https://github.com/Raynos/main-loop) - A rendering loop for diffable UIs
 
 ## Data manipulation
-- [protocol-buffers](https://github.com/mafintosh/protocol-buffers) - [Protocol Buffers](https://developers.google.com/protocol-buffers/) for Node.js
+- [pbs](https://github.com/mafintosh/pbs) - Streaming protocol buffers encoder/decoder
 - [format-data](https://github.com/finnp/format-data) - Format tabular data from an object stream to different standard formats
 - [CSV-write-stream](https://github.com/maxogden/csv-write-stream) - A CSV encoder stream that produces properly escaped CSVs
 - [CSV-parser](https://github.com/mafintosh/csv-parser) - Streaming csv parser inspired by binary-csv that aims to be faster than everyone else
