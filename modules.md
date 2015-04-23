@@ -68,6 +68,7 @@
 - [ndjson](https://github.com/maxogden/ndjson) - streaming line delimited json parser + serializer
 - [ssejson](https://github.com/finnp/ssejson) - Parse and Serialize object streams over SSE/EventSource
 - [trumpet](https://github.com/substack/node-trumpet) - parse and transform streaming html using css selectors
+- [hyperstream](https://github.com/substack/hyperstream) - stream html into html at a css selector
 
 ## Testing
 - [tape](https://github.com/substack/tape) - tap-producing test harness for node and browsers
