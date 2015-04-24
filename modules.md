@@ -81,6 +81,7 @@
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry)
+- [map-limit](https://github.com/hughsk/map-limit) - async.mapLimit's functionality available as a standalone npm module
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
