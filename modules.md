@@ -75,9 +75,10 @@
 - [Smokestack](https://github.com/hughsk/smokestack) - Pipe your JavaScript into a browser, logging console output in Node
 - [tap-closer](https://github.com/hughsk/tap-closer) - Close process on exit
 
-## WebRTC
+## P2P
 - [signalhub](https://github.com/mafintosh/signalhub) - Simple signalling server that can be used to coordinate handshaking with webrtc or other fun stuff
 - [simple-peer](https://github.com/feross/simple-peer) - Simple WebRTC video/voice and data channels
+- [bittorent-dht](https://github.com/feross/bittorrent-dht) - Simple, robust, BitTorrent DHT implementation
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry)
