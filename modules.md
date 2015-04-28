@@ -43,6 +43,7 @@
 - [rework-npm](https://github.com/reworkcss/rework-npm) - Import CSS from npm modules using rework
 - [myth](https://github.com/segmentio/myth) - A CSS preprocessor that acts like a polyfill for future versions of the spec
 - [css-wipe](https://github.com/yoshuawuyts/css-wipe) - Reset the browser's styles
+- [defaultcss](https://github.com/DamonOehlman/defaultcss) - Add a style definition in your HTML
 
 ## Server MVC
 - [koa](https://github.com/koajs/koa)
