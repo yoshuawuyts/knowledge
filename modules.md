@@ -52,6 +52,7 @@
 - [myth](https://github.com/segmentio/myth) - A CSS preprocessor that acts like a polyfill for future versions of the spec
 - [css-wipe](https://github.com/yoshuawuyts/css-wipe) - Reset the browser's styles
 - [defaultcss](https://github.com/DamonOehlman/defaultcss) - Add a style definition in your HTML
+- [css-next](https://github.com/cssnext/cssnext) - Use tomorrow's CSS syntax, today
 
 ## Server MVC
 - [koa](https://github.com/koajs/koa)
