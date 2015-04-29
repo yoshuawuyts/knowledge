@@ -3,6 +3,7 @@
 ## Resources
 - [mattdesl/modules](https://gist.github.com/mattdesl/73e3b9f902f9c834b721)
 - [ferros/mad-science-modules](https://github.com/feross/mad-science-modules)
+- [mafintosh](https://github.com/mafintosh?tab=repositories) - probably contains a solution for your problems
 
 ## Graphics
 - [stack.gl](http://stack.gl/packages/)
@@ -105,3 +106,10 @@
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store) - streamable content addressable blob object store
 - [batchdb](https://github.com/substack/batchdb) - leveldb and disk storage for queued batch jobs
+
+## External
+- [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
+- [electron-packager](https://github.com/maxogden/electron-packager) - package and distribute your electron app in OS executables (.app) via JS or CLI
+- [npm-execspawn](https://github.com/mafintosh/npm-execspawn) - Spawn locally installed npm dependencies with cross platform env and argument parsing support
+- [link-bin](https://github.com/mafintosh/link-bin) - Make bin scripts work local npm dependencies
+- [npm-start](https://github.com/mafintosh/npm-start) - 'npm start' written in bash that propagates kill to subprocesses
