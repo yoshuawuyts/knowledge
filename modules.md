@@ -58,6 +58,7 @@
 - [koa](https://github.com/koajs/koa)
 - [http](https://github.com/Raynos/http-framework/) - A web framework based purely on require('http')
 - [brick-router](https://github.com/yoshuawuyts/brick-router) - Modular router for serving static assets
+- [on-finished](https://github.com/jshttp/on-finished) - Execute a callback when a request closes, finishes, or errors
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) - A Virtual DOM and diffing algorithm
