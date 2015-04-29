@@ -44,5 +44,16 @@ function myFunc (fn) {
 }
 ```
 
+## Common module signatures
+In order to form plug-and-play systems with swappable components it is key that
+module signatures remain the same between modules. In staticly typed languages
+it is possible to statically define the signatures for the modules, but this
+doesn't work for js. In order to scratch that itch, the level community wrote
+`abstract-leveldown`: a set of tests that can be used by implementers to enforce
+an interface. So far it seems to succeed in it's goal, spreading to other
+projects. Known projects to use this pattern are:
+- [abstract-leveldown](https://www.npmjs.com/package/abstract-leveldown)
+- [abstract-blob-store](https://github.com/maxogden/abstract-blob-store)
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
