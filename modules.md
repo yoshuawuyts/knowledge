@@ -20,24 +20,27 @@
 - [soundcloud-badge](https://github.com/hughsk/soundcloud-badge) - A SoundCloud 'now-playing' badge you can just drop into browserify demos
 
 ## Tools
-- [browserify](http://ghub.io/browserify)
-- [errorify](https://github.com/zertosh/errorify) - Browserify plugin to write failed build error messages to the output file
-- [watchify](https://github.com/substack/watchify) - watch mode for browserify builds
 - [standard](http://ghub.io/standard) - JavaScript standard style linter
 - [standard-format](http://ghub.io/standard-format) - JavaScript standard style formatter
-- [recess](http://ghub.io/recess) - CSS linter
-- [wzrd](http://github.com/maxogden/wzrd) - Super minimal browserify development server
 - [changelog-maker](https://github.com/rvagg/changelog-maker) - A git log to CHANGELOG.md tool
 - [vtop](https://github.com/MrRio/vtop) - visual `top`
 - [pkg-name](https://github.com/sindresorhus/pkg-name) - Check whether a package name is available on npm
-- [budo]()
+- [wzrd](http://github.com/maxogden/wzrd) - Super minimal browserify development server
 - [garnish]()
 - [opnr]()
 - [wtch](https://github.com/mattdesl/wtch) - small livereload utility for rapid prototyping
 - [rm-modules]()
 - [wsnc](https://github.com/substack/wsnc) - websocket netcat
 - [taco](https://github.com/maxogden/taco) - a modular deployment system for unix
+
+## Browserify
+- [browserify](http://ghub.io/browserify)
 - [webworkify](https://github.com/substack/webworkify) - launch a web worker that can require() in the browser with browserify
+- [errorify](https://github.com/zertosh/errorify) - Browserify plugin to write failed build error messages to the output file
+- [watchify](https://github.com/substack/watchify) - watch mode for browserify builds
+- [envify](https://github.com/hughsk/envify) -  Selectively replace Node-style environment variables with plain strings
+- [uglifyify](https://github.com/hughsk/uglifyify) - A browserify transform which minifies your code using UglifyJS2
+- [exorcist](https://github.com/thlorenz/exorcist) - Externalizes the source map found inside a stream to an external .js.map file
 
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer)
@@ -53,6 +56,7 @@
 - [css-wipe](https://github.com/yoshuawuyts/css-wipe) - Reset the browser's styles
 - [defaultcss](https://github.com/DamonOehlman/defaultcss) - Add a style definition in your HTML
 - [css-next](https://github.com/cssnext/cssnext) - Use tomorrow's CSS syntax, today
+- [recess](http://ghub.io/recess) - CSS linter
 
 ## Server MVC
 - [koa](https://github.com/koajs/koa)
