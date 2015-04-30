@@ -49,3 +49,4 @@ in a single location.
 - [Essential Mathematics for Games and Interactive Applications](http://www.amazon.co.uk/dp/0123742978) - neat book
 - [lwjgl essentials](https://github.com/mattdesl/lwjgl-basics/wiki) - LibGDX/LWJGL tutorials and examples
 - [drawing lines is hard](http://mattdesl.svbtle.com/drawing-lines-is-hard)
+- [gpgpu utils for three.js](https://github.com/cabbibo/PhysicsRenderer)
