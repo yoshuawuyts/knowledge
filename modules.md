@@ -41,6 +41,7 @@
 - [envify](https://github.com/hughsk/envify) -  Selectively replace Node-style environment variables with plain strings
 - [uglifyify](https://github.com/hughsk/uglifyify) - A browserify transform which minifies your code using UglifyJS2
 - [exorcist](https://github.com/thlorenz/exorcist) - Externalizes the source map found inside a stream to an external .js.map file
+- [disc](https://github.com/hughsk/disc) - Visualise the module tree of browserify project bundles and track down bloat
 
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer)
