@@ -3,6 +3,22 @@ WebGL is the umbrella term for graphics programming technologies in the
 browser. It's part GLSL (GL Shading Language) and JavaScript. GLSL is a
 graphics language based on OpenGL, that has a C like syntax.
 
+## Vectors
+```txt
+vec4 vector;
+vector[0] = vector.r = vector.x = vector.s;
+vector[1] = vector.g = vector.y = vector.t;
+vector[2] = vector.b = vector.z = vector.p;
+vector[3] = vector.a = vector.w = vector.q;
+```
+
+#### Swizzle
+Changing the position of vector properties to create new values. E.g.
+```glsl
+vec3 green = vec3(1.0, 1.0, 0.0);
+vec3 magenta = green.rbg;
+```
+
 ## Uniforms
 GLSL is deterministic, doesn't have memory management and operates on every
 pixel of the canvas. In order for dynamic behavior to happen, shaders have a
