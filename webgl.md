@@ -49,6 +49,19 @@ in a single location.
 #pragma glslify: camera = require('glsl-turntable-camera')
 ```
 
+## Shaping functions
+Shaping functions are the corner stone of algorithmic drawing. Essential to
+generate anything with WebGL.
+- [book-of-shaders/shapers](http://patriciogonzalezvivo.com/2015/thebookofshaders/05/)
+- [shadershop](http://www.cdglabs.org/Shadershop/)
+- [iquilezles/functions](http://www.iquilezles.org/www/articles/functions/functions.htm)
+- [shapers-poly](http://www.flong.com/texts/code/shapers_poly/)
+- [shapers-exp](http://www.flong.com/texts/code/shapers_exp/)
+- [shapers-circ](http://www.flong.com/texts/code/shapers_circ/)
+- [shapers-bez](http://www.flong.com/texts/code/shapers_bez/)
+
+![useful exercises](http://c4.staticflickr.com/8/7346/9546075099_14b91d8dec_h.jpg)
+
 ## Noise functions
 - curl noise: used for particle motion, particular useful for smoke and other similar effects
 - perlin noise: kind of like photoshop's cloud filter
