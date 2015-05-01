@@ -11,3 +11,6 @@ Books I've read.
 ## Advanced programming in the Unix environment [in progress]
 - describes a whole lot essential concepts in the unix system
 - harder take on the _how_ of unix programming
+
+## Wishlist
+- "v" by Thomas Pynchon
