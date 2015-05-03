@@ -90,6 +90,8 @@
 - [tape](https://github.com/substack/tape) - tap-producing test harness for node and browsers
 - [Smokestack](https://github.com/hughsk/smokestack) - Pipe your JavaScript into a browser, logging console output in Node
 - [tap-closer](https://github.com/hughsk/tap-closer) - Close process on exit
+- [covert](https://github.com/substack/covert) - Code coverage command
+- [coverify](https://github.com/substack/coverify) - Code coverage browserify transform
 
 ## P2P
 - [signalhub](https://github.com/mafintosh/signalhub) - Simple signalling server that can be used to coordinate handshaking with webrtc or other fun stuff
