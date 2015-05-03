@@ -1,42 +1,63 @@
 # CSS
+New school CSS best practices. No SASS, just CSS. Best used with
+[css-next](https://cssnext.github.io/) or comparable.
 
-I've written a bunch of resources over the years, it'll probably be a while
-before I pull them all in here. Warning: dutch language ahead (must translate
-still).
-
-## See also
-- [medium's CSS coding guidelines](https://gist.github.com/fat/a47b882eb5f84293c4ed)
-- [medium's CSS post thingy](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
-
-### consistent naming
-`.active` -> `.navBar-element_active`
-
-`.nav` / `.navBar` -> kies er een, maar wees consistent
-
-### block-element-modifier
+## Naming
+Naming things is hard, and with specificity in the mix it becomes even harder.
+By using the naming scheme below, many, if not all naming issues will be
+resolved. Short words and dashes between them are key.
 ```
-.navbar                  block
-.navbar-listItem         block-element
-.navbar-listItem_active  block-element_modifier
+.navbar              block
+.navbar-item         block-element
+.navbar-item-active  block-element_modifier
 ```
 
-### single selector only (or how to avoid specificity issues)
-`.foo .foo-bar .foo-bar_baz` -> `.foo-bar_baz`. Door BEM te gebruiken zijn `.foo` en `.foo-bar` overbodig omdat `.foo-bar_baz` al uniek is. Hiermee voorkom je specificity issues.
+## Specificity
+```css
+.foo .foo-bar .foo-bar_baz {}
+.foo-bar_baz {}
+[foo="bar"] {}
+```
+By using the second or third form, specificity issues will never happen.
 
-### comments
-Use 'em.
+## Comments
+Comments are useful to indicate new sections. Often times groups of selectors
+belong together, and comments are a great way to indicate that.
 
-per element groep een comment om aan te duiden dat de volgende begint. Als je te veel verschillende elementen in een file krijgt is het tijd om ze te splitsen.
-
-## code organization
-
-## variables
+## Variables
 - have a main color
 - light colors
 - dark colors
-- err, warn, suc6, action
+- inverted colors
+- err, warn, success, action
 - have a complimentary color
 - head, body, mono fonts
 - z-indeces, colors, fonts are always a variable
 - variables for everything
 - all variables in one file
+
+## Flexbox
+Flex container (parent):
+```txt
+display           flex, inline-flex
+flex-direction    row, row-reverse, column
+flex-wrap         nowrap, wrap, wrap-reverse
+flex-flow         <flex-direction> <flex-wrap>
+justify-content   flex-start, flex-end, center, space-between, space-around
+align-items       flex-start, flex-end, center, stretch, baseline
+align-content     flex-start, flex-end, center, stretch, space-between, space-around
+```
+
+Flex items (children):
+```txt
+order             <integer>
+flex-grow         <integer:0>
+flex-schrink      <ufloat:1.0>
+flex-basis        <length> | auto
+flex              none | <flex-grow> <flex-shrink> || <flex-basis>
+align-self        auto, flex-start, flex-end, center, stretch, baseline
+```
+
+## See also
+- [medium's CSS coding guidelines](https://gist.github.com/fat/a47b882eb5f84293c4ed)
+- [medium's CSS post thingy](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
