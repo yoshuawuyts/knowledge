@@ -1,6 +1,7 @@
-# bash
+# sh
+Shell scripts and tools.
 
-## Bash file testing
+## File testing in sh
 ```
 -b filename     block special file
 -c filename     special character file
@@ -30,4 +31,9 @@ if [ ! -e "$file" ]; then
 else
   echo "File exists"
 fi
+```
+
+## Pipe stdout to multiple commands
+```sh
+$ cat file.txt | tee >(pbcopy) >(do_stuff) >(do_more_stuff) | grep errors
 ```
