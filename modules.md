@@ -124,6 +124,8 @@
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store) - streamable content addressable blob object store
 - [batchdb](https://github.com/substack/batchdb) - leveldb and disk storage for queued batch jobs
+- [forkdb](https://github.com/substack/forkdb) - forking content-addressed append-only historical key/value blob store over leveldb
+- [level-browserify](https://github.com/Level/level-browserify) - convenience package bundling LevelUP & LevelDOWN or Level.js
 
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
