@@ -85,6 +85,7 @@
 - [ssejson](https://github.com/finnp/ssejson) - Parse and Serialize object streams over SSE/EventSource
 - [trumpet](https://github.com/substack/node-trumpet) - parse and transform streaming html using css selectors
 - [hyperstream](https://github.com/substack/hyperstream) - stream html into html at a css selector
+- [torrent-stream](https://github.com/mafintosh/torrent-stream) - The low level streaming torrent engine that peerflix uses
 
 ## Testing
 - [tape](https://github.com/substack/tape) - tap-producing test harness for node and browsers
