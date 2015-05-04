@@ -102,7 +102,7 @@
 - [peer-wire-swarm](https://github.com/mafintosh/peer-wire-swarm) - swarm implementation for bittorrent
 
 ## Neato functions
-- [curry](https://github.com/dominictarr/curry)
+- [curry](https://github.com/dominictarr/curry) - simple curry module, with nothing *too clever*
 - [map-limit](https://github.com/hughsk/map-limit) - async.mapLimit's functionality available as a standalone npm module
 - [to-factory](https://github.com/timoxley/to-factory) - Convert ES6 classes into factory functions so they can be called with or without new
 - [clamp](https://github.com/hughsk/clamp) - Clamp a value between two other values
