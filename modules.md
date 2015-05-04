@@ -103,12 +103,12 @@
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry) - simple curry module, with nothing *too clever*
-- [map-limit](https://github.com/hughsk/map-limit) - async.mapLimit's functionality available as a standalone npm module
-- [to-factory](https://github.com/timoxley/to-factory) - Convert ES6 classes into factory functions so they can be called with or without new
 - [clamp](https://github.com/hughsk/clamp) - Clamp a value between two other values
 - [uniq](https://github.com/mikolalysenko/uniq) - Removes duplicate items from an array in place
 - [xtend](https://github.com/Raynos/xtend) - extend an object by appending all of the properties from each object in a list
 - [clone](https://github.com/pvorb/node-clone) - Deep cloning of objects, arrays, etc.
+- [map-limit](https://github.com/hughsk/map-limit) - async.mapLimit's functionality available as a standalone npm module
+- [to-factory](https://github.com/timoxley/to-factory) - Convert ES6 classes into factory functions so they can be called with or without new
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
