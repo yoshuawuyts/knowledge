@@ -5,9 +5,9 @@
 - [ferros/mad-science-modules](https://github.com/feross/mad-science-modules)
 - [mafintosh](https://github.com/mafintosh?tab=repositories) - probably contains a solution for your problems
 - [ndarray module list](https://github.com/scijs/ndarray/wiki/ndarray-module-list#core-module) - ndarray related goodies
+- [stack.gl](http://stack.gl/packages/)
 
 ## Graphics
-- [stack.gl](http://stack.gl/packages/)
 - [a-big-triangle](https://github.com/mikolalysenko/a-big-triangle) - Draws a big triangle onto the screen
 - [gl-geometry](https://github.com/hughsk/gl-geometry) - A flexible wrapper for gl-vao and gl-buffer that you can use to set up renderable WebGL geometries from a variety of different formats.
 - [gl-shader](https://github.com/stackgl/gl-shader) - WebGL shader wrapper
