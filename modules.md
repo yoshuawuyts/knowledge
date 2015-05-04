@@ -113,9 +113,13 @@
 - [bl](https://github.com/rvagg/bl) - Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
 - [duplexify](https://github.com/Raynos/duplexer) - Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input
 - [concat-stream](https://github.com/maxogden/concat-stream) - writable stream that concatenates strings or data and calls a callback with the result
-- [from2]()
-- [through2]()
-- [pumpify]()
+- [from2](https://github.com/hughsk/from2) - Convenience wrapper for ReadableStream, with an API lifted from "from" and "through2"
+- [from2-array](https://github.com/binocarlos/from2-array) - Create a from2 stream based on an array of source values
+- [from2-string](https://github.com/yoshuawuyts/from2-string) - Create a stream from a string. Sugary wrapper around from2
+- [through2](https://github.com/rvagg/through2) - Tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise
+- [pump](https://github.com/mafintosh/pump) - pipe streams together and close all of them if one of them closes
+- [pumpify](https://github.com/mafintosh/pumpify) - Combine an array of streams into a single duplex stream using pump and duplexify
+- [debug-stream](https://github.com/mafintosh/debug-stream) - use the debug module on a stream
 
 ## CLI
 - [minimist](https://github.com/substack/minimist) - parse argument options
