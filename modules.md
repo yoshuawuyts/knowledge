@@ -122,6 +122,7 @@
 - [pump](https://github.com/mafintosh/pump) - pipe streams together and close all of them if one of them closes
 - [pumpify](https://github.com/mafintosh/pumpify) - Combine an array of streams into a single duplex stream using pump and duplexify
 - [debug-stream](https://github.com/mafintosh/debug-stream) - use the debug module on a stream
+- [stream-iterate](https://github.com/mafintosh/stream-iterate) - Iterate through the values of a stream
 
 ## CLI
 - [minimist](https://github.com/substack/minimist) - parse argument options
