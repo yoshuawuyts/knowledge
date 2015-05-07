@@ -136,6 +136,7 @@
 - [batchdb](https://github.com/substack/batchdb) - leveldb and disk storage for queued batch jobs
 - [forkdb](https://github.com/substack/forkdb) - forking content-addressed append-only historical key/value blob store over leveldb
 - [level-browserify](https://github.com/Level/level-browserify) - convenience package bundling LevelUP & LevelDOWN or Level.js
+- [mynosql](https://github.com/dominictarr/mynosql) - Arbitary WHERE queries for leveldb
 
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
