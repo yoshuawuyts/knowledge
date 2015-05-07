@@ -65,6 +65,7 @@
 - [http](https://github.com/Raynos/http-framework/) - A web framework based purely on require('http')
 - [brick-router](https://github.com/yoshuawuyts/brick-router) - Modular router for serving static assets
 - [on-finished](https://github.com/jshttp/on-finished) - Execute a callback when a request closes, finishes, or errors
+- [course](https://github.com/hughsk/course) - framework-independent express-like router
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) - A Virtual DOM and diffing algorithm
