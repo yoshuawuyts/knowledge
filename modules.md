@@ -50,6 +50,7 @@
 - [whatwg-fetch](https://github.com/github/fetch) - A window.fetch JavaScript polyfill
 - [webcomponents.js](https://github.com/webcomponents/webcomponentsjs) - A suite of polyfills supporting the HTML Web Components specs
 - [picturefill](https://github.com/scottjehl/picturefill) - A responsive image polyfill for &ltpicture&gt, srcset, sizes, and more
+- [nets](https://github.com/maxogden/nets) - nothing but nets. http client that works in node and browsers
 
 ## CSS
 - [rework](https://github.com/reworkcss/rework) - Plugin framework for CSS preprocessing in Node.js
