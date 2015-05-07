@@ -1,15 +1,15 @@
 # Modules
 
 ## Resources
-- [mattdesl/modules](https://gist.github.com/mattdesl/73e3b9f902f9c834b721)
-- [ferros/mad-science-modules](https://github.com/feross/mad-science-modules)
+- [mattdesl/modules](https://gist.github.com/mattdesl/73e3b9f902f9c834b721) - @mattdesl's large list of modules
+- [ferros/mad-science-modules](https://github.com/feross/mad-science-modules) - delightful npm packages that make you say wow
 - [mafintosh](https://github.com/mafintosh?tab=repositories) - probably contains a solution for your problems
 - [ndarray module list](https://github.com/scijs/ndarray/wiki/ndarray-module-list#core-module) - ndarray related goodies
-- [stack.gl](http://stack.gl/packages/)
+- [stack.gl](http://stack.gl/packages/) - modular graphics packages
 
 ## Graphics
 - [a-big-triangle](https://github.com/mikolalysenko/a-big-triangle) - Draws a big triangle onto the screen
-- [gl-geometry](https://github.com/hughsk/gl-geometry) - A flexible wrapper for gl-vao and gl-buffer that you can use to set up renderable WebGL geometries from a variety of different formats.
+- [gl-geometry](https://github.com/hughsk/gl-geometry) - A flexible wrapper to set up renderable WebGL geometries
 - [gl-shader](https://github.com/stackgl/gl-shader) - WebGL shader wrapper
 - [ndarray](https://github.com/scijs/ndarray) - Multidimensional arrays for JavaScript
 - [gl-particles](https://github.com/stackgl/gl-particles) - Convenience module for FBO-driven particle simulations
@@ -26,15 +26,15 @@
 - [vtop](https://github.com/MrRio/vtop) - visual `top`
 - [pkg-name](https://github.com/sindresorhus/pkg-name) - Check whether a package name is available on npm
 - [wzrd](http://github.com/maxogden/wzrd) - Super minimal browserify development server
-- [garnish]()
-- [opnr]()
+- [garnish](https://github.com/mattdesl/garnish) - prettifies ndjson from wzrd and similar tools
+- [opnr](https://github.com/mattdesl/opnr) - launches the browser when ndjson criteria is met
 - [wtch](https://github.com/mattdesl/wtch) - small livereload utility for rapid prototyping
-- [rm-modules]()
+- [rm-modules](https://github.com/hughsk/rm-modules) - Recursively remove *all* node_modules directories within the chosen root directory
 - [wsnc](https://github.com/substack/wsnc) - websocket netcat
 - [taco](https://github.com/maxogden/taco) - a modular deployment system for unix
 
 ## Browserify
-- [browserify](http://ghub.io/browserify)
+- [browserify](http://ghub.io/browserify) - browser-side require() the node.js way
 - [webworkify](https://github.com/substack/webworkify) - launch a web worker that can require() in the browser with browserify
 - [errorify](https://github.com/zertosh/errorify) - Browserify plugin to write failed build error messages to the output file
 - [watchify](https://github.com/substack/watchify) - watch mode for browserify builds
@@ -44,10 +44,10 @@
 - [disc](https://github.com/hughsk/disc) - Visualise the module tree of browserify project bundles and track down bloat
 
 ## Client-side MVC
-- [wayfarer](http://ghub.io/wayfarer)
-- [simple-store](http://github.com/yoshuawuyts/simple-store)
-- [barracks](https://github.com/yoshuawuyts/barracks)
-- [whatwg-fetch](https://github.com/github/fetch) - A window.fetch JavaScript polyfill
+- [wayfarer](http://ghub.io/wayfarer) - Modular trie based router
+- [simple-store](http://github.com/yoshuawuyts/simple-store) - event emitting data store
+- [barracks](https://github.com/yoshuawuyts/barracks) - event dispatcher for client and server
+- [whatwg-fetch](https://github.com/github/fetch) - window.fetch JavaScript polyfill
 - [webcomponents.js](https://github.com/webcomponents/webcomponentsjs) - A suite of polyfills supporting the HTML Web Components specs
 - [picturefill](https://github.com/scottjehl/picturefill) - A responsive image polyfill for &ltpicture&gt, srcset, sizes, and more
 - [nets](https://github.com/maxogden/nets) - nothing but nets. http client that works in node and browsers
@@ -62,7 +62,6 @@
 - [recess](http://ghub.io/recess) - CSS linter
 
 ## Server MVC
-- [koa](https://github.com/koajs/koa)
 - [http](https://github.com/Raynos/http-framework/) - A web framework based purely on require('http')
 - [brick-router](https://github.com/yoshuawuyts/brick-router) - Modular router for serving static assets
 - [on-finished](https://github.com/jshttp/on-finished) - Execute a callback when a request closes, finishes, or errors
@@ -97,7 +96,7 @@
 - [coverify](https://github.com/substack/coverify) - Code coverage browserify transform
 
 ## P2P
-- [signalhub](https://github.com/mafintosh/signalhub) - Simple signalling server that can be used to coordinate handshaking with webrtc or other fun stuff
+- [signalhub](https://github.com/mafintosh/signalhub) - Simple signalling server that can be used to coordinate handshaking with webrtc
 - [simple-peer](https://github.com/feross/simple-peer) - Simple WebRTC video/voice and data channels
 - [bittorent-dht](https://github.com/feross/bittorrent-dht) - Simple, robust, BitTorrent DHT implementation
 - [webrtc-swarm](https://github.com/mafintosh/webrtc-swarm) - Create a swarm of p2p connections using webrtc and a signalhub
@@ -114,7 +113,7 @@
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
-- [duplexify](https://github.com/Raynos/duplexer) - Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input
+- [duplexify](https://github.com/Raynos/duplexer) - Turn a writeable and readable stream into a streams2 duplex stream
 - [concat-stream](https://github.com/maxogden/concat-stream) - writable stream that concatenates strings or data and calls a callback with the result
 - [from2](https://github.com/hughsk/from2) - Convenience wrapper for ReadableStream, with an API lifted from "from" and "through2"
 - [from2-array](https://github.com/binocarlos/from2-array) - Create a from2 stream based on an array of source values
@@ -142,6 +141,6 @@
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
 - [electron-packager](https://github.com/maxogden/electron-packager) - package and distribute your electron app in OS executables (.app) via JS or CLI
-- [npm-execspawn](https://github.com/mafintosh/npm-execspawn) - Spawn locally installed npm dependencies with cross platform env and argument parsing support
+- [npm-execspawn](https://github.com/mafintosh/npm-execspawn) - Spawn locally installed npm dependencies with cross platform env and arguments
 - [link-bin](https://github.com/mafintosh/link-bin) - Make bin scripts work local npm dependencies
 - [npm-start](https://github.com/mafintosh/npm-start) - 'npm start' written in bash that propagates kill to subprocesses
