@@ -68,3 +68,9 @@ In vim do `C-z` to stash the window in the background. To pop it run:
 ```sh
 $ fg
 ```
+
+## Undo trees
+With [gundo](https://github.com/sjl/gundo.vim/) installed:
+```txt
+GundoShow
+```
