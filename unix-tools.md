@@ -21,3 +21,11 @@ party tricks
 ```txt
 npm ex <module name> <command> ... execute a command in the module dir
 ```
+
+## dig
+DNS lookup utility
+```sh
+# example
+$ dig @127.0.0.1 -p 5000 something.foo +short
+1.1.1.1
+```
