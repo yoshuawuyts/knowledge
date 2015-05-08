@@ -142,6 +142,8 @@
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
 - [electron-packager](https://github.com/maxogden/electron-packager) - package and distribute your electron app in OS executables (.app) via JS or CLI
+- [titlebar](https://github.com/kapetan/titlebar) - Emulate OS X window title bar
+- [electron-rebuild](https://github.com/paulcbetts/electron-rebuild) - build native modules against the current Electron version
 - [npm-execspawn](https://github.com/mafintosh/npm-execspawn) - Spawn locally installed npm dependencies with cross platform env and arguments
 - [link-bin](https://github.com/mafintosh/link-bin) - Make bin scripts work local npm dependencies
 - [npm-start](https://github.com/mafintosh/npm-start) - 'npm start' written in bash that propagates kill to subprocesses
