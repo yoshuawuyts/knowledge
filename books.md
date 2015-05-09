@@ -14,3 +14,4 @@ Books I've read.
 
 ## Wishlist
 - "v" by Thomas Pynchon
+- "alice in quantumland" - Robert Gilmore
