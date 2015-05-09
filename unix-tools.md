@@ -29,3 +29,7 @@ DNS lookup utility
 $ dig @127.0.0.1 -p 5000 something.foo +short
 1.1.1.1
 ```
+
+## vifm
+Vim like file manager. Useful to do bulk directory operations. Offers different
+views on files.
