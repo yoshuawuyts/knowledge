@@ -12,3 +12,6 @@
 - tesler's law of conservation of simplicity: Every application has an inherent
   amount of irreducible complexity. The only question is who will have to deal
   with it.
+
+## Icons
+- [toicon](http://www.toicon.com/)
