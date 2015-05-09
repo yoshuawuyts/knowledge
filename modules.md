@@ -64,6 +64,8 @@
 ## Server MVC
 - [http](https://github.com/Raynos/http-framework/) - A web framework based purely on require('http')
 - [brick-router](https://github.com/yoshuawuyts/brick-router) - Modular router for serving static assets
+- [brick-server](https://github.com/yoshuawuyts/brick-server/tree/master) - Create an http handler for brick-router
+- [server-summary](https://github.com/yoshuawuyts/server-summary) - Log basic server information after an http server start
 - [on-finished](https://github.com/jshttp/on-finished) - Execute a callback when a request closes, finishes, or errors
 - [course](https://github.com/hughsk/course) - framework-independent express-like router
 
