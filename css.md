@@ -58,6 +58,19 @@ flex              none | <flex-grow> <flex-shrink> || <flex-basis>
 align-self        auto, flex-start, flex-end, center, stretch, baseline
 ```
 
+## Files
+Storing CSS in the right files is just as important as correctly naming
+classes. There are a few base files every site wants to start out with:
+```text
+index.css       imports
+vars.css        variable declarations
+base.css        body classes & helpers, usually super tiny
+typography.css  base text styles
+buttons.css     base button styles
+forms.css       base form styles
+lists.css       base list styles
+```
+
 ## See also
 - [medium's CSS coding guidelines](https://gist.github.com/fat/a47b882eb5f84293c4ed)
 - [medium's CSS post thingy](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
