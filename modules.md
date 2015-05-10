@@ -98,6 +98,7 @@
 - [tap-closer](https://github.com/hughsk/tap-closer) - Close process on exit
 - [covert](https://github.com/substack/covert) - Code coverage command
 - [coverify](https://github.com/substack/coverify) - Code coverage browserify transform
+- [browser-test-helpers](https://github.com/shama/browser-test-helpers) - A small set of generic test helpers for browser interaction tests
 
 ## P2P
 - [signalhub](https://github.com/mafintosh/signalhub) - Simple signalling server that can be used to coordinate handshaking with webrtc
