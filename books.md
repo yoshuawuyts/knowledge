@@ -16,3 +16,6 @@ Books I've read.
 - "v" by Thomas Pynchon
 - "alice in quantumland" - Robert Gilmore
 - "Probabilistic-Programming-and-Bayesian-Methods-for-Hackers" - Cam Davidson Pilon
+
+## See Also
+- [awesome scifi](https://github.com/sindresorhus/awesome-scifi) - long list of scifi classics
