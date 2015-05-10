@@ -150,3 +150,4 @@
 - [npm-execspawn](https://github.com/mafintosh/npm-execspawn) - Spawn locally installed npm dependencies with cross platform env and arguments
 - [link-bin](https://github.com/mafintosh/link-bin) - Make bin scripts work local npm dependencies
 - [npm-start](https://github.com/mafintosh/npm-start) - 'npm start' written in bash that propagates kill to subprocesses
+- [node-auto-launch](https://github.com/4ver/node-auto-launch) - Launch node-webkit apps at login (mac & windows)
