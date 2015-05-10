@@ -15,3 +15,4 @@ Books I've read.
 ## Wishlist
 - "v" by Thomas Pynchon
 - "alice in quantumland" - Robert Gilmore
+- "Probabilistic-Programming-and-Bayesian-Methods-for-Hackers" - Cam Davidson Pilon
