@@ -79,6 +79,7 @@
 - [custom-element](https://github.com/requireio/custom-element) - Convenience wrapper for creating custom element prototypes
 - [synthetic-dom-events](https://www.npmjs.com/package/synthetic-dom-events) - create DOM compliant custom events
 - [main-loop](https://github.com/Raynos/main-loop) - A rendering loop for diffable UIs
+- [dom-wrap](https://github.com/juliangruber/dom-wrap) - Make dom elements easier to work with
 
 ## Data manipulation
 - [pbs](https://github.com/mafintosh/pbs) - Streaming protocol buffers encoder/decoder
