@@ -21,7 +21,6 @@
 
 ## Tools
 - [standard](http://ghub.io/standard) - JavaScript standard style linter
-- [standard-format](http://ghub.io/standard-format) - JavaScript standard style formatter
 - [changelog-maker](https://github.com/rvagg/changelog-maker) - A git log to CHANGELOG.md tool
 - [vtop](https://github.com/MrRio/vtop) - visual `top`
 - [pkg-name](https://github.com/sindresorhus/pkg-name) - Check whether a package name is available on npm
@@ -31,7 +30,8 @@
 - [wtch](https://github.com/mattdesl/wtch) - small livereload utility for rapid prototyping
 - [rm-modules](https://github.com/hughsk/rm-modules) - Recursively remove *all* node_modules directories within the chosen root directory
 - [wsnc](https://github.com/substack/wsnc) - websocket netcat
-- [taco](https://github.com/maxogden/taco) - a modular deployment system for unix
+- [urit](https://github.com/yoshuawuyts/urit) - RFC 6570 uri templates
+- [fsm-event](https://github.com/yoshuawuyts/fsm-event) - stateful finite state machine
 
 ## Browserify
 - [browserify](http://ghub.io/browserify) - browser-side require() the node.js way
@@ -59,7 +59,6 @@
 - [css-wipe](https://github.com/yoshuawuyts/css-wipe) - Reset the browser's styles
 - [defaultcss](https://github.com/DamonOehlman/defaultcss) - Add a style definition in your HTML
 - [css-next](https://github.com/cssnext/cssnext) - Use tomorrow's CSS syntax, today
-- [recess](http://ghub.io/recess) - CSS linter
 - [wrap-selectors](https://github.com/requireio/wrap-selectors) - Wrap CSS selectors up within a prefix and/or suffix
 
 ## Server MVC
