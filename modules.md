@@ -60,6 +60,7 @@
 - [defaultcss](https://github.com/DamonOehlman/defaultcss) - Add a style definition in your HTML
 - [css-next](https://github.com/cssnext/cssnext) - Use tomorrow's CSS syntax, today
 - [recess](http://ghub.io/recess) - CSS linter
+- [wrap-selectors](https://github.com/requireio/wrap-selectors) - Wrap CSS selectors up within a prefix and/or suffix
 
 ## Server MVC
 - [http](https://github.com/Raynos/http-framework/) - A web framework based purely on require('http')
@@ -82,6 +83,7 @@
 - [dom-wrap](https://github.com/juliangruber/dom-wrap) - Make dom elements easier to work with
 - [base-element](https://github.com/shama/base-element) - An element authoring library for creating standalone and performant elements
 - [get-form-data](https://github.com/insin/get-form-data) - Gets form and field data via form.elements
+- [query-immediate-selector](https://github.com/requireio/query-immediate-selector) - Selector matching only for direct children of an element
 
 ## Data manipulation
 - [pbs](https://github.com/mafintosh/pbs) - Streaming protocol buffers encoder/decoder
