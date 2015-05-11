@@ -80,6 +80,7 @@
 - [synthetic-dom-events](https://www.npmjs.com/package/synthetic-dom-events) - create DOM compliant custom events
 - [main-loop](https://github.com/Raynos/main-loop) - A rendering loop for diffable UIs
 - [dom-wrap](https://github.com/juliangruber/dom-wrap) - Make dom elements easier to work with
+- [base-element](https://github.com/shama/base-element) - An element authoring library for creating standalone and performant elements
 
 ## Data manipulation
 - [pbs](https://github.com/mafintosh/pbs) - Streaming protocol buffers encoder/decoder
