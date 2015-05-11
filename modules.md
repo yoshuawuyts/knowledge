@@ -84,6 +84,7 @@
 - [base-element](https://github.com/shama/base-element) - An element authoring library for creating standalone and performant elements
 - [get-form-data](https://github.com/insin/get-form-data) - Gets form and field data via form.elements
 - [query-immediate-selector](https://github.com/requireio/query-immediate-selector) - Selector matching only for direct children of an element
+- [zeroclipboard](https://github.com/zeroclipboard/zeroclipboard) - copy text to the clipboard using an invisible Adobe Flash movie
 
 ## Data manipulation
 - [pbs](https://github.com/mafintosh/pbs) - Streaming protocol buffers encoder/decoder
