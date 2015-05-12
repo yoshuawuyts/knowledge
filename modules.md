@@ -86,6 +86,7 @@
 - [get-form-data](https://github.com/insin/get-form-data) - Gets form and field data via form.elements
 - [query-immediate-selector](https://github.com/requireio/query-immediate-selector) - Selector matching only for direct children of an element
 - [zeroclipboard](https://github.com/zeroclipboard/zeroclipboard) - copy text to the clipboard using an invisible Adobe Flash movie
+- [domready](https://github.com/ded/domready) - lets you know when the dom is ready
 
 ## Data manipulation
 - [pbs](https://github.com/mafintosh/pbs) - Streaming protocol buffers encoder/decoder
