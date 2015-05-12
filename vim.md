@@ -74,3 +74,8 @@ With [gundo](https://github.com/sjl/gundo.vim/) installed:
 ```txt
 GundoShow
 ```
+
+## Delete all lines that match a pattern
+```txt
+:g/<regex>/d
+```
