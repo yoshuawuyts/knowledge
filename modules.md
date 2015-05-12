@@ -32,6 +32,7 @@
 - [wsnc](https://github.com/substack/wsnc) - websocket netcat
 - [urit](https://github.com/yoshuawuyts/urit) - RFC 6570 uri templates
 - [fsm-event](https://github.com/yoshuawuyts/fsm-event) - stateful finite state machine
+- [ronn](https://github.com/isaacs/ronnjs) - markdown to roff/html converter
 
 ## Browserify
 - [browserify](http://ghub.io/browserify) - browser-side require() the node.js way
