@@ -42,6 +42,7 @@
 - [uglifyify](https://github.com/hughsk/uglifyify) - A browserify transform which minifies your code using UglifyJS2
 - [exorcist](https://github.com/thlorenz/exorcist) - Externalizes the source map found inside a stream to an external .js.map file
 - [disc](https://github.com/hughsk/disc) - Visualise the module tree of browserify project bundles and track down bloat
+- [factor-bundle](https://github.com/substack/factor-bundle) - factor browser-pack bundles into common shared bundles
 
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer) - Modular trie based router
