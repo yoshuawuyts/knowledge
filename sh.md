@@ -37,3 +37,8 @@ fi
 ```sh
 $ cat file.txt | tee >(pbcopy) >(do_stuff) >(do_more_stuff) | grep errors
 ```
+
+## Find and replace in multiple files
+```sh
+$ ag -l <pattern> | xargs sed -i '' -E 's/<old>/<new>/g'
+```
