@@ -55,5 +55,24 @@ projects. Known projects to use this pattern are:
 - [abstract-leveldown](https://www.npmjs.com/package/abstract-leveldown)
 - [abstract-blob-store](https://github.com/maxogden/abstract-blob-store)
 
+## Sync-or-async
+Mocha has a neat little pattern that turns a function either sync or async
+based on if the function expects a callback or not. The trick to doing this is
+in using `Function.length`. Here's an example implementation of the pattern
+mocha uses:
+```js
+// fn, fn -> null
+function detect (fn, cb) {
+  if (fn.length) return fn(() => cb())
+  fn() && cb()
+}
+```
+- `cb` is the callback that is called when done
+- `fn` is the main function that we're calling
+- `fn.length` checks if `fn` expects an argument, and then passes a callback if it does
+- if `fn` expects no arguments, we just call fn and `cb`
+
+- [mocha/lib/runnable.js](https://github.com/mochajs/mocha/blob/master/lib/runnable.js)
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
