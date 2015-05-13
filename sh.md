@@ -47,3 +47,9 @@ $ ag -l <pattern> | xargs sed -i '' -E 's/<old>/<new>/g'
 ```
 $ cat file.txt | sed -e '1,2d'
 ```
+
+## Manipulate columns with awk
+```sh
+$ cat file.txt | awk '{$3=$1; gsub(/0[12345]_/, "", $3); $2="|"}{print}'
+```
+- [source](https://gist.github.com/yoshuawuyts/e964b7bda440d893979e)
