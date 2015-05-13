@@ -42,3 +42,8 @@ $ cat file.txt | tee >(pbcopy) >(do_stuff) >(do_more_stuff) | grep errors
 ```sh
 $ ag -l <pattern> | xargs sed -i '' -E 's/<old>/<new>/g'
 ```
+
+## Delete a range of lines
+```
+$ cat file.txt | sed -e '1,2d'
+```
