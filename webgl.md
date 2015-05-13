@@ -67,6 +67,10 @@ generate anything with WebGL.
 - perlin noise: kind of like photoshop's cloud filter
 - simplex noise: similar to perlin noise, but a hella lot faster
 
+## Blending
+- [blend_equation_advanced](https://www.opengl.org/registry/specs/NV/blend_equation_advanced.txt)
+- [glBlendEquation tool](http://www.andersriggelsen.dk/glblendfunc.php)
+
 ## See Also
 - [shadertoy](https://www.shadertoy.com/) - graphics playground & demo room
 - [glslb.in](http://glslb.in/) - modular graphics playground
