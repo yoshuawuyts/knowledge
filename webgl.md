@@ -83,3 +83,4 @@ generate anything with WebGL.
 - [lwjgl essentials](https://github.com/mattdesl/lwjgl-basics/wiki) - LibGDX/LWJGL tutorials and examples
 - [drawing lines is hard](http://mattdesl.svbtle.com/drawing-lines-is-hard)
 - [gpgpu utils for three.js](https://github.com/cabbibo/PhysicsRenderer)
+- [webglstats](http://webglstats.com/)
