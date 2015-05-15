@@ -30,6 +30,7 @@
 - [wtch](https://github.com/mattdesl/wtch) - small livereload utility for rapid prototyping
 - [rm-modules](https://github.com/hughsk/rm-modules) - Recursively remove *all* node_modules directories within the chosen root directory
 - [wsnc](https://github.com/substack/wsnc) - websocket netcat
+- [rtcat](https://github.com/substack/rtcat) - webrtc netcat
 - [urit](https://github.com/yoshuawuyts/urit) - RFC 6570 uri templates
 - [fsm-event](https://github.com/yoshuawuyts/fsm-event) - stateful finite state machine
 - [ronn](https://github.com/isaacs/ronnjs) - markdown to roff/html converter
