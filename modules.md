@@ -14,6 +14,7 @@
 - [ndarray](https://github.com/scijs/ndarray) - Multidimensional arrays for JavaScript
 - [gl-particles](https://github.com/stackgl/gl-particles) - Convenience module for FBO-driven particle simulations
 - [gl-fbo](https://github.com/stackgl/gl-fbo) - WebGL framebuffer wrapper
+- [gl-vec3](https://github.com/stackgl/gl-vec3) - gl-matrix's vec3, split into smaller pieces
 
 ## Audio
 - [gl-audio-analyzer](https://github.com/stackgl/gl-audio-analyser) - Pull audio waveform/frequency data into WebGL for realtime audio visualisation
