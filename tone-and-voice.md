@@ -13,6 +13,9 @@ the information you're sending; what is the feeling you're trying to invoke?
 Framing is staple to language, and recognizing the frame someone is using can
 lead to a sharper understanding of someone's message.
 
+## Error messages
+- [error style guide](http://www.postgresql.org/docs/devel/static/error-style-guide.html)
+
 ## See also
 - [Buffer Voice / Tone Guide](https://bufferapp.com/tone-guide)
 - [taalstrategie (Dutch)](http://taalstrategie.nl/framing/)
