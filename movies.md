@@ -8,3 +8,5 @@
 - pleasantville - prince recommends it
 - dead poet society - be a free thinker!
 - song of the sea - pure animated beauty
+- pulp fiction - classic
+- beetlejuice - sally recommends
