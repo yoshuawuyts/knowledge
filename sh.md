@@ -53,3 +53,8 @@ $ cat file.txt | sed -e '1,2d'
 $ cat file.txt | awk '{$3=$1; gsub(/0[12345]_/, "", $3); $2="|"}{print}'
 ```
 - [source](https://gist.github.com/yoshuawuyts/e964b7bda440d893979e)
+
+## Check for value, fill in if it doesn't exist
+```sh
+$ screen_width=${COLUMNS:-$(tput cols)}
+```
