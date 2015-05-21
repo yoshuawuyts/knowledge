@@ -10,3 +10,4 @@
 - song of the sea - pure animated beauty
 - pulp fiction - classic
 - beetlejuice - sally recommends
+- scott pilgrim vs the world - sally recommends
