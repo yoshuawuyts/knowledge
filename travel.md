@@ -19,3 +19,4 @@ plan.
 - Never _just go somewhere_, planning on site is a waste of vacation time.
 
 ## gear
+- [roost](http://www.therooststand.com/) - laptop stand, prevents neck pain
