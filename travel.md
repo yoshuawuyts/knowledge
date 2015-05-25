@@ -17,6 +17,7 @@ sometimes the same flight is available for less somewhere else
 - Check out what you can do in the towns you're heading at. Make a day by day
 plan.
 - Never _just go somewhere_, planning on site is a waste of vacation time.
+- [12hrs](http://www.12hrs.net/guides-overview) - TRAVEL GUIDES FOR PEOPLE LIKE YOU
 
 ## gear
 - [roost](http://www.therooststand.com/) - laptop stand, prevents neck pain
