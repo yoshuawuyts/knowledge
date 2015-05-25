@@ -35,6 +35,7 @@
 - [urit](https://github.com/yoshuawuyts/urit) - RFC 6570 uri templates
 - [fsm-event](https://github.com/yoshuawuyts/fsm-event) - stateful finite state machine
 - [ronn](https://github.com/isaacs/ronnjs) - markdown to roff/html converter
+- [publish-release](https://github.com/remixz/publish-release) - Create GitHub releases with assets
 
 ## Browserify
 - [browserify](http://ghub.io/browserify) - browser-side require() the node.js way
