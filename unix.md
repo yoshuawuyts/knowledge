@@ -34,7 +34,12 @@ $ dig @127.0.0.1 -p 5000 something.foo +short
 Vim like file manager. Useful to do bulk directory operations. Offers different
 views on files.
 
-# smxi/sgfxi
+## smxi/sgfxi
 System / gfx configuration tool.
 
 - [website](http://smxi.org/)
+
+## refind
+boot manager
+
+- [website](http://www.rodsbooks.com/refind/)
