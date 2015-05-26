@@ -33,3 +33,8 @@ $ dig @127.0.0.1 -p 5000 something.foo +short
 ## vifm
 Vim like file manager. Useful to do bulk directory operations. Offers different
 views on files.
+
+# smxi/sgfxi
+System / gfx configuration tool.
+
+- [website](http://smxi.org/)
