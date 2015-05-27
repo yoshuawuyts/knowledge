@@ -46,3 +46,14 @@ Function comes down to semantics. Best practices for this are:
 - __input__: use input tags for all form related actions
 
 [source](http://davidwalsh.name/html5-buttons)
+
+## Push notifications on the web
+Create a manifest in `index.html`:
+```html
+<link rel="manifest" href="/manifest.json">
+```
+- [installable Web Apps with the WebApp Manifest in Chrome for Android](http://updates.html5rocks.com/2014/11/Support-for-installable-web-apps-with-webapp-manifest-in-chrome-38-for-Android)
+- [push notifications on the Open Web](http://updates.html5rocks.com/2015/03/push-notificatons-on-the-open-web)
+- [introduction to service workers](http://www.html5rocks.com/en/tutorials/service-worker/introduction/)
+- [notifications api](https://notifications.spec.whatwg.org/)
+- [push api](http://w3c.github.io/push-api/)
