@@ -58,3 +58,12 @@ $ cat file.txt | awk '{$3=$1; gsub(/0[12345]_/, "", $3); $2="|"}{print}'
 ```sh
 $ screen_width=${COLUMNS:-$(tput cols)}
 ```
+
+## Connect to ssh server
+```sh
+ssh -i <path/to/file> <name>@<ip>
+```
+or with a `~/.ssh/configfile`
+```
+ssh <Host>
+```
