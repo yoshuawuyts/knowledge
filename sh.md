@@ -67,3 +67,8 @@ or with a `~/.ssh/configfile`
 ```
 ssh <Host>
 ```
+
+## list all open files for user
+```sh
+lsof -u <ownername>
+```
