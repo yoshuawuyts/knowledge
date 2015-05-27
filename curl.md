@@ -6,6 +6,7 @@
 --cookie <token> .............. pass in a cookie
 -H <header> ................... add a header
 -d <data> ..................... pass in data
+-L ............................ follow redirects
 ```
 
 ## Cookies
