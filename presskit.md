@@ -6,3 +6,6 @@
 - Screenshots
 - Artwork
 - Logos
+
+## See Also
+- [submit.co](http://submit.co/) - links on where to submit your startup
