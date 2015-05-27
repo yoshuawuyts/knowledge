@@ -149,6 +149,7 @@
 - [subcommand](https://github.com/maxogden/subcommand) - Create CLI tools with subcommands
 - [subarg-replace](https://github.com/mattdesl/subarg-replace) - regex replace on subarg list
 - [string-editor](https://github.com/mafintosh/string-editor) - Edit a string using $EDITOR from within your node app
+- [subarg](https://github.com/substack/subarg) - parse arguments with recursive contexts
 
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store) - streamable content addressable blob object store
