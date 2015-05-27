@@ -69,3 +69,4 @@ assume no answer = we agreed to whatever you're planning)
 
 ## See also
 - [dropbox branding](https://www.dropbox.com/branding)
+- [50 meticulous style guides](https://designschool.canva.com/blog/50-meticulous-style-guides-every-startup-see-launching/)
