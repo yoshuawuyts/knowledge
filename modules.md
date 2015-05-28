@@ -142,6 +142,7 @@
 - [pumpify](https://github.com/mafintosh/pumpify) - Combine an array of streams into a single duplex stream using pump and duplexify
 - [debug-stream](https://github.com/mafintosh/debug-stream) - use the debug module on a stream
 - [stream-iterate](https://github.com/mafintosh/stream-iterate) - Iterate through the values of a stream
+- [multiplex-rpc](https://github.com/substack/multiplex-rpc) - rpc with multiplexed duplex streams
 
 ## CLI
 - [minimist](https://github.com/substack/minimist) - parse argument options
