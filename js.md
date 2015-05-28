@@ -74,5 +74,11 @@ function detect (fn, cb) {
 
 - [mocha/lib/runnable.js](https://github.com/mochajs/mocha/blob/master/lib/runnable.js)
 
+## Find file in root of project
+```js
+const root = path.dirname(require.main.filename)
+const localPackage = require(path.resolve(root + '/package.json'))
+```
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
