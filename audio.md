@@ -18,6 +18,28 @@ Audio, the synthesis (in whichever way) of sound.
 (-1 Octave)                 (middle A)                 (+1 Octave)
 ```
 
+## Filters
+Filters can modify values. Using `.connect()` they are analogous to `through`
+streams for audio.
+```js
+const f = audioContext.createBiquadFilter()
+f.type = 'highpass'
+f.frequency.value = 10000
+f.connect(ctx.destination)
+```
+
+### filter types
+```txt
+lowpass    only values lower
+highpass   only values higher
+bandpass   only values in range
+lowshelf
+highshelf
+peaking
+notch
+allpass
+```
+
 ## Modules
 - [baudio](https://github.com/substack/baudio) - generate audio streams with functions
 - [jsynth](https://github.com/NHQ/jsynth) - Generate audio/DSP with javascript functions in the browser
