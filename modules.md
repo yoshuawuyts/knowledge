@@ -65,6 +65,7 @@
 - [defaultcss](https://github.com/DamonOehlman/defaultcss) - Add a style definition in your HTML
 - [css-next](https://github.com/cssnext/cssnext) - Use tomorrow's CSS syntax, today
 - [wrap-selectors](https://github.com/requireio/wrap-selectors) - Wrap CSS selectors up within a prefix and/or suffix
+- [css-element-queries](https://github.com/marcj/css-element-queries) - CSS-Element-Queries Polyfill
 
 ## Server MVC
 - [http](https://github.com/Raynos/http-framework/) - A web framework based purely on require('http')
