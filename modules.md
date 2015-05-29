@@ -52,9 +52,9 @@
 - [wayfarer](http://ghub.io/wayfarer) - Modular trie based router
 - [simple-store](http://github.com/yoshuawuyts/simple-store) - event emitting data store
 - [barracks](https://github.com/yoshuawuyts/barracks) - event dispatcher for client and server
-- [whatwg-fetch](https://github.com/github/fetch) - window.fetch JavaScript polyfill
+- [es6-promise](https://github.com/jakearchibald/es6-promise) - polyfill for ES6-style Promises
+- [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) - Isomorphic WHATWG Fetch API
 - [webcomponents.js](https://github.com/webcomponents/webcomponentsjs) - A suite of polyfills supporting the HTML Web Components specs
-- [picturefill](https://github.com/scottjehl/picturefill) - A responsive image polyfill for &ltpicture&gt, srcset, sizes, and more
 - [nets](https://github.com/maxogden/nets) - nothing but nets. http client that works in node and browsers
 
 ## CSS
@@ -65,6 +65,7 @@
 - [defaultcss](https://github.com/DamonOehlman/defaultcss) - Add a style definition in your HTML
 - [css-next](https://github.com/cssnext/cssnext) - Use tomorrow's CSS syntax, today
 - [wrap-selectors](https://github.com/requireio/wrap-selectors) - Wrap CSS selectors up within a prefix and/or suffix
+- [picturefill](https://github.com/scottjehl/picturefill) - A responsive image polyfill for &lt;picture&gt;, srcset, sizes, and more
 - [css-element-queries](https://github.com/marcj/css-element-queries) - CSS-Element-Queries Polyfill
 
 ## Server MVC
