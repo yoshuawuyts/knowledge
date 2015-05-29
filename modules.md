@@ -93,6 +93,7 @@
 - [zeroclipboard](https://github.com/zeroclipboard/zeroclipboard) - copy text to the clipboard using an invisible Adobe Flash movie
 - [domready](https://github.com/ded/domready) - lets you know when the dom is ready
 - [touches](https://github.com/Jam3/touches) - simplified touch/mouse events for flick and swipe
+- [insert](https://github.com/npm-dom/insert) - DOM insertion library
 
 ## Data manipulation
 - [pbs](https://github.com/mafintosh/pbs) - Streaming protocol buffers encoder/decoder
