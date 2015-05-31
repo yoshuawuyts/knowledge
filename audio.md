@@ -2,6 +2,7 @@
 Audio, the synthesis (in whichever way) of sound.
 
 ## Chromatic scale
+12 notes is a full octave.
 ```
                          -3  -1   1       4   6       9   11
                        -4  -2   0   2   3   5   7   8   10  12
@@ -16,6 +17,14 @@ Audio, the synthesis (in whichever way) of sound.
     ^                           ^           ^               ^           ^
   220 Hz                      440 Hz      523.25 Hz       880 Hz     1174.65 Hz
 (-1 Octave)                 (middle A)                 (+1 Octave)
+```
+In order to change the tune with the web audio api do:
+```js
+const osc = ctx.createOscillator()
+
+osc.type = 'sawtooth'
+osc.frequency.value = 440
+osc.detune.value = 3 * 100
 ```
 
 ## Filters
@@ -39,6 +48,37 @@ peaking
 notch
 allpass
 ```
+
+## envelopes
+Envelopes wrap sounds and smear them over time.
+
+### attack envelope
+Attack envelopes ramp up the value.
+
+```js
+const attack = audioContext.createGain()
+attack.gain.value = 0
+attack.gain.setTargetAtTime(1, startTime, 0.1)
+```
+
+### release envelope
+release envelopes decrease the value.
+
+```js
+const release = audioContext.createGain()
+release.gain.setTargetAtTime(0, endTime, 0.2)
+```
+
+Keep in mind when adding a release envelope, the sound needs to keep playing
+until the release finishes otherwise it will just stop.
+
+```js
+// provide enough time for the exponential falloff
+oscillator.stop(endTime + 2)
+```
+
+## modulating audio parameters
+
 
 ## Modules
 - [baudio](https://github.com/substack/baudio) - generate audio streams with functions
