@@ -11,6 +11,10 @@
 ## Metropolis-Hastings
 - [my favorite algorithm: Metropolis-hastings](http://flynnmichael.com/2015/06/01/my-favorite-algorithm-metropolis-hastings/)
 
+## Groth-sahai
+non interactive zero knowledge proof.
+- [wikipedia](http://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof)
+
 ## Machine learning
 - [linear regression](http://en.wikipedia.org/wiki/Linear_regression)
 - [multiple linear regression](http://en.wikipedia.org/wiki/Linear_regression#Simple_and_multiple_regression)
