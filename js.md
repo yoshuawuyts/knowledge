@@ -64,7 +64,8 @@ mocha uses:
 // fn, fn -> null
 function detect (fn, cb) {
   if (fn.length) return fn(() => cb())
-  fn() && cb()
+  fn()
+  cb()
 }
 ```
 - `cb` is the callback that is called when done
