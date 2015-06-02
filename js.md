@@ -80,5 +80,35 @@ const root = path.dirname(require.main.filename)
 const localPackage = require(path.resolve(root + '/package.json'))
 ```
 
+## Transducers
+> Transduction: the action or process of converting something and especially
+> energy or a message into another form
+
+Transducers appear to be all the hype, providing faster `map` functions than are
+included in JS by default. But how do they work? Easy!
+```js
+const arr = [1, 2, 3, 4]
+
+// this code loops over
+// the array twice
+arr.map(val => val + 1).map(val => val % 3)
+
+// this code loops over
+// the array once thanks to
+// transdusuper powers!
+arr.map(val => {
+  val = val + 1
+  val = val % 3
+  return val
+})
+```
+Transducer libraries provide a set of predefined set of composable functions,
+but you just as easily create your own.
+
+In terms of performance we move from `On^maps` to `On`. This means that for
+`n<=1`, no speed is gained. So keep in mind that if you're using transducers
+for large data sets they only reduce the amount of passes, but not the speed
+of the operations.
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
