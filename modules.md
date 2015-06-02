@@ -4,8 +4,9 @@
 - [mattdesl/modules](https://gist.github.com/mattdesl/73e3b9f902f9c834b721) - @mattdesl's large list of modules
 - [ferros/mad-science-modules](https://github.com/feross/mad-science-modules) - delightful npm packages that make you say wow
 - [mafintosh](https://github.com/mafintosh?tab=repositories) - probably contains a solution for your problems
-- [ndarray module list](https://github.com/scijs/ndarray/wiki/ndarray-module-list#core-module) - ndarray related goodies
-- [stack.gl](http://stack.gl/packages/) - modular graphics packages
+- [ndarray/wiki/ndarray-module-list](https://github.com/scijs/ndarray/wiki/ndarray-module-list#core-module) - ndarray related goodies
+- [stack.gl/packages](http://stack.gl/packages/) - modular graphics packages
+- [Raynos/http-framework/wiki/Modules](https://github.com/Raynos/http-framework/wiki/Modules) - modular http server
 
 ## Graphics
 - [a-big-triangle](https://github.com/mikolalysenko/a-big-triangle) - Draws a big triangle onto the screen
