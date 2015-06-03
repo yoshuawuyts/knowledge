@@ -35,6 +35,9 @@ Programming:
 hot.
 > This situation got to saucy.
 
+### upsert
+If !exists, instert. Else update.
+
 ## Unicode mappings
 ```txt
 … /u2026
