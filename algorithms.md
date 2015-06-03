@@ -1,4 +1,5 @@
 # algorithms
+Algorithms === data structures.
 
 # Lineair algebra
 - [LAPACK package](http://en.wikipedia.org/wiki/LAPACK)
@@ -14,6 +15,13 @@
 ## Groth-sahai
 non interactive zero knowledge proof.
 - [wikipedia](http://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof)
+
+## Radix tree
+Aka radix trie. Like a regular trie, but multiple chars are allowed per node.
+Even better when coupled with immutability.
+
+- [wikipedia](http://en.wikipedia.org/wiki/Radix_tree)
+- [go implementation](https://github.com/hashicorp/go-immutable-radix/blob/master/iradix.go)
 
 ## Machine learning
 - [linear regression](http://en.wikipedia.org/wiki/Linear_regression)
