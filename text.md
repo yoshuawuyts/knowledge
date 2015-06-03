@@ -32,11 +32,16 @@ Programming:
 > being. Reptile.
 
 ### saucy situation
-hot.
-> This situation got to saucy.
+hot, erotic.
+> This situation got too saucy.
 
 ### upsert
-If !exists, instert. Else update.
+> If !exists, instert. Else update.
+
+### charrette
+> 1. A public meeting or workshop devoted to a concerted effort to solve a
+problem or plan the design of something.
+> 2. A period of intense work, typically undertaken in order to meet a deadline.
 
 ## Unicode mappings
 ```txt
