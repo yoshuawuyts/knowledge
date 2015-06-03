@@ -57,3 +57,9 @@ Create a manifest in `index.html`:
 - [introduction to service workers](http://www.html5rocks.com/en/tutorials/service-worker/introduction/)
 - [notifications api](https://notifications.spec.whatwg.org/)
 - [push api](http://w3c.github.io/push-api/)
+
+## Open links in new tab
+```js
+window.open(url, '_blank')
+```
+- [stackoverflow](http://stackoverflow.com/a/11384018/1541707)
