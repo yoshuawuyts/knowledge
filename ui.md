@@ -30,3 +30,8 @@ All other elements are generally supersets of these elements.
 - media object
 - infinite scroll
 - smooth scroll
+
+## Natural language form
+I'm looking for {restaurant} in {city} at {time}.
+
+- [article](http://www.jroehm.com/2014/01/ui-pattern-natural-language-form/)
