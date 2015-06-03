@@ -79,3 +79,8 @@ GundoShow
 ```txt
 :g/<regex>/d
 ```
+
+## Stop using hjkl
+Using hjkl is an antipattern as it's slow. Instead use the other motions.
+
+- [article](http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/)
