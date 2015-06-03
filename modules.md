@@ -149,6 +149,7 @@
 - [debug-stream](https://github.com/mafintosh/debug-stream) - use the debug module on a stream
 - [stream-iterate](https://github.com/mafintosh/stream-iterate) - Iterate through the values of a stream
 - [multiplex-rpc](https://github.com/substack/multiplex-rpc) - rpc with multiplexed duplex streams
+- [split](https://www.npmjs.com/package/split) - split a Text Stream into a Line Stream
 
 ## CLI
 - [minimist](https://github.com/substack/minimist) - parse argument options
