@@ -108,6 +108,7 @@
 - [hyperstream](https://github.com/substack/hyperstream) - stream html into html at a css selector
 - [torrent-stream](https://github.com/mafintosh/torrent-stream) - The low level streaming torrent engine that peerflix uses
 - [tar-stream](https://github.com/mafintosh/tar-stream) - tar-stream is a streaming tar parser and generator
+- [reconnect-core](https://github.com/juliangruber/reconnect-core) - Generic stream reconnection module
 
 ## Testing
 - [tape](https://github.com/substack/tape) - tap-producing test harness for node and browsers
