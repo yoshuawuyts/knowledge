@@ -188,3 +188,4 @@
 ## Hardware
 - [bleno](https://github.com/sandeepmistry/bleno) - A node.js module for implementing BLE (Bluetooth low energy) peripherals
 - [noble](https://github.com/sandeepmistry/noble) - A node.js BLE (Bluetooth low energy) central module
+- [chromecasts](https://github.com/mafintosh/chromecasts) - Query your local network for Chromecasts and have them play media
