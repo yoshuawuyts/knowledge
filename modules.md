@@ -183,3 +183,7 @@
 - [node-gyp](https://github.com/TooTallNate/node-gyp) - Node.js native addon build tool
 - [node-bindings](https://github.com/TooTallNate/node-bindings) - Helper module for loading your native module's .node file
 - [nan](https://github.com/iojs/nan) - Native Abstractions for Node.js
+
+## Hardware
+- [bleno](https://github.com/sandeepmistry/bleno) - A node.js module for implementing BLE (Bluetooth low energy) peripherals
+- [noble](https://github.com/sandeepmistry/noble) - A node.js BLE (Bluetooth low energy) central module
