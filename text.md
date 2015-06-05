@@ -43,6 +43,9 @@ hot, erotic.
 problem or plan the design of something.
 > 2. A period of intense work, typically undertaken in order to meet a deadline.
 
+### footgun
+> Device used to shoot oneself in the foot.
+
 ## Unicode mappings
 ```txt
 … /u2026
