@@ -63,3 +63,16 @@ Create a manifest in `index.html`:
 window.open(url, '_blank')
 ```
 - [stackoverflow](http://stackoverflow.com/a/11384018/1541707)
+
+## window.fetch
+Uses promises, first `.then` call defines in what form the data will be
+displayed.
+```js
+window.fetch('http://localhost:1337')
+  .then(function (res) { return res.text()})
+  .then(function (res) {
+    console.log(res)
+  })
+```
+
+- [mdn/fetch#body](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Body)
