@@ -43,3 +43,18 @@ System / gfx configuration tool.
 boot manager
 
 - [website](http://www.rodsbooks.com/refind/)
+
+## lspci
+list all pci devices
+
+- [man page](http://man.cx/lspci)
+
+## lsblk
+List all available devices. Useful to determine how to partition.
+
+## chroot
+Can be used to repair machines that have lost root access / are unbootable for
+other reasons. Live cd's ftw! Also used to reset the `pid` of a tree of
+processes, a commonly known technique used with `docker`.
+
+- [arch wiki](https://wiki.archlinux.org/index.php/Change_root)
