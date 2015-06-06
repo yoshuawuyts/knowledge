@@ -84,3 +84,10 @@ GundoShow
 Using hjkl is an antipattern as it's slow. Instead use the other motions.
 
 - [article](http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/)
+
+## Set line numbers
+```viml
+:set nu    "enable numbers
+:set nonu  "disable number
+:set nu!   "toggle
+```
