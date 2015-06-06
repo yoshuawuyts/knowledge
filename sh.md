@@ -72,3 +72,15 @@ ssh <Host>
 ```sh
 lsof -u <ownername>
 ```
+
+## named pipes / inter-shell communication
+Named pipes are cool to create background processes with that can be addressed
+by name to do stuff with. It creates a physical file on the system that can be
+used from any shell process. The code below passes the output of `pipe` to
+`cat`, which then writes to `out.txt`. When passing in a command to `pip`
+(`ls -la` in this case), it pops back out at the other side.
+```sh
+$ mkfifo pipe
+$ cat < pipe > output.ext
+$ ls -la > pipe
+```
