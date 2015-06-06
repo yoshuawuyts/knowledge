@@ -46,6 +46,21 @@ problem or plan the design of something.
 ### footgun
 > Device used to shoot oneself in the foot.
 
+## sayings
+Nice phrases, makes you sound smarter.
+
+> Call no man happy until he is dead
+
+- __author__: Herodotus
+- __meaning__: Current state is no guarantee for future state.
+
+> Get to have your cake and eat it too
+
+- __meaning__: you get to possess your cake, and consume the cake.
+- __origin__: based on the saying `you can't both have a cake and eat it too`
+
+> With more influence comes less control
+
 ## Unicode mappings
 ```txt
 … /u2026
