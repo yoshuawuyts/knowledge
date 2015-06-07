@@ -131,3 +131,8 @@ other reasons. Live cd's ftw! Also used to reset the `pid` of a tree of
 processes, a commonly known technique used with `docker`.
 
 - [arch wiki](https://wiki.archlinux.org/index.php/Change_root)
+
+## manage audio players
+```sh
+$ playerctl
+```
