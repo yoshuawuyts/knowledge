@@ -112,7 +112,7 @@
 
 ## Testing
 - [tape](https://github.com/substack/tape) - tap-producing test harness for node and browsers
-- [Smokestack](https://github.com/hughsk/smokestack) - Pipe your JavaScript into a browser, logging console output in Node
+- [smokestack](https://github.com/hughsk/smokestack) - Pipe your JavaScript into a browser, logging console output in Node
 - [tap-closer](https://github.com/hughsk/tap-closer) - Close process on exit
 - [covert](https://github.com/substack/covert) - Code coverage command
 - [coverify](https://github.com/substack/coverify) - Code coverage browserify transform
@@ -139,7 +139,7 @@
 - [auto-daemon](https://github.com/substack/auto-daemon) - automatically spawn implicit background services
 
 ## Streams
-- [bl](https://github.com/rvagg/bl) - Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
+- [bl](https://github.com/rvagg/bl) - buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
 - [duplexify](https://github.com/Raynos/duplexer) - Turn a writeable and readable stream into a streams2 duplex stream
 - [concat-stream](https://github.com/maxogden/concat-stream) - writable stream that concatenates strings or data and calls a callback with the result
 - [from2](https://github.com/hughsk/from2) - Convenience wrapper for ReadableStream, with an API lifted from "from" and "through2"
