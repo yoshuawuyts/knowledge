@@ -148,3 +148,8 @@ processes, a commonly known technique used with `docker`.
 ```sh
 $ playerctl
 ```
+
+## pipe stderr to stdout
+```sh
+$ <command> 2>&1
+```
