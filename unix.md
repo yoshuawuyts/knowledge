@@ -1,23 +1,96 @@
-# unix tools
+# sh
+Shell scripts and tools.
 
-## Errday
+## File testing in sh
 ```
-pbcopy      pipe into your clipboard
-pbpaste     pipe from your clipboard
-time        check out how long a command took to run
-cat         read a file to stdin
-vim         cli version of atom, nice for small edits
+-b filename     block special file
+-c filename     special character file
+-d dirname      check for directory existence
+-e filename     check for file existence
+-f filename     check for regular file existence not a directory
+-G filename     check if file exists and is owned by effective group ID.
+-g filename     true if file exists and is set-group-id.
+-k filename     sticky bit
+-L filename     symbolic link
+-O filename     true if file exists and is owned by the effective user id.
+-r filename     check if file is a readable
+-S filename     check if file is socket
+-s filename     check if file is nonzero size
+-u filename     check if file set-user-id bit is set
+-w filename     check if file is writable
+-x filename     check if file is executable
+-z <string> ... true if the length of the string is non-zero
 ```
 
-## Process management
-```
-tail          with `-f` you can follow new changes on a file, useful for logs
-ps            log running processes. Get PIDs. `ps -aux` is pretty common
-*top          show sys info, available in different flavors (vtop is dope)
+__example__
+```sh
+#!/bin/bash
+file=./file
+if [ ! -e "$file" ]; then
+  echo "File does not exist"
+else
+  echo "File exists"
+fi
 ```
 
-## npm
-party tricks
+## Pipe stdout to multiple commands
+```sh
+$ cat file.txt | tee >(pbcopy) >(do_stuff) >(do_more_stuff) | grep errors
+```
+
+## Find and replace in multiple files
+```sh
+$ ag -l <pattern> | xargs sed -i '' -E 's/<old>/<new>/g'
+```
+
+## Delete a range of lines
+```
+$ cat file.txt | sed -e '1,2d'
+```
+
+## Manipulate columns with awk
+```sh
+$ cat file.txt | awk '{$3=$1; gsub(/0[12345]_/, "", $3); $2="|"}{print}'
+```
+- [source](https://gist.github.com/yoshuawuyts/e964b7bda440d893979e)
+
+## Check for value, fill in if it doesn't exist
+```sh
+$ screen_width=${COLUMNS:-$(tput cols)}
+```
+
+## Connect to ssh server
+```sh
+ssh -i <path/to/file> <name>@<ip>
+```
+or with a `~/.ssh/configfile`
+```
+ssh <Host>
+```
+
+## list all open files for user
+```sh
+lsof -u <ownername>
+```
+
+## named pipes / inter-shell communication
+Named pipes are cool to create background processes with that can be addressed
+by name to do stuff with. It creates a physical file on the system that can be
+used from any shell process. The code below passes the output of `pipe` to
+`cat`, which then writes to `out.txt`. When passing in a command to `pip`
+(`ls -la` in this case), it pops back out at the other side.
+```sh
+$ mkfifo pipe
+$ cat < pipe > output.ext
+$ ls -la > pipe
+```
+
+## follow logs as they grow
+```sh
+$ tail -r <file>
+```
+
+## execute a command in npm module dir
 ```txt
 npm ex <module name> <command> ... execute a command in the module dir
 ```
