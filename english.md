@@ -46,6 +46,10 @@ problem or plan the design of something.
 ### footgun
 > Device used to shoot oneself in the foot.
 
+### expediency
+> the quality of being convenient and practical despite possibly being improper
+> or immoral
+
 ## sayings
 Nice phrases, makes you sound smarter.
 
