@@ -28,3 +28,7 @@ Even better when coupled with immutability.
 - [multiple linear regression](http://en.wikipedia.org/wiki/Linear_regression#Simple_and_multiple_regression)
 - [linear least squares (the normal equation)](http://en.wikipedia.org/wiki/Linear_least_squares_(mathematics))
 - [gradient descent algorithm](http://en.wikipedia.org/wiki/Gradient_descent)
+
+## See Also
+- [bost.ocks.org/algorithms](http://bost.ocks.org/mike/algorithms/)
+- [a tour of algorithms](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
