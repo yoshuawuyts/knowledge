@@ -21,3 +21,7 @@ plan.
 
 ## gear
 - [roost](http://www.therooststand.com/) - laptop stand, prevents neck pain
+
+## See Also
+- [nomad wiki](http://www.nomadwiki.net/)
+- [nomadlist](https://nomadlist.com/)
