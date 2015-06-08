@@ -28,3 +28,7 @@ $ git reset HEAD <file>
 $ git reset --soft @~1
 ```
 [source](http://stackoverflow.com/a/20066339/1541707)
+
+## See Also
+- [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
+- [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
