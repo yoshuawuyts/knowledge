@@ -153,3 +153,6 @@ $ playerctl
 ```sh
 $ <command> 2>&1
 ```
+
+## See Also
+- [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
