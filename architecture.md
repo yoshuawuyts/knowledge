@@ -82,3 +82,6 @@ Interface with a central configuration and derive from there. Or better, split
 up engine from interface & have the engines part be non-configurable. Kinda.
 
 - [self-tuning-systems](https://00f.net/2015/06/01/self-tuning-systems/)
+
+## See Also
+- [service disoriented architecture](http://bravenewgeek.com/service-disoriented-architecture/)
