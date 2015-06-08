@@ -14,5 +14,14 @@
 - Have fixed moments for email / code review / other stuff. This gives you
 headspace.
 
+## Taxes as a freelancer
+When supplying services as a freelancer in a non-EU country as a dutchie, you
+don't charge Dutch taxes, charge the taxes of that country + stick to the laws
+of the country.
+
+- [kamer van koophandel (NL)](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/zakendoen_met_het_buitenland/zakendoen_buiten_de_eu/btw_berekenen/btw_berekenen_bij_diensten_naar_en_vanuit_niet_eu_landen/btw_berekenen_bij_diensten_naar_en_vanuit_niet_eu_landen)
+- [electronishe diensen in non-eu landen (dutch)](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/zakendoen_met_het_buitenland/zakendoen_buiten_de_eu/btw_berekenen/btw_berekenen_bij_diensten_naar_en_vanuit_niet_eu_landen/elektronische_diensten_in_en_uit_niet_eu_landen)
+- [tax type calculator](http://www.belastingdienst.nl/rekenhulpen/diensten_in_en_uit_het_buitenland/)
+
 ## See also
 - [Why Germans work fewer hours but produce more](http://knote.com/2014/11/10/why-germans-work-fewer-hours-but-produce-more-a-study-in-culture/)
