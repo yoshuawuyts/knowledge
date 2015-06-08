@@ -65,6 +65,10 @@ Nice phrases, makes you sound smarter.
 
 > With more influence comes less control
 
+> It is easy to confuse "what is", with "what ought to be"
+
+- Tyrion Lannister
+
 ## Unicode mappings
 ```txt
 … /u2026
