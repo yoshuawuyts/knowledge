@@ -38,6 +38,10 @@ hot, erotic.
 ### upsert
 > If !exists, instert. Else update.
 
+### to lose one's lunch
+Be sick
+> Too much PDA, I'm gonna llose muy lunch soon
+
 ### charrette
 > 1. A public meeting or workshop devoted to a concerted effort to solve a
 problem or plan the design of something.
