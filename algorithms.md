@@ -29,6 +29,10 @@ Even better when coupled with immutability.
 - [linear least squares (the normal equation)](http://en.wikipedia.org/wiki/Linear_least_squares_(mathematics))
 - [gradient descent algorithm](http://en.wikipedia.org/wiki/Gradient_descent)
 
+## Bloom filter
+Check if something is possibly in a set, or definitely not.
+- [what is the advantage of using bloom filter](http://stackoverflow.com/questions/4282375/what-is-the-advantage-to-using-bloom-filters)
+
 ## See Also
 - [bost.ocks.org/algorithms](http://bost.ocks.org/mike/algorithms/)
 - [a tour of algorithms](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
