@@ -20,3 +20,6 @@ length.
 ```
 
 - [love-aesthetics/morning-ritual](http://love-aesthetics.nl/morning-ritual/)
+
+## Accounting
+- [accounting for developers](https://docs.google.com/document/d/1HDLRa6vKpclO1JtxbGB5NeAYWf8cf1UMGy22o8OZZq4/preview?sle=true#)
