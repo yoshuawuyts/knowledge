@@ -12,3 +12,8 @@
 - beetlejuice - sally recommends
 - scott pilgrim vs the world - sally recommends
 - charlie and the chocolate factory - sally recommends
+
+## anime
+- sidonia no kishi
+- gunslinger stratos
+- owari no seraph
