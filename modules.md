@@ -58,6 +58,7 @@
 - [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) - Isomorphic WHATWG Fetch API
 - [webcomponents.js](https://github.com/webcomponents/webcomponentsjs) - A suite of polyfills supporting the HTML Web Components specs
 - [nets](https://github.com/maxogden/nets) - nothing but nets. http client that works in node and browsers
+- [seamless-immutable](https://github.com/rtfeldman/seamless-immutable) - immutable backwards compat JS structures
 
 ## CSS
 - [rework](https://github.com/reworkcss/rework) - Plugin framework for CSS preprocessing in Node.js
