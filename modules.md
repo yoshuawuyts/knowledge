@@ -120,6 +120,7 @@
 - [coverify](https://github.com/substack/coverify) - Code coverage browserify transform
 - [browser-test-helpers](https://github.com/shama/browser-test-helpers) - A small set of generic test helpers for browser interaction tests
 - [tap-status](https://github.com/tmcw/tap-status) - force correct exit codes for TAP runners
+- [faux-jax](https://github.com/algolia/faux-jax) - Intercept and respond to requests in node + browser
 
 ## P2P
 - [signalhub](https://github.com/mafintosh/signalhub) - Simple signalling server that can be used to coordinate handshaking with webrtc
