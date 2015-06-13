@@ -84,3 +84,5 @@ generate anything with WebGL.
 - [drawing lines is hard](http://mattdesl.svbtle.com/drawing-lines-is-hard)
 - [gpgpu utils for three.js](https://github.com/cabbibo/PhysicsRenderer)
 - [webglstats](http://webglstats.com/)
+- [eyeofestival/videos](https://vimeo.com/eyeofestival/videos)
+- [retro shaders rayman legends](http://clemz.io/article-retro-shaders-rayman-legends)
