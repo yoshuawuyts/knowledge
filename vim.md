@@ -91,3 +91,6 @@ Using hjkl is an antipattern as it's slow. Instead use the other motions.
 :set nonu  "disable number
 :set nu!   "toggle
 ```
+
+## See Also
+- [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
