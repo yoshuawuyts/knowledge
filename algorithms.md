@@ -28,6 +28,8 @@ Even better when coupled with immutability.
 - [multiple linear regression](http://en.wikipedia.org/wiki/Linear_regression#Simple_and_multiple_regression)
 - [linear least squares (the normal equation)](http://en.wikipedia.org/wiki/Linear_least_squares_(mathematics))
 - [gradient descent algorithm](http://en.wikipedia.org/wiki/Gradient_descent)
+- [model based machine learning](http://www.mbmlbook.com/toc.html)
+- [neural network implementation](http://peterroelants.github.io/posts/neural_network_implementation_part01/)
 
 ## Bloom filter
 Check if something is possibly in a set, or definitely not.
