@@ -83,6 +83,11 @@ up engine from interface & have the engines part be non-configurable. Kinda.
 
 - [self-tuning-systems](https://00f.net/2015/06/01/self-tuning-systems/)
 
+## Client side architecture
+- [reactive-mvc-and-the-virtual-dom](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
+- [combining react flux & web components](http://futurice.com/blog/combining-react-flux-and-web-components)
+- [simpler UI reasoning with unidrectional dataflow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
+
 ## See Also
 - [service disoriented architecture](http://bravenewgeek.com/service-disoriented-architecture/)
 - [engineering blogs](https://github.com/kilimchoi/engineering-blogs)
