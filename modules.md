@@ -140,6 +140,7 @@
 - [sprintf-js](https://github.com/alexei/sprintf.js) - JavaScript sprintf implementation
 - [strftime](https://github.com/samsonjs/strftime) - strftime for JavaScript
 - [auto-daemon](https://github.com/substack/auto-daemon) - automatically spawn implicit background services
+- [error](https://github.com/Raynos/error) - Error handling utilities for node
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
