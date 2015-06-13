@@ -38,6 +38,7 @@
 - [ronn](https://github.com/isaacs/ronnjs) - markdown to roff/html converter
 - [publish-release](https://github.com/remixz/publish-release) - Create GitHub releases with assets
 - [depenency-check](https://github.com/maxogden/dependency-check) - Assert deps
+- [psy](https://github.com/substack/psy) - process monitor command
 
 ## Browserify
 - [browserify](http://ghub.io/browserify) - browser-side require() the node.js way
