@@ -5,6 +5,7 @@
 - [ferros/mad-science-modules](https://github.com/feross/mad-science-modules) - delightful npm packages that make you say wow
 - [mafintosh](https://github.com/mafintosh?tab=repositories) - probably contains a solution for your problems
 - [ndarray/wiki/ndarray-module-list](https://github.com/scijs/ndarray/wiki/ndarray-module-list#core-module) - ndarray related goodies
+- [ndarray/tutorial](https://github.com/mikolalysenko/ndarray-tutorial)
 - [stack.gl/packages](http://stack.gl/packages/) - modular graphics packages
 - [Raynos/http-framework/wiki/Modules](https://github.com/Raynos/http-framework/wiki/Modules) - modular http server
 
