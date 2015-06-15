@@ -92,3 +92,6 @@ up engine from interface & have the engines part be non-configurable. Kinda.
 ## See Also
 - [service disoriented architecture](http://bravenewgeek.com/service-disoriented-architecture/)
 - [engineering blogs](https://github.com/kilimchoi/engineering-blogs)
+- [simple made easy](http://www.infoq.com/presentations/Simple-Made-Easy)
+- [reusability trap](http://250bpm.com/blog:49)
+- [finish your projects](http://250bpm.com/blog:50)
