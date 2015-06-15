@@ -23,3 +23,10 @@ length.
 
 ## Accounting
 - [accounting for developers](https://docs.google.com/document/d/1HDLRa6vKpclO1JtxbGB5NeAYWf8cf1UMGy22o8OZZq4/preview?sle=true#)
+
+## Deal with being possessive
+- tell your partner what's bothering you
+- explain why it is that it bothers you, how it makes you feel
+- don't try to change the other person
+- find the underlying reasons for why things make you feel the way they do
+(fears? previous experiences?)
