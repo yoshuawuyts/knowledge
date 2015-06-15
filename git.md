@@ -32,3 +32,4 @@ $ git reset --soft @~1
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
+- [merge PR considered harmful](http://blog.spreedly.com/2014/06/24/merge-pull-request-considered-harmful/)
