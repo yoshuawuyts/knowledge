@@ -142,6 +142,7 @@
 - [strftime](https://github.com/samsonjs/strftime) - strftime for JavaScript
 - [auto-daemon](https://github.com/substack/auto-daemon) - automatically spawn implicit background services
 - [error](https://github.com/Raynos/error) - Error handling utilities for node
+- [flat-tree](https://github.com/mafintosh/flat-tree) - A series of functions to map a binary tree to a list
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
