@@ -4,3 +4,4 @@ way.
 
 ## See Also
 - [programmer competency matrix](http://sijinjoseph.com/programmer-competency-matrix/)
+- [let's build a simple interpreter](http://ruslanspivak.com/lsbasi-part1/)
