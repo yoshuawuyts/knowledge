@@ -22,6 +22,17 @@
 - frontend JS
 - backend JS
 
+## iceberg method
+- make an ordered list of things you need to do
+- work the list top to bottom
+- only ever allowed to work on n things. If other things take priority, move
+them down the list
+- keep reprioritizing lists
+
+### multiple icebergs
+- plan space into calendar for when to tackle a list
+- possibly place estimations next to the list
+
 ## content
 Use the `marked.lexer` to unwrap markdown to key-value blobs. Key value blobs
 can optionally contain an html and raw version.
