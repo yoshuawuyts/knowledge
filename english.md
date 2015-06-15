@@ -54,6 +54,10 @@ problem or plan the design of something.
 > the quality of being convenient and practical despite possibly being improper
 > or immoral
 
+### topology
+the way in which constituent parts are interrelated or arranged.
+> "the topology of a computer network"
+
 ## sayings
 Nice phrases, makes you sound smarter.
 
