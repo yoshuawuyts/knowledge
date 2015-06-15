@@ -15,6 +15,7 @@
 
 ## series
 - bobs burgers
+- lone wolf and cub
 
 ## anime
 - sidonia no kishi
