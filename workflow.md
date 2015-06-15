@@ -33,6 +33,17 @@ them down the list
 - plan space into calendar for when to tackle a list
 - possibly place estimations next to the list
 
+## reviews
+- primary goal is for the codebase to improve
+- secondary (but not far off) is for the person submitting code to succeed
+  - helps grow the community
+  - and draws new people into the project
+
+- [how to write the perfect PR](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
+- [thoughtbot code review guidelines](https://github.com/thoughtbot/guides/tree/master/code-review)
+- [io.js onboarding](https://gist.github.com/yoshuawuyts/538077f9f8a658a8fdb6)
+
+
 ## content
 Use the `marked.lexer` to unwrap markdown to key-value blobs. Key value blobs
 can optionally contain an html and raw version.
