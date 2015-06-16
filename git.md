@@ -23,6 +23,11 @@ $ git checkout <filename>
 $ git reset HEAD <file>
 ```
 
+## Print changed files in last commit
+```sh
+$ git show --name-only [commit]
+```
+
 ## Undo commit and keep changes
 ```sh
 $ git reset --soft @~1
