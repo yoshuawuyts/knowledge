@@ -58,6 +58,10 @@ problem or plan the design of something.
 the way in which constituent parts are interrelated or arranged.
 > "the topology of a computer network"
 
+### banal
+So lacking in originality as to be obvious and boring.
+> "songs with banal, repeated words"
+
 ## sayings
 Nice phrases, makes you sound smarter.
 
