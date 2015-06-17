@@ -62,6 +62,10 @@ the way in which constituent parts are interrelated or arranged.
 So lacking in originality as to be obvious and boring.
 > "songs with banal, repeated words"
 
+### polymath [wiki](https://en.wikipedia.org/wiki/Polymath)
+Person who spans a significant number of different subject areas, draws on
+complex bodies of knowledge to solve specific problems.
+
 ## sayings
 Nice phrases, makes you sound smarter.
 
