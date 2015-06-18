@@ -92,6 +92,11 @@ Using hjkl is an antipattern as it's slow. Instead use the other motions.
 :set nu!   "toggle
 ```
 
+## Sort lines
+```viml
+:sort u  "alphabetically
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
 - [tabs vs buffers madness](https://joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/)
