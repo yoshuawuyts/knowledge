@@ -30,6 +30,7 @@ Even better when coupled with immutability.
 - [gradient descent algorithm](http://en.wikipedia.org/wiki/Gradient_descent)
 - [model based machine learning](http://www.mbmlbook.com/toc.html)
 - [neural network implementation](http://peterroelants.github.io/posts/neural_network_implementation_part01/)
+- [inceptionism: going deeper into Neural Networks](http://googleresearch.blogspot.nl/2015/06/inceptionism-going-deeper-into-neural.html)
 
 ## Bloom filter
 Check if something is possibly in a set, or definitely not.
