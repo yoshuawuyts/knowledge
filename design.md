@@ -15,3 +15,6 @@
 
 ## Icons
 - [toicon](http://www.toicon.com/)
+
+## See Also
+- [the principles of ux choreography](https://medium.com/@becca_u/the-principles-of-ux-choreography-69c91c2cbc2a)
