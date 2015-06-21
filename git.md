@@ -44,6 +44,22 @@ $ hub am -3 <pull-request-url>
 ```
 - [merge PR considered harmful](http://blog.spreedly.com/2014/06/24/merge-pull-request-considered-harmful/)
 
+## branching model
+`git-flow` is probably the most popular branching technique out there. It's
+also shit. There are many caveats in it, and it doesn't use some use git
+primitives where it should. A succesful branching model for simple projects is:
+- master is the truth of all merges
+- each feature gets their own branch on the contributor's fork
+- whenever a feature is done, it's pulled in
+- master gets a tag
+
+It doesn't need to be complex to be efficient. If hotfixes need to be
+performed, master can be rebased on top of that. If features need to be
+removed, just request the commit range for certain tag to roll back. Tada!
+
+- [git flow considered harmful](http://endoflineblog.com/gitflow-considered-harmful)
+- [follow up: git flow considered harmful](http://endoflineblog.com/follow-up-to-gitflow-considered-harmful)
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
