@@ -97,6 +97,44 @@ Using hjkl is an antipattern as it's slow. Instead use the other motions.
 :sort u  "alphabetically
 ```
 
+## Split windows
+```viml
+Cw-s  "split window horizontally
+Cw-v  "split window vertically
+```
+
+## Buffers
+Buffers are often a misunderstood / underused feature of vim, even though they
+are essential to creating a fast workflow. Many editors use tabs to manage open
+files, but with `vim` it's recommended to use buffers for this. Vim also has
+tabs, but they're used differently.
+```txt
+tabs     " open one per feature; workspaces
+buffers  " open one per file, nested under a workspace
+```
+
+Tabs can be used as different views on buffers. Buffers are used to manage
+files. By themselves buffers are a bit tedious to work with, but by using
+[`ctrlp`](https://github.com/ctrlpvim/ctrlp.vim) they become more usable
+through fuzzy finding.
+
+A good mapping for `ctrlp` is:
+```viml
+map <Leader>b :CtrlPBuffer<CR>  " Where leader is ideally set to spacebar
+```
+
+### buffer commands
+```viml
+enew        " open an empty buffer
+bd          " close a buffer
+<bufno> bd  " close a specific buffer
+ls          " list open buffers
+ls!         " list all open buffers (including unlisted)
+```
+
+- [tabs vs buffers madness](https://joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/)
+- [how do you prefer to switch buffers](http://stackoverflow.com/questions/327411/how-do-you-prefer-to-switch-between-buffers-in-vim)
+- [ctrlpvim/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
-- [tabs vs buffers madness](https://joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/)
