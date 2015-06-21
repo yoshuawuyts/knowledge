@@ -59,6 +59,7 @@ removed, just request the commit range for certain tag to roll back. Tada!
 
 - [git flow considered harmful](http://endoflineblog.com/gitflow-considered-harmful)
 - [follow up: git flow considered harmful](http://endoflineblog.com/follow-up-to-gitflow-considered-harmful)
+- [chronological git history is silly](https://news.ycombinator.com/item?id=9745966)
 
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
