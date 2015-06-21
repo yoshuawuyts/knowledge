@@ -71,6 +71,9 @@ generate anything with WebGL.
 - [blend_equation_advanced](https://www.opengl.org/registry/specs/NV/blend_equation_advanced.txt)
 - [glBlendEquation tool](http://www.andersriggelsen.dk/glblendfunc.php)
 
+## Reaction-Diffusion
+- [reaction-diffusion tutorial](http://www.karlsims.com/rd.html)
+
 ## See Also
 - [shadertoy](https://www.shadertoy.com/) - graphics playground & demo room
 - [glslb.in](http://glslb.in/) - modular graphics playground
