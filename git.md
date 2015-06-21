@@ -100,6 +100,11 @@ while rebasing, semver is updated, etc.
 - [githooks](http://githooks.com/)
 - [putting git hooks into repository](http://stackoverflow.com/questions/3462955/putting-git-hooks-into-repository)
 
+## git bisect
+Find by binary search the change that introduced a bug.
+
+- [git_bisect - linus torvalds](http://yarchive.net/comp/linux/git_bisect.html)
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
