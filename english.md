@@ -69,21 +69,25 @@ complex bodies of knowledge to solve specific problems.
 ## sayings
 Nice phrases, makes you sound smarter.
 
+### current state is not guarantee for future state
 > Call no man happy until he is dead
 
-- __author__: Herodotus
-- __meaning__: Current state is no guarantee for future state.
+- Herodotus
 
-> Get to have your cake and eat it too
+### can't have it both ways
+> Can't both have a cake and eat it too
 
-- __meaning__: you get to possess your cake, and consume the cake.
-- __origin__: based on the saying `you can't both have a cake and eat it too`
-
+### influence & control
 > With more influence comes less control
 
+### don't let tradition dictate the future
 > It is easy to confuse "what is", with "what ought to be"
 
 - Tyrion Lannister
+
+### recognize patterns and act on them
+> If one person tells you you have a tail, ignore them; if a hundred people
+tell you that, look behind you
 
 ## Unicode mappings
 ```txt
