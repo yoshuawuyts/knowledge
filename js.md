@@ -111,6 +111,12 @@ In terms of performance we move from `On^maps` to `On`. This means that for
 for large data sets they only reduce the amount of passes, but not the speed
 of the operations.
 
+## Prototypes
+Prototypes are a tricky beast; they work differently than classes and can be
+tough to reason about. Luckily there'es a simple heuristic to remember how they
+work: they're simply a linked list. Multiple inheritance is just muliple
+pointers in the parent field.
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
 - [js pitfalls](http://nrn.io/view/javascript-common-pitfalls)
