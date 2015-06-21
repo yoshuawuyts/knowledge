@@ -61,6 +61,8 @@
 - [webcomponents.js](https://github.com/webcomponents/webcomponentsjs) - A suite of polyfills supporting the HTML Web Components specs
 - [nets](https://github.com/maxogden/nets) - nothing but nets. http client that works in node and browsers
 - [seamless-immutable](https://github.com/rtfeldman/seamless-immutable) - immutable backwards compat JS structures
+- [user-agent-parser](https://www.npmjs.com/package/user-agent-parser) - Lightweight JavaScript-based user-agent string parser
+- [ua-device-type](https://www.npmjs.com/package/ua-device-type) - user agent based device type sniffer tablet||phone||tv||desktop
 
 ## CSS
 - [rework](https://github.com/reworkcss/rework) - Plugin framework for CSS preprocessing in Node.js
