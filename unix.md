@@ -159,3 +159,4 @@ $ <command> 2>&1
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
 - [awesome shell](https://github.com/alebcay/awesome-shell)
 - [unofficial bash strict mode](http://redsymbol.net/articles/unofficial-bash-strict-mode/)
+- [uselessness of cat](http://www.smallo.ruhr.de/award.html)
