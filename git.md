@@ -61,6 +61,45 @@ removed, just request the commit range for certain tag to roll back. Tada!
 - [follow up: git flow considered harmful](http://endoflineblog.com/follow-up-to-gitflow-considered-harmful)
 - [chronological git history is silly](https://news.ycombinator.com/item?id=9745966)
 
+## Git hooks
+Git hooks are a way of extending git with functionality whenever things happen.
+To some extent `npm` has a similar mechanism called `npm scripts`. Git hooks
+are just regular bash scripts that are triggerd on actions. They live in
+`.git/hooks`, where the filename is the name of the hook. The following hooks
+are available:
+```txt
+applypatch-msg
+pre-applypatch
+post-applypatch
+pre-commit
+prepare-commit-msg
+commit-msg
+post-commit
+pre-rebase
+post-checkout
+post-merge
+pre-receive
+update
+post-receive
+post-update
+pre-auto-gc
+post-rewrite
+pre-push
+```
+
+Git hook scripts cannot be checked into version control. If you want to persist
+scripts between multiple users you must check them into the project itself and
+then symlink them back in, preferably in a bootstrap script. Be careful when
+running hard symlinks though, as they will overwrite any local files. Instead
+create an aggregator script that moves the original scripts and then imports
+the original + repo scripts back in.
+
+Example functionality for git hooks includes: checking code style on commit,
+running extended tests on rebase to master, verify that no commit is performed
+while rebasing, semver is updated, etc.
+- [githooks](http://githooks.com/)
+- [putting git hooks into repository](http://stackoverflow.com/questions/3462955/putting-git-hooks-into-repository)
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
