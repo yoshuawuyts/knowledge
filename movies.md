@@ -16,6 +16,7 @@
 ## series
 - bobs burgers
 - lone wolf and cub
+- firefly
 
 ## anime
 - sidonia no kishi
