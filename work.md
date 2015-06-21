@@ -45,6 +45,41 @@ overhead in terms of time management.
 - use an unstructured interview to get them excited about the job
 - get them excited about the company
 
+## Job sites
+[source](https://news.ycombinator.com/item?id=9724031)
+
+### freelance
+- remote
+  - hhttp://hnhiring.me/
+  - https://github.com/lukasz-madon/awesome-remote-job/
+  - http://www.lancelist.com/
+  - https://gun.io/dash/
+  - http://www.10xmanagement.com/
+  - https://theworkmob.com/
+  - http://workingnotworking.com
+  - https://authenticjobs.com
+  - https://www.upwork.com
+  - http://www.happyfuncorp.com
+
+- on-site
+  - http://getlambda.com/
+
+### full-time
+- remote
+  - https://weworkremotely.com/
+  - https://careers.stackoverflow.com/jobs/remote
+  - https://www.wfh.io/categories/1/jobs
+  - https://remotecoder.io/
+  - http://www.workingnomads.co/jobs
+
+- on-site
+  - https://angel.co/jobs
+  - https://hired.com/
+  - https://jobs.github.com/positions
+  - https://www.themuse.com/
+  - http://startupjob.me/
+  - http://www.insidestartups.org/
+
 ## See Also
 - [growing consulting practices](http://www.kalzumeus.com/2012/10/10/kalzumeus-podcast-3-growing-consulting-practices-with-brennan-dunn/)
 - [remoteok contracting](https://remoteok.io/remote-contracting-jobs)
