@@ -79,6 +79,7 @@ overhead in terms of time management.
   - https://www.themuse.com/
   - http://startupjob.me/
   - http://www.insidestartups.org/
+  - http://www.lookahead.com.au (australia)
 
 ## Going freelance
 - [switching to contracting UK](https://github.com/tadast/switching-to-contracting-uk/blob/master/README.md)
