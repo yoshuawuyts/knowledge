@@ -89,6 +89,22 @@ up engine from interface & have the engines part be non-configurable. Kinda.
 - [simpler UI reasoning with unidrectional dataflow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
 - [react-transit](https://github.com/RickWong/react-transmit/blob/master/DOCS.md)
 
+## Entity component system
+High performance games sometimes make use of ECS.
+- composition over inheritance
+- complexity is stored away in the `system`
+- nodes just pull in a bunch of properties onto themselves
+- unity is an example ECS
+
+- entity: general purpose object, usually just holds an id
+- component: raw data for one aspect of the world, and how it interacts with
+the world. Labels the entity as having a particular aspect. Usually uses Objects
+or Arrays.
+- system: performs global actions on entities that have a component of the same
+aspect as the system.
+
+- [Entity_component_system](https://en.wikipedia.org/wiki/Entity_component_system)
+
 ## See Also
 - [service disoriented architecture](http://bravenewgeek.com/service-disoriented-architecture/)
 - [engineering blogs](https://github.com/kilimchoi/engineering-blogs)
