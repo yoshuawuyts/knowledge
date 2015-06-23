@@ -22,6 +22,25 @@ plan.
 ## gear
 - [roost](http://www.therooststand.com/) - laptop stand, prevents neck pain
 
+## Vaccinations
+- hepatitis A/B are pretty important
+
+## Hygiene
+### general
+- wash hands after toilet, before cooking, before eating
+- don't judge food by its exterior, you can't see microbes
+
+### drinks
+- not all tap water is drink water; don't have ice cubes
+- only drink coffee / tea prepared with boiled water
+- don't drink uncooked milk
+
+### food
+- best to peel your own fruit
+- when preparing own food make sure to wash it in boiled water / mineral water
+- don't eat rare meat or fish
+- don't eat unpacked
+
 ## See Also
 - [nomad wiki](http://www.nomadwiki.net/)
 - [nomadlist](https://nomadlist.com/)
