@@ -81,7 +81,6 @@ div[class$="something"] {}    /* search children for "ends with..." */
 - [30 selectors you must memorize](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 - [CSS3 selector substring matching](http://www.impressivewebs.com/css3-attribute-selectors-substring-matching/)
 
-
 ## See also
 - [medium's CSS coding guidelines](https://gist.github.com/fat/a47b882eb5f84293c4ed)
 - [medium's CSS post thingy](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
