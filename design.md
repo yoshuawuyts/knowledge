@@ -16,5 +16,8 @@
 ## Icons
 - [toicon](http://www.toicon.com/)
 
+## UI patterns
+- [ui patterns for smarter design](http://www.awwwards.com/mastering-ui-patterns-for-smarter-design.html)
+
 ## See Also
 - [the principles of ux choreography](https://medium.com/@becca_u/the-principles-of-ux-choreography-69c91c2cbc2a)
