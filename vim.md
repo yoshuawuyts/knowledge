@@ -136,5 +136,15 @@ ls!         " list all open buffers (including unlisted)
 - [how do you prefer to switch buffers](http://stackoverflow.com/questions/327411/how-do-you-prefer-to-switch-between-buffers-in-vim)
 - [ctrlpvim/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
 
+## Visual block mode
+Visual block mode is useful for bulk changes to patterns that are hard to capture
+with a regex; usually columns.
+```vim
+C-v  " enter visual block mode
+A    " enter insert mode
+I    " enter insert mode
+esc  " execute changes made in insert mode
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
