@@ -1,6 +1,6 @@
-# vacation
+# travel
 
-## booking a plane
+## Booking a plane
 - clear cache often, prices are set by cookies
 - early vs last minute bookings? no idea which one is best
 - most people often already have a cancellation insurance, don't get one twice
@@ -12,18 +12,26 @@ sometimes the same flight is available for less somewhere else
 - [kayak.com](http://www.kayak.com)
 - [skyscanner](http://skyscanner.com)
 
-## planning a trip
+## Planning a trip
 - Investigate when you want to travel first, off-season can save 80% in costs
 - Check out what you can do in the towns you're heading at. Make a day by day
 plan.
 - Never _just go somewhere_, planning on site is a waste of vacation time.
 - [12hrs](http://www.12hrs.net/guides-overview) - TRAVEL GUIDES FOR PEOPLE LIKE YOU
 
-## gear
+## Gear
 - [roost](http://www.therooststand.com/) - laptop stand, prevents neck pain
 
+### Medicine
+- deet
+- Oral Rehydration Therapy
+- Anti-diarrhea meds
+- Thermometer
+
 ## Vaccinations
-- hepatitis A/B are pretty important
+- hepatitis A/B are pretty important. 3 shots in 6 months.
+- protection against stomach typhoid for Asia (don't eat chicken)
+- DTP
 
 ## Hygiene
 ### general
