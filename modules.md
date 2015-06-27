@@ -17,6 +17,8 @@
 - [gl-particles](https://github.com/stackgl/gl-particles) - Convenience module for FBO-driven particle simulations
 - [gl-fbo](https://github.com/stackgl/gl-fbo) - WebGL framebuffer wrapper
 - [gl-vec3](https://github.com/stackgl/gl-vec3) - gl-matrix's vec3, split into smaller pieces
+- [perspective-camera](https://www.npmjs.com/package/perspective-camera) - a high-level 3D perspective camera
+- [icosphere](https://github.com/hughsk/icosphere) - Generates icosphere meshes of varying levels of complexity
 
 ## Audio
 - [gl-audio-analyzer](https://github.com/stackgl/gl-audio-analyser) - Pull audio waveform/frequency data into WebGL for realtime audio visualisation
