@@ -66,7 +66,8 @@ window.open(url, '_blank')
 
 ## window.fetch
 Uses promises, first `.then` call defines in what form the data will be
-displayed.
+displayed. The value can be one of `arrayBuffer()`, `blob()`, `formData()`,
+`json()` and `text()`.
 ```js
 window.fetch('http://localhost:1337')
   .then(function (res) { return res.text()})
@@ -75,4 +76,12 @@ window.fetch('http://localhost:1337')
   })
 ```
 
+Setting cookie headers is not possible with `fetch`. Instead cookies can be set
+through the `credentials` api. The value can be one of `omit`, `same-origin`,
+`include` where `omit` is the default.
+```js
+fetch('/something', { credentials: 'same-origin' })
+```
+
 - [mdn/fetch#body](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Body)
+- [mdn/Request.credentials](https://developer.mozilla.org/en-US/docs/Web/API/Request/credentials)
