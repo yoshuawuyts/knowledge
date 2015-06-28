@@ -49,6 +49,50 @@ plan.
 - don't eat rare meat or fish
 - don't eat unpacked
 
+## Insurance
+Travelling uninsured is super dangerous; if for some reason you end up in a
+hospital (which could be for anything; even stuff that's out of your control)
+there's a fair chance of you going bankrupt. Since I'm Dutch this part will
+be focused on Dutchies that are moving abroad, though I'm sure that many
+countries will have a rough equivalent of the terms described here.
+
+If you're Dutch and stay >1 year abroad you're no longer insured for most
+common things. Insurances provided by the Dutch state are:
+- next of kin insurance (Anw)
+- unfit for work insurance (AOW)
+- insurance law (Zvw)
+- long term care law (Wlz)
+- social care law (Wmo)
+
+Subscribing to the AOW and Anw can be done until 1 year after leaving the
+country.
+
+- [wonen en werken buitenland](https://www.svb.nl/int/nl/vv/wonen_werken_buiten_nederland/buiten_nl_wonen_werken/index.jsp)
+
+In addition there are other risks to take care of:
+- liability insurance
+- travel insurance
+
+- [emigreren.nu/zorgverzekering](http://www.emigreren.nu/zorgverzekering-en-emigratie/) - Dutch emigration law overview
+
+In Australia there are 3 types of insurances:
+- life insurance
+- health insurance
+- general insurance (liability / property)
+
+## Emigrating
+Emigrating is a tricky beast. There's tons of things you need to take care of.
+Here's a short list:
+- information of embassee or consulate
+- digital passport (DigID)
+- taxes
+- health insurance
+- retirement fund
+- legalisation of diploma's and documents
+- welfare
+
+- [Dutch government emigration checklist](http://www.rijksoverheid.nl/onderwerpen/werken-in-het-buitenland/vraag-en-antwoord/wat-moet-ik-regelen-als-ik-ga-emigreren.html)
+
 ## See Also
 - [nomad wiki](http://www.nomadwiki.net/)
 - [nomadlist](https://nomadlist.com/)
