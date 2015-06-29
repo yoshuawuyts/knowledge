@@ -13,6 +13,7 @@
 - scott pilgrim vs the world - sally recommends
 - charlie and the chocolate factory - sally recommends
 - frequencies - esotsm alike movie
+- serenity
 
 ## series
 - bobs burgers
