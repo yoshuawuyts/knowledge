@@ -66,6 +66,7 @@
 - [user-agent-parser](https://www.npmjs.com/package/user-agent-parser) - Lightweight JavaScript-based user-agent string parser
 - [ua-device-type](https://www.npmjs.com/package/ua-device-type) - user agent based device type sniffer tablet||phone||tv||desktop
 - [inflight](https://github.com/npm/inflight) - Add callbacks to requests in flight to avoid async duplication
+- [scroll-to-element](https://www.npmjs.com/package/scroll-to-element) - Smooth scrolling to an element via selector or node reference
 
 ## CSS
 - [rework](https://github.com/reworkcss/rework) - Plugin framework for CSS preprocessing in Node.js
