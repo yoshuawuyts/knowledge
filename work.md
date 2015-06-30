@@ -84,6 +84,11 @@ overhead in terms of time management.
 ## Going freelance
 - [switching to contracting UK](https://github.com/tadast/switching-to-contracting-uk/blob/master/README.md)
 
+## Motivation
+- Autonomy
+- Mastery
+- Purpose
+
 ## See Also
 - [growing consulting practices](http://www.kalzumeus.com/2012/10/10/kalzumeus-podcast-3-growing-consulting-practices-with-brennan-dunn/)
 - [remoteok contracting](https://remoteok.io/remote-contracting-jobs)
