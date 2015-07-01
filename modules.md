@@ -8,6 +8,7 @@
 - [ndarray/tutorial](https://github.com/mikolalysenko/ndarray-tutorial)
 - [stack.gl/packages](http://stack.gl/packages/) - modular graphics packages
 - [Raynos/http-framework/wiki/Modules](https://github.com/Raynos/http-framework/wiki/Modules) - modular http server
+- [maxogden/maintainance-modules](https://github.com/maxogden/maintenance-modules) - list of modules that are useful for module dev
 
 ## Graphics
 - [a-big-triangle](https://github.com/mikolalysenko/a-big-triangle) - Draws a big triangle onto the screen
