@@ -93,7 +93,6 @@
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) - A Virtual DOM and diffing algorithm
 - [vdom-to-html](https://github.com/nthtran/vdom-to-html) - Turn virtual-dom nodes into HTML
 - [virtual-html](https://github.com/azer/virtual-html) - Convert given HTML into Virtual DOM object
-- [virtual-hyperscript-svg](https://github.com/substack/virtual-hyperscript-svg) - create virtual-dom nodes for svg using hyperscript syntax
 - [value-event](https://github.com/Raynos/value-event) - Create DOM event handlers that write to listeners
 - [domify](https://github.com/component/domify) - Turn HTML into DOM elements x-browser
 - [custom-element](https://github.com/requireio/custom-element) - Convenience wrapper for creating custom element prototypes
@@ -107,6 +106,9 @@
 - [domready](https://github.com/ded/domready) - lets you know when the dom is ready
 - [touches](https://github.com/Jam3/touches) - simplified touch/mouse events for flick and swipe
 - [insert](https://github.com/npm-dom/insert) - DOM insertion library
+
+## SVG
+- [virtual-hyperscript-svg](https://github.com/substack/virtual-hyperscript-svg) - create virtual-dom nodes for svg using hyperscript syntax
 - [vivus](https://github.com/maxwellito/vivus/) - JavaScript library to make drawing animation on SVG
 
 ## Data manipulation
