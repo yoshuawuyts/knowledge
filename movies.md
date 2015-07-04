@@ -14,6 +14,10 @@
 - charlie and the chocolate factory - sally recommends
 - frequencies - esotsm alike movie
 - serenity
+- if you build it
+- timbuktu
+- saugatuck cures
+- hard to be a god
 
 ## series
 - bobs burgers
