@@ -89,6 +89,9 @@ Nice phrases, makes you sound smarter.
 > If one person tells you you have a tail, ignore them; if a hundred people
 tell you that, look behind you
 
+### eating a five course meal when all you wanted was a salad
+> overcomplicating things
+
 ## Unicode mappings
 ```txt
 … /u2026
