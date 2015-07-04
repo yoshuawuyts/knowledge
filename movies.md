@@ -13,18 +13,17 @@
 - scott pilgrim vs the world - sally recommends
 - charlie and the chocolate factory - sally recommends
 - frequencies - esotsm alike movie
-- serenity
-- if you build it
-- timbuktu
-- saugatuck cures
-- hard to be a god
+- serenity - firefly!
+- if you build it - kiddo's learning to make stuff
+- timbuktu - allegedly "perfectly timed"
+- saugatuck cures - no idea what this is, but RT says it's good
+- hard to be a god - sounds badass, has a great score on RT
 
 ## series
-- bobs burgers
-- lone wolf and cub
-- firefly
+- bobs burgers - light entertainment
+- lone wolf and cub - seven samurai as a series™
+- firefly - staple sci-fi (cowboys in space!)
 
 ## anime
-- sidonia no kishi
-- gunslinger stratos
-- owari no seraph
+- sidonia no kishi - ok mechas in space
+- owari no seraph - vampires & twisted love
