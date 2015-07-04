@@ -107,6 +107,7 @@
 - [domready](https://github.com/ded/domready) - lets you know when the dom is ready
 - [touches](https://github.com/Jam3/touches) - simplified touch/mouse events for flick and swipe
 - [insert](https://github.com/npm-dom/insert) - DOM insertion library
+- [vivus](https://github.com/maxwellito/vivus/) - JavaScript library to make drawing animation on SVG
 
 ## Data manipulation
 - [pbs](https://github.com/mafintosh/pbs) - Streaming protocol buffers encoder/decoder
