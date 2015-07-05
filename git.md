@@ -108,3 +108,4 @@ Find by binary search the change that introduced a bug.
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
+- [jonathanong/git-style-guide](https://github.com/jonathanong/git-style-guide)
