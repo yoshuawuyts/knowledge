@@ -161,6 +161,14 @@ cat << EOF
 EOF
 ```
 
+## detect if script is sourced
+```sh
+if [ "$_" = "$0" ]
+  then echo 'yup, script is directly called'
+  else echo 'nope, script is not directly called'
+fi
+```
+
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
