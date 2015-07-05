@@ -154,6 +154,13 @@ $ playerctl
 $ <command> 2>&1
 ```
 
+## print multiline string
+```sh
+cat << EOF
+  oh my, such nice text
+EOF
+```
+
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
