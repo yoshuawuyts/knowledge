@@ -151,7 +151,11 @@ $ playerctl
 
 ## pipe stderr to stdout
 ```sh
-$ <command> 2>&1
+# bash
+$ <command> 2>&1 /dev/null
+
+# POSIX sh
+$ <command> >/dev/null 2>&1
 ```
 
 ## print multiline string
