@@ -173,6 +173,16 @@ if [ "$_" = "$0" ]
 fi
 ```
 
+## Switch statement
+```sh
+case $1 in
+  "")         usage; exit 1 ;;
+  -h|--help)  usage; exit ;;
+  -l|--link)  link "$@" ;;
+  *)          readonly name=$1 ;;
+esac
+```
+
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
