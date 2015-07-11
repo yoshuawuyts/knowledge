@@ -170,3 +170,4 @@ the best.
 - [7 rules for creating gorgeous UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda)
 - [never use black](http://ianstormtaylor.com/design-tip-never-use-black/)
 - [uxpin/knowledge](https://www.uxpin.com/knowledge.html)
+- [pttrns](http://pttrns.com/) - mobile UI
