@@ -10,6 +10,7 @@
 - [Raynos/http-framework/wiki/Modules](https://github.com/Raynos/http-framework/wiki/Modules) - modular http server
 - [maxogden/maintainance-modules](https://github.com/maxogden/maintenance-modules) - list of modules that are useful for module dev
 - [meandavejustice/web-audio-modules](https://github.com/meandavejustice/web-audio-modules)
+- [bebraw/jswiki/physics_libraries](https://github.com/bebraw/jswiki/wiki/Physics-libraries)
 
 ## Graphics
 - [a-big-triangle](https://github.com/mikolalysenko/a-big-triangle) - Draws a big triangle onto the screen
