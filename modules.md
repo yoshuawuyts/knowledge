@@ -46,6 +46,9 @@
 - [depenency-check](https://github.com/maxogden/dependency-check) - Assert deps
 - [psy](https://github.com/substack/psy) - process monitor command
 
+## Markdown
+- [highlights](https://github.com/atom/highlights) - Syntax highlighter
+
 ## Browserify
 - [browserify](http://ghub.io/browserify) - browser-side require() the node.js way
 - [webworkify](https://github.com/substack/webworkify) - launch a web worker that can require() in the browser with browserify
@@ -63,6 +66,7 @@
 - [simple-store](http://github.com/yoshuawuyts/simple-store) - event emitting data store
 - [barracks](https://github.com/yoshuawuyts/barracks) - event dispatcher for client and server
 - [es6-promise](https://github.com/jakearchibald/es6-promise) - polyfill for ES6-style Promises
+- [any-promise](https://www.npmjs.com/package/any-promise) - Resolve any installed ES6 compatible promise
 - [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) - Isomorphic WHATWG Fetch API
 - [webcomponents.js](https://github.com/webcomponents/webcomponentsjs) - A suite of polyfills supporting the HTML Web Components specs
 - [nets](https://github.com/maxogden/nets) - nothing but nets. http client that works in node and browsers
