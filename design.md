@@ -85,9 +85,85 @@ Be zen about it.
 
 Analyze what works
 
+### learn the methods of overlaying text on images
+There are 5 + 1 methods of overlaying text on images:
+
+#### apply text directly to images
+Should generally not do this.
+
+1. image should be dark
+2. text has to be white
+3. test it at every screen / size to make sure it's legible
+
+#### overlay the whole image
+Plop in a color and make the image darker. Shades of gray generally work well.
+
+#### text-in-a-box
+Whip up a mildly-transparent black rectangle and lather on some white text. If
+the overlay is opaque enough, you can have just about any image underneath and
+the text will still be totally legible.
+
+#### blur the image
+Blurring a part of the underlying image is relatively effective.
+> You can also use the out-of-focus area of a photo as the blur. But beware—
+> this method is not as dynamic. If your image ever changes, make sure the text
+> is always over the blurry bits.
+
+#### floor fade
+Subtly fade to gray at the bottom part of the image. 500px is a great example
+of this technique.
+
+#### scrim
+Gradient opacity box around text. Super subtle.
+
+### Make text pop -- and unpop
+> Styling text to look beautiful is often a matter of styling it in contrasting
+> ways.
+
+Ways to call for attention:
+- Size (bigger or smaller)
+- Color (greater contrast or lesser; bright colors draw the eye)
+- Font weight (bolder or thinner)
+- Capitalization (lowercase, UPPERCASE, and Title Case)
+- Italicization
+- Letter spacing (or— fancy term alert— _tracking_!)
+- Margins (technically not a property of the text itself, but can be used to draw attention, so it makes the list)
+
+### Up-pop and down-pop
+Aka visual weight
+- __up-pop__: styles that increase the visibility of the text
+- __down-pop__: styles that decrease the visibility of the text
+
+Page titles are the only element to style all-out __up-pop__.
+For everything else, you need __up- _and_ down-pop__.
+
+Also: styling text is hard. Try to balance things. If it doesn't look quite
+right, keep trying until it does.
+
+### Use good fonts
+Some fonts are good. Use them.
+
 ## Mobile first
 Allows you to tackle the hard problem first, what information matters, before
 making it fit on a bazillion pixel screen.
+
+## Fonts
+- Entypo social - Social Media
+- PT Sans - quite like lato
+- Lato - clean, crisp
+- Cabin - curvy
+- Raleway - headlines only, distinct
+- Montesserrat - two weights, like gotham / promixima nova
+- Bebas Neue - titles, all caps
+- Open Sans - easy to read, body
+- Ubuntu - allrounder
+
+## Steal like an artist
+Unless you're inventing a new element see how others do it and cherry pick from
+the best.
+
+## Underlines
+- [crafting link underlines](https://medium.com/designing-medium/crafting-link-underlines-on-medium-7c03a9274f9)
 
 ## See Also
 - [the principles of ux choreography](https://medium.com/@becca_u/the-principles-of-ux-choreography-69c91c2cbc2a)
