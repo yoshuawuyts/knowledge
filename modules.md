@@ -9,6 +9,7 @@
 - [stack.gl/packages](http://stack.gl/packages/) - modular graphics packages
 - [Raynos/http-framework/wiki/Modules](https://github.com/Raynos/http-framework/wiki/Modules) - modular http server
 - [maxogden/maintainance-modules](https://github.com/maxogden/maintenance-modules) - list of modules that are useful for module dev
+- [meandavejustice/web-audio-modules](https://github.com/meandavejustice/web-audio-modules)
 
 ## Graphics
 - [a-big-triangle](https://github.com/mikolalysenko/a-big-triangle) - Draws a big triangle onto the screen
@@ -24,6 +25,7 @@
 ## Audio
 - [gl-audio-analyzer](https://github.com/stackgl/gl-audio-analyser) - Pull audio waveform/frequency data into WebGL for realtime audio visualisation
 - [soundcloud-badge](https://github.com/hughsk/soundcloud-badge) - A SoundCloud 'now-playing' badge you can just drop into browserify demos
+- [audio-clock](https://www.npmjs.com/package/audio-clock) - keep time for audio apps
 
 ## Tools
 - [standard](http://ghub.io/standard) - JavaScript standard style linter
@@ -82,7 +84,6 @@
 - [css-element-queries](https://github.com/marcj/css-element-queries) - CSS-Element-Queries Polyfill
 
 ## Server MVC
-- [http](https://github.com/Raynos/http-framework/) - A web framework based purely on require('http')
 - [brick-router](https://github.com/yoshuawuyts/brick-router) - Modular router for serving static assets
 - [brick-server](https://github.com/yoshuawuyts/brick-server/tree/master) - Create an http handler for brick-router
 - [server-summary](https://github.com/yoshuawuyts/server-summary) - Log basic server information after an http server start
