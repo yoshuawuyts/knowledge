@@ -112,6 +112,7 @@
 - [domready](https://github.com/ded/domready) - lets you know when the dom is ready
 - [touches](https://github.com/Jam3/touches) - simplified touch/mouse events for flick and swipe
 - [insert](https://github.com/npm-dom/insert) - DOM insertion library
+- [next-tick](http://npmjs.org/package/next-tick) - Environment agnostic nextTick polyfill
 
 ## SVG
 - [virtual-hyperscript-svg](https://github.com/substack/virtual-hyperscript-svg) - create virtual-dom nodes for svg using hyperscript syntax
