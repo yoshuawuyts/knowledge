@@ -117,6 +117,13 @@ tough to reason about. Luckily there'es a simple heuristic to remember how they
 work: they're simply a linked list. Multiple inheritance is just muliple
 pointers in the parent field.
 
+## delete value from array
+```js
+const arr = [2, 5, 9]
+const i = arr.indexOf(9)
+if (i > -1) arr.splice(i, 1)
+```
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
 - [js pitfalls](http://nrn.io/view/javascript-common-pitfalls)
