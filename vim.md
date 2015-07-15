@@ -146,5 +146,11 @@ I    " enter insert mode
 esc  " execute changes made in insert mode
 ```
 
+## Format text to fit lines
+With `:set tw=80` do:
+```viml
+gq
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
