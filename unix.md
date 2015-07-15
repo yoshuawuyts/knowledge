@@ -183,6 +183,11 @@ case $1 in
 esac
 ```
 
+## Format text to be &lt;80 chars
+```sh
+$ fmt -80
+```
+
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
