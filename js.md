@@ -124,6 +124,13 @@ const i = arr.indexOf(9)
 if (i > -1) arr.splice(i, 1)
 ```
 
+## Create a new promise
+```js
+const prom = new Promise((resolve, reject) => {
+  resolve()
+})
+```
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
 - [js pitfalls](http://nrn.io/view/javascript-common-pitfalls)
