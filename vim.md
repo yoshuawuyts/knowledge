@@ -152,5 +152,10 @@ With `:set tw=80` do:
 gq
 ```
 
+## Jump to character vim
+```viml
+f<char>
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
