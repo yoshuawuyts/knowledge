@@ -89,6 +89,14 @@ overhead in terms of time management.
 - Mastery
 - Purpose
 
+## Taking interviews
+Whenever you apply for a new job there's a bunch of questions you need to ask.
+
+- what are the positions you have available
+- what kind of employee are you looking for?
+- tell them what you are looking for
+- tell them when you're around / available to further chat
+
 ## See Also
 - [growing consulting practices](http://www.kalzumeus.com/2012/10/10/kalzumeus-podcast-3-growing-consulting-practices-with-brennan-dunn/)
 - [remoteok contracting](https://remoteok.io/remote-contracting-jobs)
