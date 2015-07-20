@@ -152,9 +152,13 @@ With `:set tw=80` do:
 gq
 ```
 
-## Jump to character vim
+## Jump to character
 ```viml
-f<char>
+f<char>  " jump to character
+F<char>  " jump back to char
+t<char>  " jump to char before match
+;        " repeat jump
+,        " repeat jump back
 ```
 
 ## See Also
