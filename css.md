@@ -81,6 +81,16 @@ div[class$="something"] {}    /* search children for "ends with..." */
 - [30 selectors you must memorize](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 - [CSS3 selector substring matching](http://www.impressivewebs.com/css3-attribute-selectors-substring-matching/)
 
+## Print stylesheets
+There are 2 approaches: blacklisting and whitelisting. Whitelisting is unwieldy
+to implement using CSS level 4, so blacklisting is the way to go.
+
+### whitelisting
+Pick the elements you want to hide (sidebar, footer, etc) and set them to
+`display: none`.
+
+- [print stylesheet approaches](https://css-tricks.com/print-stylesheet-approaches-blacklist-vs-whitelist)
+
 ## See also
 - [medium's CSS coding guidelines](https://gist.github.com/fat/a47b882eb5f84293c4ed)
 - [medium's CSS post thingy](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
