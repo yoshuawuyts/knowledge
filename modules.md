@@ -163,6 +163,7 @@
 - [error](https://github.com/Raynos/error) - Error handling utilities for node
 - [flat-tree](https://github.com/mafintosh/flat-tree) - A series of functions to map a binary tree to a list
 - [fuzzysearch](https://www.npmjs.com/package/fuzzysearch) - Tiny and blazing-fast fuzzy search in JavaScript
+- [mutexify](https://github.com/mafintosh/mutexify) - Bike shed mutex lock implementation
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
