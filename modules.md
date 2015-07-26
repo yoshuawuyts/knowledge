@@ -197,6 +197,9 @@
 - [level-ttl](https://github.com/Level/level-ttl) - Add a 'ttl' (time-to-live) option to LevelUP for put() and batch()
 - [memdb](https://github.com/juliangruber/memdb) - LevelUp + MemDown
 
+## Data structures
+- [merkle-dag](https://github.com/mafintosh/merkle-dag) - Merkle DAG on top of LevelDB
+
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
 - [electron-packager](https://github.com/maxogden/electron-packager) - package and distribute your electron app in OS executables (.app) via JS or CLI
