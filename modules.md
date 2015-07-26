@@ -205,6 +205,7 @@
 ## Data structures
 - [merkle-dag](https://github.com/mafintosh/merkle-dag) - Merkle DAG on top of LevelDB
 - [hyperlog](https://github.com/mafintosh/hyperlog) - Merkle DAG that replicates based on scuttlebutt logs and causal linking
+- [hyperlog-index](https://github.com/substack/hyperlog-index/) - transactional indexes for hyperlog
 
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
