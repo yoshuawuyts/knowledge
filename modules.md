@@ -23,6 +23,9 @@
 - [perspective-camera](https://www.npmjs.com/package/perspective-camera) - a high-level 3D perspective camera
 - [icosphere](https://github.com/hughsk/icosphere) - Generates icosphere meshes of varying levels of complexity
 
+## Crypto
+- [sodium](https://github.com/paixaop/node-sodium) - Port of the lib sodium encryption library to Node.js
+
 ## Audio
 - [gl-audio-analyzer](https://github.com/stackgl/gl-audio-analyser) - Pull audio waveform/frequency data into WebGL for realtime audio visualisation
 - [soundcloud-badge](https://github.com/hughsk/soundcloud-badge) - A SoundCloud 'now-playing' badge you can just drop into browserify demos
@@ -49,6 +52,7 @@
 
 ## Markdown
 - [highlights](https://github.com/atom/highlights) - Syntax highlighter
+- [mdast](https://github.com/wooorm/mdast) - Markdown processor powered by plugins
 
 ## Browserify
 - [browserify](http://ghub.io/browserify) - browser-side require() the node.js way
