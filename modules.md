@@ -75,7 +75,6 @@
 - [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) - Isomorphic WHATWG Fetch API
 - [webcomponents.js](https://github.com/webcomponents/webcomponentsjs) - A suite of polyfills supporting the HTML Web Components specs
 - [nets](https://github.com/maxogden/nets) - nothing but nets. http client that works in node and browsers
-- [seamless-immutable](https://github.com/rtfeldman/seamless-immutable) - immutable backwards compat JS structures
 - [user-agent-parser](https://www.npmjs.com/package/user-agent-parser) - Lightweight JavaScript-based user-agent string parser
 - [ua-device-type](https://www.npmjs.com/package/ua-device-type) - user agent based device type sniffer tablet||phone||tv||desktop
 - [inflight](https://github.com/npm/inflight) - Add callbacks to requests in flight to avoid async duplication
@@ -165,7 +164,6 @@
 - [strftime](https://github.com/samsonjs/strftime) - strftime for JavaScript
 - [auto-daemon](https://github.com/substack/auto-daemon) - automatically spawn implicit background services
 - [error](https://github.com/Raynos/error) - Error handling utilities for node
-- [flat-tree](https://github.com/mafintosh/flat-tree) - A series of functions to map a binary tree to a list
 - [fuzzysearch](https://www.npmjs.com/package/fuzzysearch) - Tiny and blazing-fast fuzzy search in JavaScript
 - [mutexify](https://github.com/mafintosh/mutexify) - Bike shed mutex lock implementation
 
@@ -207,6 +205,8 @@
 - [hyperlog](https://github.com/mafintosh/hyperlog) - Merkle DAG that replicates based on scuttlebutt logs and causal linking
 - [hyperlog-index](https://github.com/substack/hyperlog-index/) - transactional indexes for hyperlog
 - [functional-red-black-tree](https://github.com/mikolalysenko/functional-red-black-tree) - A purely functional red-black tree data structure
+- [seamless-immutable](https://github.com/rtfeldman/seamless-immutable) - immutable backwards compat JS structures
+- [flat-tree](https://github.com/mafintosh/flat-tree) - A series of functions to map a binary tree to a list
 
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
