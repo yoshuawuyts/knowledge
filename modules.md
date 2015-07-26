@@ -200,6 +200,7 @@
 - [mynosql](https://github.com/dominictarr/mynosql) - Arbitary WHERE queries for leveldb
 - [level-ttl](https://github.com/Level/level-ttl) - Add a 'ttl' (time-to-live) option to LevelUP for put() and batch()
 - [memdb](https://github.com/juliangruber/memdb) - LevelUp + MemDown
+- [abstract-blob-store](https://github.com/maxogden/abstract-blob-store) - A test suite and interface for blob stores
 
 ## Data structures
 - [merkle-dag](https://github.com/mafintosh/merkle-dag) - Merkle DAG on top of LevelDB
