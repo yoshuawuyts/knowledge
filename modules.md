@@ -195,6 +195,7 @@
 - [level-browserify](https://github.com/Level/level-browserify) - convenience package bundling LevelUP & LevelDOWN or Level.js
 - [mynosql](https://github.com/dominictarr/mynosql) - Arbitary WHERE queries for leveldb
 - [level-ttl](https://github.com/Level/level-ttl) - Add a 'ttl' (time-to-live) option to LevelUP for put() and batch()
+- [memdb](https://github.com/juliangruber/memdb) - LevelUp + MemDown
 
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
