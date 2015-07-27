@@ -96,7 +96,12 @@
 - [brick-server](https://github.com/yoshuawuyts/brick-server/tree/master) - Create an http handler for brick-router
 - [server-summary](https://github.com/yoshuawuyts/server-summary) - Log basic server information after an http server start
 - [on-finished](https://github.com/jshttp/on-finished) - Execute a callback when a request closes, finishes, or errors
-- [course](https://github.com/hughsk/course) - framework-independent express-like router
+- [body](https://github.com/Raynos/body) - Body parsing
+- [methodist](https://github.com/yoshuawuyts/methodist) - HTTP method matching
+- [send-data](https://github.com/Raynos/send-data) - send data through response
+- [corsify](https://github.com/Raynos/corsify) - CORS up a route handler
+- [media-types](https://github.com/Raynos/media-types) - handle multiple media types
+- [redirecter](https://github.com/Raynos/redirecter) - Easy redirection
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) - A Virtual DOM and diffing algorithm
