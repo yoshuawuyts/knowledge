@@ -105,6 +105,22 @@ Find by binary search the change that introduced a bug.
 
 - [git_bisect - linus torvalds](http://yarchive.net/comp/linux/git_bisect.html)
 
+## Manage main and fix commits
+By running `--fixup` you can create fix commits for your main commit; this is a
+better alternative to continuously rebasing on top of your previous commit.
+With `--autosquash` the `--fixup` commits are automatically squashed into their
+relevant commit.
+```sh
+$ git commit --fixup <commit-sha>   # automatically marks your commit as a fix
+                                    # of a previous commit
+$ git rebase -i --autosquash        # automatically organize merging of these
+                                    # fixup commits and associated normal
+                                    # commits
+```
+- [stackoverflow/easily-fixup-past-commit](http://stackoverflow.com/questions/3103589/how-can-i-easily-fixup-a-past-commit)
+- [git-fixup](https://github.com/deiwin/git-dotfiles/blob/docs/bin/git-fixup)
+- [keep your branch clean with git fixup and autosquash](http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html)
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
