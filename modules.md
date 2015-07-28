@@ -79,6 +79,8 @@
 - [ua-device-type](https://www.npmjs.com/package/ua-device-type) - user agent based device type sniffer tablet||phone||tv||desktop
 - [inflight](https://github.com/npm/inflight) - Add callbacks to requests in flight to avoid async duplication
 - [scroll-to-element](https://www.npmjs.com/package/scroll-to-element) - Smooth scrolling to an element via selector or node reference
+- [drag-and-drop-files](https://github.com/mikolalysenko/drag-and-drop-files) - Handle file drag-and-drop events without all the Yak shaving
+- [filereader-stream](https://github.com/maxogden/filereader-stream) - Read an HTML5 File object (from e.g. HTML5 drag and drops) as a stream
 
 ## CSS
 - [rework](https://github.com/reworkcss/rework) - Plugin framework for CSS preprocessing in Node.js
