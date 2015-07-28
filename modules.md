@@ -11,6 +11,7 @@
 - [maxogden/maintainance-modules](https://github.com/maxogden/maintenance-modules) - list of modules that are useful for module dev
 - [meandavejustice/web-audio-modules](https://github.com/meandavejustice/web-audio-modules)
 - [bebraw/jswiki/physics_libraries](https://github.com/bebraw/jswiki/wiki/Physics-libraries)
+- [virtual-dom/modules](https://github.com/Raynos/mercury/tree/master/docs/modules)
 
 ## Graphics
 - [a-big-triangle](https://github.com/mikolalysenko/a-big-triangle) - Draws a big triangle onto the screen
@@ -81,6 +82,8 @@
 - [scroll-to-element](https://www.npmjs.com/package/scroll-to-element) - Smooth scrolling to an element via selector or node reference
 - [drag-and-drop-files](https://github.com/mikolalysenko/drag-and-drop-files) - Handle file drag-and-drop events without all the Yak shaving
 - [filereader-stream](https://github.com/maxogden/filereader-stream) - Read an HTML5 File object (from e.g. HTML5 drag and drops) as a stream
+- [value-event](https://github.com/Raynos/value-event) - Create DOM event handlers that write to listeners
+- [dom-delegator](https://github.com/Raynos/dom-delegator) - Decorate elements with delegated events
 
 ## CSS
 - [rework](https://github.com/reworkcss/rework) - Plugin framework for CSS preprocessing in Node.js
@@ -214,6 +217,7 @@
 - [functional-red-black-tree](https://github.com/mikolalysenko/functional-red-black-tree) - A purely functional red-black tree data structure
 - [seamless-immutable](https://github.com/rtfeldman/seamless-immutable) - immutable backwards compat JS structures
 - [flat-tree](https://github.com/mafintosh/flat-tree) - A series of functions to map a binary tree to a list
+- [observ](https://github.com/Raynos/observ) - An observable value representation
 - [observ-struct](https://github.com/Raynos/observ-struct) - An object with observable key value pairs
 - [observ-array](https://github.com/Raynos/observ-array) - An array containing observable values
 
