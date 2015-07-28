@@ -214,6 +214,8 @@
 - [functional-red-black-tree](https://github.com/mikolalysenko/functional-red-black-tree) - A purely functional red-black tree data structure
 - [seamless-immutable](https://github.com/rtfeldman/seamless-immutable) - immutable backwards compat JS structures
 - [flat-tree](https://github.com/mafintosh/flat-tree) - A series of functions to map a binary tree to a list
+- [observ-struct](https://github.com/Raynos/observ-struct) - An object with observable key value pairs
+- [observ-array](https://github.com/Raynos/observ-array) - An array containing observable values
 
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
