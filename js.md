@@ -131,6 +131,46 @@ const prom = new Promise((resolve, reject) => {
 })
 ```
 
+## Testing CLI applications
+Either through `exec` or `pipe`.
+
+__exec__
+```js
+const exec = require('child_process').exec
+const fs = require('fs')
+
+const cmd = 'echo ./* | ' + Bulk.cmd+' -c "pwd"'
+var dir = __dirname + '/node_modules/@scoped'
+
+exec(cmd, {cwd: dir}, function(err, stdout, stderr) {
+  var dirs = fs.readdirSync(dir).map(function(item) {
+    return path.join(dir, item)
+  })
+  t.ifError(err)
+  t.deepEqual(stdout.trim().split(/\s+/g), dirs)
+  t.end()
+})
+```
+
+__pipe__
+```js
+const bulk = Bulk('pwd')
+const bl = require('bl')
+
+bulk.stdout
+  .pipe(bl(function(err, chunk) {
+    var stdout = chunk.toString()
+    t.ifError(err)
+    var expected = fs.readdirSync(dir).map(function(item) {
+      return path.join(dir, item)
+    })
+    t.deepEqual(stdout.trim().split(/\s+/), expected)
+    t.end()
+  }))
+
+bulk.stdin.end(dirs.join(' '))
+```
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
 - [js pitfalls](http://nrn.io/view/javascript-common-pitfalls)
