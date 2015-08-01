@@ -14,6 +14,7 @@
 - [virtual-dom/modules](https://github.com/Raynos/mercury/tree/master/docs/modules)
 - [livejs](https://github.com/livejs)
 - [livejs/ndpixels](https://github.com/livejs/ndpixels)
+- [mdast/plugins](https://github.com/wooorm/mdast/blob/master/doc/plugins.md#list-of-plugins)
 
 ## Graphics
 - [a-big-triangle](https://github.com/mikolalysenko/a-big-triangle) - Draws a big triangle onto the screen
@@ -60,7 +61,6 @@
 - [rtcat](https://github.com/substack/rtcat) - webrtc netcat
 - [urit](https://github.com/yoshuawuyts/urit) - RFC 6570 uri templates
 - [fsm-event](https://github.com/yoshuawuyts/fsm-event) - stateful finite state machine
-- [ronn](https://github.com/isaacs/ronnjs) - markdown to roff/html converter
 - [publish-release](https://github.com/remixz/publish-release) - Create GitHub releases with assets
 - [depenency-check](https://github.com/maxogden/dependency-check) - Assert deps
 - [psy](https://github.com/substack/psy) - process monitor command
@@ -68,6 +68,13 @@
 ## Markdown
 - [highlights](https://github.com/atom/highlights) - Syntax highlighter
 - [mdast](https://github.com/wooorm/mdast) - Markdown processor powered by plugins
+- [mdast-lint](https://github.com/wooorm/mdast-lint) - Markdown code style linter
+- [mdast-toc](https://github.com/wooorm/mdast-toc) - Generate a Table of Contents (TOC) for Markdown files
+- [mdast-man](https://github.com/wooorm/mdast-man) - Compile Markdown to man pages (roff) with mdast
+- [mdast-strip-badges](https://github.com/wooorm/mdast-strip-badges) - Remove badges (such as shields.io) from markdown
+- [mdast-usage](https://github.com/wooorm/mdast-usage) - Add a usage example to your Readme
+- [mdast-inline-links](https://github.com/wooorm/mdast-inline-links) - Transform references and definitions into normal links and images
+- [mdast-html](https://github.com/wooorm/mdast-html) - Compile Markdown to HTML with mdast
 
 ## Browserify
 - [browserify](http://ghub.io/browserify) - browser-side require() the node.js way
