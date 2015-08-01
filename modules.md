@@ -175,7 +175,6 @@
 
 ## P2P
 - [signalhub](https://github.com/mafintosh/signalhub) - Simple signalling server that can be used to coordinate handshaking with webrtc
-- [simple-peer](https://github.com/feross/simple-peer) - Simple WebRTC video/voice and data channels
 - [bittorent-dht](https://github.com/feross/bittorrent-dht) - Simple, robust, BitTorrent DHT implementation
 - [webrtc-swarm](https://github.com/mafintosh/webrtc-swarm) - Create a swarm of p2p connections using webrtc and a signalhub
 - [peer-wire-swarm](https://github.com/mafintosh/peer-wire-swarm) - swarm implementation for bittorrent
