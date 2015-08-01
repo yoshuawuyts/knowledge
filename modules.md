@@ -100,12 +100,9 @@
 - [dom-delegator](https://github.com/Raynos/dom-delegator) - Decorate elements with delegated events
 
 ## CSS
-- [rework](https://github.com/reworkcss/rework) - Plugin framework for CSS preprocessing in Node.js
-- [rework-npm](https://github.com/reworkcss/rework-npm) - Import CSS from npm modules using rework
-- [myth](https://github.com/segmentio/myth) - A CSS preprocessor that acts like a polyfill for future versions of the spec
 - [css-wipe](https://github.com/yoshuawuyts/css-wipe) - Reset the browser's styles
 - [defaultcss](https://github.com/DamonOehlman/defaultcss) - Add a style definition in your HTML
-- [css-next](https://github.com/cssnext/cssnext) - Use tomorrow's CSS syntax, today
+- [cssnext](https://github.com/cssnext/cssnext) - Use tomorrow's CSS syntax, today
 - [wrap-selectors](https://github.com/requireio/wrap-selectors) - Wrap CSS selectors up within a prefix and/or suffix
 - [picturefill](https://github.com/scottjehl/picturefill) - A responsive image polyfill for &lt;picture&gt;, srcset, sizes, and more
 - [css-element-queries](https://github.com/marcj/css-element-queries) - CSS-Element-Queries Polyfill
