@@ -146,6 +146,9 @@
 - [touches](https://github.com/Jam3/touches) - simplified touch/mouse events for flick and swipe
 - [insert](https://github.com/npm-dom/insert) - DOM insertion library
 - [next-tick](http://npmjs.org/package/next-tick) - Environment agnostic nextTick polyfill
+- [dom-delegator](https://github.com/Raynos/dom-delegator) - Decorate elements with delegated events
+- [html-delegator](https://github.com/Raynos/html-delegator) - Decorate elements with delegated events
+- [value-event](https://github.com/Raynos/value-event) - Create DOM event handlers that write to listeners
 
 ## SVG
 - [virtual-hyperscript-svg](https://github.com/substack/virtual-hyperscript-svg) - create virtual-dom nodes for svg using hyperscript syntax
@@ -212,6 +215,13 @@
 - [stream-iterate](https://github.com/mafintosh/stream-iterate) - Iterate through the values of a stream
 - [multiplex-rpc](https://github.com/substack/multiplex-rpc) - rpc with multiplexed duplex streams
 - [split](https://www.npmjs.com/package/split) - split a Text Stream into a Line Stream
+
+## Event emitters
+- [geval](https://github.com/Raynos/geval) - event implementation
+- [value-event](https://github.com/Raynos/value-event) - Create DOM event handlers that write to listeners
+- [dom-delegator](https://github.com/Raynos/dom-delegator) - Decorate elements with delegated events
+- [html-delegator](https://github.com/Raynos/html-delegator) - Decorate elements with delegated events
+- [event-sinks](https://github.com/Raynos/event-sinks) - create a set of sinks for events
 
 ## CLI
 - [minimist](https://github.com/substack/minimist) - parse argument options
