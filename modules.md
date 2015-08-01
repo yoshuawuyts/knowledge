@@ -12,6 +12,8 @@
 - [meandavejustice/web-audio-modules](https://github.com/meandavejustice/web-audio-modules)
 - [bebraw/jswiki/physics_libraries](https://github.com/bebraw/jswiki/wiki/Physics-libraries)
 - [virtual-dom/modules](https://github.com/Raynos/mercury/tree/master/docs/modules)
+- [livejs](https://github.com/livejs)
+- [livejs/ndpixels](https://github.com/livejs/ndpixels)
 
 ## Graphics
 - [a-big-triangle](https://github.com/mikolalysenko/a-big-triangle) - Draws a big triangle onto the screen
@@ -31,6 +33,18 @@
 - [gl-audio-analyzer](https://github.com/stackgl/gl-audio-analyser) - Pull audio waveform/frequency data into WebGL for realtime audio visualisation
 - [soundcloud-badge](https://github.com/hughsk/soundcloud-badge) - A SoundCloud 'now-playing' badge you can just drop into browserify demos
 - [audio-clock](https://www.npmjs.com/package/audio-clock) - keep time for audio apps
+- [read-audio](https://github.com/livejs/read-audio) - Read raw audio input as a stream of ndsamples
+- [ndsamples](https://github.com/ahdinosaur/ndsamples) - ndsamples are ndarrays in a format for audio
+- [audio-rms](https://github.com/livejs/audio-rms) - Connect a Web Audio API AudioNode and stream out the realtime RMS audio level
+- [node-audio-rms](https://github.com/livejs/node-audio-rms) - stream real-time RMS from ndarrays of audio samples
+- [freeverb](https://github.com/livejs/freeverb) - A Web Audio implementation of freeverb (Schroeder Reverberator)
+- [wave-recorder](https://github.com/livejs/wave-recorder) -  Record WAVE files using Web Audio API and persist with Web FileSystem API
+- [tap-tempo](https://github.com/livejs/tap-tempo) - Estimates BPM from tap events
+- [midi-querty-keys](https://github.com/livejs/midi-qwerty-keys) - Use qwerty keyboard as midi keyboard in the browser
+- [bopper](https://github.com/livejs/bopper) - Streaming clock source for scheduling Web Audio events rhythmically
+- [ditty](https://github.com/livejs/ditty) - Schedule playback for a loop sequence of Web Audio events using bopper
+- [audio-slot](https://github.com/mmckegg/audio-slot) - Web Audio API FRP wrapper for creating, routing, and triggering AudioNodes
+- [loop-drop-app](https://github.com/mmckegg/loop-drop-app) - MIDI looper, modular synth and sampler app
 
 ## Tools
 - [standard](http://ghub.io/standard) - JavaScript standard style linter
