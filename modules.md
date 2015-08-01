@@ -46,6 +46,8 @@
 - [ditty](https://github.com/livejs/ditty) - Schedule playback for a loop sequence of Web Audio events using bopper
 - [audio-slot](https://github.com/mmckegg/audio-slot) - Web Audio API FRP wrapper for creating, routing, and triggering AudioNodes
 - [loop-drop-app](https://github.com/mmckegg/loop-drop-app) - MIDI looper, modular synth and sampler app
+- [soundbank](https://github.com/mmckegg/soundbank) - A collection of triggerable Web Audio API audio slots
+- [bitcrush](https://github.com/jaz303/bitcrusher) - Bitcrush effect for Web Audio API
 
 ## Tools
 - [standard](http://ghub.io/standard) - JavaScript standard style linter
@@ -193,6 +195,8 @@
 - [error](https://github.com/Raynos/error) - Error handling utilities for node
 - [fuzzysearch](https://www.npmjs.com/package/fuzzysearch) - Tiny and blazing-fast fuzzy search in JavaScript
 - [mutexify](https://github.com/mafintosh/mutexify) - Bike shed mutex lock implementation
+- [deep-equal](https://github.com/substack/node-deep-equal) - Node's assert.deepEqual() algorithm as a standalone module
+- [array-union](https://www.npmjs.com/package/array-union) - Create an array of unique values, in order, from the input arrays
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
@@ -237,6 +241,7 @@
 - [observ](https://github.com/Raynos/observ) - An observable value representation
 - [observ-struct](https://github.com/Raynos/observ-struct) - An object with observable key value pairs
 - [observ-array](https://github.com/Raynos/observ-array) - An array containing observable values
+- [observ-node-array](https://github.com/mmckegg/observ-node-array) - Populate an observable array from node descriptors
 
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
