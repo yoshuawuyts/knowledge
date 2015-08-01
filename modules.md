@@ -41,7 +41,7 @@
 - [freeverb](https://github.com/livejs/freeverb) - A Web Audio implementation of freeverb (Schroeder Reverberator)
 - [wave-recorder](https://github.com/livejs/wave-recorder) -  Record WAVE files using Web Audio API and persist with Web FileSystem API
 - [tap-tempo](https://github.com/livejs/tap-tempo) - Estimates BPM from tap events
-- [midi-querty-keys](https://github.com/livejs/midi-qwerty-keys) - Use qwerty keyboard as midi keyboard in the browser
+- [midi-qwerty-keys](https://github.com/livejs/midi-qwerty-keys) - Use qwerty keyboard as midi keyboard in the browser
 - [bopper](https://github.com/livejs/bopper) - Streaming clock source for scheduling Web Audio events rhythmically
 - [ditty](https://github.com/livejs/ditty) - Schedule playback for a loop sequence of Web Audio events using bopper
 - [audio-slot](https://github.com/mmckegg/audio-slot) - Web Audio API FRP wrapper for creating, routing, and triggering AudioNodes
