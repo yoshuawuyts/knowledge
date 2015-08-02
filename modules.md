@@ -215,6 +215,7 @@
 - [stream-iterate](https://github.com/mafintosh/stream-iterate) - Iterate through the values of a stream
 - [multiplex-rpc](https://github.com/substack/multiplex-rpc) - rpc with multiplexed duplex streams
 - [split](https://www.npmjs.com/package/split) - split a Text Stream into a Line Stream
+- [mississippi](https://github.com/maxogden/mississippi) - a collection of useful stream utility modules
 
 ## Event emitters
 - [geval](https://github.com/Raynos/geval) - event implementation
