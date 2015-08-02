@@ -232,6 +232,7 @@
 - [string-editor](https://github.com/mafintosh/string-editor) - Edit a string using $EDITOR from within your node app
 - [subarg](https://github.com/substack/subarg) - parse arguments with recursive contexts
 - [cli-md](https://github.com/finnp/cli-md) - Markdown for your Terminal
+- [shell-quote](https://github.com/substack/node-shell-quote) - quote and parse shell commands
 
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store) - streamable content addressable blob object store
