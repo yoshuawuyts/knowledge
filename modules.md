@@ -200,6 +200,7 @@
 - [mutexify](https://github.com/mafintosh/mutexify) - Bike shed mutex lock implementation
 - [deep-equal](https://github.com/substack/node-deep-equal) - Node's assert.deepEqual() algorithm as a standalone module
 - [array-union](https://www.npmjs.com/package/array-union) - Create an array of unique values, in order, from the input arrays
+- [dotty](https://github.com/deoxxa/dotty) - Access properties of nested objects using dot-path notation
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
@@ -233,6 +234,7 @@
 - [subarg](https://github.com/substack/subarg) - parse arguments with recursive contexts
 - [cli-md](https://github.com/finnp/cli-md) - Markdown for your Terminal
 - [shell-quote](https://github.com/substack/node-shell-quote) - quote and parse shell commands
+- [rc](https://github.com/dominictarr/rc) - The non-configurable configuration loader for lazy people
 
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store) - streamable content addressable blob object store
