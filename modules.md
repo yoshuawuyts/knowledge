@@ -235,6 +235,7 @@
 - [cli-md](https://github.com/finnp/cli-md) - Markdown for your Terminal
 - [shell-quote](https://github.com/substack/node-shell-quote) - quote and parse shell commands
 - [rc](https://github.com/dominictarr/rc) - The non-configurable configuration loader for lazy people
+- [inquirer](https://github.com/SBoudrias/Inquirer.js) - A collection of common interactive command line user interfaces
 
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store) - streamable content addressable blob object store
