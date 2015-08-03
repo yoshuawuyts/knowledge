@@ -229,7 +229,7 @@ $ cat ./my-file | grep 'foo'
 ```
 
 The same program using streams:
-```sh
+```js
 const through = require('through2')
 const fs = require('fs')
 
