@@ -356,7 +356,7 @@ create the stream, or you can do it later using the `.setWritable` and
 buffered for you
 
 ```js
-const stdio = duplexify(process.stdin, process.stdout)
+const stdio = duplexify(process.stdout, process.stdin)
 ```
 
 #### [through2](https://github.com/rvagg/through2)
