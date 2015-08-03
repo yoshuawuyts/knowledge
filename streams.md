@@ -2,10 +2,9 @@
 Streams are a control flow abstraction native to node to read, transform and
 write data. Streams are composable, efficient and _easy_! Yes, really. As a
 stream consumer, you can consider streams to be the simpler counterpart to
-Promises. This section is meant to give you a pragmatic introduction to all
-aspects of streams. If you're looking for a guide that covers _all_ aspects,
-check out the [stream handbook](https://github.com/substack/stream-handbook) by
-substack.
+Promises. This section is meant to give you a pragmatic introduction to
+streams. If you're looking for a guide that covers _all_ aspects, check out the
+[stream handbook](https://github.com/substack/stream-handbook) by substack.
 
 - [basics](#basics)
 - [read-transform-write](#read-transform-write)
@@ -13,9 +12,9 @@ substack.
 - [internals](#internals)
 - [creating streams](#creating-streams)
 - [testing streams](#testing-streams)
-- [resources](#see-also)
+- [see also](#see-also)
 
-## basics
+## Basics
 There are 4 types of streams:
 - __read__: data can be read from (e.g. `fs.createReadStream`)
 - __write__: data can be written to (e.g. `fs.createWriteStream`)
@@ -48,7 +47,7 @@ the program faster and less prone to crash. Using the regular `fs.readFile` /
 `fs.readFileSync` api's with `'utf8'` will devour resources and eventually
 crash on large files.
 
-## read-transform-write
+## Read-transform-write
 In shell / unix the most common operation is to read data from a source,
 transform it, and then write it back out. In shell:
 ```sh
@@ -102,7 +101,7 @@ The `grep` function works as follows:
 And that's it! You should now understand what a read stream is, how to create
 transform streams, and how to pipe data back out to either `stdout` or a file.
 
-### modules
+## Modules
 By design Node only exposes bare essentials, leaving much of the staple
 functionality to live in userland (npm). If you're working with streams, these
 are probably the packages you want to be using.
@@ -228,13 +227,13 @@ fs.createReadStream('./cat.jpg')
     }))
 ```
 
-## internals
+## Internals
 [tbi]
 
-## creating streams
+## Creating streams
 [tbi]
 
-## testing streams
+## Testing streams
 [tbi]
 
 ## See Also
