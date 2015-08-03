@@ -228,7 +228,52 @@ fs.createReadStream('./cat.jpg')
 ```
 
 ## Internals
-[tbi]
+Streams are a superset of node's `EventEmitter`, relying on events to
+communicate between streams. `.pipe()` is a convenience function to attach the
+right listeners to the events. Back-pressure (letting the parent stream know
+you're ready / not ready to consume data) requires event emitters to be
+attached to both sides of the `.pipe()`.
+
+Event emitters allow a one to many relationship. A single value can be passed
+to multiple callbacks (listeners). Callbacks can self-register on an emitter,
+making them fully composable.
+
+The following events are exposed:
+### stream.Readable
+- __'readable'__:
+- __'data'__:
+- __'end'__:
+- __'close'__:
+- __'error'__:
+
+### stream.Writable
+- __'drain'__:
+- __'finish'__:
+- __'pipe'__:
+- __'unpipe'__:
+- __'error'__:
+
+### stream.Duplex
+- __'readable'__:
+- __'data'__:
+- __'end'__:
+- __'close'__:
+- __'drain'__:
+- __'finish'__:
+- __'pipe'__:
+- __'unpipe'__:
+- __'error'__:
+
+### stream.Transform
+- __'readable'__:
+- __'data'__:
+- __'end'__:
+- __'close'__:
+- __'drain'__:
+- __'finish'__:
+- __'pipe'__:
+- __'unpipe'__:
+- __'error'__:
 
 ## Creating streams
 [tbi]
@@ -239,4 +284,4 @@ fs.createReadStream('./cat.jpg')
 ## See Also
 - [stream handbook](https://github.com/substack/stream-handbook) - stream guide by substack
 - [mississippi](https://github.com/maxogden/mississippi) - a collection of useful stream utility modules
-- [iojs/api/streams](https://iojs.org/api/stream.htm) - iojs streams documentation
+- [iojs/api/streams](https://iojs.org/api/stream.html) - iojs streams documentation
