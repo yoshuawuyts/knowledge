@@ -249,6 +249,7 @@
 - [memdb](https://github.com/juliangruber/memdb) - LevelUp + MemDown
 - [abstract-blob-store](https://github.com/maxogden/abstract-blob-store) - A test suite and interface for blob stores
 - [lev](https://github.com/hij1nx/lev) - The complete REPL & CLI for managing LevelDB instances
+- [bytewise](https://github.com/deanlandolt/bytewise) - Binary serialization of arbitrarily complex structures that sort bytewise
 
 ## Data structures
 - [merkle-dag](https://github.com/mafintosh/merkle-dag) - Merkle DAG on top of LevelDB
