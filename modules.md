@@ -203,6 +203,7 @@
 - [dotty](https://github.com/deoxxa/dotty) - Access properties of nested objects using dot-path notation
 - [readdirp](https://github.com/thlorenz/readdirp) - Recursive version of fs.readdir with streaming api
 - [rimraf](https://github.com/isaacs/rimraf) - A `rm -rf` util for nodejs
+- [traverse](https://www.npmjs.com/package/traverse) - traverse and transform objects by visiting every node on a recursive walk
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
