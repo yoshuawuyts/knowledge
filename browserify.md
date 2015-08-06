@@ -105,7 +105,9 @@ Browserify's capabilities. There are 3 ways of using transforms: from the CLI,
 }
 ```
 Now [`brfs`](https://github.com/substack/brfs) will be called on all code
-that's part of `mypkg`.
+that's part of `mypkg`. By including it in `package.json`, the transform
+will be run on `mypkg` when `mypkg` is required by a parent package that is
+being bundled with Browserify.
 
 Some useful transforms are:
 - [brfs](https://github.com/substack/brfs) - Browserify fs.readFileSync()
