@@ -116,19 +116,20 @@ Some useful transforms are:
   environment variables with plain strings
 - [uglifyify](https://github.com/hughsk/uglifyify) - A Browserify transform
   which minifies your code using UglifyJS2
-- [exorcist](https://github.com/thlorenz/exorcist) - Externalizes the source
-  map found inside a stream to an external .js.map file
-- [errorify](https://github.com/zertosh/errorify) - Browserify plugin to write
+
+Browserify plugins have full access to the bundle and can do more advanced things:
+ - [errorify](https://github.com/zertosh/errorify) - write
   failed build error messages to the output file
 - [factor-bundle](https://github.com/substack/factor-bundle) - factor
   browser-pack bundles into common shared bundles
-- [webworkify](https://github.com/substack/webworkify) - launch a web worker
-  that can require() in the browser with Browserify
+- [proxyquireify](https://github.com/thlorenz/proxyquireify) - mock
+  modules for testing by overriding `require`
 
-And though not a transform, you will want to check out disc for (very pretty)
-debugging:
+There are also a number of useful modules that integrate via a CLI or Unix piping:
 - [disc](https://github.com/hughsk/disc) - Visualise the module tree of
   Browserify project bundles and track down bloat
+- [exorcist](https://github.com/thlorenz/exorcist) - Externalizes the source
+  map found inside a stream to an external .js.map file
 
 ## What's the difference with other bundlers?
 Browserify is different from other bundlers because of its simplicity. Where
