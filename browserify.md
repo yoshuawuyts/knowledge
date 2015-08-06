@@ -6,7 +6,7 @@ critique is that its documentation doesn't lend itself well to beginners.
 This guide is meant to give you a pragmatic introduction to `Browserify`. If
 you're looking for a more complete overview, check out
 [browserify-handbook](https://github.com/substack/browserify-handbook) by
-James Halliway (Substack).
+James Halliday (Substack).
 
 - [what is browserify?](#what-is-browserify)
 - [how to use browserify](#how-to-use-browserify)
