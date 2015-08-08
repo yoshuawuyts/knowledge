@@ -120,7 +120,7 @@ Some useful transforms are:
   which minifies your code using UglifyJS2
 
 Browserify plugins have full access to the bundle and can do more advanced things:
- - [errorify](https://github.com/zertosh/errorify) - write
+- [errorify](https://github.com/zertosh/errorify) - write
   failed build error messages to the output file
 - [factor-bundle](https://github.com/substack/factor-bundle) - factor
   browser-pack bundles into common shared bundles
