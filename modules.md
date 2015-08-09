@@ -200,7 +200,6 @@
 - [mutexify](https://github.com/mafintosh/mutexify) - Bike shed mutex lock implementation
 - [deep-equal](https://github.com/substack/node-deep-equal) - Node's assert.deepEqual() algorithm as a standalone module
 - [array-union](https://www.npmjs.com/package/array-union) - Create an array of unique values, in order, from the input arrays
-- [flat](https://github.com/hughsk/flat) - Flatten/unflatten nested Javascript objects
 - [readdirp](https://github.com/thlorenz/readdirp) - Recursive version of fs.readdir with streaming api
 - [rimraf](https://github.com/isaacs/rimraf) - A `rm -rf` util for nodejs
 - [traverse](https://www.npmjs.com/package/traverse) - traverse and transform objects by visiting every node on a recursive walk
@@ -263,6 +262,8 @@
 - [observ-struct](https://github.com/Raynos/observ-struct) - An object with observable key value pairs
 - [observ-array](https://github.com/Raynos/observ-array) - An array containing observable values
 - [observ-node-array](https://github.com/mmckegg/observ-node-array) - Populate an observable array from node descriptors
+- [dotty](https://github.com/deoxxa/dotty) - Access properties of nested objects using dot-path notation
+- [flat](https://github.com/hughsk/flat) - Flatten/unflatten nested Javascript objects
 
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
