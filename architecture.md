@@ -111,3 +111,4 @@ aspect as the system.
 - [simple made easy](http://www.infoq.com/presentations/Simple-Made-Easy)
 - [reusability trap](http://250bpm.com/blog:49)
 - [finish your projects](http://250bpm.com/blog:50)
+- [server-style-guide](https://github.com/jonathanong/server-style-guide)
