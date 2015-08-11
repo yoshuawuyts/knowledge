@@ -40,6 +40,18 @@ you'll be in big big trouble (e.g. using < 20% of resources, making dynamoDB
 
 Writes are 5x as expensive as reads.
 
+- [falling in and out of love with dynamodb](http://0x74696d.com/posts/falling-in-and-out-of-love-with-dynamodb-part-ii/)
+
+### queries
+Queries can either be created using nested JS objects or
+[key-condition expressions](http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html#DDB-Query-request-KeyConditionExpression).
+
+- [dynamodb/query-and-scan](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/QueryAndScan.html#QueryAndScan.Query)
+- [dynamodb/query-property](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#query-property)
+- [dynamodb/api-query](http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html)
+- [aws-blog/key-condition-expression](https://aws.amazon.com/blogs/aws/dynamodb-update-improved-json-editing-key-condition-expressions/)
+- [dynamodb/key-condition-expression](http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html#DDB-Query-request-KeyConditionExpression)
+
 ### modules
 - [dynamo-streams](https://github.com/jed/dynamo-streams) - A stream-flavored wrapper for the AWS DynamoDB JavaScript API
 - [dynamo-client](https://github.com/jed/dynamo-client) - A low-level client for accessing DynamoDB from node.js
@@ -48,3 +60,4 @@ Writes are 5x as expensive as reads.
 
 ### links
 - [falling in and out of love with dynamodb](http://0x74696d.com/posts/falling-in-and-out-of-love-with-dynamodb-part-ii/)
+- [dynamodb for js cheat sheet](http://www.markomedia.com.au/dynamodb-for-javascript-cheatsheet/)
