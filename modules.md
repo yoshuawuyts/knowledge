@@ -250,6 +250,13 @@
 - [abstract-blob-store](https://github.com/maxogden/abstract-blob-store) - A test suite and interface for blob stores
 - [lev](https://github.com/hij1nx/lev) - The complete REPL & CLI for managing LevelDB instances
 - [bytewise](https://github.com/deanlandolt/bytewise) - Binary serialization of arbitrarily complex structures that sort bytewise
+- [level-secondary](https://github.com/juliangruber/level-secondary) - Secondary indexes for leveldb
+- [level-tmp](https://github.com/mafintosh/level-temp) - Create a temporary sublevel that is guaranteed to be empty
+- [level-logs](https://github.com/mafintosh/level-logs) - Store multiple append only logs in leveldb
+- [sublevel-prefixer](https://github.com/mafintosh/sublevel-prefixer) - Prefix a key with a sublevel prefix
+- [map-reduce](https://github.com/dominictarr/map-reduce) async map-reduce functions for nodejs
+- [level-indexer](https://github.com/mafintosh/level-indexer) - generic property indexer for leveldb
+- [level-livefeed](https://github.com/Raynos/level-livefeed/) - Live query a range in leveldb
 
 ## Data structures
 - [merkle-dag](https://github.com/mafintosh/merkle-dag) - Merkle DAG on top of LevelDB
