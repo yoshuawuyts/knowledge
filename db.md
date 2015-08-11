@@ -46,6 +46,17 @@ Writes are 5x as expensive as reads.
 Queries can either be created using nested JS objects or
 [key-condition expressions](http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html#DDB-Query-request-KeyConditionExpression).
 
+- `a = b` true if the attribute a is equal to the value b
+- `a < b` true if a is less than b
+- `a <= b` true if a is less than or equal to b
+- `a > b` true if a is greater than b
+- `a >= b` true if a is greater than or equal to b
+- `a BETWEEN b AND c` true if a is greater than or equal to b, and less than or
+  equal to c
+- `begins_with (a, substr)` true if the value of attribute a begins with a
+  particular substring
+
+
 - [dynamodb/query-and-scan](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/QueryAndScan.html#QueryAndScan.Query)
 - [dynamodb/query-property](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#query-property)
 - [dynamodb/api-query](http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html)
@@ -53,10 +64,14 @@ Queries can either be created using nested JS objects or
 - [dynamodb/key-condition-expression](http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html#DDB-Query-request-KeyConditionExpression)
 
 ### modules
-- [dynamo-streams](https://github.com/jed/dynamo-streams) - A stream-flavored wrapper for the AWS DynamoDB JavaScript API
-- [dynamo-client](https://github.com/jed/dynamo-client) - A low-level client for accessing DynamoDB from node.js
-- [dynamo-down](https://github.com/jed/dynamo-down) - A leveldown API implementation on AWS DynamoDB
-- [dynalite](https://github.com/mhart/dynalite) - A mock implementation of Amazon's DynamoDB built on LevelDB
+- [dynamo-streams](https://github.com/jed/dynamo-streams) - A stream-flavored
+  wrapper for the AWS DynamoDB JavaScript API
+- [dynamo-client](https://github.com/jed/dynamo-client) - A low-level client
+  for accessing DynamoDB from node.js
+- [dynamo-down](https://github.com/jed/dynamo-down) - A leveldown API
+  implementation on AWS DynamoDB
+- [dynalite](https://github.com/mhart/dynalite) - A mock implementation of
+  Amazon's DynamoDB built on LevelDB
 
 ### links
 - [falling in and out of love with dynamodb](http://0x74696d.com/posts/falling-in-and-out-of-love-with-dynamodb-part-ii/)
