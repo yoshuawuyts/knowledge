@@ -114,6 +114,7 @@ top of the models, giving maximum reusability.
 ### resources
 - [domain model is not persistance model](http://blog.sapiensworks.com/post/2012/04/07/Just-Stop-It!-The-Domain-Model-Is-Not-The-Persistence-Model.aspx/)
 - [ddd persistance model and domain model](http://stackoverflow.com/questions/14024912/ddd-persistence-model-and-domain-model)
+- [anemic domain model](http://www.martinfowler.com/bliki/AnemicDomainModel.html)
 
 ## See Also
 - [service disoriented architecture](http://bravenewgeek.com/service-disoriented-architecture/)
