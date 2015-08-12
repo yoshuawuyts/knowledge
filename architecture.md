@@ -116,6 +116,42 @@ top of the models, giving maximum reusability.
 - [ddd persistance model and domain model](http://stackoverflow.com/questions/14024912/ddd-persistence-model-and-domain-model)
 - [anemic domain model](http://www.martinfowler.com/bliki/AnemicDomainModel.html)
 
+## Microservice Monolith
+If you write shell scripts your framework is `unix / sh`. If you write Node
+applications your framework is JS. Crossing framework boundries is a cause of
+complexity because the interfaces do not fully align. Containing logic within a
+single framework saves cost in the long run.
+
+But before we can put the knowledge above into practice, we need to take a step
+back and look at architecture. There are generally 2 types of architecture:
+- __monolithic__: single codebase, all logic lives within here.
+- __modular__: multiple code bases, concerns (and logic) are separated. Buzz
+  word: microservice.
+
+Monoliths are beautiful in itself: by deploying a single codebase everything
+works. There's a lot more simplicity to the project, but can backfire
+horrificly if wrongly designed.
+
+Microservices are much more lenient towards bad design: if a service doesn't
+work well you can (in theory) replace it by another, better designed service.
+Mistakes don't leak.
+
+Most projects are somewhere in between the two. For example a node project with
+an external database, or a service that handles multiple concerns. A
+microservice monolith is both:
+- __single framework__: no shell-outs or parent processes: all of the logic is
+  contained within a single VM. Example: Node + LevelDB.
+- __modular architecture__: using an internal event system and separated
+  concerns the application logic is decoupled. Every service should be able to
+  be run standalone.
+
+By building a microservice monolith you gain the best of both worlds: the
+ease of deployment and initial speed of a monolith + the loose coupling and
+maintainability of a modular architecutre.
+
+__resources__
+- [microservice envy](http://martinfowler.com/bliki/MicroservicePremium.html)
+
 ## See Also
 - [service disoriented architecture](http://bravenewgeek.com/service-disoriented-architecture/)
 - [engineering blogs](https://github.com/kilimchoi/engineering-blogs)
