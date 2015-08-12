@@ -171,6 +171,11 @@ bulk.stdout
 bulk.stdin.end(dirs.join(' '))
 ```
 
+## Short indexof
+Perform a bitwise flip on `-1` for truthy check:
+```js
+if (~['hi'].indexOf('foo')) // do something
+```
 
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
