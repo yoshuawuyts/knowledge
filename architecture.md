@@ -78,6 +78,36 @@ aspect as the system.
 
 - [Entity_component_system](https://en.wikipedia.org/wiki/Entity_component_system)
 
+## Domain Driven Design (DDD)
+Domain Driven Design (DDD) is a style of coding where you separate your business
+logic (domains) from implementation details (api / database). As with
+everything in engineering it has tradeoffs:
+- __speed__: DDD takes longer than monolithic approaches
+- __flexibility__: DDD is more flexible than monolithic approaches
+
+### when should you do DDD?
+Ask yourself the following question:
+> Will this project be maintained in the future?
+
+If the answer is yes, DDD might be a good fit. If not, DDD is not for you.
+
+### domain vs persistance
+- __domain model__: real-life problems and solutions, models __behavior__.
+- __persistance model__: what and how data is stored, models __storage structure__.
+
+Start with the domain first, as it caters to the problem that's being solved.
+The persistance model is an implementation detail to the domain model.
+
+A domain is persistance agnostic. The persistance model, however, needs to be
+aware of the domain in order to transform the data.
+
+### slicing the lasagna
+[ tbi ]
+
+### resources
+- [domain model is not persistance model](http://blog.sapiensworks.com/post/2012/04/07/Just-Stop-It!-The-Domain-Model-Is-Not-The-Persistence-Model.aspx/)
+- [ddd persistance model and domain model](http://stackoverflow.com/questions/14024912/ddd-persistence-model-and-domain-model)
+
 ## See Also
 - [service disoriented architecture](http://bravenewgeek.com/service-disoriented-architecture/)
 - [engineering blogs](https://github.com/kilimchoi/engineering-blogs)
