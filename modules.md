@@ -128,6 +128,7 @@
 - [media-types](https://github.com/Raynos/media-types) - handle multiple media types
 - [redirecter](https://github.com/Raynos/redirecter) - Easy redirection
 - [filed](https://github.com/mikeal/filed) - Simplified file library
+- [sqs](https://github.com/mafintosh/sqs) - A message queue using Amazon Simple Queue Service
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) - A Virtual DOM and diffing algorithm
@@ -272,6 +273,7 @@
 - [observ-node-array](https://github.com/mmckegg/observ-node-array) - Populate an observable array from node descriptors
 - [dotty](https://github.com/deoxxa/dotty) - Access properties of nested objects using dot-path notation
 - [flat](https://github.com/hughsk/flat) - Flatten/unflatten nested Javascript objects
+- [fifo](https://github.com/mafintosh/fifo) - FIFO queue in Javascript
 
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) - install electron prebuilts using npm
