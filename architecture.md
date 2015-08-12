@@ -25,6 +25,12 @@ client-views ... context aware views
 component-* .... context unaware views
 ```
 
+__resources__
+- [reactive-mvc-and-the-virtual-dom](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
+- [combining react flux & web components](http://futurice.com/blog/combining-react-flux-and-web-components)
+- [simpler UI reasoning with unidrectional dataflow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
+- [react-transit](https://github.com/RickWong/react-transmit/blob/master/DOCS.md)
+
 ## Circuit breakers
 Provide stability and prevent cascading failures in distributed systems.
 
@@ -55,12 +61,6 @@ Interface with a central configuration and derive from there. Or better, split
 up engine from interface & have the engines part be non-configurable. Kinda.
 
 - [self-tuning-systems](https://00f.net/2015/06/01/self-tuning-systems/)
-
-## Client side architecture
-- [reactive-mvc-and-the-virtual-dom](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
-- [combining react flux & web components](http://futurice.com/blog/combining-react-flux-and-web-components)
-- [simpler UI reasoning with unidrectional dataflow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
-- [react-transit](https://github.com/RickWong/react-transmit/blob/master/DOCS.md)
 
 ## Entity component system
 High performance games sometimes make use of ECS.
