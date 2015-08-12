@@ -127,6 +127,7 @@
 - [corsify](https://github.com/Raynos/corsify) - CORS up a route handler
 - [media-types](https://github.com/Raynos/media-types) - handle multiple media types
 - [redirecter](https://github.com/Raynos/redirecter) - Easy redirection
+- [filed](https://github.com/mikeal/filed) - Simplified file library
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) - A Virtual DOM and diffing algorithm
