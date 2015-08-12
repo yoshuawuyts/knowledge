@@ -128,7 +128,6 @@
 - [media-types](https://github.com/Raynos/media-types) - handle multiple media types
 - [redirecter](https://github.com/Raynos/redirecter) - Easy redirection
 - [filed](https://github.com/mikeal/filed) - Simplified file library
-- [sqs](https://github.com/mafintosh/sqs) - A message queue using Amazon Simple Queue Service
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) - A Virtual DOM and diffing algorithm
@@ -259,6 +258,9 @@
 - [map-reduce](https://github.com/dominictarr/map-reduce) async map-reduce functions for nodejs
 - [level-indexer](https://github.com/mafintosh/level-indexer) - generic property indexer for leveldb
 - [level-livefeed](https://github.com/Raynos/level-livefeed/) - Live query a range in leveldb
+- [sqs](https://github.com/mafintosh/sqs) - A message queue using Amazon Simple Queue Service
+- [hyperemitter](https://github.com/mcollina/hyperemitter) - Horizontally Scalable EventEmitter powered by a Merkle DAG
+- [atomic-queue](https://github.com/maxogden/atomic-queue) - a crash friendly queue that persists queue state and can restart
 
 ## Data structures
 - [merkle-dag](https://github.com/mafintosh/merkle-dag) - Merkle DAG on top of LevelDB
