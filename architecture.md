@@ -102,6 +102,8 @@ A domain is persistance agnostic. The persistance model, however, needs to be
 aware of the domain in order to transform the data.
 
 ### slicing the lasagna
+The service-oriented equivalent of spaghetti code is lasagna code: a single
+request leads you through multiple (too many) abstraction layers.
 [ tbi ]
 
 ### resources
