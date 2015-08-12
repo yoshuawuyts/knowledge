@@ -92,6 +92,8 @@ tell you that, look behind you
 ### eating a five course meal when all you wanted was a salad
 > overcomplicating things
 
+### any decent answer to an interesting question begins, "it depends..."
+
 ## Unicode mappings
 ```txt
 … /u2026
