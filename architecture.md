@@ -106,6 +106,11 @@ The service-oriented equivalent of spaghetti code is lasagna code: a single
 request leads you through multiple (too many) abstraction layers.
 [ tbi ]
 
+### domain model methods
+The domain model should contain all logic to interact with the model; exposing
+complete actions on top of them. That way services can be thin abstractions on
+top of the models, giving maximum reusability.
+
 ### resources
 - [domain model is not persistance model](http://blog.sapiensworks.com/post/2012/04/07/Just-Stop-It!-The-Domain-Model-Is-Not-The-Persistence-Model.aspx/)
 - [ddd persistance model and domain model](http://stackoverflow.com/questions/14024912/ddd-persistence-model-and-domain-model)
