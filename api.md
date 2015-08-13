@@ -32,7 +32,7 @@ requests.
   type: 'invalid_request_error',
   message: 'The request body was invalid',
   error: [
-    { field: 'data.name', message: 'is the wrong type' }
+    { field: 'data.name', message: 'is the wrong type' },
     { field: 'data.id', message: 'field is required' }
   ],
   meta: {
