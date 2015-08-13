@@ -204,6 +204,9 @@
 - [readdirp](https://github.com/thlorenz/readdirp) - Recursive version of fs.readdir with streaming api
 - [rimraf](https://github.com/isaacs/rimraf) - A `rm -rf` util for nodejs
 - [traverse](https://www.npmjs.com/package/traverse) - traverse and transform objects by visiting every node on a recursive walk
+- [resolve](https://github.com/substack/node-resolve) - Implements the node.js require.resolve() algorithm
+- [has](https://www.npmjs.com/package/has) - Object.prototype.hasOwnProperty.call shortcut
+- [function-bind](https://www.npmjs.com/package/function-bind) - mplementation of Function.prototype.bind
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) - buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
