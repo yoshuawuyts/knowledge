@@ -58,6 +58,10 @@ include an `error` field. These API miss the point of HTTP, where semantics
 should be derived from the status code and the body should only be consulted
 for details.
 
+### error
+`error` is the technical specifics of what went wrong. Alternative names are:
+`params`, `errors`, `fields`.
+
 __resources__
 - [stripe/api/errors](https://stripe.com/docs/api#errors)
 - [uber/api](https://developer.uber.com/v1/api-reference/)
