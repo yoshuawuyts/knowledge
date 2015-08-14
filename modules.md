@@ -343,6 +343,8 @@
   implementation
 - [deep-equal](https://github.com/substack/node-deep-equal) — Node's
   assert.deepEqual() algorithm as a standalone module
+- [deep-merge](https://www.npmjs.com/package/deep-merge) — Deep merge objects
+  with custom merging logic
 - [array-union](https://www.npmjs.com/package/array-union) — Create an array of
   unique values, in order, from the input arrays
 - [readdirp](https://github.com/thlorenz/readdirp) — Recursive version of
