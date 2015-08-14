@@ -49,6 +49,9 @@
 - [soundbank](https://github.com/mmckegg/soundbank) - A collection of triggerable Web Audio API audio slots
 - [bitcrush](https://github.com/jaz303/bitcrusher) - Bitcrush effect for Web Audio API
 
+## Video
+- [canvid](https://github.com/gka/canvid) - play video on canvas elements (without audio)
+
 ## Tools
 - [standard](http://ghub.io/standard) - JavaScript standard style linter
 - [changelog-maker](https://github.com/rvagg/changelog-maker) - A git log to CHANGELOG.md tool
