@@ -45,7 +45,35 @@ Writes are 5x as expensive as reads.
 ### queries
 Queries can either be created using nested JS objects or
 [key-condition expressions](http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html#DDB-Query-request-KeyConditionExpression).
+Using key expressions is recommended, as conditions will be phased out.
 
+```js
+{
+  TableName: 'string',                // required, table to read from
+  KeyConditionExpression: 'string',   // key value to be retrieved
+  ExpressionAttributeValues: {},      // value mappings for the expression
+  ConsistentRead: false,              // consistency model
+}
+```
+
+Example using the
+[`dynamo-streams`](https://www.npmjs.com/package/dynamo-streams) module:
+```js
+db.createQueryStream({
+  TableName: table,
+  KeyConditionExpression: '#K = :key', // target expression
+  ExpressionAttributeNames: {
+    '#K': 'key' // specify column, ignoring AWS's reserved words.
+                // Column name here is called 'key'
+  },
+  ExpressionAttributeValues: {
+    ':key': { S: 'bar' }  // specify keys, maps onto expressions.
+                          // 'S' means 'type: String'
+  }
+})
+```
+
+__KeyConditionExpressions__
 - `a = b` true if the attribute a is equal to the value b
 - `a < b` true if a is less than b
 - `a <= b` true if a is less than or equal to b
@@ -56,7 +84,7 @@ Queries can either be created using nested JS objects or
 - `begins_with (a, substr)` true if the value of attribute a begins with a
   particular substring
 
-
+__resources__
 - [dynamodb/query-and-scan](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/QueryAndScan.html#QueryAndScan.Query)
 - [dynamodb/query-property](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#query-property)
 - [dynamodb/api-query](http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html)
