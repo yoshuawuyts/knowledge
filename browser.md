@@ -85,3 +85,11 @@ fetch('/something', { credentials: 'same-origin' })
 
 - [mdn/fetch#body](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Body)
 - [mdn/Request.credentials](https://developer.mozilla.org/en-US/docs/Web/API/Request/credentials)
+
+## Append class in JS
+```js
+const node = document.querySelector('.foo')
+node.classList.remove('ugly')
+node.classList.add('pretty')
+node.classList.toggle('hide')
+```
