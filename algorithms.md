@@ -36,6 +36,10 @@ Even better when coupled with immutability.
 Check if something is possibly in a set, or definitely not.
 - [what is the advantage of using bloom filter](http://stackoverflow.com/questions/4282375/what-is-the-advantage-to-using-bloom-filters)
 
+## Block chains
+Merkle-DAG.
+
 ## See Also
 - [bost.ocks.org/algorithms](http://bost.ocks.org/mike/algorithms/)
 - [a tour of algorithms](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
+- [complete guide to blockchain technology](http://blockstrap.com/en/a-complete-beginners-guide-to-blockchain-technology/)
