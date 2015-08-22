@@ -216,6 +216,8 @@
   types
 - [redirecter](https://github.com/Raynos/redirecter) — Easy redirection
 - [filed](https://github.com/mikeal/filed) — Simplified file library
+- [packify](https://github.com/maxogden/packify) - packs up browserify apps by
+  inlining all assets into one html file
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) — A Virtual DOM and
