@@ -110,6 +110,10 @@
   releases with assets
 - [depenency-check](https://github.com/maxogden/dependency-check) — Assert deps
 - [psy](https://github.com/substack/psy) — process monitor command
+- [simple-index-html](https://github.com/mattdesl/simple-html-index) — a simple
+  HTML index through stream
+- [inject-lr-script](https://github.com/mattdesl/inject-lr-script) — inject
+  live reload into HTML content
 
 ## Markdown
 - [highlights](https://github.com/atom/highlights) — Syntax highlighter
