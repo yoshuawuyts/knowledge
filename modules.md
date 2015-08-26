@@ -487,8 +487,8 @@
   observable values
 - [observ-node-array](https://github.com/mmckegg/observ-node-array) — Populate
   an observable array from node descriptors
-- [dotty](https://github.com/deoxxa/dotty) — Access properties of nested
-  objects using dot-path notation
+- [plucker](https://github.com/hughsk/plucker) — Pluck nested properties from
+  an object.
 - [flat](https://github.com/hughsk/flat) — Flatten/unflatten nested Javascript
   objects
 - [fifo](https://github.com/mafintosh/fifo) — FIFO queue in Javascript
