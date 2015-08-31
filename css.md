@@ -91,6 +91,13 @@ Pick the elements you want to hide (sidebar, footer, etc) and set them to
 
 - [print stylesheet approaches](https://css-tricks.com/print-stylesheet-approaches-blacklist-vs-whitelist)
 
+## Style input placholders
+Supported by autoprefixer.
+```css
+input::placeholder { }
+```
+[source](https://github.com/postcss/autoprefixer/issues/44)
+
 ## See also
 - [medium's CSS coding guidelines](https://gist.github.com/fat/a47b882eb5f84293c4ed)
 - [medium's CSS post thingy](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
