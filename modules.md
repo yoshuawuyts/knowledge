@@ -189,6 +189,9 @@
 - [dom-delegator](https://github.com/Raynos/dom-delegator) — Decorate elements
   with delegated events
 
+## Client-side components
+- [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
+
 ## CSS
 - [css-wipe](https://github.com/yoshuawuyts/css-wipe) — Reset the browser's
   styles
