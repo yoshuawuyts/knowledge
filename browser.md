@@ -93,3 +93,24 @@ node.classList.remove('ugly')
 node.classList.add('pretty')
 node.classList.toggle('hide')
 ```
+
+## Create popup banner
+__iOS__
+```html
+<meta
+  name="apple-itunes-app"
+  content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
+```
+
+__android__
+```json
+"prefer_related_applications": true,
+"related_applications": [
+  {
+  "platform": "play",
+  "id": "com.google.samples.apps.iosched"
+  }
+]
+```
+- [developers.google.com/app-install-banners](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android#native)
+- [developer.apple.com/smart-banners](https://developer.apple.com/library/mac/documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html)
