@@ -98,6 +98,12 @@ input::placeholder { }
 ```
 [source](https://github.com/postcss/autoprefixer/issues/44)
 
+## Shadow
+```txt
+box-shadow: [horizontal offset] [vertical offset]
+            [blur radius] [optional spread radius] [color];
+```
+
 ## See also
 - [medium's CSS coding guidelines](https://gist.github.com/fat/a47b882eb5f84293c4ed)
 - [medium's CSS post thingy](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
