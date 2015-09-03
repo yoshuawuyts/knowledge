@@ -4,6 +4,17 @@ term for a bunch of technologies, but based on conversations with people who've
 used them extensively (`>1 year`) the only interesting parts are `custom
 elements` and `shadow dom`.
 
+## Status
+### [ 03/09/15 ]
+I first wrote this section as I was searching for reusability patterns.
+custom elements seemed like a good solution to reusability. After all: smart
+people were using it and it was aimed at modularity.
+
+After having tried and used custom elements, I'm now __against the usage of web
+components within applications__. Custom elements should only be used to
+implement elements that could have been browser built-ins. For every other use
+case the OO approach doesn't work well.
+
 ## Create
 Custom elements are registered with a name as the first argument, and a set of
 options as the second:
