@@ -473,6 +473,8 @@
   Scalable EventEmitter powered by a Merkle DAG
 - [atomic-queue](https://github.com/maxogden/atomic-queue) — a crash friendly
   queue that persists queue state and can restart
+- [superlevel](https://github.com/maxogden/superlevel) — minimalist cli utility
+  for leveldb databases
 
 ## Data structures
 - [merkle-dag](https://github.com/mafintosh/merkle-dag) — Merkle DAG on top of
