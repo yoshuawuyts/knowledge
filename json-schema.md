@@ -1,5 +1,19 @@
 # JSON Schema
 
+## Object
+```json
+{
+  "type": "object",
+  "properties": {
+    "number":      { "type": "number" },
+    "street_name": { "type": "string" },
+    "street_type": { "type": "string",
+                     "enum": ["Street", "Avenue", "Boulevard"]
+                   }
+  }
+}
+```
+
 ## Array
 ### length
 ```json
