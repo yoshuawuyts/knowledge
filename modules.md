@@ -314,6 +314,11 @@
   for TAP runners
 - [faux-jax](https://github.com/algolia/faux-jax) — Intercept and respond to
   requests in node + browser
+- [proxyquire](https://github.com/thlorenz/proxyquire) — Proxy node's require
+- [proxyquirify](https://github.com/thlorenz/proxyquireify) — browserify v2
+  version of proxyquire
+- [proxyquire-universal](https://github.com/bendrucker/proxyquire-universal) —
+  proxyquire in node and the browser
 
 ## P2P
 - [signalhub](https://github.com/mafintosh/signalhub) — Simple signalling
