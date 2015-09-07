@@ -177,6 +177,17 @@ Perform a bitwise flip on `-1` for truthy check:
 if (~['hi'].indexOf('foo')) // do something
 ```
 
+## Loop through alphabet
+```js
+const alphabet = []
+var n = 0
+while (n++ < 26) {
+  var code = 'a'.charCodeAt(0) + n)
+  var str = String.fromCharCode(code)
+  alphabet.push(str)
+}
+```
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
 - [js pitfalls](http://nrn.io/view/javascript-common-pitfalls)
