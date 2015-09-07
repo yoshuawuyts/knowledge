@@ -290,6 +290,8 @@
   streaming html using css selectors
 - [hyperstream](https://github.com/substack/hyperstream) — stream html into
   html at a css selector
+- [html-template](https://github.com/substack/html-template) — build templates
+  with ordinary html for node and browsers
 - [torrent-stream](https://github.com/mafintosh/torrent-stream) — The low level
   streaming torrent engine that peerflix uses
 - [tar-stream](https://github.com/mafintosh/tar-stream) — tar-stream is a
