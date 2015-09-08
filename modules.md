@@ -192,6 +192,8 @@
 
 ## Client-side components
 - [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
+- [flap](https://github.com/KoryNunn/flap) - create android-like
+swipe-from-the-side menus
 
 ## CSS
 - [css-wipe](https://github.com/yoshuawuyts/css-wipe) — Reset the browser's
