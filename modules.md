@@ -332,6 +332,8 @@
   p2p connections using webrtc and a signalhub
 - [peer-wire-swarm](https://github.com/mafintosh/peer-wire-swarm) — swarm
   implementation for bittorrent
+- [airswarm](https://github.com/mafintosh/airswarm) — Network swarm that
+  automagically discovers other peers on the network using multicast dns
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry) — simple curry module, with
