@@ -114,6 +114,7 @@
   HTML index through stream
 - [inject-lr-script](https://github.com/mattdesl/inject-lr-script) — inject
   live reload into HTML content
+- [husky](https://github.com/typicode/husky) — npm git-hooks
 
 ## Markdown
 - [highlights](https://github.com/atom/highlights) — Syntax highlighter
