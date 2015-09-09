@@ -79,10 +79,12 @@ oscillator.stop(endTime + 2)
 
 ## modulating audio parameters
 
-
 ## Modules
 - [baudio](https://github.com/substack/baudio) - generate audio streams with functions
 - [jsynth](https://github.com/NHQ/jsynth) - Generate audio/DSP with javascript functions in the browser
+
+## Alda - programming music
+- [alda manifest & introduction](http://daveyarwood.github.io/alda/2015/09/05/alda-a-manifesto-and-gentle-introduction/)
 
 ## See Also
 - [The science and mathematics of audio](https://www.youtube.com/watch?v=i_0DXxNeaQ0)
