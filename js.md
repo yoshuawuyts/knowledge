@@ -188,6 +188,13 @@ while (n++ < 26) {
 }
 ```
 
+## Async
+- api's should be consistent
+- if async always be async or risk unleasing zalgo
+- use `dezalgo`
+
+- http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
 - [js pitfalls](http://nrn.io/view/javascript-common-pitfalls)
