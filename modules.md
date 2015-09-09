@@ -275,6 +275,8 @@ swipe-from-the-side menus
   — create virtual-dom nodes for svg using hyperscript syntax
 - [vivus](https://github.com/maxwellito/vivus/) — JavaScript library to make
   drawing animation on SVG
+- [create-svg-size](https://github.com/bendrucker/create-svg-size) - Create an
+  svg object with a given x/y width/height
 
 ## Data manipulation
 - [pbs](https://github.com/mafintosh/pbs) — Streaming protocol buffers
