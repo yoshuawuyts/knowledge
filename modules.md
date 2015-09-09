@@ -269,6 +269,12 @@ swipe-from-the-side menus
   elements with delegated events
 - [value-event](https://github.com/Raynos/value-event) — Create DOM event
   handlers that write to listeners
+- [smooth-move](https://github.com/bendrucker/smooth-move) - Smoothly scroll a
+  scrollable element
+- [screen-orientation](https://github.com/bendrucker/screen-orientation) - Get
+  the current screen orientation
+- [blur-active](https://github.com/bendrucker/blur-active) - Blur the active
+  DOM element
 
 ## SVG
 - [virtual-hyperscript-svg](https://github.com/substack/virtual-hyperscript-svg)
