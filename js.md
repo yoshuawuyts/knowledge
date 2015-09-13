@@ -195,6 +195,12 @@ while (n++ < 26) {
 
 - http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony
 
+## pretty print json
+```js
+// indentation of 2
+JSON.stringify({ foo: 'bar' }, null, 2)
+```
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
 - [js pitfalls](http://nrn.io/view/javascript-common-pitfalls)
