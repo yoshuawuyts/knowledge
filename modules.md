@@ -277,6 +277,8 @@ swipe-from-the-side menus
   the current screen orientation
 - [blur-active](https://github.com/bendrucker/blur-active) - Blur the active
   DOM element
+- [mediasource](https://github.com/feross/mediasource) - MediaSource API as a
+  node.js Writable stream
 
 ## SVG
 - [virtual-hyperscript-svg](https://github.com/substack/virtual-hyperscript-svg)
