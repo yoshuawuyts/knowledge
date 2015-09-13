@@ -521,6 +521,8 @@ swipe-from-the-side menus
 - [flat](https://github.com/hughsk/flat) — Flatten/unflatten nested Javascript
   objects
 - [fifo](https://github.com/mafintosh/fifo) — FIFO queue in Javascript
+- [bloomrun](https://github.com/mcollina/bloomrun) - A js pattern matcher based
+  on bloom filters
 
 ## External
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt) — install
