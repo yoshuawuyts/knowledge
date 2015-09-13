@@ -189,6 +189,8 @@
   handlers that write to listeners
 - [dom-delegator](https://github.com/Raynos/dom-delegator) — Decorate elements
   with delegated events
+- [inject-lr-script](https://github.com/mattdesl/inject-lr-script) - inject
+  live reload into HTML content
 
 ## Client-side components
 - [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
@@ -230,6 +232,7 @@ swipe-from-the-side menus
 - [filed](https://github.com/mikeal/filed) — Simplified file library
 - [packify](https://github.com/maxogden/packify) - packs up browserify apps by
   inlining all assets into one html file
+- [tiny-lr](https://github.com/mklabs/tiny-lr) - tiny livereload
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) — A Virtual DOM and
