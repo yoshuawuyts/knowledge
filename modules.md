@@ -318,6 +318,8 @@ swipe-from-the-side menus
   stream reconnection module
 - [event source stream](https://github.com/mafintosh/event-source-stream) —
   EventSource implemented in node and the browser as a readable stream
+- [response-stream](https://github.com/substack/response-stream) - Pass http
+  server response methods through to the next destination pipe
 
 ## Testing
 - [tape](https://github.com/substack/tape) — tap-producing test harness for
