@@ -499,6 +499,9 @@ swipe-from-the-side menus
   queue that persists queue state and can restart
 - [superlevel](https://github.com/maxogden/superlevel) — minimalist cli utility
   for leveldb databases
+- [level-defaults](https://github.com/mafintosh/levelup-defaults) - Change the
+  defaults settings on a levelup instance by returning a new levelup instance
+  that uses the same leveldown but different options
 
 ## Data structures
 - [merkle-dag](https://github.com/mafintosh/merkle-dag) — Merkle DAG on top of
