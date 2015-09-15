@@ -396,6 +396,8 @@ swipe-from-the-side menus
   Object.prototype.hasOwnProperty.call shortcut
 - [function-bind](https://www.npmjs.com/package/function-bind) — mplementation
   of Function.prototype.bind
+- [array-find](https://www.npmjs.com/package/array-find) - Return the first
+  array element which satisfies a testing function
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) — buffer List: collect buffers and access
