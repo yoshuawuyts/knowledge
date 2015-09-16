@@ -233,6 +233,7 @@ swipe-from-the-side menus
 - [packify](https://github.com/maxogden/packify) - packs up browserify apps by
   inlining all assets into one html file
 - [tiny-lr](https://github.com/mklabs/tiny-lr) - tiny livereload
+- [qs](https://github.com/hapijs/qs) - querystring parser with nesting support
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) — A Virtual DOM and
