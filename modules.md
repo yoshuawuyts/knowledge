@@ -283,6 +283,8 @@ swipe-from-the-side menus
   DOM element
 - [mediasource](https://github.com/feross/mediasource) - MediaSource API as a
   node.js Writable stream
+- [phone](https://github.com/aftership/node-phone) - validate and format the
+  phone number to E.164 standard
 
 ## SVG
 - [virtual-hyperscript-svg](https://github.com/substack/virtual-hyperscript-svg)
