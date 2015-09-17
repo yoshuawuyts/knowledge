@@ -430,6 +430,8 @@ swipe-from-the-side menus
 - [split2](https://github.com/mcollina/split2) — Split Streams2 style
 - [mississippi](https://github.com/maxogden/mississippi) — a collection of
   useful stream utility modules
+- [cache-stream](https://github.com/sonewman/cache-stream) - caching stream for
+  Node.js streams 2 api
 
 ## Event emitters
 - [geval](https://github.com/Raynos/geval) — event implementation
