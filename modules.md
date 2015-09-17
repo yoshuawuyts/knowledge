@@ -79,6 +79,8 @@
   triggerable Web Audio API audio slots
 - [bitcrush](https://github.com/jaz303/bitcrusher) — Bitcrush effect for Web
   Audio API
+- [meyda](https://github.com/hughrawlinson/meyda) - Real-time Audio Feature
+  Extraction for the Web Audio API
 
 ## Video
 - [canvid](https://github.com/gka/canvid) — play video on canvas elements
