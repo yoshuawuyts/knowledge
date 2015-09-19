@@ -325,6 +325,8 @@ swipe-from-the-side menus
   EventSource implemented in node and the browser as a readable stream
 - [response-stream](https://github.com/substack/response-stream) - Pass http
   server response methods through to the next destination pipe
+- [JSONStream](https://github.com/dominictarr/JSONStream) -
+  rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
 
 ## Testing
 - [tape](https://github.com/substack/tape) — tap-producing test harness for
