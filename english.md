@@ -94,6 +94,8 @@ tell you that, look behind you
 
 ### any decent answer to an interesting question begins, "it depends..."
 
+### every note you play gets you closer to the perfection you seek
+
 ## Unicode mappings
 ```txt
 … /u2026
