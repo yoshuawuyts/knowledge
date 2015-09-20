@@ -467,6 +467,8 @@ swipe-from-the-side menus
   loader for lazy people
 - [inquirer](https://github.com/SBoudrias/Inquirer.js) — A collection of common
   interactive command line user interfaces
+- [notify-error](https://github.com/mattdesl/notify-error) - send an error
+  notification
 
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store)
