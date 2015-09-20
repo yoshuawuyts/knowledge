@@ -278,7 +278,30 @@ The following events are exposed:
 - __'error'__:
 
 ## Creating streams
-[tbi]
+`iojs@3` introduced the [simplified stream
+constructor](https://iojs.org/api/stream.html#stream_simplified_constructor_api)
+which makes creating streams a breeze. It's best practice to
+[not use node's core stream module](http://r.va.gg/2014/06/why-i-dont-use-nodes-core-stream-module.html)
+but instead pull in
+[readable-stream](https://github.com/nodejs/readable-stream).
+
+### Readable
+- __this.push__: push a new chunk down the stream
+- __this.push(null)__: signal the end of the stream
+- __this.emit('error', err)__: emit an error
+
+```js
+var msg = 'my amazing message'
+
+const rs = new stream.Readable({
+  read: n => {
+    if (!msg.length) return this.push(null) // no more data, end stream
+    this.push(msg.splice(0, n)) // push n bytes from the string
+  }
+})
+```
+
+### Writable
 
 ## Testing streams
 [tbi]
