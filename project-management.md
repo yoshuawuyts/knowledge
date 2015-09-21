@@ -33,4 +33,9 @@ Can use GH issues for this.
 - What is the timeline for the project, and will your client require your
 services after your work is complete?
 
+## Estimates vs goals vs targets
+- estimate: a real set of opinions on how long something will take
+- goal: when you want it done by a certain date
+- target: how you plan to get to that date
+
 - [how to estimate projects?](http://teamgantt.com/guide-to-project-management/how_to_estimate_projects/)
