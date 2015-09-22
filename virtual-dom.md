@@ -3,38 +3,38 @@
 ## state
 
 ## widgets
-Sometimes the DOM needs to be manually modified. This is where widgets come in
-to play. They're created a bit differently from regular virtual-dom components.
+Sometimes you want to wrap an external piece of DOM machinery inside your
+`virtual-dom` application. This is done using widgets. It allows you to create
+a custom.
 
 ```js
-const createElement = require('virtual-dom/create-element')
-const patch = require('virtual-dom/patch')
-const diff = require('virtual-dom/diff')
+module.exports = GoogleMapWidget
 
-module.exports = Widget
-
-function Widget (vnode) {
-  this.currVnode = vnode
-}
-
-Widget.prototype.init = function () {
-  const el = createElement(this.currVnode)
-  const container = document.createElement('div')
-  container.appendChild(el)
-  return container
-}
-
-Widget.prototype.update = function (prev, el) {
-  const prevVnode = prev.currVnode
-  const currVnode = this.currVnode
-
-  const patches = diff(prevVnode, currVnode)
-  const rootNode = el.childNodes[0]
-  const newNode = patch(rootNode, patches)
-  if (newNode !== el.childNodes[0]) {
-    el.replaceChild(newNode, el.childNodes[0])
+function GoogleMapWidget(initialPosition) {
+  if (!(this instanceof GoogleMapWidget)) {
+    return new GoogleMapWidget(initialPosition)
   }
+  this.type = 'Widget'
+  this.position = initialPosition
+}
+
+GoogleMapWidget.prototype.init = function () {
+  var elem = document.createElement('div')
+  this.map = GoogleMap(elem)
+  this.map.setPosition(this.position)
+  return elem
+}
+
+GoogleMapWidget.prototype.update = function (prev, elem) {
+  this.map = this.map || prev.map
+  this.map.setPosition(this.position)
 }
 ```
+The first time `init()` is called it should return a DOM element. The DOM
+element can be mutated freely as `virtual-dom` will never touch it.
+
+`update()` is called if the widget was available in the previous tree, and
+gives a chance to update state through `this`.
 
 - [virtual-dom/docs/widgets](https://github.com/Raynos/mercury/blob/master/docs/widgets.md)
+- [mercury/docs/how-to-do-custom-rendering](https://github.com/Raynos/mercury/blob/master/docs/faq.md#how-do-i-do-custom-rendering)
