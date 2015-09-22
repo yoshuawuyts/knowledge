@@ -238,7 +238,7 @@ Event emitters allow a one to many relationship. A single value can be passed
 to multiple callbacks (listeners). Callbacks can self-register on an emitter,
 making them fully composable.
 
-![streams chart](lib/streams-overview.png)
+[![streams chart](lib/streams-overview.png)](https://twitter.com/isntitvacant/status/628356836333191169)
 
 The following events are exposed:
 ### stream.Readable
