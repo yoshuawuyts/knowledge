@@ -16,11 +16,15 @@ dom-delegator
 value-event/*
 ```
 
+- [mercury/issues/renaming-handles-and-events](https://github.com/Raynos/mercury/issues/118)
+
 ## State
 ```txt
 state-atom
 state-channel
 ```
+
+- [mercury/index.js/state](https://github.com/Raynos/mercury/blob/master/index.js#L77-L95)
 
 ## Render
 ```txt
