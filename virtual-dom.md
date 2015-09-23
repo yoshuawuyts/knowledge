@@ -34,7 +34,10 @@ The first time `init()` is called it should return a DOM element. The DOM
 element can be mutated freely as `virtual-dom` will never touch it.
 
 `update()` is called if the widget was available in the previous tree, and
-gives a chance to update state through `this`.
+gives a chance to update state through `this`. In practice this means that an
+immutable state object or data store can be queried for the latest data and the
+new render can take place based on that. So unlike in React, `virtual-dom`
+doesn't rely on new properties to flow through to update widgets.
 
 - [virtual-dom/docs/widgets](https://github.com/Raynos/mercury/blob/master/docs/widgets.md)
 - [mercury/docs/how-to-do-custom-rendering](https://github.com/Raynos/mercury/blob/master/docs/faq.md#how-do-i-do-custom-rendering)
