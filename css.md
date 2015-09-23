@@ -104,6 +104,17 @@ box-shadow: [horizontal offset] [vertical offset]
             [blur radius] [optional spread radius] [color];
 ```
 
+## natural looking components
+- flexy, resizable things
+- grab the border between 1 and 2, change the `flex-grow` property.
+- components need a certain order (`flex -> relative -> absolute`) or else the
+  full width won't be covered.
+```
+---- ----
+| 1| |2 |
+---- ----
+```
+
 ## See also
 - [medium's CSS coding guidelines](https://gist.github.com/fat/a47b882eb5f84293c4ed)
 - [medium's CSS post thingy](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
