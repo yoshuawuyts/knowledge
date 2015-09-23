@@ -1,5 +1,15 @@
 # virtual-dom
 
+```txt
+   DOM
+Raw Input  ->  Input
+                 ▾
+               State
+                 ▾
+Raw Output <-  Render
+```
+[source](http://eom.surge.sh/)
+
 ## state
 
 ## widgets
