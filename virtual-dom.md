@@ -10,9 +10,26 @@ Raw Output <-  Render
 ```
 [source](http://eom.surge.sh/)
 
-## state
+## Input
+```txt
+dom-delegator
+value-event/*
+```
 
-## widgets
+## State
+```txt
+state-atom
+state-channel
+```
+
+## Render
+```txt
+virtual-dom/h
+vdom-thunk
+virtual-raf
+```
+
+## Wrapping vanilla DOM nodes
 Sometimes you want to wrap an external piece of DOM machinery inside your
 `virtual-dom` application. This is done using widgets. It allows you to create
 a custom.
