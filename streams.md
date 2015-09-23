@@ -291,14 +291,18 @@ but instead pull in
 - __this.emit('error', err)__: emit an error
 
 ```js
-var msg = 'my amazing message'
-
-const rs = new stream.Readable({
-  read: n => {
-    if (!msg.length) return this.push(null) // no more data, end stream
-    this.push(msg.splice(0, n)) // push n bytes from the string
-  }
-})
+// turn a string into a readable stream
+function (msg) {
+  const ln = msg.length
+  var i = 0
+  return  new stream.Readable({
+    read: n => {
+      if (i >= ln) return this.push(null) // no more data, end stream
+      this.push(msg.slice(i, n)) // push n bytes from the string
+      i += n // change the string index to the last location
+    }
+  })
+}
 ```
 
 ### Writable
