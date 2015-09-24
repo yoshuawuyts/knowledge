@@ -45,7 +45,7 @@ function GoogleMapWidget(initialPosition) {
   if (!(this instanceof GoogleMapWidget)) {
     return new GoogleMapWidget(initialPosition)
   }
-  this.type = 'Widget'
+  this.type = 'Widget' // setting the type prevents errors
   this.position = initialPosition
 }
 
