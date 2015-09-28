@@ -193,6 +193,13 @@ $ fmt -80
 $ echo $RANDOM
 ```
 
+## Math in shell
+In shell it's not recommended to use `expr` or `bc`, instead use:
+```sh
+foo=5
+res=$((foo - 2 / 3))
+```
+
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
