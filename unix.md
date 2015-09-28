@@ -200,6 +200,12 @@ foo=5
 res=$((foo - 2 / 3))
 ```
 
+## Prepend zeroes
+```sh
+printf "%02d" 4
+# => 04
+```
+
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
