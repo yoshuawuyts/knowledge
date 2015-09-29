@@ -96,6 +96,11 @@ tell you that, look behind you
 
 ### every note you play gets you closer to the perfection you seek
 
+### arguing with silly people
+> "Arguing with idiots is like playing chess with a pigeon; no matter how good
+> you play the pigeon is going to knock over the pieces, crap on the board and
+> strut around like he’s victorious.
+
 ## Unicode mappings
 ```txt
 … /u2026
