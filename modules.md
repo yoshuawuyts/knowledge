@@ -236,6 +236,8 @@ swipe-from-the-side menus
   inlining all assets into one html file
 - [tiny-lr](https://github.com/mklabs/tiny-lr) - tiny livereload
 - [qs](https://github.com/hapijs/qs) - querystring parser with nesting support
+- [format-stack](https://github.com/Raynos/format-stack) - Formats a stack with
+  colors
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) — A Virtual DOM and
