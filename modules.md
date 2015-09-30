@@ -40,6 +40,10 @@
 - [icosphere](https://github.com/hughsk/icosphere) — Generates icosphere meshes
   of varying levels of complexity
 
+## Data viz
+- [d3-hierarchy](https://github.com/mbostock/d3-hierarchy) - d3 data viz
+  algorithms
+
 ## Crypto
 - [sodium](https://github.com/paixaop/node-sodium) — Port of the lib sodium
   encryption library to Node.js
