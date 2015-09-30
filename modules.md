@@ -398,9 +398,6 @@ swipe-from-the-side menus
   with custom merging logic
 - [array-union](https://www.npmjs.com/package/array-union) — Create an array of
   unique values, in order, from the input arrays
-- [readdirp](https://github.com/thlorenz/readdirp) — Recursive version of
-  fs.readdir with streaming api
-- [rimraf](https://github.com/isaacs/rimraf) — A `rm -rf` util for nodejs
 - [traverse](https://www.npmjs.com/package/traverse) — traverse and transform
   objects by visiting every node on a recursive walk
 - [resolve](https://github.com/substack/node-resolve) — Implements the node.js
@@ -411,6 +408,18 @@ swipe-from-the-side menus
   of Function.prototype.bind
 - [array-find](https://www.npmjs.com/package/array-find) - Return the first
   array element which satisfies a testing function
+
+## Filesystem
+- [readdirp](https://github.com/thlorenz/readdirp) — Recursive version of
+  fs.readdir with streaming api
+- [rimraf](https://github.com/isaacs/rimraf) — A `rm -rf` util for nodejs
+- [chmodr](https://github.com/isaacs/chmodr) - Like `chmod -R` in node
+- [mkdirp](https://github.com/substack/node-mkdirp) - Recursively mkdir, like
+  `mkdir -p`, but in node.js
+- [findup](https://github.com/Filirom1/findup) - Walk up ancester's dirs up to
+  root
+- [graceful-fs](https://github.com/isaacs/node-graceful-fs) - fs with
+  incremental backoff on EMFILE
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) — buffer List: collect buffers and access
