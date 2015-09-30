@@ -121,6 +121,11 @@ $ git rebase -i --autosquash        # automatically organize merging of these
 - [git-fixup](https://github.com/deiwin/git-dotfiles/blob/docs/bin/git-fixup)
 - [keep your branch clean with git fixup and autosquash](http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html)
 
+## Unstage directory
+```sh
+$ git rm --cached -r dir
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
