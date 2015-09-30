@@ -2,7 +2,7 @@
 Shell scripts and tools.
 
 ## man pages
-```
+```txt
   1   User Commands
   2   System Calls
   3   C Library Functions
@@ -14,7 +14,7 @@ Shell scripts and tools.
 ```
 
 ## File testing in sh
-```
+```txt
 -b filename     block special file
 -c filename     special character file
 -d dirname      check for directory existence
@@ -200,11 +200,29 @@ foo=5
 res=$((foo - 2 / 3))
 ```
 
-## Prepend zeroes
+## Prepend zeroes / add leading zeroes
 ```sh
 printf "%02d" 4
 # => 04
 ```
+
+## Shell traps
+Cleaning up after yourself is essential in programming. The shell `trap`
+command listens to a POSIX signal, and then runs a command. It's event-driven
+programming in Shell!
+
+__warning__: `trap` cannot process `SIGKILL`, as is the nature of the signal.
+Use `kill -9` as a last resort.
+
+Here's an example of `trap` in action:
+```sh
+readonly TMP_FILE='/tmp/bar.file'
+
+# delete the file if the program is prematurely ended
+trap "rm $TMP_FILE; exit" SIGHUP SIGINT SIGTERM
+pr $1 > "$TMP_FILE"
+```
+[source](http://linuxcommand.org/wss0160.php)
 
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
