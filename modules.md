@@ -451,6 +451,10 @@ swipe-from-the-side menus
   useful stream utility modules
 - [cache-stream](https://github.com/sonewman/cache-stream) - caching stream for
   Node.js streams 2 api
+- [multistream](https://github.com/feross/multistream) - A stream that emits
+  multiple other streams one after another
+- [parallel-multi-stream](https://github.com/mafintosh/parallel-multistream) -
+  Parallel version of multistream
 
 ## Event emitters
 - [geval](https://github.com/Raynos/geval) — event implementation
