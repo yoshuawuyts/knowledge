@@ -39,6 +39,8 @@
   high-level 3D perspective camera
 - [icosphere](https://github.com/hughsk/icosphere) — Generates icosphere meshes
   of varying levels of complexity
+- [tweenr](https://www.npmjs.com/package/tweenr) - Minimal tweening engine
+  which operates on numbers and arrays
 
 ## Data viz
 - [d3-hierarchy](https://github.com/mbostock/d3-hierarchy) - d3 data viz
