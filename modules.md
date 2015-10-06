@@ -422,6 +422,8 @@ swipe-from-the-side menus
   root
 - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - fs with
   incremental backoff on EMFILE
+- [stat-mode](https://www.npmjs.com/package/stat-mode) - Offers convenient
+  getters and setters for the stat `mode`
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) — buffer List: collect buffers and access
