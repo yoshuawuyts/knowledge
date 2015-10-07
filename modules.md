@@ -459,6 +459,8 @@ swipe-from-the-side menus
   multiple other streams one after another
 - [parallel-multi-stream](https://github.com/mafintosh/parallel-multistream) -
   Parallel version of multistream
+- [end-of-stream](https://github.com/mafintosh/end-of-stream) - Execute a
+  callback when a stream ends, finishes or errors
 
 ## Event emitters
 - [geval](https://github.com/Raynos/geval) — event implementation
