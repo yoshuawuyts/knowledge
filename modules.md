@@ -424,6 +424,7 @@ swipe-from-the-side menus
   incremental backoff on EMFILE
 - [stat-mode](https://www.npmjs.com/package/stat-mode) - Offers convenient
   getters and setters for the stat `mode`
+- [touch](https://github.com/isaacs/node-touch) - touch(1) for node
 
 ## Streams
 - [bl](https://github.com/rvagg/bl) — buffer List: collect buffers and access
