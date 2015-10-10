@@ -310,6 +310,29 @@ function (msg) {
 ## Testing streams
 [tbi]
 
+## Patterns
+### Async return pattern
+This is quite similar to how you'd expect Promises to work, but it has all teh
+benefits of streams and none of the issues that Plague promises. Sometimes
+streams are created in an async fashion. In order to create a stream "promise",
+you return an empty `PassThrough` stream, into which later data is streamed to.
+```js
+const stream = require('stream')
+const pump = require('pump')
+const fs = require('fs')
+
+function myAsyncFn () {
+  const pts = new stream.PassThrough
+
+  process.setNextTick(function () {
+    const rs = fs.createReadStream('foobar.jpg')
+    pump(rs, pts)
+  })
+
+  return pts
+}
+```
+
 ## See Also
 - [stream handbook](https://github.com/substack/stream-handbook) - stream guide by substack
 - [mississippi](https://github.com/maxogden/mississippi) - a collection of useful stream utility modules
