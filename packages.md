@@ -206,6 +206,7 @@
 swipe-from-the-side menus
 - [zip-input](https://github.com/bendrucker/zip-input) - ZIP input component
   for virtual-dom
+- [spectrum](http://bgrins.github.io/spectrum/) - JavaScript Colorpicker
 
 ## CSS
 - [css-wipe](https://github.com/yoshuawuyts/css-wipe) — Reset the browser's
