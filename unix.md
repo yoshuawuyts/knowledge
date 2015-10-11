@@ -224,6 +224,23 @@ pr $1 > "$TMP_FILE"
 ```
 [source](http://linuxcommand.org/wss0160.php)
 
+## Renaming files
+Renaming is made easy using the `rename(1)` command. Just plop in a regex and
+the renaming is done for you:
+```sh
+# Change foo to bar in matching filenames
+$ rename 's/foo/bar/' *.txt
+
+# Convert to lower case
+$ rename -c *.txt
+
+# Replace whitespace with underscores
+$ rename 's/\s+/_/g' *.txt
+
+# No action, just show what renames would occur
+$ rename -n 's/foo/bar/' *.txt
+```
+
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
