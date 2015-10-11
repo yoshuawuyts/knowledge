@@ -97,6 +97,23 @@ Whenever you apply for a new job there's a bunch of questions you need to ask.
 - tell them what you are looking for
 - tell them when you're around / available to further chat
 
+## Contracts
+Signing contracts is important for yourself, and for your customers. Don't
+hesitate to sign one at the start of a relationship. If you trust each other,
+there shouldn't be a problem in persisting that trust.
+
+A contract should contain the following:
+- A simple overview of who is hiring who, what they’re being hired to do, when
+  and for how much
+- What both parties agree to do and what their respective responsibilities are
+- The specifics of the deal and what is or isn’t included in the scope
+- What happens when people change their minds (as they almost always do)
+- A simple overview of liabilities and other legal matters
+- You might even include a few jokes
+
+- [contract killer](https://stuffandnonsense.co.uk/projects/contract-killer/)
+- [contract killer 3 gist](https://stuffandnonsense.co.uk/projects/contract-killer/)
+
 ## See Also
 - [growing consulting practices](http://www.kalzumeus.com/2012/10/10/kalzumeus-podcast-3-growing-consulting-practices-with-brennan-dunn/)
 - [remoteok contracting](https://remoteok.io/remote-contracting-jobs)
