@@ -241,6 +241,10 @@ $ rename 's/\s+/_/g' *.txt
 $ rename -n 's/foo/bar/' *.txt
 ```
 
+## Init
+The init process is the heart of the OS. It schedules everything that happens
+on top of the kernel.
+
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
