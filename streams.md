@@ -312,8 +312,8 @@ function (msg) {
 
 ## Patterns
 ### Async return pattern
-This is quite similar to how you'd expect Promises to work, but it has all teh
-benefits of streams and none of the issues that Plague promises. Sometimes
+This is quite similar to how you'd expect Promises to work, but it has all the
+benefits of streams and none of the issues that plague promises. Sometimes
 streams are created in an async fashion. In order to create a stream "promise",
 you return an empty `PassThrough` stream, into which later data is streamed to.
 ```js
@@ -322,13 +322,17 @@ const pump = require('pump')
 const fs = require('fs')
 
 function myAsyncFn () {
+  // create a PassThrough stream that we will pipe data to
   const pts = new stream.PassThrough
 
+  // start async action
   process.setNextTick(function () {
     const rs = fs.createReadStream('foobar.jpg')
+    // use 'pump' to safely combine streams
     pump(rs, pts)
   })
 
+  // return the (still) empty PassThrough stream
   return pts
 }
 ```
