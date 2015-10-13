@@ -10,11 +10,19 @@ vim -u NONE -N
 
 
 ## Delete without overriding your last yank
-All yank and delete operations write to the unnamed register by default. However, the most recent yank and most recent delete are always stored (separately) in the numbered registers. The register 0 holds the most recent yank. The registers 1-9 hold the 9 most recent deletes (with 1 being the most recent).
+All yank and delete operations write to the unnamed register by default.
+However, the most recent yank and most recent delete are always stored
+(separately) in the numbered registers. The register 0 holds the most recent
+yank. The registers 1-9 hold the 9 most recent deletes (with 1 being the most
+recent).
 
-In other words, a delete overwrites the most recent yank in the unnamed register, but it's still there in the 0 register. The blackhole-register trick (`"_dd`) mentioned in the other answers works because it prevents overwriting the unnamed register.
+In other words, a delete overwrites the most recent yank in the unnamed
+register, but it's still there in the 0 register. The blackhole-register trick
+(`"_dd`) mentioned in the other answers works because it prevents overwriting
+the unnamed register.
 
-You reference a register using double quotes, so pasting the most recently yanked text can be done like this:
+You reference a register using double quotes, so pasting the most recently
+yanked text can be done like this:
 ```txt
 "0p
 ```
@@ -159,6 +167,11 @@ F<char>  " jump back to char
 t<char>  " jump to char before match
 ;        " repeat jump
 ,        " repeat jump back
+```
+
+## Unstage file
+```sh
+$ git reset HEAD <file>
 ```
 
 ## See Also
