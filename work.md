@@ -114,6 +114,14 @@ A contract should contain the following:
 - [contract killer](https://stuffandnonsense.co.uk/projects/contract-killer/)
 - [contract killer 3 gist](https://stuffandnonsense.co.uk/projects/contract-killer/)
 
+## Starting a new job contracting job
+- start working after the contract is signed
+- take 24 hours to read through the contract and agree on terms
+- some stuff might be non-negotiale, if you start working before it's signed
+  there are no guarantees of pay
+- terms might be unable to be agreed upon, and will then end up performing free
+  work
+
 ## See Also
 - [growing consulting practices](http://www.kalzumeus.com/2012/10/10/kalzumeus-podcast-3-growing-consulting-practices-with-brennan-dunn/)
 - [remoteok contracting](https://remoteok.io/remote-contracting-jobs)
