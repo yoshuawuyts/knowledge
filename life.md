@@ -29,4 +29,17 @@ length.
 - explain why it is that it bothers you, how it makes you feel
 - don't try to change the other person
 - find the underlying reasons for why things make you feel the way they do
-(fears? previous experiences?)
+  (fears? previous experiences?)
+
+## Deal with being jealous
+- talk about your fears, openly and immediately. Even if you think you're being
+  irrational.
+- jealousy is a symptome that someone is feeling insecure or threatened
+- jealousy comes from someone's needs not being met or someone's being
+  threatened
+- people who don't feel threatened don't feel jealous
+- jealousy is often rooted in other emotions such as fear of loss, feelings of
+  rejection or insecurity (or anything else)
+- once the feelings have been identified, ask yourself what these feelings are
+  serving. Are they warning about a real problem or are you jealous for
+  jealousy's sake?
