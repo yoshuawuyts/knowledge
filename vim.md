@@ -169,5 +169,15 @@ t<char>  " jump to char before match
 ,        " repeat jump back
 ```
 
+## Folds
+```viml
+zc " close a fold
+zC " close all folds
+zo " open a fold
+zO " open all folds
+za " toggle a fold
+zA " toggle all folds
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
