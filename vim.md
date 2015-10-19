@@ -169,10 +169,5 @@ t<char>  " jump to char before match
 ,        " repeat jump back
 ```
 
-## Unstage file
-```sh
-$ git reset HEAD <file>
-```
-
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)

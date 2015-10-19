@@ -126,6 +126,11 @@ $ git rebase -i --autosquash        # automatically organize merging of these
 $ git rm --cached -r dir
 ```
 
+## Unstage file
+```sh
+$ git reset HEAD <file>
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
