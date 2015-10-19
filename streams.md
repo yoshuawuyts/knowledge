@@ -338,6 +338,9 @@ function myAsyncFn () {
 ```
 
 ## See Also
-- [stream handbook](https://github.com/substack/stream-handbook) - stream guide by substack
-- [mississippi](https://github.com/maxogden/mississippi) - a collection of useful stream utility modules
-- [iojs/api/streams](https://iojs.org/api/stream.html) - iojs streams documentation
+- [stream handbook](https://github.com/substack/stream-handbook) - stream guide
+  by substack
+- [mississippi](https://github.com/maxogden/mississippi) - a collection of
+  useful stream utility modules
+- [iojs/api/streams](https://iojs.org/api/stream.html) - iojs streams
+  documentation
