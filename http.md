@@ -22,3 +22,9 @@ custom human interaction (forms) that might change from time to time. `POST`
 should embrace the nature of what it's doing and not be idempotent and fail
 instead. `PATCH` is a partial `PUT`, so should only be used for updating fields
 (e.g. minimize bits sent over the wire).
+
+## Headers
+- __cache-control__: tell the freshness of a response
+- __vary__: check if the passed in header is the same, break cache if isn't
+
+- [best practices for using the vary header](https://www.fastly.com/blog/best-practices-for-using-the-vary-header)
