@@ -152,6 +152,10 @@ maintainability of a modular architecutre.
 __resources__
 - [microservice envy](http://martinfowler.com/bliki/MicroservicePremium.html)
 
+## Sessions
+Sessions provide a way to perform actions without authenticating every request.
+It's the network alternative to gpg agents.
+
 ## See Also
 - [service disoriented architecture](http://bravenewgeek.com/service-disoriented-architecture/)
 - [engineering blogs](https://github.com/kilimchoi/engineering-blogs)
