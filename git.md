@@ -131,6 +131,11 @@ $ git rm --cached -r dir
 $ git reset HEAD <file>
 ```
 
+## Change remote to SSH
+```sh
+$ git remote set-url origin git@github.com:<username>/<repo>.git
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
