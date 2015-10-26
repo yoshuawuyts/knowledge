@@ -465,6 +465,8 @@ swipe-from-the-side menus
   callback when a stream ends, finishes or errors
 - [stdout-stream](https://github.com/mafintosh/stdout-stream) - Non-blocking
   stdout stream
+- [size-stream](https://github.com/yoshuawuyts/size-stream) - Count the size of
+  a stream in bytes
 
 ## Event emitters
 - [geval](https://github.com/Raynos/geval) — event implementation
