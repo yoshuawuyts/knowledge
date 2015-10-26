@@ -463,6 +463,8 @@ swipe-from-the-side menus
   Parallel version of multistream
 - [end-of-stream](https://github.com/mafintosh/end-of-stream) - Execute a
   callback when a stream ends, finishes or errors
+- [stdout-stream](https://github.com/mafintosh/stdout-stream) - Non-blocking
+  stdout stream
 
 ## Event emitters
 - [geval](https://github.com/Raynos/geval) — event implementation
