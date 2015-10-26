@@ -544,6 +544,8 @@ swipe-from-the-side menus
 - [level-defaults](https://github.com/mafintosh/levelup-defaults) - Change the
   defaults settings on a levelup instance by returning a new levelup instance
   that uses the same leveldown but different options
+- [level-events](https://github.com/mafintosh/level-events) - Get an event
+  everytime something is written / read / deleted using levelup
 
 ## Data structures
 - [merkle-dag](https://github.com/mafintosh/merkle-dag) — Merkle DAG on top of
