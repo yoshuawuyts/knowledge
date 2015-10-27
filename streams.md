@@ -337,6 +337,17 @@ function myAsyncFn () {
 }
 ```
 
+### Keep stream open after it ends
+```js
+const stream = require('readable-stream')
+
+const pts1 = new stream.PassThrough({ end: false })
+const pts2 = new Stream.PassThrough()
+
+// when stream1 ends, stream2 is kept open
+pts1.pipe(pts2)
+```
+
 ## See Also
 - [stream handbook](https://github.com/substack/stream-handbook) - stream guide
   by substack
