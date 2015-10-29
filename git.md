@@ -106,10 +106,11 @@ Find by binary search the change that introduced a bug.
 - [git_bisect - linus torvalds](http://yarchive.net/comp/linux/git_bisect.html)
 
 ```sh
-$ git bisect start master f596075   # start git bisect
+$ git bisect start master f596075   # git bisect <bad> <good>
 $ git bisect good                   # mark a commit as good
 $ git bisect bad                    # mark a commit as bad
 $ git bisect reset                  # exit git bisect
+$ git bisect run ./test             # run an auto script after git bisect start
 ```
 
 ## Manage main and fix commits
