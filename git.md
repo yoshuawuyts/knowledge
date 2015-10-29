@@ -103,8 +103,6 @@ while rebasing, semver is updated, etc.
 ## git bisect
 Find by binary search the change that introduced a bug.
 
-- [git_bisect - linus torvalds](http://yarchive.net/comp/linux/git_bisect.html)
-
 ```sh
 $ git bisect start master f596075   # git bisect <bad> <good>
 $ git bisect good                   # mark a commit as good
@@ -112,6 +110,9 @@ $ git bisect bad                    # mark a commit as bad
 $ git bisect reset                  # exit git bisect
 $ git bisect run ./test             # run an auto script after git bisect start
 ```
+
+- [git_bisect - linus torvalds](http://yarchive.net/comp/linux/git_bisect.html)
+- [letting git bisect help you](http://blog.rlmflores.me/git/2014/11/30/letting-git-bisect-help-you/)
 
 ## Manage main and fix commits
 By running `--fixup` you can create fix commits for your main commit; this is a
