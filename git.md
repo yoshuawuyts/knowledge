@@ -109,6 +109,7 @@ Find by binary search the change that introduced a bug.
 $ git bisect start master f596075   # start git bisect
 $ git bisect good                   # mark a commit as good
 $ git bisect bad                    # mark a commit as bad
+$ git bisect reset                  # exit git bisect
 ```
 
 ## Manage main and fix commits
