@@ -1,4 +1,4 @@
-# virtual-dom
+# mercury
 
 ```txt
    DOM
