@@ -179,5 +179,13 @@ za " toggle a fold
 zA " toggle all folds
 ```
 
+## Macros
+```vim
+q<key>          record macro at <key>
+q               stop recording
+@<key>          play back macro
+:<num> @<key>   play back macro <num> time
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
