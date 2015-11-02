@@ -199,6 +199,8 @@
   with delegated events
 - [inject-lr-script](https://github.com/mattdesl/inject-lr-script) - inject
   live reload into HTML content
+- [addressbar](https://www.npmjs.com/package/addressbar) - Expose addressbar as
+  an input field
 
 ## Client-side components
 - [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
