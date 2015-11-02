@@ -1,4 +1,6 @@
 # Redis
+Redis is a big collection of data structures that are held in memory and
+flushed to disk every so often.
 
 ## CRUD
 ```sh
