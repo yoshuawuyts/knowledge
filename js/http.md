@@ -37,3 +37,15 @@ const req = http.request(opts, res => res.pipe(process.stdout))
 // passed the request will be sent off, equivalent to req.end().
 fs.createReadStream('./foo.txt').pipe(req)
 ```
+
+### Request url parsing
+The `url` module synergizes extremely well with the `http` module. In order to
+parse url's and destructure queryStrings do:
+```js
+const http = require('http')
+const url = require('url')
+
+http.createServer((req, res) => {
+  // pass true to url.parse to also destructure the query object
+}).listen()
+```
