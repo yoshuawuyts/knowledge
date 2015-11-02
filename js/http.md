@@ -6,8 +6,8 @@
 const http = require('http')
 
 // create a request and pipe the body to stdout
-http.get('http://google.com', function (req) {
-  req.pipe(process.stdout)
+http.get('http://google.com', function (res) {
+  res.pipe(process.stdout)
 })
 ```
 
