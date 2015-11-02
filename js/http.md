@@ -117,5 +117,8 @@ const url = require('url')
 
 http.createServer((req, res) => {
   // pass true to url.parse to also destructure the query object
+  const url = url.parse(req.url, true)
+  console.log(url)
+  res.end()
 }).listen()
 ```
