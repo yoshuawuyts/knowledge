@@ -114,3 +114,13 @@ __android__
 ```
 - [developers.google.com/app-install-banners](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android#native)
 - [developer.apple.com/smart-banners](https://developer.apple.com/library/mac/documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html)
+
+## media queries in JS
+Using [window.matchMedia](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)
+```js
+if (window.matchMedia("(min-width: 400px)").matches) {
+  /* the viewport is at least 400 pixels wide */
+} else {
+  /* the viewport is less than 400 pixels wide */
+}
+```
