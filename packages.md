@@ -502,6 +502,10 @@ swipe-from-the-side menus
   interactive command line user interfaces
 - [notify-error](https://github.com/mattdesl/notify-error) - send an error
   notification
+- [clear](https://github.com/bahamas10/node-clear) - Clear the terminal screen
+  if possible
+- [ansi](https://www.npmjs.com/package/ansi) - Advanced ANSI formatting tool
+  for Node.js
 
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store)
