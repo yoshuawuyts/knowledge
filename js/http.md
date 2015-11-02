@@ -1,4 +1,74 @@
 # http
+HTTP is a standard protocol on top of the TCP transport protocol. It retries by
+default, and is widely supported. Unlike many other programming languages, Node
+ships with its own HTTP client as part of the core library. Given that Node was
+originally intended as a JS version of Nginx it should not be surprising that
+Node is quite good at HTTP.
+
+`require('http')` in Node is often misunderstood, a lot of people never try it
+out choosing to interface with HTTP through frameworks such as `express`
+instead. Once you get past the somewhat rough documentation it turns out
+`require('http')` is very versatile and only has a tiny API surface.
+
+In this section I'll show some of the more common patterns using Node's HTTP
+module.
+
+## Server
+### Basic
+```js
+const http = require('http')
+const port = 1337
+
+http.createServer(function (req, res) {
+  res.setHeader('Content-Type', 'text/plain')
+  res.end('hello world')
+}).listen(port)
+```
+
+### Listen on random unused port & retrieve port
+```js
+const getPort = require('get-server-port')
+const http = require('http')
+
+const server = http.createServer(function (req, res) {
+  res.setHeader('Content-Type', 'text/plain')
+  res.end('hello world')
+})
+
+server.listen()
+const port = getPort(server)
+```
+
+### Stream a file as a server response
+```js
+const http = require('http')
+const fs = require('fs')
+
+http.createServer(function (req, res) {
+  res.setHeader('Content-Type', 'application/json')
+  fs.createReadStream('./file.json').pipe(res)
+}).listen()
+```
+
+### Switch on a url
+A statusCode of `200` is the default. When no path is matched a `404` should be
+returned.
+```js
+const http = require('http')
+const url = require('url')
+
+http.createServer(function (req, res) {
+  res.setHeader('Content-Type', 'text/plain')
+
+  const path = url.parse(req.url)
+
+  // minimal router
+  if (path === '/hello') return res.end('hello')
+  if (path === '/error') return res.end('oh no!')
+  res.statusCode = 404
+  res.end('path not found')
+}).listen()
+```
 
 ## Client
 ### GET request
@@ -40,7 +110,7 @@ fs.createReadStream('./foo.txt').pipe(req)
 
 ### Request url parsing
 The `url` module synergizes extremely well with the `http` module. In order to
-parse url's and destructure queryStrings do:
+parse url's and destructure query strings do:
 ```js
 const http = require('http')
 const url = require('url')
