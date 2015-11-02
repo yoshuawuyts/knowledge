@@ -65,10 +65,12 @@ aren't working as planned, having marks is pretty neat. It's also neat when
 there's a large file in which you have to jump between sections (and `(` and `)`
 won't do).
 ```text
-ma      set mark at current cursor position
-'a      jump to location of mark a
-`a      jump to position (line and column) of mark a
-:marks  list all current marks
+m<char>  set mark at current cursor position
+ma       set mark at a, bound to file
+mA       set mark to A, bound to project
+'a       jump to location of mark a
+`a       jump to position (line and column) of mark a
+:marks   list all current marks
 ```
 
 ## Stash vim session
