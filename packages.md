@@ -91,6 +91,8 @@
 ## Video
 - [canvid](https://github.com/gka/canvid) — play video on canvas elements
   (without audio)
+- [mp4-stream](https://github.com/mafintosh/mp4-stream) - Streaming mp4 encoder
+  and decoder
 
 ## Tools
 - [standard](http://ghub.io/standard) — JavaScript standard style linter
