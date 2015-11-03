@@ -10,7 +10,7 @@ layer 0
 layer 1
   link layer
   communication with devices that share a physical connection
-  Ethernet, 802.11a/b/g/n, and Token Ring 
+  Ethernet, 802.11a/b/g/n, and Token Ring
 
 layer 2
   network layer
