@@ -54,6 +54,22 @@ for example, has 7 layers.
 - reliable (retries)
 - overhead
 
+## nc(1)
+`nc` is the `netcat` command. It does anything surrounding TCP and UDP /
+Datagram.
+
+### create a direct chat connection
+Implement a rudimentary IRC chat using netcat. When a connection is
+established, messages will be echoed on both sides.
+__terminal 1__
+```sh
+$ nc -l 1337  # listen on port 1337
+```
+__terminal 2__
+```sh
+$ nc localhost 1337
+```
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
