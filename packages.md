@@ -471,6 +471,8 @@ swipe-from-the-side menus
   stdout stream
 - [size-stream](https://github.com/yoshuawuyts/size-stream) - Count the size of
   a stream in bytes
+- [progress-stream](https://github.com/freeall/progress-stream) - Read the
+  progress of a stream
 
 ## Event emitters
 - [geval](https://github.com/Raynos/geval) — event implementation
