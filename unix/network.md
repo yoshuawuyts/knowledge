@@ -70,6 +70,22 @@ __terminal 2__
 $ nc localhost 1337
 ```
 
+### Create a proxy
+```sh
+#!/bin/sh
+# proxy.sh
+
+url=$2
+```
+```sh
+$ nc -lk 127.0.0.1 80 | ./proxy.sh
+```
+
+### Port scanning
+```sh
+$ nc -z host.example.com 20-30
+```
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
