@@ -145,6 +145,15 @@ $ git reset HEAD <file>
 $ git remote set-url origin git@github.com:<username>/<repo>.git
 ```
 
+## Rebase the first 2 commits in git
+The root commit is protected by default, the `--root` flag enables
+modification:
+```sh
+$ git rebase -i --root
+```
+__link__
+- [squash the first 2 commits in git](http://stackoverflow.com/questions/598672/squash-the-first-two-commits-in-git)
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
