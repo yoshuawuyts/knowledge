@@ -43,3 +43,8 @@ length.
 - once the feelings have been identified, ask yourself what these feelings are
   serving. Are they warning about a real problem or are you jealous for
   jealousy's sake?
+
+## Purpose
+> The things we can touch have no permanence. It is all an illusion. A person's
+> primary need is to let go. Only then can they possess what is truly real.
+- __source:__ crouching tiger, hidden dragon
