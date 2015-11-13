@@ -10,7 +10,7 @@ This will output all data passed to stdin.
 ```sh
 # transform.sh
 while read stdin; do
-  echo stdin
+  echo "$stdin"
 done
 ```
 Unix pipes now work:
