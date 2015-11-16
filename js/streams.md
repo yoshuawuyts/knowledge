@@ -355,3 +355,4 @@ pts1.pipe(pts2)
   useful stream utility modules
 - [iojs/api/streams](https://iojs.org/api/stream.html) - iojs streams
   documentation
+- [streams notes](https://gist.github.com/chrisdickinson/0a236ce62097c806113d)
