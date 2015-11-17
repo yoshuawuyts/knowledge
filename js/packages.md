@@ -332,6 +332,8 @@ swipe-from-the-side menus
   streaming torrent engine that peerflix uses
 - [tar-stream](https://github.com/mafintosh/tar-stream) — tar-stream is a
   streaming tar parser and generator
+- [gunzip-maybe](https://github.com/mafintosh/gunzip-maybe) - Transform stream
+  that gunzips its input if it is gzipped
 - [reconnect-core](https://github.com/juliangruber/reconnect-core) — Generic
   stream reconnection module
 - [event source stream](https://github.com/mafintosh/event-source-stream) —
