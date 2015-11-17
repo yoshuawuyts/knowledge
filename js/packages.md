@@ -475,6 +475,8 @@ swipe-from-the-side menus
   a stream in bytes
 - [progress-stream](https://github.com/freeall/progress-stream) - Read the
   progress of a stream
+- [peek-stream](https://github.com/mafintosh/peek-stream) - Transform stream
+  that lets you peek the first line before deciding how to parse it
 
 ## Event emitters
 - [geval](https://github.com/Raynos/geval) — event implementation
