@@ -17,6 +17,11 @@ fi
 ```
 
 ## command line switches
+`getopt(1)` is the way to handle CLI flag switches in shell. It's built into
+most, if not all shell distributions. It uses `getopt(3)` under the hood.
+
+Arguments are passed with or without colons; e.g.
+[tbi]
 ```sh
 #! /bin/sh
 
@@ -49,3 +54,4 @@ for PARAM; do
 done
 ```
 - [command line option parsing in shell](http://blog.mafr.de/2007/08/05/cmdline-options-in-shell-scripts/)
+- [using getopt to get long cmd options](https://stackoverflow.com/questions/402377/using-getopts-in-bash-shell-script-to-get-long-and-short-command-line-options/7948533#7948533)
