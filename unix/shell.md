@@ -25,22 +25,10 @@ USAGE="Usage: `basename $0` [-hv] [-o arg] args"
 # Parse command line options.
 while getopts hvo: OPT; do
     case "$OPT" in
-        h)
-            echo $USAGE
-            exit 0
-            ;;
-        v)
-            echo "`basename $0` version 0.1"
-            exit 0
-            ;;
-        o)
-            OUTPUT_FILE=$OPTARG
-            ;;
-        \?)
-            # getopts issues an error message
-            echo $USAGE >&2
-            exit 1
-            ;;
+        h) echo $USAGE; exit 0 ;;
+        v) echo "`basename $0` version 0.1"; exit 0 ;;
+        o) OUTPUT_FILE=$OPTARG ;;
+        \?) echo $USAGE >&2; exit 1; ;; # getopts issues an error message
     esac
 done
 
@@ -59,7 +47,5 @@ fi
 for PARAM; do
     echo $PARAM
 done
-
-# EOF
 ```
 - [command line option parsing in shell](http://blog.mafr.de/2007/08/05/cmdline-options-in-shell-scripts/)
