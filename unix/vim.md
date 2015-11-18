@@ -189,5 +189,10 @@ q               stop recording
 :<num> @<key>   play back macro <num> time
 ```
 
+## Open url under cursor in browser
+```vim
+gx
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
