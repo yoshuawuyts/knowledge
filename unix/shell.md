@@ -55,3 +55,19 @@ done
 ```
 - [command line option parsing in shell](http://blog.mafr.de/2007/08/05/cmdline-options-in-shell-scripts/)
 - [using getopt to get long cmd options](https://stackoverflow.com/questions/402377/using-getopts-in-bash-shell-script-to-get-long-and-short-command-line-options/7948533#7948533)
+
+## parallel
+```sh
+fn1 () {
+  sleep 3
+  echo 'cmd1 done'
+}
+
+fn2 () {
+  sleep 2
+  echo 'cmd2 done'
+}
+
+(fn1 & fn2) | cat
+echo 'all done'
+```
