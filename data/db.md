@@ -104,3 +104,21 @@ __resources__
 ### links
 - [falling in and out of love with dynamodb](http://0x74696d.com/posts/falling-in-and-out-of-love-with-dynamodb-part-ii/)
 - [dynamodb for js cheat sheet](http://www.markomedia.com.au/dynamodb-for-javascript-cheatsheet/)
+
+## leveldb
+Towers of hanoi abstraction. Merges are expensive, write to small files, merge
+whenever n stores can be merged.
+- in memory skiplist (sorted by keys, like a linked list but multi links)
+- SST (Sorted String Table, sorted by keys)
+- ordered log file (by timestamp)
+
+- files come in, dumped in a log
+- indexed in an in-memory SST
+- flushed to a on-disk SST once a threshold is reached
+- when n SST's of a certain size exist, they are merged into a larger (and thus
+  more efficient) SST
+
+Ordered log files can be traversed using binary search. Larger log files are
+faster to traverse using binary search, but merging log files is sort of slow
+(not really, but hey). So leveldb creates levels of log files, and only merges
+them once in a while, creating several levels.
