@@ -48,3 +48,7 @@ length.
 > The things we can touch have no permanence. It is all an illusion. A person's
 > primary need is to let go. Only then can they possess what is truly real.
 - __source:__ crouching tiger, hidden dragon
+
+## Todos
+Email looks like a messaging system, but is actually a todo system that other
+people can add to.
