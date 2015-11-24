@@ -39,3 +39,37 @@ Host server1
   IdentityFile /nfs/shared/users/nixcraft/keys/server1/id_rsa
 ```
 - [create ssh config file on linux](http://www.cyberciti.biz/faq/create-ssh-config-file-on-linux-unix/)
+
+## Files
+- `~/.ssh`: holds all `ssh` configuration
+- `~/.ssh/known_hosts`: connect to a server, make sure it's not an
+  impersonator.
+- `~/.ssh/authorized_keys`: let the server authenticate the user.
+
+## Copying files
+### rsync
+`rsync` is probably the fastest way of getting files across, _but_ it has one
+major caveat: it needs to be installed on both sides. If that's the case then
+copying files over is easy-peasy.
+
+```sh
+# recursively copy files to remote
+$ rsync -r -e ssh <username>@<remote>:<path> <files-to-copy>
+$ rsync -r -e ssh foobar@127.0.0.1:/~ ./my-dir
+```
+
+To specify the location of `rsync` on the remote you can pass in the
+`--rsync-path=` flag.
+
+### scp
+Secure copy is a less performant alternative to `rsync` but does not require to
+be installed on both sides. On the flip side: it acts more as an extension to
+`ssh` than `rsync` by allowing similar configuration to be passed in.
+
+`scp` reads commands from `source > destination`, and thus allows copying files
+from remote to remote.
+```sh
+$ scp [opts] <source> <destination>
+$ scp <files-to-copy> <user>@<remote>:<path>        # copy a file
+$ scp -i ./linux/id_rsa user@10.0.01:~/ ./file.dat  # use an ssh id file
+```
