@@ -154,6 +154,14 @@ $ git rebase -i --root
 __link__
 - [squash the first 2 commits in git](http://stackoverflow.com/questions/598672/squash-the-first-two-commits-in-git)
 
+## Git blame
+Sometimes you want to know who wrote a certain piece of code. `git blame` to
+the rescue!
+```sh
+$ git blame <filename>                    # git blame a complete file
+$ git blame -L <start>,<end> <filename>   # git blame between certain lines
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
