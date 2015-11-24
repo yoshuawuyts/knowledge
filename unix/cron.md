@@ -10,7 +10,7 @@
  # │ └──────────────────── hour (0 - 23)
  # └───────────────────────── min (0 - 59)
  ```
- 
+
  See also
  - [wikipedia/cron](http://en.wikipedia.org/wiki/Cron)
 
