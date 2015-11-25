@@ -51,3 +51,9 @@ therehi
 ## See Also
 - [idiomatic awk](http://backreference.org/2010/02/10/idiomatic-awk/)
 - [world's best introduction to sed](http://www.catonmat.net/blog/worlds-best-introduction-to-sed/)
+
+## grep
+### inverse grep / exclude data
+```sh
+$ grep -v hello < ./file.txt   # exclude 'hello'
+```
