@@ -5,8 +5,16 @@ Manage who can do what on the system.
 ### create user
 Either `useradd` or `adduser`
 ```sh
-$ sudo adduser <name>
-$ sudo mkdir /home/<name>   # create a home dir for user
+$ sudo adduser -m <name>   # create user + home dir
+
+# now it's time to make the user the owner of the home dir,
+# and set the right permissions for all files within
+$ chown <user>:<user> -R ~/<user>   # recursively change owner of ~/<user>/**
+$ chmod 700 /home/<user>            # hide dir from other users
+```
+or alternatively:
+```sh
+$ sudo adduser -m <user>  # does all of the above in a single command except
 ```
 
 ## groups
