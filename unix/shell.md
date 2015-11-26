@@ -77,5 +77,6 @@ echo 'all done'
 #!/bin/sh
 if [ "$(uname)" = "Darwin" ]; then
   which gmktemp > /dev/null || exit 1
+  alias mktemp="gmktemp"   # typical action on OS X for Linux compat
 fi
 ```
