@@ -87,6 +87,8 @@
   Audio API
 - [meyda](https://github.com/hughrawlinson/meyda) - Real-time Audio Feature
   Extraction for the Web Audio API
+- [web-audio-player](https://github.com/Jam3/web-audio-player) - cross-browser
+  WebAudio player
 
 ## Video
 - [canvid](https://github.com/gka/canvid) — play video on canvas elements
