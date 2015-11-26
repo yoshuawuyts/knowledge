@@ -16,6 +16,13 @@ or with a `~/.ssh/configfile`
 ssh <Host>
 ```
 
+## Add SSH key to server
+```sh
+$ ssh-keygen -f ~/.ssh/<key-name>         # interactively generate keys
+$ ssh-copy-id -i <ssh-keyfile> <remote>   # copy key to remote
+```
+- [3-steps-to-ssh](http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/)
+
 ## Managing configuration
 `ssh(1)` obtains configuration data from the following sources in the following
 order:
