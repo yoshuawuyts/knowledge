@@ -8,9 +8,11 @@ Either `useradd` or `adduser`
 $ sudo adduser -m <name>   # create user + home dir
 
 # now it's time to make the user the owner of the home dir,
-# and set the right permissions for all files within
-$ chown <user>:<user> -R ~/<user>   # recursively change owner of ~/<user>/**
-$ chmod 700 /home/<user>            # hide dir from other users
+# and set the right permissions for all files within.
+
+$ chown <user>:<user> -R ~/<user>      # recursively change owner
+$ chmod 700 /home/<user>               # hide dir from other users
+$ chsh -s /usr/local/bin/bash <user>   # change login shell
 ```
 or alternatively:
 ```sh
