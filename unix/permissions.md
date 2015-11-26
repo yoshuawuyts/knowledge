@@ -5,7 +5,8 @@ Manage who can do what on the system.
 ### create user
 Either `useradd` or `adduser`
 ```sh
-$ adduser <name>
+$ sudo adduser <name>
+$ sudo mkdir /home/<name>   # create a home dir for user
 ```
 
 ## groups
