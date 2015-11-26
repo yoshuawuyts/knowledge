@@ -71,3 +71,11 @@ fn2 () {
 (fn1 & fn2) | cat
 echo 'all done'
 ```
+
+## test if command is available
+```sh
+#!/bin/sh
+if [ "$(uname)" = "Darwin" ]; then
+  which gmktemp > /dev/null || exit 1
+fi
+```
