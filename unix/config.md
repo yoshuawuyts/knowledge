@@ -20,6 +20,11 @@ Readline configuration; vim bindings are more convenient than emacs
 set editing-mode vi
 set keymap vi-command
 ```
+Alternatively if you're SSH'ing into a remote box with no config and bash you
+can do:
+```sh
+$ set -o vi
+```
 
 ## ~/.shrc
 Generic shell config; can be sourced from any shell
