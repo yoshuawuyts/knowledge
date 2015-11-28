@@ -17,7 +17,10 @@ fi
 ```
 
 ## loop
-Don't loop over `ls` output, instead do:
+Looping over `ls` output can cause trouble for filenames that contain spaces,
+globs or other odd characters. Instead it's safer to use a glob. In shell loops
+also run once if there's no match, so an extra line is needed to `break` the
+loop if no matches are found.
 ```sh
 # loop over files in directory
 for file in *.wav; do
