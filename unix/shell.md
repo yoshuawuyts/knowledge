@@ -16,6 +16,17 @@ else
 fi
 ```
 
+## loop
+Don't loop over `ls` output, instead do:
+```sh
+# loop over files in directory
+for file in *.wav; do
+  [[ -e $file ]] || break  # handle the case of no *.wav files
+  echo "$file"
+done
+```
+- [shellcheck/loop](https://github.com/koalaman/shellcheck/wiki/SC2045)
+
 ## command line switches
 `getopt(1)` is the way to handle CLI flag switches in shell. It's built into
 most, if not all shell distributions. It uses `getopt(3)` under the hood.
