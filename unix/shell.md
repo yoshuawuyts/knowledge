@@ -21,7 +21,7 @@ Don't loop over `ls` output, instead do:
 ```sh
 # loop over files in directory
 for file in *.wav; do
-  [[ -e $file ]] || break  # handle the case of no *.wav files
+  [ -e $file ] || break  # handle the case of no *.wav files
   echo "$file"
 done
 ```
@@ -66,6 +66,7 @@ done
 ```
 - [command line option parsing in shell](http://blog.mafr.de/2007/08/05/cmdline-options-in-shell-scripts/)
 - [using getopt to get long cmd options](https://stackoverflow.com/questions/402377/using-getopts-in-bash-shell-script-to-get-long-and-short-command-line-options/7948533#7948533)
+- [cross platform getopt](http://stackoverflow.com/a/4300224/1541707)
 
 ## parallel
 ```sh
