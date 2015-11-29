@@ -16,6 +16,21 @@ else
 fi
 ```
 
+Or if you're used to C-syntax languages, there's the more familiar looking
+version:
+```sh
+# one line
+[ "$1" -eq 0 ] && { echo hi && exit 1; }
+
+# multi-line
+[ ! "$?" -eq 0 ] && {
+  echo hi
+  exit 1
+}
+```
+`{}` creates a non-subshell grouping; `()` creates a subshell grouping which
+will not exit the program if `exit 1` is provided.
+
 ## loop
 Looping over `ls` output can cause trouble for filenames that contain spaces,
 globs or other odd characters. Instead it's safer to use a glob. In shell loops
