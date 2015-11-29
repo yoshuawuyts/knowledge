@@ -34,42 +34,96 @@ done
 `getopt(1)` is the way to handle CLI flag switches in shell. It's built into
 most, if not all shell distributions. It uses `getopt(3)` under the hood.
 
-Arguments are passed with or without colons; e.g.
-[tbi]
+`getopt` solves the problem of flag parsing; e.g. the following are considered
+equivalent after being parsed by `getopt`:
 ```sh
-#! /bin/sh
+$ cmd -aoarg file file
+$ cmd -a -o arg file file
+$ cmd -oarg -a file file
+$ cmd -a -oarg -- file file
+```
 
-USAGE="Usage: `basename $0` [-hv] [-o arg] args"
+`getopt` takes argument flags as the first argument (more on colons later) and
+the list of arguments to apply the flags on as the second argument. It's
+generally recommended to pass the special variable `$*` as the second argument.
+```sh
+$ getopt <flags> <argument-list>
+$ getopt fvdo:i:: $*
+```
 
-# Parse command line options.
-while getopts hvo: OPT; do
-    case "$OPT" in
-        h) echo $USAGE; exit 0 ;;
-        v) echo "`basename $0` version 0.1"; exit 0 ;;
-        o) OUTPUT_FILE=$OPTARG ;;
-        \?) echo $USAGE >&2; exit 1; ;; # getopts issues an error message
-    esac
-done
-
-# Remove the switches we parsed above.
-shift `expr $OPTIND - 1`
-
-# We want at least one non-option argument.
-# Remove this block if you don't need it.
-if [ $# -eq 0 ]; then
-    echo $USAGE >&2
-    exit 1
+### defining flags to parse
+Using `getopt` requires some trickery. Arguments can be anything: from special
+characters (such as globs) to filenames with spaces. To make sure everything is
+parsed correctly and errors are handled there's a bit of boilerplate we must
+use:
+```sh
+args="$(getopt abo: $*)"
+if [ $? != 0 ]; then
+  echo 'Usage: ...'
+  exit 2
 fi
+eval set -- "$args"
+```
 
-# Access additional arguments as usual through
-# variables $@, $*, $1, $2, etc. or using this loop:
-for PARAM; do
-    echo $PARAM
+In the snippet above there's quite a lot going on. To check if `getopt` is able
+to parse all arguments, the exit code of the variable assignment is checked.
+Assigning the output to `eval set` directly would swallow the exit code so we
+must assign it to a variable before that.
+
+After running `getopt`, we must redefine our arguments. `set --` does this. In
+order to correctly parse whitespaces in arguments we must run it through
+`eval`, resulting in `eval set --` to redefine our arguments.
+
+### flag types & arguments
+`getopt` uses delimiters to signal if arguments are optional or not, and what
+type of arguments they take. Using the example of "option":
+- `o` boolean `-o` flag
+- `o:` `-o` takes a required argument in the form
+- `o::` `-o` takes an optional argument
+
+### long flags
+GNU `getopt` has support for `--flag` style flags (long flags), while simple
+`getopt` does not. In extended setopt long options are passed with `--long`
+while short options are passed with `--option`. Regular `setopt` has no flags
+and just parses short options.
+
+This snippet detects which version is available and allows setting of the
+appropriate flags:
+```sh
+getopt -T > /dev/null
+if [ $? -eq 4 ]; then
+  # GNU enhanced getopt is available
+  eval set -- "$(getopt --long help,output:,version --options ho:v -- "$@")"
+else
+  # Original getopt is available
+  eval set -- "$(getopt ho:v "$@")"
+fi
+```
+
+### parsing arguments
+Once the argument flags have been provided the actual arguments must be parsed.
+There are several options:
+- boolean switch
+- switch with an argument e.g. do `var=$2; shift 2 ;;`
+- `--` delimiter, shift and signal a break to parse remaining args
+- none of the above, which means break
+
+```sh
+while true; do
+  case "$1" in
+    -v | --verbose ) VERBOSE=true; shift ;;
+    -d | --debug ) DEBUG=true; shift ;;
+    -m | --memory ) MEMORY="$2"; shift 2 ;;
+    --debugfile ) DEBUGFILE="$2"; shift 2 ;;
+    -- ) shift; break ;;
+    * ) break ;;
+  esac
 done
 ```
 - [command line option parsing in shell](http://blog.mafr.de/2007/08/05/cmdline-options-in-shell-scripts/)
 - [using getopt to get long cmd options](https://stackoverflow.com/questions/402377/using-getopts-in-bash-shell-script-to-get-long-and-short-command-line-options/7948533#7948533)
 - [cross platform getopt](http://stackoverflow.com/a/4300224/1541707)
+- [getopt vs getopts](http://blog.onetechnical.com/2012/07/16/bash-getopt-versus-getopts/)
 
 ## parallel
 ```sh
@@ -95,3 +149,6 @@ if [ "$(uname)" = "Darwin" ]; then
   alias mktemp="gmktemp"   # typical action on OS X for Linux compat
 fi
 ```
+
+## special variables
+- [unix special variables](http://www.tutorialspoint.com/unix/unix-special-variables.htm)
