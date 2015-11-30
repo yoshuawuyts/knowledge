@@ -162,6 +162,14 @@ $ git blame <filename>                    # git blame a complete file
 $ git blame -L <start>,<end> <filename>   # git blame between certain lines
 ```
 
+## Safer force push
+`--force` is dangerous as it blindly overwrites; `--force-with-lease` will
+check if the ref hasn't been modified before force pushing.
+```sh
+$ git push --force-with-lease
+```
+- [atlassian/force-with-lease](https://developer.atlassian.com/blog/2015/04/force-with-lease/)
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
