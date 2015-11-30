@@ -196,3 +196,11 @@ while read line; do
   echo "$line"
 done
 ```
+
+## printf
+There exist different flavors of `echo`, where the two main versions conflict
+with each other. `printf` is the successor to `echo` and is far more powerful.
+```sh
+$ printf 'hello world'             # echo 'hello world'
+$ printf '%s %s' "$var1" "$var2"   # echo contents from var1 and var2
+```
