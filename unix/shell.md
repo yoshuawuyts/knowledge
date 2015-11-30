@@ -135,6 +135,28 @@ while true; do
   esac
 done
 ```
+
+### all together now
+```sh
+# set CLI flags
+getopt -T > /dev/null
+if [ "$?" -eq 4 ]; then args="$(getopt --long help --options h -- "$*")"
+else args="$(getopt h "$*")"; fi
+[ ! $? -eq 0 ] && { usage && exit 2; }
+eval set -- "$args"
+
+# parse CLI flags
+while true; do
+  case "$1" in
+    -h|--help) usage && exit 1 ;;
+    -- ) shift; break ;;
+    * ) break ;;
+  esac
+done
+
+# assert argv count
+[ "$#" != 0 ] && { usage && exit 1; }
+```
 - [command line option parsing in shell](http://blog.mafr.de/2007/08/05/cmdline-options-in-shell-scripts/)
 - [using getopt to get long cmd options](https://stackoverflow.com/questions/402377/using-getopts-in-bash-shell-script-to-get-long-and-short-command-line-options/7948533#7948533)
 - [cross platform getopt](http://stackoverflow.com/a/4300224/1541707)
@@ -167,3 +189,10 @@ fi
 
 ## special variables
 - [unix special variables](http://www.tutorialspoint.com/unix/unix-special-variables.htm)
+
+## read from stdin
+```sh
+while read line; do
+  echo "$line"
+done
+```
