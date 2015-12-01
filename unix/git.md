@@ -170,6 +170,11 @@ $ git push --force-with-lease
 ```
 - [atlassian/force-with-lease](https://developer.atlassian.com/blog/2015/04/force-with-lease/)
 
+## Git get theirs / pull --force
+```sh
+$ git reset --hard origin
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
