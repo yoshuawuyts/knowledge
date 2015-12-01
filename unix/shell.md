@@ -43,7 +43,14 @@ for file in *.wav; do
   echo "$file"
 done
 ```
+```sh
+# loop over command output separated by newlines
+git remote -v | while IFS= read -r my_var; do
+  echo "$s"
+done
+```
 - [shellcheck/loop](https://github.com/koalaman/shellcheck/wiki/SC2045)
+- [shellcheck/multi-line-loop](https://github.com/koalaman/shellcheck/wiki/SC2066)
 
 ## command line switches
 `getopt(1)` is the way to handle CLI flag switches in shell. It's built into
