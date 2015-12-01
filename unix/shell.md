@@ -7,9 +7,12 @@ cross-platform `sh`.
 
 ## if-else statement
 The conditional between brackets is checked for an exit code (e.g. only `0`
-passes the test) and then it proceeds down the logic tree.
+passes the test) and then it proceeds down the logic tree. In shell everything
+is a string. To do equality checks there's the common `=` which does a string
+(lexical) check, and there's `-eq` which performs a numeric check. `-eq` and
+`-ne` are useful to operate based on exit codes.
 ```sh
-if [ 'hello' == 'world' ]; then
+if [ 'hello' = 'world' ]; then
   echo hello
 else
   echo nah
@@ -45,7 +48,7 @@ done
 ```
 ```sh
 # loop over command output separated by newlines
-git remote -v | while IFS= read -r my_var; do
+cat <filename> | while IFS= read -r my_var; do
   echo "$s"
 done
 ```
