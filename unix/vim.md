@@ -195,5 +195,15 @@ q               stop recording
 gx
 ```
 
+## Disable conceal
+In 2011 vim added a feature called `conceal` which allows syntax parts to be
+shadowed, allowing "nicer" views. For some people (like me) it feels as if
+reality is distorted, and want to disable this. Luckily that's possible through
+a setting:
+```vim
+set cole=0   " disable conceal
+set cole=2   " enable conceal
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
