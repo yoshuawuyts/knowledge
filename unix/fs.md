@@ -52,3 +52,12 @@ OS X / GNU `mktemp` are different, which is heaps confusing.
 $ mktemp -d /tmp             # create directory
 $ mktemp /tmp/"$$"-my-file   # create tmp file prefixed by pid
 ```
+
+### /tmp
+Not every distro adheres to the Linux
+[Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard),
+but no need to sweat about it, we can create our own:
+```sh
+$ sudo mkdir /tmp
+$ sudo chmod 1777 /tmp   # open to everyone + set sticky bit
+```
