@@ -210,7 +210,12 @@ done
 ## printf
 There exist different flavors of `echo`, where the two main versions conflict
 with each other. `printf` is the successor to `echo` and is far more powerful.
+
+To provide syntax highlighting in most editors it's preferable to use `""`
+over `''` despite character expansion not being necessary as it's handled by
+`printf`.
 ```sh
-$ printf 'hello world'             # echo 'hello world'
-$ printf '%s %s' "$var1" "$var2"   # echo contents from var1 and var2
+$ printf "hello world"                 # echo 'hello world'
+$ printf "%s %s" "$var1" "$var2"       # echo contents from var1 and var2
+$ printf "%b" "\x1b[1;32mhi\x1b[0m""   # echo 'hi' in green
 ```
