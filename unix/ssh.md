@@ -77,6 +77,7 @@ be installed on both sides. On the flip side: it acts more as an extension to
 from remote to remote.
 ```sh
 $ scp [opts] <source> <destination>
-$ scp <files-to-copy> <user>@<remote>:<path>        # copy a file
-$ scp -i ./linux/id_rsa user@10.0.01:~/ ./file.dat  # use an ssh id file
+$ scp <files-to-copy> <user>@<remote>:<path>         # copy a file
+$ scp -i ./linux/id_rsa ./file.dat user@10.0.0.1:~/  # use an ssh id file
+$ scp -r [!.]* user@10.0.0.1:~/   # copy dir recursively excluding dotfiles
 ```
