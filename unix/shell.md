@@ -16,6 +16,12 @@ ${variable:-word}   # use new value if undefined or null
 ${variable:+word}   # opposite of the above
 ${variable:=word}   # use new value if undefined or null, and redefine
 ```
+With variable expansion the result does get evaluated immediately though, so in
+order to prevent that the statement must be preceded by a `: (null)` character:
+```sh
+: ${foobar:-hello}
+echo "$foobar"
+```
 - [grymoire/shell/curly-brace-expansion](http://www.grymoire.com/Unix/Sh.html#uh-36)
 
 ## if-else statement
