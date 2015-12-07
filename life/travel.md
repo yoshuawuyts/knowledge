@@ -1,5 +1,10 @@
 # travel
 
+## Travel checklist
+- [ ] check visa
+- [ ] check vaccinations for area
+- [ ] check currency exchange
+
 ## Booking a plane
 - clear cache often, prices are set by cookies
 - early vs last minute bookings? no idea which one is best
@@ -11,6 +16,7 @@ this is how they make money
 sometimes the same flight is available for less somewhere else
 - [kayak.com](http://www.kayak.com)
 - [skyscanner](http://skyscanner.com)
+- [tripdelta](https://tripdelta.com)
 
 ## Planning a trip
 - Investigate when you want to travel first, off-season can save 80% in costs
@@ -66,13 +72,11 @@ common things. Insurances provided by the Dutch state are:
 
 Subscribing to the AOW and Anw can be done until 1 year after leaving the
 country.
-
 - [wonen en werken buitenland](https://www.svb.nl/int/nl/vv/wonen_werken_buiten_nederland/buiten_nl_wonen_werken/index.jsp)
 
 In addition there are other risks to take care of:
 - liability insurance
 - travel insurance
-
 - [emigreren.nu/zorgverzekering](http://www.emigreren.nu/zorgverzekering-en-emigratie/) - Dutch emigration law overview
 
 In Australia there are 3 types of insurances:
@@ -90,7 +94,6 @@ Here's a short list:
 - retirement fund
 - legalisation of diploma's and documents
 - welfare
-
 - [Dutch government emigration checklist](http://www.rijksoverheid.nl/onderwerpen/werken-in-het-buitenland/vraag-en-antwoord/wat-moet-ik-regelen-als-ik-ga-emigreren.html)
 
 ## See Also
