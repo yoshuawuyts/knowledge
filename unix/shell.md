@@ -190,6 +190,7 @@ done
 - [using getopt to get long cmd options](https://stackoverflow.com/questions/402377/using-getopts-in-bash-shell-script-to-get-long-and-short-command-line-options/7948533#7948533)
 - [cross platform getopt](http://stackoverflow.com/a/4300224/1541707)
 - [getopt vs getopts](http://blog.onetechnical.com/2012/07/16/bash-getopt-versus-getopts/)
+- [longform-getopt-gist](https://gist.github.com/yoshuawuyts/dd400238230b371d9caf)
 
 ## parallel
 ```sh
