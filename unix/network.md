@@ -86,6 +86,13 @@ $ nc -lk 127.0.0.1 80 | ./proxy.sh
 $ nc -z host.example.com 20-30
 ```
 
+## DNS
+[ explain how DNS works ]
+
+__tools__
+- `dnsmasq(1)` - DNS forwarder and server
+- `dig(1)` - DNS lookup utility
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
