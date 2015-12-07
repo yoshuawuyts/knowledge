@@ -5,6 +5,19 @@ matter, as long as it supports stdin, stdout. This is an overview of the shell
 language. Not bash, zsh, or anything fancy. Just your regular old
 cross-platform `sh`.
 
+## variable expansion
+```sh
+${variable?word}    # complain if undefined
+${variable-word}    # use new value if undefined
+${variable+word}    # opposite of the above
+${variable=word}    # use new value if undefined, and redefine
+${variable:?word}   # complain if undefined or null
+${variable:-word}   # use new value if undefined or null
+${variable:+word}   # opposite of the above
+${variable:=word}   # use new value if undefined or null, and redefine
+```
+- [grymoire/shell/curly-brace-expansion](http://www.grymoire.com/Unix/Sh.html#uh-36)
+
 ## if-else statement
 The conditional between brackets is checked for an exit code (e.g. only `0`
 passes the test) and then it proceeds down the logic tree. In shell everything
@@ -219,3 +232,6 @@ $ printf "hello world"                 # echo 'hello world'
 $ printf "%s %s" "$var1" "$var2"       # echo contents from var1 and var2
 $ printf "%b" "\x1b[1;32mhi\x1b[0m""   # echo 'hi' in green
 ```
+
+## See Also
+- [grymoire/shell](http://www.grymoire.com/Unix/Sh.html)
