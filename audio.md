@@ -30,22 +30,28 @@ osc.frequency.value = 440
 osc.detune.value = 3 * 100
 ```
 
+## Scale
+A scale is a collection of notes. A key + a scale pattern is a scale.
+- [scales](http://www.gosk.com/chords/m7-chords-for-guitar.php)
+
 ## Scale patterns
 No matter what note you start on, if you play a pattern you'll get a scale. A
 `|` denotes a tone (full jump, 2 frets). A `.` denotes a semitone (half jump, 1
 fret). Each of the 7 classic scale patterns is a transposition of the previous
 one.
 ```txt
-||.|||.   [ ionian (major) ]
-|.|||.|   [ dorian ]
-.|||.||   [ phrygian ]
-|||.||.   [ lydian ]
-||.||.|   [ mixolydian ]
-|.||.||   [ aeolian (minor) ]
-.||.|||   [ locrian ]
+||.|||.   [ ionian (typical major) ]
+|.|||.|   [ dorian (minor) ]
+.|||.||   [ phrygian (minor) ]
+|||.||.   [ lydian (major) ]
+||.||.|   [ mixolydian (major) ]
+|.||.||   [ aeolian (typical minor) ]
+.||.|||   [ locrian (minor) ]
 ```
 Scale patterns determine the key signature. There are more patterns, but these
-are the major ones.
+are the major ones. Each scale pattern has their own sounds and
+characteristics, for example the aeolian is a classic minor scale, the phrygian
+is a Spanish sounding scale and dorian is often used in folk music.
 
 The third note of a scale pattern signals if it's a major or minor (only 2
 possible positions for the third note).
@@ -60,8 +66,18 @@ b  c# d  e  f# g# a  b   (dorian mode)
 c# d  e  f# g# a  b  c#  (phrygian mode)
 ```
 - [wikipedia/music-modes](https://en.wikipedia.org/wiki/Mode_%28music%29)
+- [scale pattern](http://www.gosk.com/scales/phrygian-scale-for-guitar.php)
 
 ## chords
+Building a chord:
+- determine key
+- determine scale pattern
+
+```
+1 3 5     triad (major / minor) (3 determines)
+1 3 5 7   seventh (major / minor / diminished) (3 / 7 determine)
+```
+
 ### triad
 - A triad is a chord with 3 notes.
 - `1 3 5` of the key you are playing in
