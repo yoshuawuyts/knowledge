@@ -61,3 +61,14 @@ but no need to sweat about it, we can create our own:
 $ sudo mkdir /tmp
 $ sudo chmod 1777 /tmp   # open to everyone + set sticky bit
 ```
+
+## creating filesystems
+__tools__
+- `lsblk(1)` - list partitions on a device
+- `mkfs(1)` - create a new filesystem from a device
+- `mount(1)` - mount a filesystem on a node
+- `dd(1)` - convert and copy a file(system)
+- `losetup(1)` - setup and control loop devices
+
+## loop devices
+[ tbi ]
