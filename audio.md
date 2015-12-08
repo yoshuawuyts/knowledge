@@ -30,10 +30,11 @@ osc.frequency.value = 440
 osc.detune.value = 3 * 100
 ```
 
-## scale patterns
+## Scale patterns
 No matter what note you start on, if you play a pattern you'll get a scale. A
 `|` denotes a tone (full jump, 2 frets). A `.` denotes a semitone (half jump, 1
-fret).
+fret). Each of the 7 classic scale patterns is a transposition of the previous
+one.
 ```txt
 ||.|||.   [ ionian (major) ]
 |.|||.|   [ dorian ]
@@ -48,6 +49,17 @@ are the major ones.
 
 The third note of a scale pattern signals if it's a major or minor (only 2
 possible positions for the third note).
+
+Because each of the 7 classical patterns is a transposition of the previous
+one, if you start a mode on the next key in the previous mode's scale you get
+the same notes. The ionian A (A major) has the same notes as the dorian B, as
+the phrygian C#:
+```txt
+a  b  c# d  e  f# g# a   (ionian mode)
+b  c# d  e  f# g# a  b   (dorian mode)
+c# d  e  f# g# a  b  c#  (phrygian mode)
+```
+- [wikipedia/music-modes](https://en.wikipedia.org/wiki/Mode_%28music%29)
 
 ## chords
 ### triad
@@ -112,17 +124,6 @@ oscillator.stop(endTime + 2)
 
 ## Alda - programming music
 - [alda manifest & introduction](http://daveyarwood.github.io/alda/2015/09/05/alda-a-manifesto-and-gentle-introduction/)
-
-## Scalar modes
-- 7 different modes
-- a mode is the same scale, but with a different starting note
-- they've all got a name
-```txt
-[ A major scale ]
-a  b  c# d  e  f# g# a  (ionian mode)
-b  c# d  e  f# g# a  b  (dorian mode)
-```
-- [wikipedia/music-modes](https://en.wikipedia.org/wiki/Mode_%28music%29)
 
 ## See Also
 - [The science and mathematics of audio](https://www.youtube.com/watch?v=i_0DXxNeaQ0)
