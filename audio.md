@@ -30,12 +30,26 @@ osc.frequency.value = 440
 osc.detune.value = 3 * 100
 ```
 
-## major scale pattern
-No matter what note you start on, if you play this pattern you'll get a major
-scale.
+## scale patterns
+No matter what note you start on, if you play a pattern you'll get a scale. A
+`|` denotes a tone (full jump, 2 frets). A `.` denotes a semitone (half jump, 1
+fret).
+```txt
+||.|||.   [ ionian (major) ]
+|.|||.|   [ dorian ]
+.|||.||   [ phrygian ]
+|||.||.   [ lydian ]
+||.||.|   [ mixolydian ]
+|.||.||   [ aeolian (minor) ]
+.||.|||   [ locrian ]
 ```
-tone tone semitone tone tone tone semitone
-```
+Scale patterns determine the key signature. There are more patterns, but these
+are the major ones.
+
+## chords
+### triad
+- A triad is a chord with 3 notes.
+- `1 3 5` of the key you are playing in
 
 ## Filters
 Filters can modify values. Using `.connect()` they are analogous to `through`
