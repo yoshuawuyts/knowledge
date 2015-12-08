@@ -67,6 +67,8 @@ __tools__
 - `lsblk(1)` - list partitions on a device
 - `mkfs(1)` - create a new filesystem from a device
 - `mount(1)` - mount a filesystem on a node
+- `unmount(1)` - unmount a filesystem on a node
+- `mountpoint(1)` - see if a directory is a mountpoint
 - `dd(1)` - convert and copy a file(system)
 - `losetup(1)` - setup and control loop devices
 
