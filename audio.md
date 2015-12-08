@@ -2,7 +2,10 @@
 Audio, the synthesis (in whichever way) of sound.
 
 ## Chromatic scale
-12 notes is a full octave.
+- each key/fret is a semitone
+- 12 semitones is a full octave
+- 2 semitones is a tone
+- each scale is made up of patterns of tones and semitones
 ```
                          -3  -1   1       4   6       9   11
                        -4  -2   0   2   3   5   7   8   10  12
@@ -25,6 +28,13 @@ const osc = ctx.createOscillator()
 osc.type = 'sawtooth'
 osc.frequency.value = 440
 osc.detune.value = 3 * 100
+```
+
+## major scale pattern
+No matter what note you start on, if you play this pattern you'll get a major
+scale.
+```
+tone tone semitone tone tone tone semitone
 ```
 
 ## Filters
@@ -85,6 +95,17 @@ oscillator.stop(endTime + 2)
 
 ## Alda - programming music
 - [alda manifest & introduction](http://daveyarwood.github.io/alda/2015/09/05/alda-a-manifesto-and-gentle-introduction/)
+
+## Scalar modes
+- 7 different modes
+- a mode is the same scale, but with a different starting note
+- they've all got a name
+```txt
+[ A major scale ]
+a  b  c# d  e  f# g# a  (ionian mode)
+b  c# d  e  f# g# a  b  (dorian mode)
+```
+- [wikipedia/music-modes](https://en.wikipedia.org/wiki/Mode_%28music%29)
 
 ## See Also
 - [The science and mathematics of audio](https://www.youtube.com/watch?v=i_0DXxNeaQ0)
