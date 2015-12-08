@@ -240,5 +240,14 @@ $ printf "%s %s" "$var1" "$var2"       # echo contents from var1 and var2
 $ printf "%b" "\x1b[1;32mhi\x1b[0m""   # echo 'hi' in green
 ```
 
+## requireing files
+Sometimes a program has multiple commands, and it makes sense to split it into
+separate files. When a file is symlinked the paths should continue to link to
+the correct files. There's _1 easy trick_ to achieve this:
+```sh
+$ dirname=$(dirname "$(readlink -f "$0")")
+$ cat "$dirname"/foo/bar.txt
+```
+
 ## See Also
 - [grymoire/shell](http://www.grymoire.com/Unix/Sh.html)
