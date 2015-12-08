@@ -46,6 +46,9 @@ fret).
 Scale patterns determine the key signature. There are more patterns, but these
 are the major ones.
 
+The third note of a scale pattern signals if it's a major or minor (only 2
+possible positions for the third note).
+
 ## chords
 ### triad
 - A triad is a chord with 3 notes.
