@@ -261,5 +261,14 @@ $ cat < pipe > output.ext
 $ ls -la > pipe
 ```
 
+## detect if script is executed by sudo
+`sudo` is user 0 on the system, so we can check for that:
+```sh
+if [ "$(id -u)" -ne 0 ]; then
+  printf "shocker(1) should be executed as sudo\n"
+  exit 1
+fi
+```
+
 ## See Also
 - [grymoire/shell](http://www.grymoire.com/Unix/Sh.html)
