@@ -195,6 +195,8 @@
   scrolling to an element via selector or node reference
 - [drag-and-drop-files](https://github.com/mikolalysenko/drag-and-drop-files) —
   Handle file drag-and-drop events without all the Yak shaving
+- [drag-drop](https://github.com/feross/drag-drop) - HTML5 drag & drop for
+  humans
 - [filereader-stream](https://github.com/maxogden/filereader-stream) — Read an
   HTML5 File object (from e.g. HTML5 drag and drops) as a stream
 - [value-event](https://github.com/Raynos/value-event) — Create DOM event
