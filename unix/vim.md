@@ -141,6 +141,7 @@ bd          " close a buffer
 ls          " list open buffers
 ls!         " list all open buffers (including unlisted)
 b <bufno>   " open buffer number
+b#          " open last buffer (or <C-^> / <C-6>)
 ```
 
 - [tabs vs buffers madness](https://joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/)
