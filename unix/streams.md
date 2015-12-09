@@ -57,3 +57,14 @@ therehi
 ```sh
 $ grep -v hello < ./file.txt   # exclude 'hello'
 ```
+
+## file minification
+__tar__
+```sh
+$ tar xzf out.tgz file1 file2
+$ git ls-files | grep gateway | tar cfz target.tgz -T -
+```
+__zip__
+```sh
+$ zip out.zip file1 file2
+```
