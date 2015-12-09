@@ -81,3 +81,7 @@ $ scp <files-to-copy> <user>@<remote>:<path>         # copy a file
 $ scp -i ./linux/id_rsa ./file.dat user@10.0.0.1:~/  # use an ssh id file
 $ scp -r [!.]* user@10.0.0.1:~/   # copy dir recursively excluding dotfiles
 ```
+
+To copy a file with an intermediate host using `scp`:
+[ tbi ]
+- [stackoverflow/intermediate-host-copy](http://superuser.com/questions/276533/scp-files-via-intermediate-host)
