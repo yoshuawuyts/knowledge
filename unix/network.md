@@ -93,6 +93,10 @@ __tools__
 - `dnsmasq(1)` - DNS forwarder and server
 - `dig(1)` - DNS lookup utility
 
+### DNS Response Policy Zone
+- [dns-rpz](http://www.redpill-linpro.com/sysadvent/2015/12/08/dns-rpz.html)
+- [wikipedia/response-policy-zone](https://en.wikipedia.org/wiki/Response_policy_zone)
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
