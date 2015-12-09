@@ -180,6 +180,18 @@ $ git reset --hard origin
 $ git diff --cached
 ```
 
+## Git stash pop conflicts
+When `git stash pop` fails, the stash is not dropped, but changes are floating.
+You can safely `git reset --hard` on top of this to unapply the stash since
+it's kept in the stash list still.
+
+## Safe git stash
+- `git stash apply` - apply a git stash without destroying the stash
+
+## Git fsck
+Inspect individual objects in the DB.
+- [git-fsck man page](https://www.kernel.org/pub/software/scm/git/docs/git-fsck.html)
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
