@@ -31,15 +31,16 @@ requests.
 {
   type: 'invalid_request_error',
   message: 'The request body was invalid',
+  docs: 'https://api.mysite/name',
   error: [
     { field: 'data.name', message: 'is the wrong type' },
     { field: 'data.id', message: 'field is required' }
-  ],
-  meta: {
-    docs: 'https://api.mysite/name'
-  }
+  ]
 }
 ```
+GitHub uses a `documentation_url` field in their errors for doc purposes. This
+is useful to provide extra information. A `docs` field is generic and useful
+for errors.
 
 ### types
 Type signals what caused the error. Either the server made a mistake
