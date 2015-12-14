@@ -124,6 +124,10 @@ http {
   }
 }
 ```
+### signals
+```sh
+$ nginx -s {stop,quit,reopen,reload}
+```
 
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
