@@ -97,6 +97,34 @@ __tools__
 - [dns-rpz](http://www.redpill-linpro.com/sysadvent/2015/12/08/dns-rpz.html)
 - [wikipedia/response-policy-zone](https://en.wikipedia.org/wiki/Response_policy_zone)
 
+## Nginx
+Nginx is a pretty good proxy, it's generally recommended to run it everywhere.
+```nginx
+events {
+  worker_connections  1024;
+}
+
+http {
+  server {
+    listen 127.0.0.1:3000;
+    server_name localhost;
+
+    access_log /tmp/localhost.log;
+    charset utf-8;
+
+     location / {
+       proxy_pass http://127.0.0.1:1337/;
+       proxy_set_header X-Real-IP $remote_addr;
+       proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+       proxy_set_header Host $http_host;
+       proxy_set_header X-Nginx-Proxy true;
+
+       proxy_redirect off;
+    }
+  }
+}
+```
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
