@@ -30,17 +30,37 @@ Authentication, credentials and such.
 - __Expires:__ expire a cookie on a date.
 
 ## OAuth
+Oauth does 2 things:
+- allow a resource to talk to other resources (e.g. inter-app communication)
+- allow a 3rd party client to talk to a resource (e.g. custom clients)
+
+Architecturally there are 2 parts: the authorization server which issues
+tokens, and the API which requires tokens.
 ```
-client -- authorization grant -> resource owner
-client <- authorization grant -- resource owner
-client -- authorization grant -> authorization server
-client <- access token --------- authorization server
-client -- access token --------> resource server
-client <- protected resource --- resource server
+     +--------+                               +---------------+
+     |        |--(A)- Authorization Request ->| Authorization |
+     |        |                               |     Server    |
+     |        |<-(B)-- Authorization Grant ---|               |
+     |        |                               +---------------+
+     |        |
+     |        |                               +---------------+
+     |        |--(C)-- Authorization Grant -->| Authorization |
+     | Client |                               |     Server    |
+     |        |<-(D)----- Access Token -------|               |
+     |        |                               +---------------+
+     |        |
+     |        |                               +---------------+
+     |        |--(E)----- Access Token ------>|    Resource   |
+     |        |                               |     Server    |
+     |        |<-(F)--- Protected Resource ---|               |
+     +--------+                               +---------------+
 ```
-- [four attacks on oauth](http://software-security.sans.org/blog/2011/03/07/oauth-authorization-attacks-secure-implementation)
-- [oauth2 and cookie convergence](https://www.subbu.org/blog/2010/09/oauth-2-0-and-cookie-convergence)
-- [oauth access tokens vs session key](http://security.stackexchange.com/questions/20222/oauth-access-token-vs-session-key)
+### authorization grant
+4 types of authorizations can be granted by the auth server:
+- __auth code:__ client -> resource -> auth server (creates auth code) ->
+- __implicit:__
+- __resource owner password credentials:__
+- __client credentials:__
 
 ### performing a request
 Either with a querystring or with a header. Header is preferable, qs is useful
@@ -77,6 +97,9 @@ A good pattern of defining scopes is by  `<domain>` / `<domain>:<sublevel>`.
 ### links
 - [developers.github/oauth](https://developer.github.com/v3/oauth/)
 - [oauth.net](http://oauth.net/)
+- [four attacks on oauth](http://software-security.sans.org/blog/2011/03/07/oauth-authorization-attacks-secure-implementation)
+- [oauth2 and cookie convergence](https://www.subbu.org/blog/2010/09/oauth-2-0-and-cookie-convergence)
+- [oauth access tokens vs session key](http://security.stackexchange.com/questions/20222/oauth-access-token-vs-session-key)
 
 ## Single Sign On (SSO)
 ```txt
@@ -102,6 +125,7 @@ needed.
 The other SSO is single sign out. When a user signs out of a service on a
 domain, they should be signed out of all services on the domain. This can be
 somewhat hard to achieve when applications.
+- [ietf/oauth2.0](http://tools.ietf.org/html/rfc6749)
 - [blog.heroku/oauth-sso](https://blog.heroku.com/archives/2013/11/14/oauth-sso)
 - [hueniverse/twitter-oauth-sso](http://hueniverse.com/2009/04/16/introducing-sign-in-with-twitter-oauth-style-connect/)
 
@@ -109,7 +133,16 @@ somewhat hard to achieve when applications.
 [ tbi ]
 
 ## Cross-Site Request Forgery (CSRF)
+Because cookies are included on every call to a domain, regardless from which
+domain that call occurs, it can be abused to do bad things.
+
+### synchronizer token design pattern
+To prevent bad things, the classic approach is to use CSRF tokens. A CSRF token
+can be the same as the session, and should generally be stored in the session
+storage.
 - [owasp/csrf](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29)
+- [whitehatsec/session-token](https://blog.whitehatsec.com/tag/session-token/)
+- [mdn/sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
 
 ## See Also
 - [authentication cheat sheet](https://www.owasp.org/index.php/Authentication_Cheat_Sheet)
