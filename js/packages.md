@@ -207,6 +207,8 @@
   live reload into HTML content
 - [addressbar](https://www.npmjs.com/package/addressbar) - Expose addressbar as
   an input field
+- [oauth-open](https://github.com/LapwingLabs/oauth-open) - minimal popup for
+  authenticating with oauth
 
 ## Client-side components
 - [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
