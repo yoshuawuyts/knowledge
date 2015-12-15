@@ -102,6 +102,9 @@ A good pattern of defining scopes is by  `<domain>` / `<domain>:<sublevel>`.
 - [oauth access tokens vs session key](http://security.stackexchange.com/questions/20222/oauth-access-token-vs-session-key)
 
 ## Single Sign On (SSO)
+SSO is an authentication / authorization flow through which a user can log into
+multiple services using the same credentials.
+[source](https://stormpath.com/blog/oauth-is-not-sso/)
 ```txt
 req client -> authorization grant -> req server
 req server -- authorization grant -> resource owner
@@ -152,7 +155,29 @@ domain that call occurs, it can be abused to do bad things.
 ### synchronizer token design pattern
 To prevent bad things, the classic approach is to use CSRF tokens. A CSRF token
 can be the same as the session, and should generally be stored in the session
-storage.
+storage. The token is then sent as a header on every request, and can be
+verified on the server.
+
+### lock down JSON based REST API
+- Single Origin policy (only allow cross site HEAD / GET & POST)
+- lock down mime types (`application/x-www-form-urlencoded`,
+  `multipart/form-data`, or `text/plain`)
+- GET should never trigger side effects
+- disallow any non-JSON POST/PUT/PATCH/DELETE
+- `multipart/form-data` needs to still be handled
+
+### check HTTP referer header
+- check `referer` header for `multipart/form-data` POST and friends
+- `referer` is set by a browser and tells which page (url) triggered a request
+- disallow requests without `referer` present
+
+### client side CSRF token
+Create a cookie + HTTP header on every request, server verifies they are the
+same which means they're from the right domain. This works because a website
+can only read / write cookies for their own domain, and only the real site can
+also set their headers.
+
+### links
 - [owasp/csrf](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29)
 - [whitehatsec/session-token](https://blog.whitehatsec.com/tag/session-token/)
 - [blog.jdriven/stateless-csrf](http://blog.jdriven.com/2014/10/stateless-spring-security-part-1-stateless-csrf-protection/)
