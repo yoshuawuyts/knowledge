@@ -128,9 +128,22 @@ somewhat hard to achieve when applications.
 - [ietf/oauth2.0](http://tools.ietf.org/html/rfc6749)
 - [blog.heroku/oauth-sso](https://blog.heroku.com/archives/2013/11/14/oauth-sso)
 - [hueniverse/twitter-oauth-sso](http://hueniverse.com/2009/04/16/introducing-sign-in-with-twitter-oauth-style-connect/)
+- [stormpath/what-is-oauth](https://stormpath.com/blog/what-the-heck-is-oauth/)
+- [stormpath/oauth-is-not-sso](https://stormpath.com/blog/oauth-is-not-sso/)
 
 ## JSON Web Token (JWT)
-[ tbi ]
+Self-container, safe.
+
+Every JWT contains 3 parts:
+- first 36 bits are info
+- bits in the middle are the JSON payload
+- last 43 bits are the signature hash
+
+The payload should have the following values:
+- __iss:__ who issued the token (issuer)
+- __exp:__ token expiry
+- __scope:__ which resources can be accessed
+- __sub:__ subject to who the token was issued
 
 ## Cross-Site Request Forgery (CSRF)
 Because cookies are included on every call to a domain, regardless from which
@@ -142,6 +155,7 @@ can be the same as the session, and should generally be stored in the session
 storage.
 - [owasp/csrf](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29)
 - [whitehatsec/session-token](https://blog.whitehatsec.com/tag/session-token/)
+- [blog.jdriven/stateless-csrf](http://blog.jdriven.com/2014/10/stateless-spring-security-part-1-stateless-csrf-protection/)
 - [mdn/sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
 
 ## See Also
