@@ -67,8 +67,30 @@ __resources__
 - [stripe/api/errors](https://stripe.com/docs/api#errors)
 - [uber/api](https://developer.uber.com/v1/api-reference/)
 
+## hypermedia
+Proper hypermedia architecture would constitute:
+- `index` page with all available links
+- `pagination` with pagination either per `?page=` or a unique id included in
+  `_url`
+
+Uris should be specified using uri templates. So that the client can expand
+them as needed.
+- [developer.github/hypermedia](https://developer.github.com/v3/#hypermedia)
+
 ## validation
 [tbi]
+
+## rate limiting
+```sh
+$ curl -i 'https://api.github.com/users/whatever?client_id=xxxx&client_secret=yyyy'
+HTTP/1.1 200 OK
+Date: Mon, 01 Jul 2013 17:27:06 GMT
+Status: 200 OK
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4966
+X-RateLimit-Reset: 1372700873
+```
+- [developer.github/rate-limiting](https://developer.github.com/v3/#rate-limiting)
 
 ## headers
 [tbi]
