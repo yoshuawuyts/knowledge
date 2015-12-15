@@ -483,6 +483,8 @@ swipe-from-the-side menus
   progress of a stream
 - [peek-stream](https://github.com/mafintosh/peek-stream) - Transform stream
   that lets you peek the first line before deciding how to parse it
+- [query-schema](https://github.com/deanlandolt/query-schema) - stream
+  filtering with uri safe query syntax to json schema
 
 ## Event emitters
 - [geval](https://github.com/Raynos/geval) — event implementation
