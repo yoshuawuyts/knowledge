@@ -158,6 +158,9 @@ can be the same as the session, and should generally be stored in the session
 storage. The token is then sent as a header on every request, and can be
 verified on the server.
 
+Note: client based approaches will break down once XSS can be exploited; fix
+XSS bugs!
+
 ### lock down JSON based REST API
 - Single Origin policy (only allow cross site HEAD / GET & POST)
 - lock down mime types (`application/x-www-form-urlencoded`,
