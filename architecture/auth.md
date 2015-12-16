@@ -222,6 +222,18 @@ same which means they're from the right domain. This works because a website
 can only read / write cookies for their own domain, and only the real site can
 also set their headers.
 
+### sync token++
+Every response returns a new token. Tokens are added to a pool. If the chain of
+tokens used is broken, validation CSRF happened and thus a request is thrown
+out. A dedicated attacker might implement the token pool handling logic, but
+that would add a great amount of complexity. Further matching of tokens +
+headers could further obfuscate this.
+
+In the case of `http2` a single request token in the pool is sufficient, making
+the implementation more secure because there is no pool of tokens to read from.
+State is then managed internally, which means that if the token was used for
+some reason CSRF happened and appropriate measures can be taken.
+
 ### links
 - [owasp/csrf](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29)
 - [whitehatsec/session-token](https://blog.whitehatsec.com/tag/session-token/)
