@@ -62,7 +62,7 @@ tokens, and the API which requires tokens.
 - __Password:__ login with username and password
 - __Client Credentials:__ application access
 
-#### authorization code
+#### Authorization code
 1. Create "login" link:
 ```txt
 https://oauth2server.com/auth?response_type=code&
@@ -96,6 +96,8 @@ POST https://api.oauth2server.com/token?
   "error":"invalid_request"
 }
 ```
+
+#### Browser-Based apps
 
 ### performing a request
 Either with a querystring or with a header. Header is preferable, qs is useful
@@ -141,6 +143,10 @@ A good pattern of defining scopes is by  `<domain>` / `<domain>:<sublevel>`.
 SSO is an authentication / authorization flow through which a user can log into
 multiple services using the same credentials.
 [source](https://stormpath.com/blog/oauth-is-not-sso/)
+
+This is done through `3-legged auth`, which means there's a server to request
+credentials from, a client that consumes them and a user that authorizes the
+transaction.
 ```txt
 req client -> authorization grant -> req server
 req server -- authorization grant -> resource owner
