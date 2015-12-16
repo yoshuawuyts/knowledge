@@ -56,11 +56,46 @@ tokens, and the API which requires tokens.
      +--------+                               +---------------+
 ```
 ### authorization grant
-4 types of authorizations can be granted by the auth server:
-- __auth code:__ client -> resource -> auth server (creates auth code) ->
-- __implicit:__
-- __resource owner password credentials:__
-- __client credentials:__
+4 types of authorizations can be granted:
+- __Authorization Code:__ apps running on a web server
+- __Implicit:__ browser-based or mobile apps
+- __Password:__ login with username and password
+- __Client Credentials:__ application access
+
+#### authorization code
+1. Create "login" link:
+```txt
+https://oauth2server.com/auth?response_type=code&
+  client_id=CLIENT_ID&redirect_uri=REDIRECT_URI&scope=photos
+```
+
+2. user sees authorization prompt
+3. "allow" -> redirect back to site with auth code
+```txt
+https://oauth2client.com/cb?code=AUTH_CODE_HERE
+```
+
+4. your server exchanges auth code for access token
+```txt
+POST https://api.oauth2server.com/token?
+  grant_type=authorization_code&
+  code=AUTH_CODE_HERE&
+  redirect_uri=REDIRECT_URI&
+  client_id=CLIENT_ID&
+  client_secret=CLIENT_SECRET
+```
+
+5. server replies with access token or error
+```json
+{
+  "access_token":"RsT5OjbzRn430zqMLgV3Ia"
+}
+```
+```json
+{
+  "error":"invalid_request"
+}
+```
 
 ### performing a request
 Either with a querystring or with a header. Header is preferable, qs is useful
@@ -100,6 +135,7 @@ A good pattern of defining scopes is by  `<domain>` / `<domain>:<sublevel>`.
 - [four attacks on oauth](http://software-security.sans.org/blog/2011/03/07/oauth-authorization-attacks-secure-implementation)
 - [oauth2 and cookie convergence](https://www.subbu.org/blog/2010/09/oauth-2-0-and-cookie-convergence)
 - [oauth access tokens vs session key](http://security.stackexchange.com/questions/20222/oauth-access-token-vs-session-key)
+- [oauth2 simplified](http://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified)
 
 ## Single Sign On (SSO)
 SSO is an authentication / authorization flow through which a user can log into
