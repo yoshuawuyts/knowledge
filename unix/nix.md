@@ -2,6 +2,12 @@
 `nix` is a purely functional package manager that enable programs to run in
 isolation without relying on implicit global state.
 
+## Sections
+- REPL
+- language basics
+- functions & imports
+- deriviations
+
 ## Installation
 ```sh
 $ curl https://nixos.org/nix/install | sh
@@ -44,4 +50,8 @@ Describe packages and how to build them.
 tbi
 
 ## See Also
+Nix pills `3 - 7` are essential, `8 - 12` are useful.
 - [nix pills](http://lethalman.blogspot.it/)
+- [nix pkgs contributors guide](https://nixos.org/nixpkgs/manual/)
+- [nix-manual/stdenv](https://nixos.org/nixpkgs/manual/#chap-stdenv)
+- [nix-pills/stdenv](http://lethalman.blogspot.com.au/2015/08/nix-pill-19-fundamentals-of-stdenv.html)
