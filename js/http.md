@@ -122,3 +122,12 @@ http.createServer((req, res) => {
   res.end()
 }).listen()
 ```
+
+## headers
+Get a header
+```js
+http.createServer(function (req, res) {
+  console.log(req.headers['etag'])
+  req.end()
+}).listen()
+```
