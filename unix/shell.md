@@ -270,5 +270,11 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 ```
 
+## readonly
+Variables can be made immutable-ish by using `readonly`:
+```sh
+readonly foo='bar'
+```
+
 ## See Also
 - [grymoire/shell](http://www.grymoire.com/Unix/Sh.html)
