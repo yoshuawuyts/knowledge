@@ -129,6 +129,18 @@ http {
 $ nginx -s {stop,quit,reopen,reload}
 ```
 
+### point nginx to different conf file
+```sh
+$ nginx -p "$(pwd)/" -c './conf/nginx.conf'
+```
+
+### start nginx in non daemon mode
+```nginx
+# nginx.conf
+daemon off;
+```
+- [nginx/core_module](http://nginx.org/en/docs/ngx_core_module.html)
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
