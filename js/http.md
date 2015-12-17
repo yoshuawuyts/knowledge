@@ -124,10 +124,20 @@ http.createServer((req, res) => {
 ```
 
 ## headers
-Get a header
+Get a header:
 ```js
 http.createServer(function (req, res) {
   console.log(req.headers['etag'])
   req.end()
+}).listen()
+```
+
+Get a cookie:
+```js
+const Cookies = require('cookies')
+http.createServer(function (req, res) {
+  const cookies = cookies(req, res)
+  const cookie = cookies.get('my-cookies')
+  req.end(cookie ? 'cookie found' : 'no cookie found')
 }).listen()
 ```
