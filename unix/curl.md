@@ -12,6 +12,10 @@
 ## Cookies
 Can be retrieved from the chrome network tab.
 
+```sh
+$ curl localhost:8080 -b 'CSRF_token=asdf'
+```
+
 ## Headers
 ```
 curl -H "Content-Type: application/json" http://localhost:3000
