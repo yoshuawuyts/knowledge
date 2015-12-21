@@ -175,6 +175,7 @@ somewhat hard to achieve when applications.
 - [hueniverse/twitter-oauth-sso](http://hueniverse.com/2009/04/16/introducing-sign-in-with-twitter-oauth-style-connect/)
 - [stormpath/what-is-oauth](https://stormpath.com/blog/what-the-heck-is-oauth/)
 - [stormpath/oauth-is-not-sso](https://stormpath.com/blog/oauth-is-not-sso/)
+- [oauthbible](http://oauthbible.com/)
 
 ## JSON Web Token (JWT)
 Self-container, safe.
