@@ -31,5 +31,13 @@ or with `--data-binary`
 curl --data-binary @myFile.json http://localhost:3000/api
 ```
 
+## Log status code only
+```sh
+$ curl localhost:8080 --silent --write-out "\n%{http_code}\n" | sed -n '$p'
+
+# and to get the response body too
+$ curl localhost:8080 --silent --write-out "\n%{http_code}\n" | sed -n '$d'
+```
+
 ## See Also
 - [curl(1)](http://man.cx/curl)
