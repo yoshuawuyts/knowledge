@@ -192,6 +192,13 @@ it's kept in the stash list still.
 Inspect individual objects in the DB.
 - [git-fsck man page](https://www.kernel.org/pub/software/scm/git/docs/git-fsck.html)
 
+## Git tags
+```sh
+git tag v1.0.0                   # create tag called 'v1.0.0'
+git push --delete origin <tag>   # delete remote tag
+git tag -d <tag>                 # delete local tag
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
