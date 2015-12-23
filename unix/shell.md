@@ -278,3 +278,4 @@ readonly foo='bar'
 
 ## See Also
 - [grymoire/shell](http://www.grymoire.com/Unix/Sh.html)
+- [rich's sh tricks](http://www.etalabs.net/sh_tricks.html)
