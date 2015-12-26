@@ -20,7 +20,7 @@
 - [virtual-dom/modules](https://github.com/Raynos/mercury/tree/master/docs/modules)
 - [livejs](https://github.com/livejs)
 - [livejs/ndpixels](https://github.com/livejs/ndpixels)
-- [mdast/plugins](https://github.com/wooorm/mdast/blob/master/doc/plugins.md#list-of-plugins)
+- [remark/plugins](https://github.com/wooorm/remark/blob/master/doc/plugins.md#list-of-plugins)
 
 ## Graphics
 - [a-big-triangle](https://github.com/mikolalysenko/a-big-triangle) — Draws a
@@ -130,22 +130,22 @@
 
 ## Markdown
 - [highlights](https://github.com/atom/highlights) — Syntax highlighter
-- [mdast](https://github.com/wooorm/mdast) — Markdown processor powered by
+- [remark](https://github.com/wooorm/remark) — Markdown processor powered by
   plugins
-- [mdast-lint](https://github.com/wooorm/mdast-lint) — Markdown code style
+- [remark-lint](https://github.com/wooorm/remark-lint) — Markdown code style
   linter
-- [mdast-toc](https://github.com/wooorm/mdast-toc) — Generate a Table of
+- [remark-toc](https://github.com/wooorm/remark-toc) — Generate a Table of
   Contents (TOC) for Markdown files
-- [mdast-man](https://github.com/wooorm/mdast-man) — Compile Markdown to man
-  pages (roff) with mdast
-- [mdast-strip-badges](https://github.com/wooorm/mdast-strip-badges) — Remove
+- [remark-man](https://github.com/wooorm/remark-man) — Compile Markdown to man
+  pages (roff) with remark
+- [remark-strip-badges](https://github.com/wooorm/remark-strip-badges) — Remove
   badges (such as shields.io) from markdown
-- [mdast-usage](https://github.com/wooorm/mdast-usage) — Add a usage example to
+- [remark-usage](https://github.com/wooorm/remark-usage) — Add a usage example to
   your Readme
-- [mdast-inline-links](https://github.com/wooorm/mdast-inline-links) —
+- [remark-inline-links](https://github.com/wooorm/remark-inline-links) —
   Transform references and definitions into normal links and images
-- [mdast-html](https://github.com/wooorm/mdast-html) — Compile Markdown to HTML
-  with mdast
+- [remark-html](https://github.com/wooorm/remark-html) — Compile Markdown to HTML
+  with remark
 
 ## Browserify
 - [browserify](http://ghub.io/browserify) — browser-side require() the node.js
