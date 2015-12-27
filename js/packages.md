@@ -95,6 +95,8 @@
   (without audio)
 - [mp4-stream](https://github.com/mafintosh/mp4-stream) - Streaming mp4 encoder
   and decoder
+- [mediasource](https://www.npmjs.com/package/mediasource) - media source api
+  as a writable stream
 
 ## Tools
 - [standard](http://ghub.io/standard) — JavaScript standard style linter
