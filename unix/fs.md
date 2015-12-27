@@ -74,3 +74,6 @@ __tools__
 
 ## loop devices
 [ tbi ]
+
+## See Also
+- [OpenBSD jumpstart](http://www.openbsdjumpstart.org/#/)
