@@ -105,3 +105,10 @@ tell you that, look behind you
 ```txt
 … /u2026
 ```
+
+## Advice
+> Most advice is fear projection. Try and figure out how to give solicited
+> advice from a position of strength.
+
+> Most advice is about helping people deal with the status quo, rather than
+> changing the status quo.
