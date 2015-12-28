@@ -124,3 +124,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
   /* the viewport is less than 400 pixels wide */
 }
 ```
+
+## set values in node
+- `node.texContent` for text
+- `node.innerHTML` for HTML
