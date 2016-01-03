@@ -2,6 +2,11 @@
 Reading and writing to the command line is something pretty common for
 programs. It forms the glue that binds Unix together.
 
+## echo
+- `println!`
+- `print!`
+- `fmt!`
+
 ## Stdin
 ```rs
 use std::io;
