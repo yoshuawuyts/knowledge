@@ -42,3 +42,8 @@ $ sudo passwd <user>
 
 ## namespaces
 [tbi]
+
+## default dir permissions
+```sh
+$ chmod 07555
+```
