@@ -1,6 +1,11 @@
 # tar
 
-## create a tarball from a directory
+## create a archive from a directory
 ```sh
-$ tar -czf output.tgz ./my-dir
+$ tar -czf archive.tgz ./my-dir
+```
+
+## extract archive into directory
+```sh
+$ tar -xzf ./archive.tgz -C /target/directory
 ```
