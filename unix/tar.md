@@ -2,5 +2,5 @@
 
 ## create a tarball from a directory
 ```sh
-$ tar czf -C ./dir
+$ tar -czf output.tgz ./my-dir
 ```
