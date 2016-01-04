@@ -15,3 +15,13 @@ achieve uptime.
   capability of each node
 
 - [dynamo white paper](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+
+## saga pattern
+> Sagas split a long-lived transaction into individual, interleaved
+> sub-transactions. Each sub-transaction in the sequence has a corresponding
+> compensating transaction which reverses its effects. The compensating
+> transactions must be idempotent so they can be safely retried. In the event
+> of a partial execution, the compensating transactions are run and the Saga
+> is effectively rolled back.
+
+- [distributed systems are a UX problem](http://bravenewgeek.com/distributed-systems-are-a-ux-problem/)
