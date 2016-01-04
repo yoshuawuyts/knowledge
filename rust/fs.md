@@ -4,7 +4,7 @@ but also readers that use cursors to read out files one chunk at the time.
 
 ## read a file
 ### reader
-```rs
+```rust
 use std::io::BufReader;
 use std::fs::File;
 use std::io::Read;
