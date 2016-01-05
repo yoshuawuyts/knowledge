@@ -220,6 +220,12 @@ swipe-from-the-side menus
   for virtual-dom
 - [spectrum](http://bgrins.github.io/spectrum/) - JavaScript Colorpicker
 
+## Virtual-Dom
+- [hyperx](https://github.com/substack/hyperx) - tagged template string virtual
+  dom builder
+- [virtual-app](https://github.com/sethvincent/virtual-app) - redux-like,
+  unidirectional state management paired with virtual-dom
+
 ## CSS
 - [css-wipe](https://github.com/yoshuawuyts/css-wipe) — Reset the browser's
   styles
