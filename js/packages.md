@@ -211,6 +211,7 @@
   an input field
 - [oauth-open](https://github.com/LapwingLabs/oauth-open) - minimal popup for
   authenticating with oauth
+- [store-emitter](https://github.com/sethvincent/store-emitter) - state lib
 
 ## Client-side components
 - [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
