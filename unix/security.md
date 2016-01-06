@@ -39,3 +39,6 @@ applied to GNU coreutils / busybox to detect the extended permissions.
 
 ## Mandatory Access Control (MAC)
 - [wikipedia/mac](https://en.wikipedia.org/wiki/Mandatory_access_control)
+
+## Basic security infrastructure
+- [security guide](http://blog.mailgun.com/security-guide-basic-infrastructure-security/)
