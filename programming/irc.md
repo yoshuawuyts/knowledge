@@ -33,6 +33,7 @@ install `autojoin` (`/plugin install autojoin.py`)
 ```
 - [weechat quickstart guide](https://weechat.org/files/doc/devel/weechat_quickstart.en.html)
 - [weechat bitlbee guide](http://zanshin.net/2015/01/10/a-guide-for-setting-up-weechat-and-bitlbee/)
+- [pascal poitras weechat config](https://pascalpoitras.com/my-weechat-configuration/)
 
 ## bitlebee
 ```txt
