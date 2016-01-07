@@ -2,9 +2,16 @@
 Scalability patterns, or how to write software that works regardless of
 algorithms, data structures, abstractions and languages.
 
+## core patterns
+- [REQRES](#request-reply) - Connect a set of clients to a set of services.
+  Remote procedure call and task distribution pattern.
+- [PUBSUB](#publish-subscribe) - Connect a set of publishers to a set of
+  subscribers. Data distribution pattern.
+- [PUSHPULL](#pipeline) - connect nodes in a fan-out/fan-in pattern that can
+  have multiple steps and loops. Parallel task distribution and collection
+  pattern.
+
 ## request-reply
-In process only, lockstep message communication. If doing it inter process / in
-network any type of failure will cause either client or server to freeze.
 ```txt
     ┌──────────┐
     │  Client  │
@@ -20,6 +27,12 @@ network any type of failure will cause either client or server to freeze.
     │  Server  │
     └──────────┘
 ```
+
+## publish-subscribe
+[ tbi ]
+
+## pipeline
+[ tbi ]
 
 ## See Also
 - [zguide by zeromq](http://zguide.zeromq.org/page:all) - downright brilliant
