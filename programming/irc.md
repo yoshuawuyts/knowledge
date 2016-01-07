@@ -14,6 +14,23 @@ $ brew install weechat --with-perl --with-python
 ```
 
 ## weechat
+```txt
+/window merge        # close a window without closing buffers; merges all
+/window splitv 50    # split window vertically
+```
+
+### enable mouse support
+```txt
+/set weechat.look.mouse on
+/mouse enable
+```
+- [mouse support](http://dev.weechat.org/post/2011/07/26/Mouse-support-and-free-movement-of-cursor)
+
+### save layout
+install `autojoin` (`/plugin install autojoin.py`)
+```txt
+/save   # store layout
+```
 - [weechat quickstart guide](https://weechat.org/files/doc/devel/weechat_quickstart.en.html)
 - [weechat bitlbee guide](http://zanshin.net/2015/01/10/a-guide-for-setting-up-weechat-and-bitlbee/)
 
