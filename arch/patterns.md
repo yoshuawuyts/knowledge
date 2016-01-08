@@ -16,6 +16,8 @@ centralized brokers:
 - __intermediaries:__ deals with data on either side of a socket. More
   specifically known as: `proxies`, `queues`, `forwarders`, `device` and
   `brokers`.
+- __processes as living cells:__ a process should be resilient against outside
+errors, but immediately self-destruct on internal errors
 
 ## relationships
 It's important to remember that in any kind of networking everything can be
