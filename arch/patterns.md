@@ -12,6 +12,11 @@ centralized brokers:
 > they jump into network programming and make brittle, complex applications
 > that are hard to maintain.
 
+## terminology
+- __intermediaries:__ deals with data on either side of a socket. More
+  specifically known as: `proxies`, `queues`, `forwarders`, `device` and
+  `brokers`.
+
 ## core patterns
 - [REQRES](#request-reply) - Connect a set of clients to a set of services.
   Remote procedure call and task distribution pattern.
@@ -64,6 +69,33 @@ centralized brokers:
                 ├──────────┤
                 │   Sink   │
                 └──────────┘
+```
+
+### extended publish-subscribe
+`PUBSUB` with forwarding makes a multi-publish multi-subscriber model less
+fragile. The forwarder should only forward connections without keepin state to
+stay robust.
+```txt
+ ┌──────────┐   ┌──────────┐   ┌──────────┐
+ │   PUB    │   │   PUB    │   │   PUB    │
+ └──────────┘   └──────────┘   └──────────┘
+       │              │              │
+       └──────────────┼──────────────┘
+                      │
+                      ▼
+                ┌──────────┐
+                │   XSUB   │
+                ├──────────┤
+                │   Code   │
+                ├──────────┤
+                │   XPUB   │
+                └──────────┘
+                      │
+       ┌──────────────┼──────────────┐
+       ▼              ▼              ▼
+ ┌──────────┐   ┌──────────┐   ┌──────────┐
+ │   SUB    │   │   SUB    │   │   SUB    │
+ └──────────┘   └──────────┘   └──────────┘
 ```
 
 ## pipeline
