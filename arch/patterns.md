@@ -27,6 +27,7 @@ centralized brokers:
   pattern.
 
 ## request-reply
+One client talks to one server, synchronously.
 ```txt
     ┌──────────┐
     │  Client  │
@@ -44,6 +45,34 @@ centralized brokers:
 ```
 
 ## publish-subscribe
+### extended publish-subscribe
+`PUBSUB` with forwarding makes a multi-publish multi-subscriber model less
+fragile. The forwarder should only forward connections without keepin state to
+stay robust.
+```txt
+ ┌──────────┐   ┌──────────┐   ┌──────────┐
+ │   PUB    │   │   PUB    │   │   PUB    │
+ └──────────┘   └──────────┘   └──────────┘
+       │              │              │
+       └──────────────┼──────────────┘
+                ┌─────▼────┐
+                │   XSUB   │
+                ├──────────┤
+                │   Code   │
+                ├──────────┤
+                │   XPUB   │
+                └──────────┘
+                      │
+       ┌──────────────┼──────────────┐
+       │              │              │
+ ┌─────▼────┐   ┌─────▼────┐   ┌─────▼────┐
+ │   SUB    │   │   SUB    │   │   SUB    │
+ └──────────┘   └──────────┘   └──────────┘
+```
+
+## pipeline
+A single task is broken into multiple tasks that are spread out over a number
+of workers, and aggregated in a sink to form a final result.
 ```txt
                 ┌──────────┐
                 │Ventilator│
@@ -70,36 +99,6 @@ centralized brokers:
                 │   Sink   │
                 └──────────┘
 ```
-
-### extended publish-subscribe
-`PUBSUB` with forwarding makes a multi-publish multi-subscriber model less
-fragile. The forwarder should only forward connections without keepin state to
-stay robust.
-```txt
- ┌──────────┐   ┌──────────┐   ┌──────────┐
- │   PUB    │   │   PUB    │   │   PUB    │
- └──────────┘   └──────────┘   └──────────┘
-       │              │              │
-       └──────────────┼──────────────┘
-                      │
-                      ▼
-                ┌──────────┐
-                │   XSUB   │
-                ├──────────┤
-                │   Code   │
-                ├──────────┤
-                │   XPUB   │
-                └──────────┘
-                      │
-       ┌──────────────┼──────────────┐
-       ▼              ▼              ▼
- ┌──────────┐   ┌──────────┐   ┌──────────┐
- │   SUB    │   │   SUB    │   │   SUB    │
- └──────────┘   └──────────┘   └──────────┘
-```
-
-## pipeline
-[ tbi ]
 
 ## See Also
 - [zguide by zeromq](http://zguide.zeromq.org/page:all) - downright brilliant
