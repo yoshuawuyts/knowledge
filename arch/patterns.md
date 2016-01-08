@@ -17,6 +17,13 @@ centralized brokers:
   specifically known as: `proxies`, `queues`, `forwarders`, `device` and
   `brokers`.
 
+## relationships
+It's important to remember that in any kind of networking everything can be
+expressed as one of 3 kinds of networks:
+- one to one
+- many to one
+- one to many
+
 ## core patterns
 - [REQRES](#request-reply) - Connect a set of clients to a set of services.
   Remote procedure call and task distribution pattern.
