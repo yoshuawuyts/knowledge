@@ -51,6 +51,32 @@ One client talks to one server, synchronously.
     └──────────┘
 ```
 
+### extended request-reply
+```txt
+ ┌──────────┐   ┌──────────┐   ┌──────────┐
+ │  Client  │   │  Client  │   │  Client  │
+ ├──────────┤   ├──────────┤   ├──────────┤
+ │   REQ    │   │   REQ    │   │   REQ    │
+ └──────────┘   └──────────┘   └──────────┘
+       │              │              │
+       └──────────────┼──────────────┘
+                ┌─────▼────┐
+                │  ROUTER  │
+                ├──────────┤
+                │  Broker  │
+                ├──────────┤
+                │  DEALER  │
+                └──────────┘
+                      │
+       ┌──────────────┼──────────────┐
+       │              │              │
+ ┌─────▼────┐   ┌─────▼────┐   ┌─────▼────┐
+ │   REP    │   │   REP    │   │   REP    │
+ ├──────────┤   ├──────────┤   ├──────────┤
+ │Service A │   │Service B │   │Service C │
+ └──────────┘   └──────────┘   └──────────┘
+```
+
 ## publish-subscribe
 Simple pub sub is single publisher, multi subscriber. It is fragile; instead
 use:
