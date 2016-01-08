@@ -2,6 +2,16 @@
 Scalability patterns, or how to write software that works regardless of
 algorithms, data structures, abstractions and languages.
 
+Examples here are mainly extracted from [the zeromq
+guide](http://zguide.zeromq.org/page:all), which you should read. The guide
+also excellently describes why we need patterns and sockets, rather than
+centralized brokers:
+
+> So small to medium application developers are trapped. Either they avoid
+> network programming and make monolithic applications that do not scale. Or
+> they jump into network programming and make brittle, complex applications
+> that are hard to maintain.
+
 ## core patterns
 - [REQRES](#request-reply) - Connect a set of clients to a set of services.
   Remote procedure call and task distribution pattern.
