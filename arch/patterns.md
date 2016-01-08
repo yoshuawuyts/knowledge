@@ -45,6 +45,8 @@ One client talks to one server, synchronously.
 ```
 
 ## publish-subscribe
+Simple pub sub is single publisher, multi subscriber. It is fragile; instead
+use:
 ### extended publish-subscribe
 `PUBSUB` with forwarding makes a multi-publish multi-subscriber model less
 fragile. The forwarder should only forward connections without keepin state to
