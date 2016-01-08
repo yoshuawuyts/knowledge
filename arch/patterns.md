@@ -135,6 +135,34 @@ of workers, and aggregated in a sink to form a final result.
                 │   Sink   │
                 └──────────┘
 ```
+### parallel pipeline with kill signaling
+Signal workers to stop when batch is done processing.
+```txt
+                ┌──────────┐
+                │Ventilator│
+                ├──────────┤
+                │   PUSH   │
+                └──────────┘
+                    Tasks
+    ┌──────────────┬──┴───────────┐
+    │      ─ ─ ─ ─ ┼ ─ ─ ┬ ─ ─ ─ ─│─ ─ ─ ─ ─ ─
+    │     │        │              │     │     │
+ ┌──▼──┬──▼──┐  ┌──▼──┬──▼──┐  ┌──▼──┬──▼──┐
+ │PULL │ SUB │  │PULL │ SUB │  │PULL │ SUB │  │
+ ├─────┴─────┤  ├─────┴─────┤  ├─────┴─────┤
+ │  Worker   │  │  Worker   │  │  Worker   │  │
+ ├───────────┤  ├───────────┤  ├───────────┤
+ │   PUSH    │  │   PUSH    │  │   PUSH    │  │
+ └───────────┘  └───────────┘  └───────────┘
+       │              │              │        │
+       └──────────────┼──────────────┘
+                   Results                    │
+                ┌─────▼────┐
+                │   PULL   │                  │
+                ├──────────┤
+                │   Sink   │─ ─ KILL signal ─ ┘
+                └──────────┘
+```
 
 ## See Also
 - [zguide by zeromq](http://zguide.zeromq.org/page:all) - downright brilliant
