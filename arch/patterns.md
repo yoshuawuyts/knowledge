@@ -26,6 +26,11 @@ expressed as one of 3 kinds of networks:
 - many to one
 - one to many
 
+## interrupt signals
+When `SIGTERM` is sent, remember to close connections, stop listening for new
+connections and exit gracefully. By default programs straight up die; which is
+not something you want to happen.
+
 ## core patterns
 - [REQRES](#request-reply) - Connect a set of clients to a set of services.
   Remote procedure call and task distribution pattern.
