@@ -81,8 +81,8 @@ of workers, and aggregated in a sink to form a final result.
                 └──────────┘
                     Tasks
        ┌──────────────┼──────────────┐
-       ▼              ▼              ▼
- ┌──────────┐   ┌──────────┐   ┌──────────┐
+       │              │              │
+ ┌─────▼────┐   ┌─────▼────┐   ┌─────▼────┐
  │   PULL   │   │   PULL   │   │   PULL   │
  ├──────────┤   ├──────────┤   ├──────────┤
  │  Worker  │   │  Worker  │   │  Worker  │
@@ -92,8 +92,7 @@ of workers, and aggregated in a sink to form a final result.
        │              │               │
        └──────────────┼───────────────┘
                    Results
-                      ▼
-                ┌──────────┐
+                ┌─────▼────┐
                 │   PULL   │
                 ├──────────┤
                 │   Sink   │
