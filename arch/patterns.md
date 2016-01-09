@@ -59,6 +59,12 @@ One client talks to one server, synchronously.
 ```
 
 ### extended request-reply
+This works both for networks of machines and threads within a machine. The
+router takes requests of some form, sychronously distributes work over the
+workers and then returns the responses.
+
+When networked this would be done using `TCP`. When threading this should be
+done `in process`.
 ```txt
  ┌──────────┐   ┌──────────┐   ┌──────────┐
  │  Client  │   │  Client  │   │  Client  │
