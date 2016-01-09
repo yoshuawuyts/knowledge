@@ -32,13 +32,15 @@ connections and exit gracefully. By default programs straight up die; which is
 not something you want to happen.
 
 ## core patterns
+- [PAIR](#pair) connect two sockets exclusively. For connecting two threads in
+  process, not to be confused with "normal" pairs of sockets.
 - [REQRES](#request-reply) - Connect a set of clients to a set of services.
   Remote procedure call and task distribution pattern.
 - [PUBSUB](#publish-subscribe) - Connect a set of publishers to a set of
   subscribers. Data distribution pattern.
-- [PUSHPULL](#pipeline) - connect nodes in a fan-out/fan-in pattern that can
-  have multiple steps and loops. Parallel task distribution and collection
-  pattern.
+- [PIPELINE](#pipeline) (alias: `PUSHPULL`) - connect nodes in a fan-out/fan-in
+  pattern that can have multiple steps and loops. Parallel task distribution
+  and collection pattern.
 
 ## request-reply
 One client talks to one server, synchronously.
