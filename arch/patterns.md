@@ -120,6 +120,25 @@ stay robust.
  └──────────┘   └──────────┘   └──────────┘
 ```
 
+### synchronized pub sub
+Usually you only want to start publishing data once you know there's
+subscribers. Combining `REQREP` with `PUBSUB` this can be done. Once all
+subscribers (magic number) are connected, start publishing data.
+```txt
+ ┌───────────┐
+ │ Publisher │
+ ├─────┬─────┤
+ │ REP │ PUB │
+ └▲──┬─┴──┬──┘
+  1  │    │
+  │  2    3
+ ┌┴──▼─┬──▼──┐
+ │ REQ │ SUB │
+ ├─────┴─────┤
+ │Subscriber │
+ └───────────┘
+```
+
 ## pipeline
 A single task is broken into multiple tasks that are spread out over a number
 of workers, and aggregated in a sink to form a final result.
