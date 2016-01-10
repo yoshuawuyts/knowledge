@@ -43,6 +43,17 @@ not something you want to happen.
   and collection pattern.
 
 ## request-reply
+- __simple:__ base request reply pattern
+- __extended:__ with a load balancer to evenly distribute work
+- __lazy pirate:__ reliable reqres from the client side
+- __simple pirate:__ reliable reqres with load balancing
+- __paranoid pirate:__ reliable reqres with heartbeating
+- __majordomo:__ service-oriented reliable queueing
+- __titanic:__ disk-based/connected reliable queueing
+- __binary star:__ primary-backup server failover
+- __freelance:__ brokerless reliable reqres
+
+### simple
 One client talks to one server, synchronously.
 ```txt
     ┌──────────┐
@@ -93,6 +104,14 @@ done `in process`.
 ```
 
 ## publish-subscribe
+- __suicidal snail:__ handle too slow subscribers
+- __black box:__ design high speed subscribers
+- __espresso:__ monitor pub-sub network
+- __clone:__ shared key-value store
+- __reactor:__ simplify complex server
+- __binary star:__ add failover to server
+
+### simple
 Simple pub sub is single publisher, multi subscriber. It is fragile; instead
 use:
 ### extended publish-subscribe
