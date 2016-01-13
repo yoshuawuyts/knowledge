@@ -7,15 +7,13 @@ programs. It forms the glue that binds Unix together.
 - `print!`
 - `fmt!`
 
-## Stdin
+## stdin
+### read each line into a string
 ```rs
 use std::io;
 
 fn main() {
-  // create an empty string buffer
   let mut input = String::new();
-
-  // read each line into the string buffer
   match io::stdin().read_line(&mut input) {
     Ok(n) => {
       println!("{} bytes read", n);
@@ -23,5 +21,23 @@ fn main() {
     }
     Err(err) => println!("error: {}", err),
   }
+}
+```
+
+### read single line from stdin to string
+```rust
+fn main () {
+  let mut line = String::new();
+  let stdin = io::stdin();
+  stdin.lock().read_line(&mut line).unwrap();
+}
+```
+
+## stdout
+### print single line to stdout no newline
+```rust
+fn main () {
+  print!("minutes: ");
+  io::stdout().flush().unwrap();
 }
 ```
