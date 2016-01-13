@@ -226,6 +226,8 @@ swipe-from-the-side menus
   dom builder
 - [virtual-app](https://github.com/sethvincent/virtual-app) - redux-like,
   unidirectional state management paired with virtual-dom
+- [vdom-curry](https://github.com/nichoth/vdom-curry) - Partially apply an
+  idiomatic mercury component
 
 ## CSS
 - [css-wipe](https://github.com/yoshuawuyts/css-wipe) — Reset the browser's
