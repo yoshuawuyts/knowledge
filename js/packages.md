@@ -212,6 +212,8 @@
 - [oauth-open](https://github.com/LapwingLabs/oauth-open) - minimal popup for
   authenticating with oauth
 - [store-emitter](https://github.com/sethvincent/store-emitter) - state lib
+- [event-source-polyfill](https://github.com/Yaffle/EventSource) - event source
+  polyfill
 
 ## Client-side components
 - [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
