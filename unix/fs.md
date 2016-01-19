@@ -75,5 +75,11 @@ __tools__
 ## loop devices
 [ tbi ]
 
+## print file size in gigabtyes of file
+```sh
+$ local_raw_size="$(stat --printf="%s" "$disk_file")"
+$ dc -e "$local_raw_size 1024 / 1024 / 1024 / p"
+```
+
 ## See Also
 - [OpenBSD jumpstart](http://www.openbsdjumpstart.org/#/)
