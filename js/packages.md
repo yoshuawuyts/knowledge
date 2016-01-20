@@ -170,6 +170,8 @@
   browser-pack bundles into common shared bundles
 - [brfs](https://github.com/substack/brfs) — browserify fs.readFileSync()
   static asset inliner
+- [unassertify](https://github.com/twada/unassertify) - remove `assert` calls
+  from a bundle
 
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer) — Modular trie based router
