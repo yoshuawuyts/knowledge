@@ -41,6 +41,8 @@
   of varying levels of complexity
 - [tweenr](https://www.npmjs.com/package/tweenr) - Minimal tweening engine
   which operates on numbers and arrays
+- [color-convert](https://www.npmjs.com/package/color-convert) - Plain color
+  conversion functions
 
 ## Data viz
 - [d3-hierarchy](https://github.com/mbostock/d3-hierarchy) - d3 data viz
