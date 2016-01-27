@@ -216,6 +216,8 @@
 - [store-emitter](https://github.com/sethvincent/store-emitter) - state lib
 - [event-source-polyfill](https://github.com/Yaffle/EventSource) - event source
   polyfill
+- [xhr-request](https://github.com/Jam3/xhr-request) - tiny http client for
+  Node and the browser
 
 ## Client-side components
 - [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
