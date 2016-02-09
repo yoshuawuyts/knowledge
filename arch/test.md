@@ -42,3 +42,8 @@ Stubbing requests out causes tests to be to _behavior_, which does survive
 refactors. By stubbing requests you set expectations of the outgoing request,
 and reply with a certain response. It tests a range of expectations, and
 verifies your application complies with those expectations.
+
+## Testing running services
+- __smoke tests:__ test if basic functionality works
+- __ping:__ test if nodes are alive
+- __log monitoring:__ check if an exceptional amount of errors is returned
