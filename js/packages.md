@@ -174,6 +174,10 @@
   static asset inliner
 - [unassertify](https://github.com/twada/unassertify) - remove `assert` calls
   from a bundle
+- [varify](https://github.com/thlorenz/varify) - convert all const assignments
+  to var assignments
+- [es6-templates](https://github.com/esnext/es6-templates) - ES6 template
+  strings compiled to ES5
 
 ## Client-side MVC
 - [wayfarer](http://ghub.io/wayfarer) — Modular trie based router
