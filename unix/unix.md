@@ -235,7 +235,8 @@ on top of the kernel.
 
 ## Print directory size
 ```sh
-$ du -s <directory>
+$ du -s <directory>    # print size
+$ du -sH <directory>   # print size and follow symlinks
 ```
 
 ## See Also
