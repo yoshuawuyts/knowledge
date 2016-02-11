@@ -233,6 +233,11 @@ $ rename -n 's/foo/bar/' *.txt
 The init process is the heart of the OS. It schedules everything that happens
 on top of the kernel.
 
+## Print directory size
+```sh
+$ du -s <directory>
+```
+
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
