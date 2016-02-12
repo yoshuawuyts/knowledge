@@ -38,13 +38,13 @@ fs.createReadStream('./my-file')
 
 The stream reads from a file (`./my-file`) using a read stream and writes to a
 file (`./other-file`) using a write stream. The speed is throttled to the
-slowest operation (probably harddisk writes), and data is only requested when
-the harddisk is ready to write a new chunk making it super efficient.
+slowest operation (probably hard disk writes), and data is only requested when
+the hard disk is ready to write a new chunk making it super efficient.
 
 ### memory
 Using streams reduces the amount of memory required by a node program, making
 the program faster and less prone to crash. Using the regular `fs.readFile` /
-`fs.readFileSync` api's with `'utf8'` will devour resources and eventually
+`fs.readFileSync` APIs with `'utf8'` will devour resources and eventually
 crash on large files.
 
 ## Read-transform-write
@@ -77,7 +77,7 @@ function grep (regex) {
 This program does the same as the bash function. The reason why the code looks
 more verbose is because:
 
-1. we're importing dependencies explicitely rather than relying on globals
+1. we're importing dependencies explicitly rather than relying on globals
 2. we implemented the `grep` function from scratch
 
 To make sure you understand what's going on, let's break down the code:

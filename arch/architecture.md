@@ -27,8 +27,8 @@ component-* .... context unaware views
 
 __resources__
 - [reactive-mvc-and-the-virtual-dom](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
-- [combining react flux & web components](http://futurice.com/blog/combining-react-flux-and-web-components)
-- [simpler UI reasoning with unidrectional dataflow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
+- [combining react flux & webcomponents](http://futurice.com/blog/combining-react-flux-and-web-components)
+- [simpler UI reasoning with unidirectional data flow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
 - [react-transit](https://github.com/RickWong/react-transmit/blob/master/DOCS.md)
 
 ## Circuit breakers
@@ -36,7 +36,7 @@ Provide stability and prevent cascading failures in distributed systems.
 
 #### States
 - closed (all is well)
-- open (it's not ok, don't contact me. Sets a timeout, and tries to recover)
+- open (it's not OK, don't contact me. Sets a timeout, and tries to recover)
 - half-open (allow next request to talk to the service, and see if it passes)
 
 Pieces (for example: levee)
@@ -81,7 +81,7 @@ aspect as the system.
 ## Domain Driven Design (DDD)
 Domain Driven Design (DDD) is a style of coding where you separate your business
 logic (domains) from implementation details (api / database). As with
-everything in engineering it has tradeoffs:
+everything in engineering it has trade-offs:
 - __speed__: DDD takes longer than monolithic approaches
 - __flexibility__: DDD is more flexible than monolithic approaches
 
@@ -91,14 +91,14 @@ Ask yourself the following question:
 
 If the answer is yes, DDD might be a good fit. If not, DDD is not for you.
 
-### domain vs persistance
+### domain vs persistence
 - __domain model__: real-life problems and solutions, models __behavior__.
-- __persistance model__: what and how data is stored, models __storage structure__.
+- __persistence model__: what and how data is stored, models __storage structure__.
 
 Start with the domain first, as it caters to the problem that's being solved.
-The persistance model is an implementation detail to the domain model.
+The persistence model is an implementation detail to the domain model.
 
-A domain is persistance agnostic. The persistance model, however, needs to be
+A domain is persistence agnostic. The persistence model, however, needs to be
 aware of the domain in order to transform the data.
 
 ### slicing the lasagna
@@ -109,16 +109,16 @@ request leads you through multiple (too many) abstraction layers.
 ### domain model methods
 The domain model should contain all logic to interact with the model; exposing
 complete actions on top of them. That way services can be thin abstractions on
-top of the models, giving maximum reusability.
+top of the models, giving maximum re-usability.
 
 ### resources
-- [domain model is not persistance model](http://blog.sapiensworks.com/post/2012/04/07/Just-Stop-It!-The-Domain-Model-Is-Not-The-Persistence-Model.aspx/)
-- [ddd persistance model and domain model](http://stackoverflow.com/questions/14024912/ddd-persistence-model-and-domain-model)
+- [domain model is not persistence model](http://blog.sapiensworks.com/post/2012/04/07/Just-Stop-It!-The-Domain-Model-Is-Not-The-Persistence-Model.aspx/)
+- [DDD persistence model and domain model](http://stackoverflow.com/questions/14024912/ddd-persistence-model-and-domain-model)
 - [anemic domain model](http://www.martinfowler.com/bliki/AnemicDomainModel.html)
 
 ## Microservice Monolith
 If you write shell scripts your framework is `unix / sh`. If you write Node
-applications your framework is JS. Crossing framework boundries is a cause of
+applications your framework is JS. Crossing framework boundaries is a cause of
 complexity because the interfaces do not fully align. Containing logic within a
 single framework saves cost in the long run.
 
@@ -130,7 +130,7 @@ back and look at architecture. There are generally 2 types of architecture:
 
 Monoliths are beautiful in itself: by deploying a single codebase everything
 works. There's a lot more simplicity to the project, but can backfire
-horrificly if wrongly designed.
+horrifically if wrongly designed.
 
 Microservices are much more lenient towards bad design: if a service doesn't
 work well you can (in theory) replace it by another, better designed service.
@@ -147,7 +147,7 @@ microservice monolith is both:
 
 By building a microservice monolith you gain the best of both worlds: the
 ease of deployment and initial speed of a monolith + the loose coupling and
-maintainability of a modular architecutre.
+maintainability of a modular architecture.
 
 __resources__
 - [microservice envy](http://martinfowler.com/bliki/MicroservicePremium.html)

@@ -100,7 +100,7 @@ POST https://api.oauth2server.com/token?
 #### Browser-Based apps
 
 ### performing a request
-Either with a querystring or with a header. Header is preferable, qs is useful
+Either with a query string or with a header. Header is preferable, qs is useful
 for quick browser testing.
 ```sh
 $ curl https://api.github.com/user?access_token=OAUTH-TOKEN
@@ -212,7 +212,7 @@ XSS bugs!
 - disallow any non-JSON POST/PUT/PATCH/DELETE
 - `multipart/form-data` needs to still be handled
 
-### check HTTP referer header
+### check HTTP referrer header
 - check `referer` header for `multipart/form-data` POST and friends
 - `referer` is set by a browser and tells which page (url) triggered a request
 - disallow requests without `referer` present

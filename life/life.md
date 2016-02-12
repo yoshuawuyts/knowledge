@@ -34,7 +34,7 @@ length.
 ## Deal with being jealous
 - talk about your fears, openly and immediately. Even if you think you're being
   irrational.
-- jealousy is a symptome that someone is feeling insecure or threatened
+- jealousy is a symptom that someone is feeling insecure or threatened
 - jealousy comes from someone's needs not being met or someone's being
   threatened
 - people who don't feel threatened don't feel jealous

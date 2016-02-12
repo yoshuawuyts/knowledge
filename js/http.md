@@ -110,7 +110,7 @@ fs.createReadStream('./foo.txt').pipe(req)
 
 ### Request url parsing
 The `url` module synergizes extremely well with the `http` module. In order to
-parse url's and destructure query strings do:
+parse urls and destructure query strings do:
 ```js
 const http = require('http')
 const url = require('url')

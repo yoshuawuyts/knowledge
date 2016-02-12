@@ -1,8 +1,8 @@
 # API
 Building APIs is hard. It's tough to strike a balance between flexibility and
-rigidity. Finding the right boundries for individual elements is a continuous
+rigidity. Finding the right boundaries for individual elements is a continuous
 process. In this section we'll be looking at the different elements that
-consitute an API, and explore how we can standardize some parts of this.
+constitute an API, and explore how we can standardize some parts of this.
 
 - [errors](#errors)
 - [validation](#validation)
@@ -11,7 +11,7 @@ consitute an API, and explore how we can standardize some parts of this.
 - [architecture](#architecture)
 
 ## errors
-Errors are objects returned by the server. Based on a statuscode it's
+Errors are objects returned by the server. Based on a status code it's
 determined if it's an error or not (generally `4xx / 5xx` status code ranges).
 To build more tooling around error handling / creating it would be nice if
 errors were predictable. I propose the following fields:

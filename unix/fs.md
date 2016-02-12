@@ -19,7 +19,7 @@ Unix filesystem.
 /sbin          Essential system binaries
 /srv           Site-specific data served by system
 /tmp           Temporary files
-/usr           Secondary hierarcy for read-only user data
+/usr           Secondary hierarchy for read-only user data
 /usr/bin       Non-essential binaries for all users
 /usr/include   Standard include files
 /usr/local     Tertiary hierarchy for local data
@@ -28,7 +28,7 @@ Unix filesystem.
 /src           Source code
 /var           Variable files
 /var/cache     Application cache data
-/var/lib       State information. Used by db's and the like.
+/var/lib       State information. Used by DBs and the like.
 /var/lock      Lock files. Which resources are used.
 /var/log       Log files
 /var/mail      Mailboxes
@@ -75,7 +75,7 @@ __tools__
 ## loop devices
 [ tbi ]
 
-## print file size in gigabtyes of file
+## print file size in gigabytes of file
 ```sh
 $ local_raw_size="$(stat --printf="%s" "$disk_file")"
 $ dc -e "$local_raw_size 1024 / 1024 / 1024 / p"

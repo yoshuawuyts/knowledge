@@ -1,7 +1,7 @@
 # queues
 
 - they're pretty cool to handle small bursts of information
-- not good in handling persistant overload
+- not good in handling persistent overload
 - dropping packages is the only way of doing that correctly, TCP is reliable
 so it'll retry and thus won't matter.
 - measure where your choking point is at. Knowledge is key.

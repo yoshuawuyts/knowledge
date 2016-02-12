@@ -3,7 +3,7 @@
 ## words
 Words that make you sound smart. Programmer _$wag_.
 
-### idempotance [(wiki)](http://en.wikipedia.org/wiki/Idempotence)
+### idempotence [(wiki)](http://en.wikipedia.org/wiki/Idempotence)
 > Idempotence is the property of certain operations in mathematics and computer
 > science, that can be applied multiple times without changing the result beyond
 > the initial application.
@@ -24,7 +24,7 @@ Programming:
 ### quantified self
 > Gathering data about your everyday life and logging it.
 
-### conway's law
+### Conway's law
 > People will build systems that mimic the social structures the people are used to.
 
 ### lizard person
@@ -36,11 +36,11 @@ hot, erotic.
 > This situation got too saucy.
 
 ### upsert
-> If !exists, instert. Else update.
+> If !exists, insert. Else update.
 
 ### to lose one's lunch
 Be sick
-> Too much PDA, I'm gonna llose muy lunch soon
+> Too much PDA, I'm gonna lose my lunch soon
 
 ### charrette
 > 1. A public meeting or workshop devoted to a concerted effort to solve a

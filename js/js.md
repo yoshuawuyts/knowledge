@@ -46,7 +46,7 @@ function myFunc (fn) {
 
 ## Common module signatures
 In order to form plug-and-play systems with swappable components it is key that
-module signatures remain the same between modules. In staticly typed languages
+module signatures remain the same between modules. In statically typed languages
 it is possible to statically define the signatures for the modules, but this
 doesn't work for js. In order to scratch that itch, the level community wrote
 `abstract-leveldown`: a set of tests that can be used by implementers to enforce
@@ -113,8 +113,8 @@ of the operations.
 
 ## Prototypes
 Prototypes are a tricky beast; they work differently than classes and can be
-tough to reason about. Luckily there'es a simple heuristic to remember how they
-work: they're simply a linked list. Multiple inheritance is just muliple
+tough to reason about. Luckily there's a simple heuristic to remember how they
+work: they're simply a linked list. Multiple inheritance is just multiple
 pointers in the parent field.
 
 ## delete value from array
@@ -189,7 +189,7 @@ while (n++ < 26) {
 ```
 
 ## Async
-- api's should be consistent
+- APIs should be consistent
 - if async always be async or risk unleasing zalgo
 - use `dezalgo`
 
@@ -201,7 +201,7 @@ while (n++ < 26) {
 JSON.stringify({ foo: 'bar' }, null, 2)
 ```
 
-## cast time to miliseconds
+## cast time to milliseconds
 ```js
 new Date('2011-01-26T19:06:43Z').valueOf()
 > 1296068803000

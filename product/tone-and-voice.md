@@ -1,8 +1,8 @@
 # tone and voice
 How you write something is more important than what you write. What good is
 having all the knowledge in the world if it cannot be shared? Having a good
-tone and voice is key to becoming likeable. Companies like Slack do a
-magnificent job at conveying _likeability_.
+tone and voice is key to becoming likable. Companies like Slack do a
+magnificent job at conveying _likability_.
 
 ## Frames
 Tone and voice is an abstract concept; talking about it mostly hits the

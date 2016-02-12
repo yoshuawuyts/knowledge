@@ -32,7 +32,7 @@ belong together, and comments are a great way to indicate that.
 - err, warn, success, action
 - have a complimentary color
 - head, body, mono fonts
-- z-indeces, colors, fonts are always a variable
+- z-indices, colors, fonts are always a variable
 - variables for everything
 - all variables in one file
 
@@ -52,7 +52,7 @@ Flex items (children):
 ```txt
 order             <integer>
 flex-grow         <integer:0>
-flex-schrink      <ufloat:1.0>
+flex-shrink       <ufloat:1.0>
 flex-basis        <length> | auto
 flex              none | <flex-grow> <flex-shrink> || <flex-basis>
 align-self        auto, flex-start, flex-end, center, stretch, baseline

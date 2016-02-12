@@ -1,5 +1,5 @@
-# web components
-A quick overview of how web components work. Web components are the umbrella
+# webcomponents
+A quick overview of how webcomponents work. Web components are the umbrella
 term for a bunch of technologies, but based on conversations with people who've
 used them extensively (`>1 year`) the only interesting parts are `custom
 elements` and `shadow dom`.
@@ -104,7 +104,7 @@ which allows a separation between module-level listeners and application-level
 listeners.
 
 An important note is that with webcomponents all injected data should be shared
-through the attributes, analogous to react's `props`.
+through the attributes, analogous to React's `props`.
 
 An example of a `flux` application component (not on the module level):
 

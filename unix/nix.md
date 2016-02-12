@@ -6,7 +6,7 @@ isolation without relying on implicit global state.
 - REPL
 - language basics
 - functions & imports
-- deriviations
+- derivations
 
 ## Installation
 ```sh

@@ -141,7 +141,7 @@ transforms.
 
 Using Browserify comes with a set of guarantees:
 
-- __transparancy__: Browserify is mostly considered done. Any changes made
+- __transparency__: Browserify is mostly considered done. Any changes made
   strictly follow semver, and comprehensive release notes are released with
   every patch.
 - __portability__: `fs` and native addons aside, Browserify gives full
@@ -155,7 +155,7 @@ Using Browserify comes with a set of guarantees:
 - __extensibility__: higher level tools can consume Browserify as a dependency.
   For example: `budo` is a command line application server that bundles JS, CSS
   and HTML into an application, allowing devs to spend their time working on a
-  demo, rather than the build infrastucture.
+  demo, rather than the build infrastructure.
 - __readability__: Browserify's source is small, thoroughly tested and relies
   on external modules to break down complexity. If you're curious how a feature
   works it's easy to dive in and poke around.

@@ -40,9 +40,9 @@ of this loosely coupled structure, both the components and framework can easily
 be upgraded, events exist within the application only and modularity +
 encapsulation become the baseline, rather than a far-off target.
 
-__note__: Scepticists might argue that `React` / `virtual-dom` provide high
+__note__: Skeptics might argue that `React` / `virtual-dom` provide high
 performance components, and thus having vanilla DOM elements live on the leaves
-is bad for performance because `vdom`s are fast. Apparently these scepticists
+is bad for performance because `vdom`s are fast. Apparently these Skeptics
 don't realize that `vdom` implementations use native DOM methods under the
 hood, and thus will be slower than raw DOM operations 100% of the time. The
 main benefit `vdom`s provide is that it makes it easy to reason about whether

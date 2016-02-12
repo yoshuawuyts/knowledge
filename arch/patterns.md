@@ -73,7 +73,7 @@ One client talks to one server, synchronously.
 
 ### extended request-reply
 This works both for networks of machines and threads within a machine. The
-router takes requests of some form, sychronously distributes work over the
+router takes requests of some form, synchronously distributes work over the
 workers and then returns the responses.
 
 When networked this would be done using `TCP`. When threading this should be
@@ -116,7 +116,7 @@ Simple pub sub is single publisher, multi subscriber. It is fragile; instead
 use:
 ### extended publish-subscribe
 `PUBSUB` with forwarding makes a multi-publish multi-subscriber model less
-fragile. The forwarder should only forward connections without keepin state to
+fragile. The forwarder should only forward connections without keeping state to
 stay robust.
 ```txt
  ┌──────────┐   ┌──────────┐   ┌──────────┐

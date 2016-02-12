@@ -1,6 +1,6 @@
 # mail
 Email is the emperor of asynchronous text-based communication. The formats are
-well defined and tiny, and adoptation is _very_ high.
+well defined and tiny, and adoption is _very_ high.
 
 ## mailcap
 Mailcap specifies which extensions to use to open files with. Out of the box

@@ -35,7 +35,7 @@ content_type.entity_id   |   FANNED_BY.content_type.entity_id
 
 Dynamo instances are spun up for the amount of requests. Writes to a hash key
 are locked to a process. If you're appending a ton of data to a single key
-you'll be in big big trouble (e.g. using < 20% of resources, making dynamoDB
+you'll be in big big trouble (e.g. using < 20% of resources, making DynamoDB
 5x as expensive as need be).
 
 Writes are 5x as expensive as reads.
@@ -106,7 +106,7 @@ __resources__
 - [dynamodb for js cheat sheet](http://www.markomedia.com.au/dynamodb-for-javascript-cheatsheet/)
 
 ## leveldb
-Towers of hanoi abstraction. Merges are expensive, write to small files, merge
+Towers of Hanoi abstraction. Merges are expensive, write to small files, merge
 whenever n stores can be merged.
 - in memory skiplist (sorted by keys, like a linked list but multi links)
 - SST (Sorted String Table, sorted by keys)
@@ -115,7 +115,7 @@ whenever n stores can be merged.
 - files come in, dumped in a log
 - indexed in an in-memory SST
 - flushed to a on-disk SST once a threshold is reached
-- when n SST's of a certain size exist, they are merged into a larger (and thus
+- when n SSTs of a certain size exist, they are merged into a larger (and thus
   more efficient) SST
 
 Ordered log files can be traversed using binary search. Larger log files are

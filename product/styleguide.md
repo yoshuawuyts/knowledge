@@ -1,14 +1,14 @@
 # style guide
 
-Stuff about proper branding. Most stuff is from the exquisite dropbox branding
+Stuff about proper branding. Most stuff is from the exquisite Dropbox branding
 site. They only use 4 colors and are super memorable! Link's below.
 
 #### Logo
 ```
 logotype         text + image    use whenever possible
-glyph            image           use in ui with limited space
+glyph            image           use in UI with limited space
 vertical lockup  text + image    use only in marketing with limited space
-outline          image           use in ui with limited space
+outline          image           use in UI with limited space
 ```
 A small disclaimer below that from the dropbox site, note the tone of voice:
 > Thanks for not editing, changing, distorting, recoloring, or reconfiguring the
