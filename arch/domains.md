@@ -12,7 +12,7 @@ Domains are the area of application your application works within.
 - used by the team members and throughout the code
 
 ## Bounded context
-- and explicit boundeary within which a domain model ixists
+- and explicit boundary within which a domain model exists
 - inside all terms have a specific meaning
 - they are part of ubiquitous language
 - high cohesion (things that work together stick together)
@@ -26,14 +26,14 @@ Domains are the area of application your application works within.
 > anything well.
 
 ## Micro services
-- invidividual persistance
+- individual persistence
 - individual tech stacks
-- individual deplyability
+- individual deployability
 - individual replacability
 - individual scalability
 - can fail individually
 
 ## What are microservices about?
 - free choice of architecture
-- free choice of persistance
+- free choice of persistence
 - free choice of language

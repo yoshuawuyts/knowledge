@@ -1,5 +1,5 @@
 # dom
-While most develoeprs have some understanding of how HTML and the DOM work,
+While most developers have some understanding of how HTML and the DOM work,
 there are a good amount of tags available that are most likely being misused. I
 don't care about non-evergreen browsers, so that's the only guarantee about
 compatibility I'm able to make.
@@ -15,9 +15,9 @@ compatibility I'm able to make.
 ```
 
 ## Events
-A big gotcha of `dom` events it that they propegate to their parent nodes if left
+A big gotcha of `dom` events it that they propagate to their parent nodes if left
 unhandled. By setting `this.stopPropegation()` the events are no longer
-propegated to their parents.
+propagated to their parents.
 
 Another gotcha with the `dom`, is that when you're building dynamic systems
 with JavaScript, existing dom nodes will have default behavior that is
@@ -36,10 +36,10 @@ use the `this.preventDefault()` method within the form element.
 > that affect the layout of a portion of the page (or the whole page).
 
 - [source](http://stackoverflow.com/questions/2549296/whats-the-difference-between-reflow-and-repaint)
-- [csstriggers.com](http://csstriggers.com/)
+- [csstriggers.com](http:‰//csstriggers.com/)
 
 ## Buttons
-Creating a button can be done in multiple ways (all dependending on style).
+Creating a button can be done in multiple ways (all depending on style).
 Function comes down to semantics. Best practices for this are:
 - __a__: use anchor tags for external links
 - __button__: use buttons for all non-form related actions

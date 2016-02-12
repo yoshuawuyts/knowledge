@@ -22,7 +22,7 @@ so all we can do is request you do.
 - you may only use our logo to link to us. Get it here. Don't modify our stuff.
 - be your own, don't hoist our name into every single thing. It's your app after
 all
-- if you did all the stuff above, but mimick our complete ui, stop
+- if you did all the stuff above, but mimic our complete UI, stop
 
 #### More questions
 Support is here to talk you out of abusing our branding.

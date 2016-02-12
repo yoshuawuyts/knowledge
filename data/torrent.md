@@ -1,7 +1,7 @@
 # torrent
 Stuff on the torrent protocol, automation and more.
 
-## Common tasks in rtorrent
+## Common tasks in torrent
 
 ## Tuning torrent perf
 [performance tuning torrents][0]

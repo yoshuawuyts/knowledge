@@ -231,7 +231,7 @@
 swipe-from-the-side menus
 - [zip-input](https://github.com/bendrucker/zip-input) - ZIP input component
   for virtual-dom
-- [spectrum](http://bgrins.github.io/spectrum/) - JavaScript Colorpicker
+- [spectrum](http://bgrins.github.io/spectrum/) - JavaScript Color picker
 
 ## Virtual-Dom
 - [hyperx](https://github.com/substack/hyperx) - tagged template string virtual
@@ -401,7 +401,7 @@ swipe-from-the-side menus
 - [webrtc-swarm](https://github.com/mafintosh/webrtc-swarm) — Create a swarm of
   p2p connections using webrtc and a signalhub
 - [peer-wire-swarm](https://github.com/mafintosh/peer-wire-swarm) — swarm
-  implementation for bittorrent
+  implementation for bit torrent
 - [airswarm](https://github.com/mafintosh/airswarm) — Network swarm that
   automagically discovers other peers on the network using multicast dns
 
@@ -442,7 +442,7 @@ swipe-from-the-side menus
   require.resolve() algorithm
 - [has](https://www.npmjs.com/package/has) —
   Object.prototype.hasOwnProperty.call shortcut
-- [function-bind](https://www.npmjs.com/package/function-bind) — mplementation
+- [function-bind](https://www.npmjs.com/package/function-bind) — implementation
   of Function.prototype.bind
 - [array-find](https://www.npmjs.com/package/array-find) - Return the first
   array element which satisfies a testing function
@@ -454,7 +454,7 @@ swipe-from-the-side menus
 - [chmodr](https://github.com/isaacs/chmodr) - Like `chmod -R` in node
 - [mkdirp](https://github.com/substack/node-mkdirp) - Recursively mkdir, like
   `mkdir -p`, but in node.js
-- [findup](https://github.com/Filirom1/findup) - Walk up ancester's dirs up to
+- [findup](https://github.com/Filirom1/findup) - Walk up ancestor's dirs up to
   root
 - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - fs with
   incremental backoff on EMFILE
@@ -586,13 +586,13 @@ swipe-from-the-side menus
   Scalable EventEmitter powered by a Merkle DAG
 - [atomic-queue](https://github.com/maxogden/atomic-queue) — a crash friendly
   queue that persists queue state and can restart
-- [superlevel](https://github.com/maxogden/superlevel) — minimalist cli utility
+- [superlevel](https://github.com/maxogden/superlevel) — minimalist CLI utility
   for leveldb databases
 - [level-defaults](https://github.com/mafintosh/levelup-defaults) - Change the
-  defaults settings on a levelup instance by returning a new levelup instance
+  defaults settings on a LevelUp instance by returning a new LevelUp instance
   that uses the same leveldown but different options
 - [level-events](https://github.com/mafintosh/level-events) - Get an event
-  everytime something is written / read / deleted using levelup
+  every time something is written / read / deleted using LevelUp
 
 ## Data structures
 - [merkle-dag](https://github.com/mafintosh/merkle-dag) — Merkle DAG on top of

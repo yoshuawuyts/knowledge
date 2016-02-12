@@ -24,4 +24,4 @@ Code rot.
 [ tbi ]
 
 ## See Also
-- [a codebae is an organism](http://www.meltingasphalt.com/a-codebase-is-an-organism/)
+- [a codebase is an organism](http://www.meltingasphalt.com/a-codebase-is-an-organism/)

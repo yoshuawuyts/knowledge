@@ -1,5 +1,5 @@
 # writing
-Writing is sharing information in an asychronous format.
+Writing is sharing information in an asynchronous format.
 
 ## publishers
 - read an article

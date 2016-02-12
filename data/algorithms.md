@@ -1,7 +1,7 @@
 # algorithms
 Algorithms === data structures.
 
-# Lineair algebra
+# Linear algebra
 - [LAPACK package](http://en.wikipedia.org/wiki/LAPACK)
 
 ## Markov chains

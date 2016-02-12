@@ -1,7 +1,7 @@
 # os
 Operating system installation, management and more.
 
-## Boot from usb
+## Boot from USB
 Create a bootable USB.
 ```sh
 $ hdiutil convert -format UDRW -o out in.iso

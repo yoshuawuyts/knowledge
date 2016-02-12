@@ -43,5 +43,5 @@ vconfig, vi, vlock, volname, watch, watchdog, wc, wget, which, who,
 whoami, xargs, yes, zcat, zcip
 ```
 
-## Alpine linux
+## Alpine Linux
 [tbi]

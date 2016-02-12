@@ -47,7 +47,7 @@ $ hub am -3 <pull-request-url>
 ## branching model
 `git-flow` is probably the most popular branching technique out there. It's
 also shit. There are many caveats in it, and it doesn't use some use git
-primitives where it should. A succesful branching model for simple projects is:
+primitives where it should. A successful branching model for simple projects is:
 - master is the truth of all merges
 - each feature gets their own branch on the contributor's fork
 - whenever a feature is done, it's pulled in
@@ -64,7 +64,7 @@ removed, just request the commit range for certain tag to roll back. Tada!
 ## Git hooks
 Git hooks are a way of extending git with functionality whenever things happen.
 To some extent `npm` has a similar mechanism called `npm scripts`. Git hooks
-are just regular bash scripts that are triggerd on actions. They live in
+are just regular bash scripts that are triggered on actions. They live in
 `.git/hooks`, where the filename is the name of the hook. The following hooks
 are available:
 ```txt

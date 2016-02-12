@@ -14,7 +14,7 @@ Packages you import from other places and share between projects.
 ### modules
 Local files that together create a thing, for example an application or crate.
 
-`mod` is the keyword to define a local module. For exmaple:
+`mod` is the keyword to define a local module. For example:
 ```rust
 // ./src/lib.rs
 mod english {

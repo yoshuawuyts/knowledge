@@ -61,7 +61,7 @@ protect your hands from stings, stains, and smells!
 
 ## Pack the kimchi into the jar.
 Pack the kimchi into the jar, pressing down on it until the brine rises to
-cover the vegetables. Leave at least 1-inch of headspace. Seal the jar with te
+cover the vegetables. Leave at least 1-inch of head space. Seal the jar with the
 lid.
 
 ## Let it ferment.
