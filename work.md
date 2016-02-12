@@ -32,7 +32,7 @@ overhead in terms of time management.
 - [hour to week](https://training.kalzumeus.com/newsletters/archive/consulting_1?HN_repost)
 
 ## Post client relations
-- Follow a succesful consulting engagement with a case study.
+- Follow a successful consulting engagement with a case study.
 - if no case study, ask for a testimonial
 - you do the work, both of you get the profits
 - testimonials should be specific, focused on a business result and highly
@@ -117,7 +117,7 @@ A contract should contain the following:
 ## Starting a new job contracting job
 - start working after the contract is signed
 - take 24 hours to read through the contract and agree on terms
-- some stuff might be non-negotiale, if you start working before it's signed
+- some stuff might be non-negotiable, if you start working before it's signed
   there are no guarantees of pay
 - terms might be unable to be agreed upon, and will then end up performing free
   work

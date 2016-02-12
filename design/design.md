@@ -9,7 +9,7 @@
 - simplicity is subjective
 - complexity is how many operations need to be performed
   before achieving the goal.
-- tesler's law of conservation of simplicity: Every application has an inherent
+- Tesler's law of conservation of simplicity: Every application has an inherent
   amount of irreducible complexity. The only question is who will have to deal
   with it.
 
@@ -17,7 +17,7 @@
 - [toicon](http://www.toicon.com/)
 
 ## UI patterns
-- [ui patterns for smarter design](http://www.awwwards.com/mastering-ui-patterns-for-smarter-design.html)
+- [UI patterns for smarter design](http://www.awwwards.com/mastering-ui-patterns-for-smarter-design.html)
 
 ## Easing functions
 ### in / out
@@ -61,7 +61,7 @@ expo   6 Exponential acceleration
 ## the krav maga of design
 1. light comes from the sky
 2. black and white first
-3. double your whitespace
+3. double your white space
 4. learn methods of overlaying text on images
 5. make text pop -- and unpop
 6. only use good fonts
@@ -75,8 +75,8 @@ than those lower on the screen.
 It allows you to worry about less, initially. Analogous to 'mobile-first' it
 constrains your decisions, allowing you to focus on the harder problem first.
 
-### double your whitespace
-Whitespace is the default. Taking away the whitespace is a conscious decision.
+### double your white space
+White space is the default. Taking away the white space is a conscious decision.
 Be zen about it.
 
 - put space between your lines

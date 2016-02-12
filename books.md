@@ -4,7 +4,7 @@ Books I've read.
 ## The art of unix programming
 - super neat introduction to _why_ unix programming matters
 - often a bit dry
-- without context sometimes difficult to plough through
+- without context sometimes difficult to plow through
 - essential reading if you do anything with computers
 - probably makes you a better human in the process
 
@@ -14,7 +14,7 @@ Books I've read.
 
 ## Wishlist
 - "v" by Thomas Pynchon
-- "alice in quantumland" - Robert Gilmore
+- "Alice in Quantumland" - Robert Gilmore
 - "Probabilistic-Programming-and-Bayesian-Methods-for-Hackers" - Cam Davidson Pilon
 - "the humans" - Matt Haig
 

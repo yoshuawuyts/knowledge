@@ -9,7 +9,7 @@
 - clear cache often, prices are set by cookies
 - early vs last minute bookings? no idea which one is best
 - most people often already have a cancellation insurance, don't get one twice
-- be careful you don't tick extra options when travelling with a cheap company,
+- be careful you don't tick extra options when traveling with a cheap company,
 this is how they make money
 - smaller airports often have better prices
 - check if the flight no. you're planning to go on is available somewhere else,
@@ -56,7 +56,7 @@ plan.
 - don't eat unpacked
 
 ## Insurance
-Travelling uninsured is super dangerous; if for some reason you end up in a
+Traveling uninsured is super dangerous; if for some reason you end up in a
 hospital (which could be for anything; even stuff that's out of your control)
 there's a fair chance of you going bankrupt. Since I'm Dutch this part will
 be focused on Dutchies that are moving abroad, though I'm sure that many
@@ -87,7 +87,7 @@ In Australia there are 3 types of insurances:
 ## Emigrating
 Emigrating is a tricky beast. There's tons of things you need to take care of.
 Here's a short list:
-- information of embassee or consulate
+- information of embassy or consulate
 - digital passport (DigID)
 - taxes
 - health insurance

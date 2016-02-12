@@ -22,7 +22,7 @@ __links__
 - [logs are streams not files](http://adam.herokuapp.com/past/2011/4/1/logs_are_streams_not_files/)
 
 ## logrotate(1)
-`logrotate` is a tool that, well, rotates logs. "Rotatating logs" is swapping
+`logrotate` is a tool that, well, rotates logs. "Rotating logs" is swapping
 out log files for other log files, for example after a certain time limit
 (every day) or when a file limit is hit.
 

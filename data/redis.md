@@ -10,9 +10,9 @@ $ DEL <key>  # delete key
 ```
 
 ## Expire keys
-Expire keys time out after a specified value. Imo it's best to set it in ms
+Expire keys time out after a specified value. IMO it's best to set it in ms
 rather than seconds to keep compat with unix.
 ```sh
-$ PSETEX <key> <timeout> <value>   # set an expiry key in miliseconds
+$ PSETEX <key> <timeout> <value>   # set an expiry key in milliseconds
 $ SETEX <key> <timeout> <value>    # set an expiry key in seconds
 ```

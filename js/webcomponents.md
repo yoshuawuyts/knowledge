@@ -103,8 +103,8 @@ calls from happening it's preferable that the data is shared. The
 which allows a separation between module-level listeners and application-level
 listeners.
 
-An important note is that with webcomponents all injected data should be shared
-through the attributes, analogous to react's `props`.
+An important note is that with web components all injected data should be shared
+through the attributes, analogous to React's `props`.
 
 An example of a `flux` application component (not on the module level):
 
@@ -136,7 +136,7 @@ tool in these kinds of situations. By using `virtual-dom` within web
 components you combine high performance data rendering with self-encapsulation.
 
 #### unresolved questions
-- how do you pass data into a complex webcomponent? (don't want enormous lines
+- how do you pass data into a complex web component? (don't want enormous lines
   of json injected into an html property).
 - is it possible to expose both a `js` + `html` api for `virtual-dom` nodes?
   That way the amount of render loops can be minimized.
@@ -191,8 +191,8 @@ if ('CustomElements' in window) {
 assert.equal(root.children[0].textContent, 'just now')
 ```
 
-## Reusable webcomponents
-Probably the hardest part of building webcomponents is finding the right
+## Reusable web components
+Probably the hardest part of building web components is finding the right
 abstractions for reusability. Since we're mostly extending prototypes it can be
 hard to find the correct abstractions for good base classes. In userland this
 is about the only interface you should need to expose:
@@ -209,7 +209,7 @@ sidebar.on('query', () => /*do something*/)
 - [caniuse/web-components](http://caniuse.com/#search=web%20components)
 - [mdn/register-element](https://developer.mozilla.org/en-US/docs/Web/API/Document/registerElement)
 - [introduction to custom elements](http://webcomponents.org/articles/introduction-to-custom-elements/)
-- [how GH is using webcomponents in production](http://webcomponents.org/articles/interview-with-joshua-peek/)
+- [how GH is using web components in production](http://webcomponents.org/articles/interview-with-joshua-peek/)
 - [requireio/custom-element](https://github.com/requireio/custom-element)
 - [webcomponents/webcomponentsjs](https://github.com/webcomponents/webcomponentsjs)
 - [async-form-element](https://github.com/josh/async-form-element)

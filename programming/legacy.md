@@ -3,7 +3,7 @@ New projects are rad, but for new to exist we must deal with old. These are
 some notes on how to deal with the old.
 
 ## notes
-Create a notes directory. Notes are indespensible as it will prevent you from
+Create a notes directory. Notes are indispensable as it will prevent you from
 asking the same questions over and over. Not only does it provide head space,
 it also makes you more attentive than 95% of all other people attending. Don't
 sweat getting all details though, just make sure the broad picture is

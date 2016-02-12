@@ -9,8 +9,8 @@ Shell scripts and tools.
   4   Devices and Special Files
   5   File Formats and Conventions
   6   Games et. Al.
-  7   Miscellanea
-  8   System Administration tools and Deamons
+  7   Miscellany
+  8   System Administration tools and Daemons
 ```
 
 ## File testing in sh
@@ -127,7 +127,7 @@ List all available devices. Useful to determine how to partition.
 
 ## chroot
 Can be used to repair machines that have lost root access / are unbootable for
-other reasons. Live cd's ftw! Also used to reset the `pid` of a tree of
+other reasons. Live CDs ftw! Also used to reset the `pid` of a tree of
 processes, a commonly known technique used with `docker`.
 
 - [arch wiki](https://wiki.archlinux.org/index.php/Change_root)
