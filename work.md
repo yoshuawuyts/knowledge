@@ -125,3 +125,9 @@ A contract should contain the following:
 ## See Also
 - [growing consulting practices](http://www.kalzumeus.com/2012/10/10/kalzumeus-podcast-3-growing-consulting-practices-with-brennan-dunn/)
 - [remoteok contracting](https://remoteok.io/remote-contracting-jobs)
+
+
+## Vacation
+Minimum of 5 weeks is healthy, unlimited vacation is bad. More should easily be
+possible hey.
+- [minimum vacation policy](http://www.paperplanes.de/2014/12/10/from-open-to-minimum-vacation-policy.html)
