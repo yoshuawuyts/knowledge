@@ -14,7 +14,7 @@ Packages you import from other places and share between projects.
 ### modules
 Local files that together create a thing, for example an application or crate.
 
-`mod` is the keyword to define a local module. For example:
+`mod` is the keyword to define a local module. Given a lib named `foo`:
 ```rust
 // ./src/lib.rs
 mod english {
@@ -25,6 +25,8 @@ mod english {
   }
 }
 ```
+Which can then be access by `libname::modname::submodname` or
+`foo::english::greetings`.
 
 ### use
 `use` is used after importing a crate to have a shorthand of a method on that
