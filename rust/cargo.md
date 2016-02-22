@@ -30,5 +30,11 @@ Libs are libraries. All it needs to do is expose a bunch of functions.
 and have an export name. Each file must expose a `main` function.
 - [configuring a target](http://doc.crates.io/manifest.html#configuring-a-target)
 
+## Pinning versions
+To pin versions in `Cargo.toml` the `cargo-edit` command must be exposed to add
+`cargo add`. This pulls the latest version of a dep from crates.io and stores
+it in `Cargo.toml`.
+- [cargo-edit](https://github.com/killercup/cargo-edit)
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
