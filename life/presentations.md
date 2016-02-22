@@ -9,6 +9,7 @@ shitty product desirable.
 3. show the promised land before explaining how you'll get there
 4. Identify obstacles—then explain how you’ll overcome them
 5. Present evidence that you’re not just blowing hot air
+- [elon musk's product pitch](https://medium.com/firm-narrative/want-a-better-pitch-watch-this-328b95c2fd0b)
 
 ## Writing a CFP
 Call for proposals help land talks - they're important.
@@ -24,6 +25,4 @@ Call for proposals help land talks - they're important.
 - use "you will" instead of "I will"
 - ask questions and leave unanswered
 
-## See Also
-- [elon musk's product pitch](https://medium.com/firm-narrative/want-a-better-pitch-watch-this-328b95c2fd0b)
 - [how to prepare for a tech conference talk](http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/)
