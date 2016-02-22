@@ -10,3 +10,6 @@ Rust packages
   library for Rust
 - [serde](https://github.com/serde-rs/serde) - Rust serialization
 - [serde_json](https://github.com/serde-rs/json) - JSON Serialization for Rust
+- [serde_xml](https://github.com/serde-rs/xml) - xml deserialization code for
+  the serde crate
+- [serde_yaml](https://github.com/serde-rs/yaml) - YAML support for Serde
