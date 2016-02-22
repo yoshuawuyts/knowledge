@@ -22,9 +22,12 @@ path = "bin/cli.rs"
 [dependencies]
 ```
 
-## lib
+## Lib
 Libs are libraries. All it needs to do is expose a bunch of functions.
 
-## bin
+## Bin
 `bin` can have multiple multiple exports. Each command must reference a path
 and have an export name. Each file must expose a `main` function.
+
+## See Also
+- [cargo manifest format](http://doc.crates.io/manifest.html)
