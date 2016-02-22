@@ -1,4 +1,4 @@
-# stdio
+# cli
 Reading and writing to the command line is something pretty common for
 programs. It forms the glue that binds Unix together.
 
@@ -41,3 +41,6 @@ fn main () {
   io::stdout().flush().unwrap();
 }
 ```
+
+## options parsing
+- [getopts](https://github.com/rust-lang-nursery/getopts)
