@@ -1,13 +1,13 @@
-# cli
+# CLI
 Reading and writing to the command line is something pretty common for
 programs. It forms the glue that binds Unix together.
 
-## echo
+## Echo
 - `println!`
 - `print!`
 - `fmt!`
 
-## stdin
+## Stdin
 ### read each line into a string
 ```rs
 use std::io;
@@ -33,7 +33,7 @@ fn main () {
 }
 ```
 
-## stdout
+## Stdout
 ### print single line to stdout no newline
 ```rust
 fn main () {
@@ -42,5 +42,5 @@ fn main () {
 }
 ```
 
-## options parsing
+## Options parsing
 - [getopts](https://github.com/rust-lang-nursery/getopts)
