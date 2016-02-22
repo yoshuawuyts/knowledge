@@ -9,6 +9,7 @@ shitty product desirable.
 3. show the promised land before explaining how you'll get there
 4. Identify obstacles—then explain how you’ll overcome them
 5. Present evidence that you’re not just blowing hot air
+
 - [elon musk's product pitch](https://medium.com/firm-narrative/want-a-better-pitch-watch-this-328b95c2fd0b)
 
 ## Writing a CFP
