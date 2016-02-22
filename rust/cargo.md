@@ -28,6 +28,7 @@ Libs are libraries. All it needs to do is expose a bunch of functions.
 ## Bin
 `bin` can have multiple multiple exports. Each command must reference a path
 and have an export name. Each file must expose a `main` function.
+- [configuring a target](http://doc.crates.io/manifest.html#configuring-a-target)
 
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
