@@ -6,6 +6,15 @@ return an error. You cannot use `try!` in `main()` because it cannot return a
 value. Instead errors must be handled manually there.
 
 ```rust
+fn write_to_file_using_try() -> Result<(), io::Error> {
+  let mut file = try!(File::create("my_best_friends.txt"));
+  try!(file.write_all(b"This is a list of my best friends."));
+  println!("I wrote to the file");
+  Ok(())
+}
+```
+
+```rust
 extern crate csv;
 
 fn main() {
