@@ -47,3 +47,6 @@ verifies your application complies with those expectations.
 - __smoke tests:__ test if basic functionality works
 - __ping:__ test if nodes are alive
 - __log monitoring:__ check if an exceptional amount of errors is returned
+
+## Testing binaries
+- [kcov](https://github.com/SimonKagstrom/kcov/)
