@@ -199,6 +199,11 @@ git push --delete origin <tag>   # delete remote tag
 git tag -d <tag>                 # delete local tag
 ```
 
+## Update git submodules
+```sh
+$ git submodule update --recursive
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
