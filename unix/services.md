@@ -11,9 +11,10 @@ To stop a service, use the `killproc(8)` command passing it a `PIDFILE`.
 ```sh
 $ killproc -p ${PIDFILE} -d ${STOP_TIMEOUT} -SIGTERM $PROG
 ```
+- [killproc](http://www.linux-tutorial.info/modules.php?name=ManPage&sec=8&manpage=killproc)
 
 ## Provisioning
-[tbi]
+- [nomad](https://www.nomadproject.io/)
 
 ## Monitoring
 Running systems must be monitored to check for irregularities and track
