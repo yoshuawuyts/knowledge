@@ -545,6 +545,8 @@ swipe-from-the-side menus
   if possible
 - [ansi](https://www.npmjs.com/package/ansi) - Advanced ANSI formatting tool
   for Node.js
+- [single-line-log](https://github.com/freeall/single-line-log) - output one
+  line
 
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store)
