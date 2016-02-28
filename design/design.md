@@ -158,6 +158,23 @@ making it fit on a bazillion pixel screen.
 - Open Sans - easy to read, body
 - Ubuntu - allrounder
 
+## Font combinations
+### louderthan
+- body: Harlet T
+- headings: Calibre Web
+- https://louderthanten.com/articles/story/design-machines
+
+### de school
+- body: basis grotesque pro mono
+- headings: basis grotesque pro regular
+- http://www.deschoolamsterdam.nl/en/
+
+### bakken baeck
+- body: Maison Neue Mono
+- headings: Maison Neue Mono
+- note: logo is different type, stands out a lot!
+- https://bakkenbaeck.com
+
 ## Steal like an artist
 Unless you're inventing a new element see how others do it and cherry pick from
 the best.
