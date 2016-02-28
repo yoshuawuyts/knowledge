@@ -33,3 +33,12 @@ $ terraform plan \
 ```
 
 - https://www.terraform.io/intro/getting-started/variables.html
+
+## AWS
+### attach a keypair
+```hcl
+resource "aws_key_pair" "deployer" {
+  key_name = "deployer-key"
+  public_key = "ssh-rsa <key> email@example.com"
+}
+```
