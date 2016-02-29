@@ -140,6 +140,7 @@ scope of the commits and roll back all relevant commits into this commit using
 - [git-fixup](https://github.com/deiwin/git-dotfiles/blob/docs/bin/git-fixup)
 - [keep your branch clean with git fixup and autosquash](http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html)
 - [what's the difference between fixup! and squash! ?](http://stackoverflow.com/questions/16758131/whats-the-difference-between-squash-and-fixup-in-git-git-extension)
+- [autosquashing git commits](https://robots.thoughtbot.com/autosquashing-git-commits)
 
 ## Unstage directory
 ```sh
