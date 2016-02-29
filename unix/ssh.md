@@ -88,3 +88,10 @@ To copy a file with an intermediate host using `scp`:
 
 ### connection multiplexing
 Multiple connections can be shared using the `-M` flag.
+
+## compare key files
+Generate a public key from a private key, and compare it with an existing
+public key.
+```sh
+$ diff <(ssh-keygen -y -f <path_to_private_key.pem>) <path_to_public_key.pub>
+```
