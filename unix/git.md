@@ -126,9 +126,20 @@ $ git rebase -i --autosquash        # automatically organize merging of these
                                     # fixup commits and associated normal
                                     # commits
 ```
+
+To create a temporary commit message of which the value can be discarded during
+a rebase, prefix the message with `fixup! <commit>`.
+
+To create a temporary commit message of which the value should be rolled back
+into the original commit, prefix the message with `squash! <commit>`.
+
+A best practice is to create a new empty commit, create a TODO list of the
+scope of the commits and roll back all relevant commits into this commit using
+`squash!` and `fixup!`.
 - [stackoverflow/easily-fixup-past-commit](http://stackoverflow.com/questions/3103589/how-can-i-easily-fixup-a-past-commit)
 - [git-fixup](https://github.com/deiwin/git-dotfiles/blob/docs/bin/git-fixup)
 - [keep your branch clean with git fixup and autosquash](http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html)
+- [what's the difference between fixup! and squash! ?](http://stackoverflow.com/questions/16758131/whats-the-difference-between-squash-and-fixup-in-git-git-extension)
 
 ## Unstage directory
 ```sh
