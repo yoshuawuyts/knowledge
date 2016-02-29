@@ -16,3 +16,7 @@ Rust packages
 
 ## Parallel
 - [rayon](https://github.com/nikomatsakis/rayon) - data parallelism library
+
+## Test
+- [clippy](https://github.com/Manishearth/rust-clippy) - lints to catch common
+  mistakes and improve code
