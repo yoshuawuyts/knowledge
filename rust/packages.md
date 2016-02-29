@@ -13,3 +13,6 @@ Rust packages
 - [xml-rs](https://github.com/netvl/xml-rs) - XML library in Rust
 - [yaml-rust](https://github.com/chyh1990/yaml-rust) - pure rust YAML
   implementation
+
+## Parallel
+- [rayon](https://github.com/nikomatsakis/rayon) - data parallelism library
