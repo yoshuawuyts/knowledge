@@ -39,6 +39,11 @@ $ echo 'hello world' | ./transform.sh
 > and adds a \n at the end.
 - [source](http://www.catonmat.net/blog/worlds-best-introduction-to-sed/)
 
+### capture groups
+```sh
+$ sed -e 's/version=\(.+\)/\1/'
+```
+
 ## awk
 ### select a column
 ```sh
