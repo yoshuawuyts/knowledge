@@ -14,11 +14,13 @@
 ### louderthan
 - body: Harlet T
 - headings: Calibre Web
+- note: very sans-serif and up in your face
 - https://louderthanten.com/articles/story/design-machines
 
 ### de school
 - body: basis grotesque pro mono
 - headings: basis grotesque pro regular
+- note: so so good; much geometry
 - http://www.deschoolamsterdam.nl/en/
 
 ### bakken baeck
@@ -28,14 +30,19 @@
 - https://bakkenbaeck.com
 
 ### wake
-- body: Akkurat
-- headings: Akkurat
-- fallback: Helvetica, sans-serif
+- body: Akkurat, Helvetica, sans-serif
+- headings: Akkurat, Helvetica, sans-serif
 - note: helvetica vibe, slightly less boring
 - https://wake.io/
 
 ### acano
-- body: 'Helvetica Neue'
-- headings: ffMark
-- fallback: Helvetica, Arial, sans-serif
+- body: 'Helvetica Neue', Helvetica, Arial, sans-serif
+- headings: ffMark, Helvetica, Arial, sans-serif
+- note: nice and round
 - https://www.acano.com/
+
+### ustwo
+- body: PxGrotesk-Regular, Arial, sans-serif
+- headings: future-pt, Futura, Arial, sans-serif
+- note: woah, this leaves an impression - so clean
+- http://ustwo.com/
