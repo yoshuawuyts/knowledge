@@ -227,7 +227,7 @@
 
 ## Client-side components
 - [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
-- [flap](https://github.com/KoryNunn/flap) - create android-like
+- [flaps](https://github.com/KoryNunn/flaps) - create android-like
   swipe-from-the-side menus
 - [zip-input](https://github.com/bendrucker/zip-input) - ZIP input component
   for virtual-dom
