@@ -228,10 +228,12 @@
 ## Client-side components
 - [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
 - [flap](https://github.com/KoryNunn/flap) - create android-like
-swipe-from-the-side menus
+  swipe-from-the-side menus
 - [zip-input](https://github.com/bendrucker/zip-input) - ZIP input component
   for virtual-dom
 - [spectrum](http://bgrins.github.io/spectrum/) - JavaScript Color picker
+- [fs-explorer](https://github.com/shama/fs-explorer) - file system explorer
+  element
 
 ## Virtual-Dom
 - [hyperx](https://github.com/substack/hyperx) - tagged template string virtual
