@@ -383,6 +383,8 @@
 - [covert](https://github.com/substack/covert) — Code coverage command
 - [coverify](https://github.com/substack/coverify) — Code coverage browserify
   transform
+- [nyc](https://github.com/bcoe/nyc) - code coverage tool that works well with
+  subprocesses
 - [browser-test-helpers](https://github.com/shama/browser-test-helpers) — A
   small set of generic test helpers for browser interaction tests
 - [tap-status](https://github.com/tmcw/tap-status) — force correct exit codes
