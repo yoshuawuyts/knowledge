@@ -410,6 +410,8 @@
   automagically discovers other peers on the network using multicast dns
 - [network-address](https://github.com/mafintosh/network-address) - get the
   local network address of your machine
+- [create-torrent](https://github.com/feross/create-torrent) - Create .torrent
+  files
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry) — simple curry module, with
