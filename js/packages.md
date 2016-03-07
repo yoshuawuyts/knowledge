@@ -397,7 +397,7 @@
 - [proxyquire-universal](https://github.com/bendrucker/proxyquire-universal) —
   proxyquire in node and the browser
 
-## P2P
+## Networking
 - [signalhub](https://github.com/mafintosh/signalhub) — Simple signalling
   server that can be used to coordinate handshaking with webrtc
 - [bittorent-dht](https://github.com/feross/bittorrent-dht) — Simple, robust,
@@ -408,6 +408,8 @@
   implementation for bittorrent
 - [airswarm](https://github.com/mafintosh/airswarm) — Network swarm that
   automagically discovers other peers on the network using multicast dns
+- [network-address](https://github.com/mafintosh/network-address) - get the
+  local network address of your machine
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry) — simple curry module, with
@@ -450,6 +452,7 @@
   of Function.prototype.bind
 - [array-find](https://www.npmjs.com/package/array-find) - Return the first
   array element which satisfies a testing function
+- [throttle](https://github.com/component/throttle) - Throttle a function call
 
 ## Filesystem
 - [readdirp](https://github.com/thlorenz/readdirp) — Recursive version of
@@ -551,6 +554,8 @@
   for Node.js
 - [single-line-log](https://github.com/freeall/single-line-log) - output one
   line
+- [application-config](https://www.npmjs.com/package/application-config) -
+  Store your applications config where the operating system wants you to
 
 ## Database
 - [content-addressable-blob-store](https://github.com/mafintosh/content-addressable-blob-store)
