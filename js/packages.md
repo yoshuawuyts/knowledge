@@ -280,6 +280,8 @@
 - [qs](https://github.com/hapijs/qs) - querystring parser with nesting support
 - [format-stack](https://github.com/Raynos/format-stack) - Formats a stack with
   colors
+- [downgrade](https://www.npmjs.com/package/downgrade) - Sets the user identity
+  of the process
 
 ## DOM
 - [virtual-dom](https://github.com/Matt-Esch/virtual-dom) — A Virtual DOM and
