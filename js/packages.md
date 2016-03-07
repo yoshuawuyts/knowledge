@@ -412,6 +412,8 @@
   local network address of your machine
 - [create-torrent](https://github.com/feross/create-torrent) - Create .torrent
   files
+- [webtorrent](https://github.com/feross/webtorrent) - Streaming torrent client
+  for the web
 
 ## Neato functions
 - [curry](https://github.com/dominictarr/curry) — simple curry module, with
