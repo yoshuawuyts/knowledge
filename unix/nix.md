@@ -49,6 +49,17 @@ Describe packages and how to build them.
 ## Environments
 tbi
 
+## Inheriting values
+Sometimes you want to inherit a value from the underlying OS; to do this the
+"inherits" value can be used.
+```nix
+with import <nixpkgs> {};
+
+stdenv.mkDerivation main {
+  inherit bash;
+}
+```
+
 ## See Also
 Nix pills `3 - 7` are essential, `8 - 12` are useful.
 - [nix pills](http://lethalman.blogspot.it/)
