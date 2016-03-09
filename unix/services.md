@@ -49,5 +49,17 @@ performance.
 - [strace](https://en.wikipedia.org/wiki/Strace)
 - [systemtap](https://en.wikipedia.org/wiki/SystemTap)
 
+## Directory structures
+```txt
+~/db/        # symlinks to service databases
+~/image/     # downloaded images
+~/log/       # symlinks to service logs
+~/script/    # scripts to interact with services
+~/service/   # symlinks to currently running services
+/var/log/    # log files
+/var/www/    # currently running services
+/var/db/     # database data, can be symlinked to separate mount
+```
+
 - [50 shades of system monitoring](https://sysdig.com/50-shades-of-system-calls/)
 - [benefit of using monit instead of upstart](http://stackoverflow.com/questions/4722675/is-there-benefit-to-using-monit-instead-of-a-basic-upstart-setup?rq=1)
