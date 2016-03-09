@@ -146,13 +146,26 @@ Interactive Connectivity Establishment. Used amongst others for WebRTC
 handshakes.
 - https://en.wikipedia.org/wiki/Interactive_Connectivity_Establishment
 
-## NAT
+### NAT
 Network Address Translation
 - https://en.wikipedia.org/wiki/Network_address_translation
 
-## STUN
-Session Traversal Utilities for NAT
+### STUN
+Session Traversal Utilities for NAT. Standardized set of methods and a network
+protocol to allow an end host to discover its public IP address if it is
+located behind a NAT.
 - https://en.wikipedia.org/wiki/STUN
+
+### TURN
+Traversal Using Relays around NAT (TURN) is a protocol that assists in
+traversal of network address translators (NAT) or firewalls for multimedia
+applications. It may be used with the Transmission Control Protocol (TCP) and
+User Datagram Protocol (UDP). It is most useful for clients on networks
+masqueraded by symmetric NAT devices. TURN does not aid in running servers on
+well known ports in the private network through a NAT; it supports the
+connection of a user behind a NAT to only a single peer, as in telephony, for
+example.
+- https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT
 
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
