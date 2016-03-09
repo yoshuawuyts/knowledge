@@ -141,6 +141,19 @@ daemon off;
 ```
 - [nginx/core_module](http://nginx.org/en/docs/ngx_core_module.html)
 
+## ICE
+Interactive Connectivity Establishment. Used amongst others for WebRTC
+handshakes.
+- https://en.wikipedia.org/wiki/Interactive_Connectivity_Establishment
+
+## NAT
+Network Address Translation
+- https://en.wikipedia.org/wiki/Network_address_translation
+
+## STUN
+Session Traversal Utilities for NAT
+- https://en.wikipedia.org/wiki/STUN
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
