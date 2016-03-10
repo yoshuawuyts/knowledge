@@ -91,3 +91,4 @@ generate anything with WebGL.
 - [retro shaders rayman legends](http://clemz.io/article-retro-shaders-rayman-legends)
 - [docs.gl](http://docs.gl/)
 - [on generative algorithms](http://inconvergent.net/generative/)
+- [fake and cheap metaballs](http://blog.edankwan.com/post/fake-and-cheap-3d-metaball)
