@@ -227,6 +227,13 @@ while read line; do
 done
 ```
 
+## recursively read a directory
+```sh
+find ./templates | while read file;
+  echo "$file"
+done
+```
+
 ## printf
 There exist different flavors of `echo`, where the two main versions conflict
 with each other. `printf` is the successor to `echo` and is far more powerful.
@@ -274,6 +281,12 @@ fi
 Variables can be made immutable-ish by using `readonly`:
 ```sh
 readonly foo='bar'
+```
+
+## math
+either `bc` or `dc` work; but `$(())` seems to work on `dash` too
+```sh
+$ echo $((1 + 1))
 ```
 
 ## See Also
