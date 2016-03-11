@@ -112,3 +112,6 @@ tell you that, look behind you
 
 > Most advice is about helping people deal with the status quo, rather than
 > changing the status quo.
+
+> It's not about getting it right the first time, it's about what you do when
+> you fail.
