@@ -96,6 +96,17 @@ Here's a short list:
 - welfare
 - [Dutch government emigration checklist](http://www.rijksoverheid.nl/onderwerpen/werken-in-het-buitenland/vraag-en-antwoord/wat-moet-ik-regelen-als-ik-ga-emigreren.html)
 
+## Applying for a second year visa in Australia
+So in order to apply the best approach would probably be to become a "skilled
+independent" - this doesn't tie you down to a specific employer and is
+generally pretty good. For people in software, the most relevant ones are
+probably:
+- Software Engineer 261313  ACS
+- Developer Programmer  261312  ACS
+
+- [fees and charges](http://www.border.gov.au/Trav/Visa/Fees)
+- [skilled occupations list](http://www.border.gov.au/Trav/Work/Work/Skills-assessment-and-assessing-authorities/skilled-occupations-lists/SOL)
+
 ## See Also
 - [nomad wiki](http://www.nomadwiki.net/)
 - [nomadlist](https://nomadlist.com/)
