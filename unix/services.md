@@ -61,5 +61,26 @@ performance.
 /var/db/     # database data, can be symlinked to separate mount
 ```
 
+## Adding configuration to a service
+This treads into the territory of opinions, and thus caution is adviced. In my
+opinion services must be self-contained; which means they should carry their
+own config. If config is dynamic, that too should be carried.
+
+Testing a service should ideally be done in a containerized environment, to
+fully mimick the OS situation. Else there's a discrepancy between the way the
+service is interacted with during development, and during production. The
+closer the two are, the better.
+
+To hold configuration, a service should have a `config/` directory in its root
+which would be overlaid 1:1 with the root directory (`/`).
+
+## Naming of services
+It's convention to prefix services with either `www-`, `api-` or `service-`.
+Sometimes people will use `www-` to mark static websites, and `api-` or
+`service-` to mark more backendy type of systems, but that kind of separation
+can get messy fast. In the end, make a judgement call and monitor the services
+you have, and eventually you'll find a naming scheme that creates a suitable
+distinction.
+
 - [50 shades of system monitoring](https://sysdig.com/50-shades-of-system-calls/)
 - [benefit of using monit instead of upstart](http://stackoverflow.com/questions/4722675/is-there-benefit-to-using-monit-instead-of-a-basic-upstart-setup?rq=1)
