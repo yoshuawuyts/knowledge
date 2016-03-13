@@ -2,12 +2,19 @@
 `nix` is a purely functional package manager that enable programs to run in
 isolation without relying on implicit global state.
 
-## Sections
-- REPL
-- language basics
-- functions & imports
-- derivations
-
+## Manage packages
+```sh
+$ nix-env -qaP | grep nodejs       # search for a package
+$ nix-env -i nodejs-5.7.1          # install a package by name
+$ nix-env -iA nixpkgs.nodejs-5_x   # install package by attribute
+$ nix-env -uA nixpkgs.nodejs-5_x   # update package by attribute
+$ nix-env -u                       # update all packages
+$ nix-env -e nodejs-5.7.1          # uninstall package by name
+$ nix-channel --update             # update binary channel
+$ nix-collect-garbage              # clean up nix store
+```
+- [getting started with nix](https://www.domenkozar.com/2014/01/02/getting-started-with-nix-package-manager/)
+- [nixos cheat sheet](https://nixos.org/wiki/Cheatsheet)
 ## Installation
 ```sh
 $ curl https://nixos.org/nix/install | sh
@@ -25,7 +32,6 @@ And then source a shell script so commands work:
 
 ## Separate user account for nix
 As root:
-
 ```sh
 $ adduser nix
 $ mkdir -m 0755 /nix && chown nix /nix
