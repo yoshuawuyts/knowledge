@@ -97,7 +97,6 @@ __tools__
 - [dns-rpz](http://www.redpill-linpro.com/sysadvent/2015/12/08/dns-rpz.html)
 - [wikipedia/response-policy-zone](https://en.wikipedia.org/wiki/Response_policy_zone)
 
-
 ## ICE
 Interactive Connectivity Establishment. Used amongst others for WebRTC
 handshakes.
