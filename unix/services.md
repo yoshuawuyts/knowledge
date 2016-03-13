@@ -72,7 +72,10 @@ service is interacted with during development, and during production. The
 closer the two are, the better.
 
 To hold configuration, a service should have a `config/` directory in its root
-which would be overlaid 1:1 with the root directory (`/`).
+which would be overlaid 1:1 with the root directory (`/`). That way it's super
+clear where all the files go. Symlinks are always preferred over hard copies in
+this case; unless the application that's being instrumented is unable to follow
+symlinks.
 
 ## Naming of services
 It's convention to prefix services with either `www-`, `api-` or `service-`.
