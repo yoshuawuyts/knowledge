@@ -115,3 +115,6 @@ tell you that, look behind you
 
 > It's not about getting it right the first time, it's about what you do when
 > you fail.
+
+> You will never change anyone's mind if you think that the people that
+> disagree with you are evil or stupid.
