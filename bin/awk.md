@@ -10,4 +10,10 @@ Print first column
 $ awk '{print $1}'
 ```
 
+## Remove first column
+```sh
+$ awk '{ $1=""; print }'   # remove first column
+$ awk '{ $3=""; print }'   # remove third column
+```
+
 - [grymoire](http://www.grymoire.com/Unix/Awk.html)
