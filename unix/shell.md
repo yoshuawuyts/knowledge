@@ -289,6 +289,13 @@ either `bc` or `dc` work; but `$(())` seems to work on `dash` too
 $ echo $((1 + 1))
 ```
 
+## check if variable is not set
+```sh
+if [ -z "$my_var" ]; then
+  printf "var not set\n"
+fi
+```
+
 ## See Also
 - [grymoire/shell](http://www.grymoire.com/Unix/Sh.html)
 - [rich's sh tricks](http://www.etalabs.net/sh_tricks.html)
