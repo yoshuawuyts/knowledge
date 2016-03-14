@@ -39,5 +39,10 @@ $ curl localhost:8080 --silent --write-out "\n%{http_code}\n" | sed -n '$p'
 $ curl localhost:8080 --silent --write-out "\n%{http_code}\n" | sed -n '$d'
 ```
 
+## Multipart upload
+```sh
+$ curl -v -F <key_1>=<value_1> -F upload=@<local_file_name> <url>
+```
+
 ## See Also
 - [curl(1)](http://man.cx/curl)
