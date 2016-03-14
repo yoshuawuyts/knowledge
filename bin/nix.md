@@ -15,6 +15,7 @@ $ nix-collect-garbage              # clean up nix store
 ```
 - [getting started with nix](https://www.domenkozar.com/2014/01/02/getting-started-with-nix-package-manager/)
 - [nixos cheat sheet](https://nixos.org/wiki/Cheatsheet)
+
 ## Installation
 ```sh
 $ curl https://nixos.org/nix/install | sh
@@ -26,8 +27,29 @@ And then source a shell script so commands work:
 
 ## Files
 ```sh
-/nix/store/       # global package store, names are saved by hash
-~/.nix-profile/   # nix settings directory
+/nix/store/             # global package store, names are saved by hash
+~/.nix-profile/         # nix settings directory
+~/.nixpkgs/config.nix   # user specific nix config
+```
+
+## System config for a specific user
+This creates a user specific config. Place this file in
+`~/.nixpkgs/config.nix`. It then exposes the `all` collection (collections are
+like packages), so when you run `nix-env -i all` this collection will be
+installed.
+```nix
+{
+  packageOverrides = pkgs_: with pkgs_; {
+    all = with pkgs; buildEnv {
+      name = "all";
+      paths = [
+        ash
+        busybox
+        htop
+      ];
+    };
+  };
+}
 ```
 
 ## Separate user account for nix
