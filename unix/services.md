@@ -56,6 +56,17 @@ performance.
 
 ## Directory structures
 ```txt
+  ┌──────────────┐
+  │      ~/      │      ┌──────────────────────┐
+  ├──────────────┤      │          /           │
+  │ ~/db         ◀───┐  ├──────────────────────┤
+  │ ~/image      │   └──┼─/var/db              │
+  │ ~/log       ◀┼──────┼─/var/log             │
+  │ ~/script     │  ┌───┼▶/var/www             │
+  │ ~/service   ─┼──┘   └──────────────────────┘
+  └──────────────┘
+```
+```txt
 ~/db/        # symlinks to service databases
 ~/image/     # downloaded images
 ~/log/       # symlinks to service logs
@@ -95,14 +106,14 @@ Logs should go in `/var/log/<service_name>.log`. Logs should be rotated using
 `logrotate(1)`. Add to `/etc/logrotate.d/<service_name>`:
 ```logrotate
 /var/log/myapp.log {
-       su root
-       daily
-       rotate 7
-       delaycompress
-       compress
-       notifempty
-       missingok
-       copytruncate
+  su root
+  daily
+  rotate 7
+  delaycompress
+  compress
+  notifempty
+  missingok
+  copytruncate
 }
 ```
 
