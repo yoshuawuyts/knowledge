@@ -78,6 +78,37 @@ http {
 }
 ```
 
+## example root config
+```nginx
+daemon off;
+pid /var/run/nginx.pid;
+
+user www;
+error_log stderr notice;
+
+worker_processes auto;
+events {
+  multi_accept on;
+  use epoll;
+  worker_connections 1024;
+}
+
+http {
+  # Somehow it's not inherited by vhosts (server{} context) when using with 'stderr' value.
+  # Therefore it's re-defined here to avoid specyfing it for each vhost.
+  error_log stderr notice;
+
+  include /etc/nginx/nginx.d/*.conf;
+  include /data/conf/nginx/nginx.d/*.conf;
+
+  include /etc/nginx/addon.d/*.conf;
+  include /data/conf/nginx/addon.d/*.conf;
+
+  include /etc/nginx/hosts.d/*.conf;
+  include /data/conf/nginx/hosts.d/*.conf;
+}
+```
+- https://github.com/million12/docker-nginx/blob/master/container-files/etc/nginx/nginx.conf
 
 ## start nginx in non daemon mode
 ```nginx
@@ -94,6 +125,24 @@ webserver.
 - access_by_lua
 - content_by_lua
 - header_filter_by_lua
+
+## HTTP2
+```nginx
+server {
+  listen      80  default_server;
+  ## Needed when behind HAProxy with SSL termination + HTTP/2 support
+  listen      81  default_server http2 proxy_protocol;
+  listen      443 default_server ssl http2;
+
+  ssl_certificate       /etc/ssl/dummy.crt;
+  ssl_certificate_key   /etc/ssl/dummy.key;
+
+  root        /data/www/default;
+  index       index.html;
+}
+```
+- http://m12.io/blog/http-2-with-haproxy-and-nginx-guide
+- https://github.com/million12/docker-nginx
 
 ## See Also
 - [scripting nginx with lua](http://www.londonlua.org/scripting_nginx_with_lua/slides.html)
