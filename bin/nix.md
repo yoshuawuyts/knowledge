@@ -4,6 +4,7 @@ isolation without relying on implicit global state.
 
 ## Manage packages
 ```sh
+$ nix-env -q                       # list installed packages
 $ nix-env -qaP | grep nodejs       # search for a package
 $ nix-env -i nodejs-5.7.1          # install a package by name
 $ nix-env -iA nixpkgs.nodejs-5_x   # install package by attribute

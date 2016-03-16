@@ -296,6 +296,11 @@ if [ -z "$my_var" ]; then
 fi
 ```
 
+## find where a command is located
+```sh
+$ type nginx
+```
+
 ## See Also
 - [grymoire/shell](http://www.grymoire.com/Unix/Sh.html)
 - [rich's sh tricks](http://www.etalabs.net/sh_tricks.html)
