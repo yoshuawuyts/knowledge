@@ -28,6 +28,18 @@ code from the command run:
 ```sh
 $ awk '{ system("printf " $7); print }'
 ```
+
+If, however, you want to capture the system output do:
+```sh
+awk '{
+  cmd="printf %02d " $7
+  while (cmd | getline line) {
+    $7=line
+  }
+  close(cmd)
+  print
+}
+```
 - [stackoverflow: how can I pass a variable to an awk script?](http://stackoverflow.com/questions/20646819/how-can-i-pass-variables-from-awk-to-a-shell-command)
 
 ## See Also
