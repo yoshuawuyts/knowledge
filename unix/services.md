@@ -26,7 +26,12 @@ script
     # Node needs HOME to be set
     export HOME="path/to/node/app"
 
-    exec sudo -u nodejs /usr/local/bin/node path/to/node/app/server.js production 2>>/var/log/app_name.error.log >>/var/log/app_name.log
+    exec sudo -u nodejs \
+      /usr/local/bin/node \
+      path/to/node/app/server.js \
+      production \
+      2>> /var/log/app_name.error.log \
+      >>/var/log/app_name.log
 end script
 ```
 - [upstart]()
@@ -84,6 +89,22 @@ Sometimes people will use `www-` to mark static websites, and `api-` or
 can get messy fast. In the end, make a judgement call and monitor the services
 you have, and eventually you'll find a naming scheme that creates a suitable
 distinction.
+
+## Logs
+Logs should go in `/var/log/<service_name>.log`. Logs should be rotated using
+`logrotate(1)`. Add to `/etc/logrotate.d/<service_name>`:
+```logrotate
+/var/log/myapp.log {
+       su root
+       daily
+       rotate 7
+       delaycompress
+       compress
+       notifempty
+       missingok
+       copytruncate
+}
+```
 
 - [50 shades of system monitoring](https://sysdig.com/50-shades-of-system-calls/)
 - [benefit of using monit instead of upstart](http://stackoverflow.com/questions/4722675/is-there-benefit-to-using-monit-instead-of-a-basic-upstart-setup?rq=1)
