@@ -124,6 +124,15 @@ box-shadow: [horizontal offset] [vertical offset]
 ```
 - https://css-tricks.com/snippets/css/using-font-face/
 
+## Media Queries
+```css
+@media (min-width: 700px) {
+}
+
+@media all and (min-width: 700px) {
+}
+```
+
 ## See also
 - [medium's CSS coding guidelines](https://gist.github.com/fat/a47b882eb5f84293c4ed)
 - [medium's CSS post thingy](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
