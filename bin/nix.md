@@ -95,3 +95,4 @@ Nix pills `3 - 7` are essential, `8 - 12` are useful.
 - [nix pkgs contributors guide](https://nixos.org/nixpkgs/manual/)
 - [nix-manual/stdenv](https://nixos.org/nixpkgs/manual/#chap-stdenv)
 - [nix-pills/stdenv](http://lethalman.blogspot.com.au/2015/08/nix-pill-19-fundamentals-of-stdenv.html)
+- [pinning nix versions](https://gist.github.com/yoshuawuyts/042342257126301387d2)
