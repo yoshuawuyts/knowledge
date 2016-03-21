@@ -665,6 +665,7 @@
   node-webkit apps at login (mac & windows)
 - [0x](https://github.com/davidmarkclements/0x) - flame graph profiling with a
   single command
+- [fastbench](https://github.com/mcollina/fastbench) - simple benchmark
 
 ## Native
 - [node-gyp](https://github.com/TooTallNate/node-gyp) — Node.js native addon
