@@ -663,6 +663,8 @@
   bash that propagates kill to subprocesses
 - [node-auto-launch](https://github.com/4ver/node-auto-launch) — Launch
   node-webkit apps at login (mac & windows)
+- [0x](https://github.com/davidmarkclements/0x) - flame graph profiling with a
+  single command
 
 ## Native
 - [node-gyp](https://github.com/TooTallNate/node-gyp) — Node.js native addon
