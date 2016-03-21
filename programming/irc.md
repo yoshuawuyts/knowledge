@@ -15,8 +15,9 @@ $ brew install weechat --with-perl --with-python
 
 ## weechat
 ```txt
-/window merge        # close a window without closing buffers; merges all
-/window splitv 50    # split window vertically
+/window merge                 # close a window without closing buffers; merges all
+/window splitv 50             # split window vertically
+/join -server freenode #dat   # join '#dat' on freenode server
 ```
 
 ### enable mouse support
