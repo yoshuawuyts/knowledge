@@ -15,3 +15,6 @@ $ locale-gen en_US.UTF-8
 ```sh
 $ sudo localedef -i en_US -f UTF-8 en_US.UTF-8
 ```
+
+## See Also
+- [resolve locale settings on linux](https://xuri.me/2015/09/06/resolve-setting-locale-failed-on-linux.html)
