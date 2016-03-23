@@ -141,3 +141,20 @@ http.createServer(function (req, res) {
   req.end(cookie ? 'cookie found' : 'no cookie found')
 }).listen()
 ```
+
+## Request to localhost
+```js
+const opts = {
+  protocol: 'http:',
+  hostname: 'localhost',
+  port: conf.port,
+  path: '/bundle.js',
+  method: 'GET'
+}
+
+const req = http.request(opts, function (res) {
+  t.equal(res.statusCode, 200, 'status was OK')
+  t.equal(res.headers['content-type'], 'application/javascript', 'type is JS')
+})
+req.end()
+```
