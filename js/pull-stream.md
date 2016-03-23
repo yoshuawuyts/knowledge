@@ -25,6 +25,19 @@ var map = function (read, map) {
   }
 }
 ```
+```js
+function postTorrent (req, res, params) {
+  return function writable (read) {
+    return function readable (end, cb) {
+      read(end, function (end, data) {
+        if (end === true) return cb(true)
+        if (end) return cb(end)
+        cb(error.client('nooop'))
+      })
+    }
+  }
+}
+```
 
 ## sink
 ```js
