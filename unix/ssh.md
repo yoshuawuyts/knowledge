@@ -47,6 +47,10 @@ Host server1
 ```
 - [create ssh config file on linux](http://www.cyberciti.biz/faq/create-ssh-config-file-on-linux-unix/)
 
+A good naming scheme for SSH host is to end it on the domain. E.g. I've got a
+sinle server in Sydney which is called `sydney1.yoshua`; for a client I might
+name it `region.clientname`.
+
 ## Files
 - `~/.ssh`: holds all `ssh` configuration
 - `~/.ssh/known_hosts`: connect to a server, make sure it's not an
