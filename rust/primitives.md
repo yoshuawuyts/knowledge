@@ -8,9 +8,15 @@ increased because it's allocated on the heap.
 - `&str` - stack allocated fixed-size string slice. Used as fn arguments.
 - `String` - heap allocated growable string
 
-## new string
+### new string
 ```rust
 let hello = String::from("Hello, world!");   // String from literal
+```
+
+### string literal to string collection
+Gathered from IRC:
+```rust
+"foo".into()   // is a short way of getting a String
 ```
 
 ### string to uppercase
