@@ -52,3 +52,6 @@ __application layers__
        Routing           Determine which path to take
 ----------------------
 ```
+
+## See Also
+- [unidirectional ui architecture](http://staltz.com/unidirectional-user-interface-architectures.html)
