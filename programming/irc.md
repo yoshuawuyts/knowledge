@@ -18,6 +18,8 @@ $ brew install weechat --with-perl --with-python
 /window merge                 # close a window without closing buffers; merges all
 /window splitv 50             # split window vertically
 /join -server freenode #dat   # join '#dat' on freenode server
+/buffer close                 # close buffer
+/close                        # alias for /buffer close
 ```
 
 ### enable mouse support
