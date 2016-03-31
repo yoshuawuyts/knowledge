@@ -158,3 +158,45 @@ const req = http.request(opts, function (res) {
 })
 req.end()
 ```
+
+## Download multipart file
+Now this is super icky. Apparently `busboy` is fast, but it's also not pretty.
+I'd very much like to find a better approach:
+```js
+// somehow busboy likes to throw errors if incorrect headers are passed :/
+try {
+  var busboy = new Busboy({ headers: req.headers })
+} catch (e) {
+  console.error(e)
+}
+
+busboy.on('file', function (fieldname, file, filename) {
+  file.pipe(process.stdout)
+})
+
+req.pipe(busboy)
+```
+
+## Create multipart request
+```js
+const FormData = require('form-data')
+const http = require('http')
+
+const opts = {
+  protocol: 'http:',
+  hostname: 'localhost',
+  port: config.API_PORT,
+  path: '/torrent/test_image.jpg',
+  headers: {
+    'Content-type': 'multipart/form-data; boundary=XXX'
+  },
+  method: 'POST'
+}
+
+const req = http.request(opts)
+const filePath = path.join(__dirname, '../resources/test_image.jpg')
+const rs = fs.createReadStream(filePath)
+const form = new FormData()
+form.append('upload', rs)
+form.pipe(req)
+```
