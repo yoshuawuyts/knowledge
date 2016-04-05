@@ -228,6 +228,11 @@ $ git push -u origin head       # push to current branchname on origin remote
 $ tag_commit="$(git rev-list --max-parents=0 HEAD)"
 ```
 
+## git branch status
+```sh
+$ git branch -vv
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
