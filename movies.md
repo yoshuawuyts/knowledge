@@ -18,6 +18,7 @@
 - timbuktu - allegedly "perfectly timed"
 - saugatuck cures - no idea what this is, but RT says it's good
 - hard to be a god - sounds badass, has a great score on RT
+- moon - end of a 3 year shift on a lunar mine
 
 ## series
 - bobs burgers - light entertainment
