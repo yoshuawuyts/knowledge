@@ -128,3 +128,36 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 ## set values in node
 - `node.texContent` for text
 - `node.innerHTML` for HTML
+
+## File upload
+```js
+hx`
+  <form>
+    <input type="file" onchange=${uploadFile}>
+  </form>
+`
+
+function uploadFile (e) {
+  const el = e.srcElement
+  const form = new window.FormData()
+  const files = el.files
+  for (var i = 0; i < files.length; i++) {
+    const file = el.files[i]
+    console.log(file)
+    form.append(file.name, file)
+  }
+
+  const opts = {
+    uri: 'http://localhost:1337/torrent',
+    body: form
+  }
+  xhr.post(opts, function (err, resp, body) {
+    el.value = ''
+    if (err) return console.error(err)
+  })
+}
+```
+- [working with files in JS](https://www.nczonline.net/blog/2012/05/08/working-with-files-in-javascript-part-1/)
+- [drag-drop](https://github.com/feross/drag-drop)
+- [filepicker-element](https://github.com/shama/filepicker-element)
+- [MDN/formdata](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData)
