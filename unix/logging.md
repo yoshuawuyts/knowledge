@@ -45,3 +45,8 @@ __files used__
 
 __links__
 - [logrotate source](https://github.com/logrotate/logrotate)
+
+## Log forwarding
+- https://github.com/packetzoom/logzoom
+- https://packetzoom.com/blog/logzoom-a-fast-and-lightweight-substitute-for-logstash.html
+- https://www.elastic.co/products/beats/filebeat
