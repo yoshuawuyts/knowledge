@@ -47,10 +47,11 @@ approaches to this, though one of the best supported ways of achieving this is
 using the `mktemp(1)` tool.
 
 ### mktemp
-OS X / GNU `mktemp` are different, which is heaps confusing.
+OS X / GNU `mktemp` are different, which is heaps confusing. Generate a random
+file or directory:
 ```sh
-$ mktemp -d /tmp             # create directory
-$ mktemp /tmp/"$$"-my-file   # create tmp file prefixed by pid
+$ mktemp -d dist/profile-XXXXXX    # create tmp dir
+$ mktemp dist/profile-XXXXXX       # create tmp file
 ```
 
 ### /tmp
