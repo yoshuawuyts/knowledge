@@ -31,7 +31,9 @@ $ groupadd <name>
 ### add user to group
 ```sh
 $ sudo usermod -G <group> <user>
+$ sudo usermod -a -G docker ec2-user
 ```
+
 
 ## passwords
 ### edit password
