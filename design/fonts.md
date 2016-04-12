@@ -46,3 +46,52 @@
 - headings: future-pt, Futura, Arial, sans-serif
 - note: woah, this leaves an impression - so clean
 - http://ustwo.com/
+
+## System fonts
+### Good
+- Athe­las ★
+- Avenir ★
+- Bell MT ★
+- Book An­ti­qua ★
+- Cal­i­forn­ian FB ★
+- Cal­isto MT ★
+- Cen­tury School­book ★
+- Char­ter ★
+- Franklin Gothic ★
+- Gara­mond ★
+- Gill Sans ★
+- Gill Sans MT ★
+- Goudy Old Style ★
+- Hel­vetica ★
+- Hel­vetica Neue ★
+- Hoe­fler Text ★
+- Iowan Old Style ★
+- Op­tima ★
+- Palatino ★
+- Ser­avek ★
+- Sitka ★
+
+### Ok in limited doses
+- Agency FB
+- Big Caslon
+- Bodoni MT
+- ITC Bodoni 72
+- Cal­ibri ★
+- Can­dara
+- Cen­taur
+- Cen­tury
+- Con­stan­tia
+- Cor­bel
+- Di­dot
+- Fu­tura ★
+- Geneva
+- Glouces­ter MT Ex­tra Cond.
+- High Tower Text ★
+- Mod­ern No. 20
+- Per­petua ★
+- Rock­well
+- Se­goe UI ★
+- Tw Cen MT ★
+
+### See Also
+- [practicaltypography/system-fonts](http://practicaltypography.com/system-fonts.html)
