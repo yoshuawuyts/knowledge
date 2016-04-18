@@ -229,7 +229,7 @@ done
 
 ## recursively read a directory
 ```sh
-find ./templates | while read file;
+find ./templates | while read file; do
   echo "$file"
 done
 ```

@@ -11,14 +11,14 @@ $ find . -type d \( -path dir1 -o -path dir2 -o -path dir3 \) -prune -o -print
 
 ## recursively read a directory
 ```sh
-find ./templates | while read file;
+find ./templates | while read file; do
   echo "$file"
 done
 ```
 
 ## find specific files
 ```sh
-find */init | while read file;
+find ./*/start | while read start; do
   echo "$file"
 done
 ```
