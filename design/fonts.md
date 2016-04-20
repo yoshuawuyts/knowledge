@@ -49,49 +49,49 @@
 
 ## System fonts
 ### Good
-- Athe­las ★
-- Avenir ★
-- Bell MT ★
-- Book An­ti­qua ★
-- Cal­i­forn­ian FB ★
-- Cal­isto MT ★
-- Cen­tury School­book ★
-- Char­ter ★
-- Franklin Gothic ★
-- Gara­mond ★
-- Gill Sans ★
-- Gill Sans MT ★
-- Goudy Old Style ★
-- Hel­vetica ★
-- Hel­vetica Neue ★
-- Hoe­fler Text ★
-- Iowan Old Style ★
-- Op­tima ★
-- Palatino ★
-- Ser­avek ★
-- Sitka ★
+- Athelas
+- Avenir
+- Bell MT
+- Book Antiqua
+- Californian FB
+- Calisto MT
+- Century Schoolbook
+- Charter
+- Franklin Gothic
+- Garamond
+- Gill Sans
+- Gill Sans MT
+- Goudy Old Style
+- Helvetica
+- Helvetica Neue
+- Hoefler Text
+- Iowan Old Style
+- Optima
+- Palatino
+- Seravek
+- Sitka
 
 ### Ok in limited doses
 - Agency FB
 - Big Caslon
 - Bodoni MT
 - ITC Bodoni 72
-- Cal­ibri ★
-- Can­dara
-- Cen­taur
-- Cen­tury
-- Con­stan­tia
-- Cor­bel
-- Di­dot
-- Fu­tura ★
+- Calibri
+- Candara
+- Centaur
+- Century
+- Constan­tia
+- Corbel
+- Didot
+- Futura
 - Geneva
-- Glouces­ter MT Ex­tra Cond.
-- High Tower Text ★
-- Mod­ern No. 20
-- Per­petua ★
-- Rock­well
-- Se­goe UI ★
-- Tw Cen MT ★
+- Gloucester MT Extra Cond.
+- High Tower Text
+- Modern No. 20
+- Perpetua
+- Rockwell
+- Segoe UI
+- Tw Cen MT
 
 ### See Also
 - [practicaltypography/system-fonts](http://practicaltypography.com/system-fonts.html)
