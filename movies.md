@@ -28,3 +28,15 @@
 ## anime
 - sidonia no kishi - ok mechas in space
 - owari no seraph - vampires & twisted love
+
+## weird things
+- human traffic
+- jam (chris morris, bbc)
+- brass eye
+- nathan barley
+- the mighty boosh
+- black books
+- garth mahringhi's darkplace
+- spaced
+- monty python
+- look around you
