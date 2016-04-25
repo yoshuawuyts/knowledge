@@ -26,4 +26,11 @@ Envato team does some cool stuff with visual changes:
 > problems in software or computer systems. It is a form of random testing
 > which has been used for testing hardware or software.
 - [wikipedia](https://en.wikipedia.org/wiki/Fuzz_testing)
+
+Fuzzing can be done with tools such as `zzuf` and `american fuzzy lop`.
+- [the beginners guide to fuzzing](https://fuzzing-project.org/tutorial1.html)
+
+### American Fuzzy Lop
 - [american fuzzy lop (afl)](http://lcamtuf.coredump.cx/afl/)
+- [how to fuzz a server with afl](https://www.fastly.com/blog/how-fuzz-server-american-fuzzy-lop)
+- [bug hunting with afl](https://josephg.com/blog/bug-hunting-with-american-fuzzy-lop/)
