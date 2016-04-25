@@ -240,6 +240,17 @@ being forked off.
 $ git checkout --orphan <branchname>
 ```
 
+## stash files that haven't been checked in yet
+```sh
+$ git stash save -u
+```
+- http://melissakaulfuss.com/2016/04/18/git-and-how-to-survive-Part-I.html
+
+## save stash with name
+```sh
+$ git stash save "<name>"
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
