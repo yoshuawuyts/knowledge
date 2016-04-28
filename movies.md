@@ -40,6 +40,7 @@
 - keep on keeping on
 - akira
 - birds
+- the man who knew infinity
 
 ## series
 - bobs burgers - light entertainment
