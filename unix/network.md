@@ -82,6 +82,7 @@ $ nc -lk 127.0.0.1 80 | ./proxy.sh
 ```
 
 ### Port scanning
+Using netcat:
 ```sh
 $ nc -z host.example.com 20-30
 ```
