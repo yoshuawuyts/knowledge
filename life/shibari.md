@@ -11,6 +11,7 @@ tie around the body and provide proper points of attachment.
 Kimono ties are probably the most prolific of ties. Ties hands behind back.
 Makes for dramatic perfomance.
 - [kimono tie](https://youtu.be/pspNwSv3WYw)
+- [gote shibari tie](http://bondageclubvn.blogspot.com/2011/08/knots-gote-shibari.html)
 
 ## Ties / knots
 ### single column tie
