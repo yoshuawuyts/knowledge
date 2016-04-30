@@ -22,8 +22,11 @@ $ gcloud compute zones list
 ```
 
 ## Create a new container cluster
+Create a new cluster of machines. Use the `-m` flag to specify a machine type,
+e.g. `-m f1-micro`. Clusters are created in the current compute zone.
 ```sh
 $ gcloud container clusters create <cluster_name>
+$ gcloud container clusters create <cluster_name> -m <machine_type>
 ```
 
 ## List running container clusters
