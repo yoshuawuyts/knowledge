@@ -1,5 +1,10 @@
 # docker
 
+## Run a container
+```sh
+$ docker run -d -p 80:80 --name webserver nginx
+```
+
 ## Attach a volume
 ```sh
 $ docker run \
