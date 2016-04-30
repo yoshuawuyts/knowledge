@@ -1,22 +1,93 @@
 # kubectl
+Kubernetes is for clusters, cluster love kube.
 
 ## Install kubectl
 ```sh
 $ gcloud components install kubectl
 ```
 
-## run a pod
+## Run a pod
+Requires a working cluster, preferably created on the goog cloud.
 ```sh
 # runs the "hello-node" example from google
-$ kubectl run <name> --image=gcr.io/google-samples/node-hello:1.0 --port=8080
+$ kubectl run <deployment_name> \
+  --image=gcr.io/google-samples/node-hello:1.0 \
+  --port=8080
 ```
 
 ## Expose a deployment to the outside world
 ```sh
-$ kubectl expose deployment <name> --type="LoadBalancer"
+$ kubectl expose deployment <deployment_name> --type="LoadBalancer"
 ```
 
 ## List deployments
 ```sh
 $ kubectl get deployments
 ```
+
+## List service info
+Useful to retrieve open ports and public IP for a service. If you're not sure
+which services are available, run `kubectl get deployments` first.
+```sh
+$ kubectl get services <service_name>
+```
+
+## List pods
+```sh
+$ kubectl get pods
+```
+
+## Delete pod
+Usually you'd want to delete a _deployment_ though, but if you want to delete a
+pod do:
+```sh
+$ kubectl get pods
+# kubectl delete pod <pod_name>
+```
+
+## Echo cluster info
+Echo the DNS, dashboard, Heapster and other stuff. Useful if you wanna login to
+the dashboard:
+```sh
+$ kubectl cluster-info
+```
+
+## View logs
+Get the pod name using `kubectl get pods` and then:
+```sh
+$ kubectl logs <pod_name>
+```
+
+## View config
+```sh
+$ kubectl config view
+```
+
+## View configuration
+If you're trying to login to the admin view / dashboard:
+```sh
+# get dashboard url
+$ kubectl cluster-info | grep kubernetes-dashboard | awk '{ print $5 }'
+
+# get configuration; grab the values under "users" to log into the admin UI
+$ kubectl config view
+```
+
+## Scaling deployments
+```sh
+$ kubectl scale deployment <deployment_name> --replicas=4
+$ kubectl get deployment
+$ kubectl get pods
+```
+
+## Deleting deployments
+```sh
+$ kubectl get deployments
+$ kubectl delete deployments <deployment_name>
+```
+
+## See Also
+- http://kubernetes.io/docs/getting-started-guides/
+- http://kubernetes.io/docs/hellonode
+- http://kubernetes.io/docs/user-guide/ui/
+- http://kubernetes.io/docs/admin/high-availability/
