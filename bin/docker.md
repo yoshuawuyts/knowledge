@@ -23,3 +23,21 @@ machine as expected (and have full access to the API).
 ```sh
 $ docker run -v /var/run/docker.sock:/var/run/docker.sock buildkite/agent
 ```
+
+## Labels
+In order to determine where containers come from, strong labels are necessary.
+After all: without technical controls you only have social guarantees. Label
+standards should be decided upon and enforced.
+```dockerfile
+LABEL com.example.git.repository="https://github.com/my-org/my-repo"
+      com.example.git.sha="7ed5fd94fa9e3b244c8fce56c7b721037e127829"
+      com.example.build.time="2016-04-24T15:43:05+00:00"
+      com.example.docs="https://github.com/my-org/my-repo/docs"
+      com.example.dockerfile="/Dockerfile"
+      com.example.api.packages="apk info -vv"
+```
+In addition to strong labels, it's also recommended to embed Dockerfiles in
+images.
+
+## See Also
+- [the challenges of container configuration](https://speakerdeck.com/garethr/the-challenges-of-container-configuration)

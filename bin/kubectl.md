@@ -86,6 +86,13 @@ $ kubectl get deployments
 $ kubectl delete deployments <deployment_name>
 ```
 
+## Create a secret from a file
+```sh
+$ kubectl create secret generic <secret_name> \
+  --from-file=ssh-privatekey=/path/to/.ssh/id_rsa \
+  --from-file=ssh-publickey=/path/to/.ssh/id_rsa.pub
+```
+
 ## See Also
 - http://kubernetes.io/docs/getting-started-guides/
 - http://kubernetes.io/docs/hellonode
