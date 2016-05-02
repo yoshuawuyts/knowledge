@@ -39,5 +39,18 @@ $ gcloud container clusters list
 $ gcloud container clusters delete <cluster_name>
 ```
 
+## Get cluster credentials
+After creating a cluster using whichever method you prefer (`gcloud`, `ui`,
+`terraform`), the credentials must be loaded into `kubectl`:
+```sh
+$ gcloud container clusters get-credentials <cluster_name>
+```
+
+## Get in-depth cluster information
+Sometimes you want to see a little more. The `describe` command does just that:
+```sh
+$ gcloud container clusters describe <cluster_name>
+```
+
 ## See Also
 - [bin/helm](./helm)
