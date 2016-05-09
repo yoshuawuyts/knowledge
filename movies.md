@@ -41,6 +41,7 @@
 - akira
 - birds
 - the man who knew infinity
+- wrist cutters
 
 ## series
 - bobs burgers - light entertainment
