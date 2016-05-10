@@ -7,7 +7,13 @@ Writing specs basically. The TLA+ language is commonly used for this. While
 this approach is relatively slow, it can definitely solidify a formal spec;
 generally should be used to verify if algorithms work the way they should in
 production.
+
+While TSA+ is based on discrete math; `PlusCal` reads more like a C-style
+pramming language which can directly be translated to TLA+. This should help
+programmers get around better, and works as a direct replacement for
+pseudocode.
 - [TLA+](https://en.wikipedia.org/wiki/TLA%2B) formal design specification
+- [pluscal](https://en.wikipedia.org/wiki/PlusCal)
 - [formal methods at amazon](http://research.microsoft.com/en-us/um/people/lamport/tla/formal-methods-amazon.pdf)
 
 ## Functional programming
