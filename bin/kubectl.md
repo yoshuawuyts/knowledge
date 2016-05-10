@@ -93,6 +93,23 @@ $ kubectl create secret generic <secret_name> \
   --from-file=ssh-publickey=/path/to/.ssh/id_rsa.pub
 ```
 
+## Create a deployment
+```sh
+$ kubectl apply -f ./my-deployment.yaml
+```
+
+## Roll back a deployment
+```sh
+$ apply -f docs/user-guide/bad-nginx-deployment.yaml
+$ kubectl get rs
+$ kubectl get pods
+$ kubectl describe deployment
+$ kubectl rollout history deployment/nginx-deployment
+$ kubectl rollout history deployment/nginx-deployment --revision=2
+$ kubectl rollout undo deployment/nginx-deployment
+$ kubectl rollout undo deployment/nginx-deployment --to-revision=2
+```
+
 ## See Also
 - http://kubernetes.io/docs/getting-started-guides/
 - http://kubernetes.io/docs/hellonode

@@ -1,5 +1,9 @@
 # docker
 
+## Terminology
+- __container:__
+- __image:__
+
 ## Run a container
 ```sh
 $ docker run -d -p 80:80 --name webserver nginx
@@ -38,6 +42,13 @@ LABEL com.example.git.repository="https://github.com/my-org/my-repo"
 ```
 In addition to strong labels, it's also recommended to embed Dockerfiles in
 images.
+
+## Image management
+```sh
+$ docker rmi <image_name>
+$ docker ps -a  # see all created containers
+$ docker rm $(docker ps -aq)  # remove all existing containers
+```
 
 ## See Also
 - [the challenges of container configuration](https://speakerdeck.com/garethr/the-challenges-of-container-configuration)
