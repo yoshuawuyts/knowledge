@@ -301,6 +301,12 @@ fi
 $ type nginx
 ```
 
+## Get unix epoch time
+Time since unix epoch, unix epoch, epoch time
+```sh
+$ date +'%s'
+```
+
 ## See Also
 - [grymoire/shell](http://www.grymoire.com/Unix/Sh.html)
 - [rich's sh tricks](http://www.etalabs.net/sh_tricks.html)
