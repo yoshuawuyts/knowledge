@@ -207,6 +207,13 @@ new Date('2011-01-26T19:06:43Z').valueOf()
 > 1296068803000
 ```
 
+## Capitalize first letter
+```js
+function capitalize (text) {
+  return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+}
+```
+
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
 - [js pitfalls](http://nrn.io/view/javascript-common-pitfalls)
