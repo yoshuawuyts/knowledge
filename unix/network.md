@@ -88,7 +88,16 @@ $ nc -z host.example.com 20-30
 ```
 
 ## DNS
-[ explain how DNS works ]
+DNS is about naming things and pointing them in the right direction. DNS uses
+"records" to store this relation. There's different types of records:
+- __MX:__ mail exchange record, specify a mail server that can accept emails
+- __A:__ return a 32-bit IPv4 address
+- __AAAA:__ return a 128-bit IPv6 address
+- __CNAME:__ canonical name record, alias of one name to another
+- __CERT:__ certificate record, stores PGP, etc.
+- __SRV:__ service locator, used for newer protocols instead of creating a new
+  record type
+- __TXT:__ used for human readable data, can be leveraged for protocols
 
 __tools__
 - `dnsmasq(1)` - DNS forwarder and server
