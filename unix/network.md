@@ -106,6 +106,7 @@ __tools__
 ### DNS Response Policy Zone
 - [dns-rpz](http://www.redpill-linpro.com/sysadvent/2015/12/08/dns-rpz.html)
 - [wikipedia/response-policy-zone](https://en.wikipedia.org/wiki/Response_policy_zone)
+- [DNS: the good parts](https://www.petekeen.net/dns-the-good-parts)
 
 ## ICE
 Interactive Connectivity Establishment. Used amongst others for WebRTC
