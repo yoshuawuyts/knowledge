@@ -224,6 +224,8 @@
   polyfill
 - [xhr-request](https://github.com/Jam3/xhr-request) - tiny http client for
   Node and the browser
+- [component-cookie](https://github.com/component/cookie) - manage cookies in
+  the browser
 
 ## Client-side components
 - [tipp](https://github.com/matthewmueller/tipp) - Tool tips that just work
