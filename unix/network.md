@@ -98,6 +98,15 @@ DNS is about naming things and pointing them in the right direction. DNS uses
 - __SRV:__ service locator, used for newer protocols instead of creating a new
   record type
 - __TXT:__ used for human readable data, can be leveraged for protocols
+- __URL:__ used for redirects
+
+Records are cached by default using a TTL (Time To Live) value. Using `dig(1)`:
+```txt
+;; ANSWER SECTION:
+yoshuawuyts.com.        299     IN      A       104.27.133.163
+yoshuawuyts.com.        299     IN      A       104.27.132.163
+```
+The value here is 299 seconds.
 
 __tools__
 - `dnsmasq(1)` - DNS forwarder and server
