@@ -191,6 +191,8 @@ The payload should have the following values:
 - __scope:__ which resources can be accessed
 - __sub:__ subject to who the token was issued
 
+- [use jwt the right way](https://stormpath.com/blog/jwt-the-right-way)
+
 ## Cross-Site Request Forgery (CSRF)
 Because cookies are included on every call to a domain, regardless from which
 domain that call occurs, it can be abused to do bad things.
