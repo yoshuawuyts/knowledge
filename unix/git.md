@@ -251,6 +251,12 @@ $ git stash save -u
 $ git stash save "<name>"
 ```
 
+## Git worktree
+Check out a branch into a directory
+```sh
+$ git worktree add <path> <branch>
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
