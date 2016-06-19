@@ -3,6 +3,14 @@ Knowing how to present things is excellent. Lacking good presentation is
 catastrophic for your product; having excellent presentation can even make a
 shitty product desirable.
 
+## Goals
+Conference talks are unidirectional so:
+1. Talk about theory
+2. Talk about planning / thinking
+3. Get people excited
+4. Share resources
+- [ashley williams on twitter](https://twitter.com/ag_dubs/status/744617022248542209)
+
 ## Plan d'attaque
 1. name the enemy
 2. answer "why now?"
