@@ -206,5 +206,11 @@ set cole=0   " disable conceal
 set cole=2   " enable conceal
 ```
 
+## Stop wrapping lines
+Or doing linebreaks
+```viml
+:set nowrap
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
