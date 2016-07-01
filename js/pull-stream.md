@@ -87,8 +87,43 @@ pull(source, sink)
 ```
 
 #### empty
+A stream with no contents (it just ends immediately)
+```txt
+        empty()
+------------------------
+```
+```js
+const source = pull.empty()
+const sink = pull.log()
+pull(source, sink)
+```
+
 #### error
+A stream that errors immediately.
+```txt
+        error()
+--e---------------------
+```
+```js
+const source = pull.error()
+const sink = pull.log()
+pull(source, sink)
+```
+
 #### infinite
+Create an unending stream by repeatedly calling a generator function (by
+default, `Math.random()`)
+```txt
+      infinite(i++)
+--1--2--3--4--5--6--7--8--
+---
+```
+```js
+var i = 0
+const source = pull.infinite(() => i++)
+const sink = pull.log()
+pull(source, sink)
+```
 #### keys
 #### once
 #### values
@@ -101,13 +136,13 @@ pull(source, sink)
 Turn a stream of arrays into a stream of their items.
 ```txt
 ---------------1----2---3--
------a--b----c----d--------
+-----1--2----3----4--------
          flatten()
------a--b----c-1--d-2---3--
+-----1--2----3-1--4-2---3--
 ```
 ```js
 const source = pull.values([
-  pull.values([ 'a', 'b', 'c', 'd' ]),
+  pull.values([ 1, 2, 3, 4 ]),
   pull.values([ 1, 2, 3 ])
 ])
 const sink = pull.log()
@@ -146,6 +181,7 @@ pull(source, through, sink)
 ## See Also
 - [streams in Node](https://medium.com/@yoshuawuyts/streams-in-node-ab9f13e15d5)
 - [pull-stream.github.io][ps]
+- [pull-stream/pull-stream](https://github.com/pull-stream/pull-stream)
 - [xstream][xstream]
 
 [ps]: https://pull-stream.github.io/
