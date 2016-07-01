@@ -257,6 +257,13 @@ Check out a branch into a directory
 $ git worktree add <path> <branch>
 ```
 
+## Force pull
+From [SO](http://stackoverflow.com/questions/1125968/force-git-to-overwrite-local-files-on-pull):
+```sh
+$ git fetch --all
+$ git reset --hard origin/master
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
