@@ -1,11 +1,36 @@
 # pull-stream
-
+Streams are an asynchronous abstraction that allows dealing with data in small
+chunks, pushing bottlenecks into the IO layer. This usually leads to less
+memory cost and increased performance, which is a very good thing. In streams,
+data flows from a source, through a bunch of through streams, into a sink:
 ```txt
 ┌────────┐   ┌─────────┐   ┌────────┐
 │ Source │──▶│ Through │──▶│  Sink  │
 └────────┘   └─────────┘   └────────┘
 ```
 
+Which using marble charts is:
+```txt
+        source()
+-------------------------
+        through()
+-------------------------
+         sink()
+-------------------------
+```
+The x-axis in a marble chart is the progression of time. In JavaScript each
+dash is roughly equivalent to a `process.nextTick()` call on the event loop.
+
+In pull streams there are 3 types of streams. Source, through and sink. In
+order to let data flow, a source and sink must be connected. Through streams
+are combinations of sources and sinks, making every connection in the pipeline
+a source and a sink that talk to each other.
+
+Under the hood a `through` stream is nothing but a `sink` coupled to a
+`source`. When the `source` gets called to provide more data, it calls the
+`sink` to request more data. Through this mechanism the full flow of data is
+corked until a `sink` is attached at the end that starts reading data.
+Conceptually it looks like this:
 ```txt
 ┌──────┐   ┌──────┐   ┌──────┐   ┌──────┐
 │Source│──▶│ Sink │ ┌▶│ Sink │ ┌▶│ Sink │
@@ -114,9 +139,8 @@ pull(source, sink)
 Create an unending stream by repeatedly calling a generator function (by
 default, `Math.random()`)
 ```txt
-      infinite(i++)
+    infinite(() => i++)
 --1--2--3--4--5--6--7--8--
----
 ```
 ```js
 var i = 0
@@ -166,6 +190,22 @@ pull(source, through, sink)
 
 #### non-unique
 #### take
+If test is a function, read data from the source stream and forward it
+downstream until test(data) returns false. If opts.last is set to true, the
+data for which the test failed will be included in what is forwarded.  If test
+is an integer, take n item from the source.
+```txt
+--1---2--3----4---5--
+   take(3)
+--1---2--3|
+```
+```js
+const source = pull.count()
+const through = pull.take(3)
+const sink = pull.log()
+pull(source, through, sink)
+```
+
 #### through
 #### unique
 
