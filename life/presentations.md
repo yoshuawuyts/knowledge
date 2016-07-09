@@ -35,3 +35,6 @@ Call for proposals help land talks - they're important.
 - ask questions and leave unanswered
 
 - [how to prepare for a tech conference talk](http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/)
+
+## Cool talks
+- [CSSConf Oakland 2014 | Adam Morse: Things I’ve Learned About CSS](https://www.youtube.com/watch?v=14N_V56tqd4)
