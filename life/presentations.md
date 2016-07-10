@@ -38,3 +38,4 @@ Call for proposals help land talks - they're important.
 
 ## Cool talks
 - [CSSConf Oakland 2014 | Adam Morse: Things I’ve Learned About CSS](https://www.youtube.com/watch?v=14N_V56tqd4)
+- https://github.com/JanVanRyswyck/awesome-talks
