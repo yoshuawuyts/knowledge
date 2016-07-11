@@ -1,6 +1,11 @@
 # gcloud
 Documentation for the google cloud command.
 
+## Bind new project to account
+```sh
+$ gloud config set project <project_name>
+```
+
 ## Upload a docker container
 ````sh
 $ gcloud docker push gcr.io/<project_id>/hello-node:v1
