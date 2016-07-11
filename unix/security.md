@@ -44,3 +44,7 @@ applied to GNU coreutils / busybox to detect the extended permissions.
 - [security guide](http://blog.mailgun.com/security-guide-basic-infrastructure-security/)
 - [first 10 mins on a server](http://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/)
 - [pen test cheat sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/)
+
+## Password testing
+To test password strength, use `john(1)` aka [John the
+Ripper](http://www.openwall.com/john/).
