@@ -48,3 +48,20 @@ applied to GNU coreutils / busybox to detect the extended permissions.
 ## Password testing
 To test password strength, use `john(1)` aka [John the
 Ripper](http://www.openwall.com/john/).
+
+## Social engineering
+A commonly used tool is the social engineering toolkit (SET) - allows setting
+up fake wifi endpoints and more. Running this on yourself allows you to figure
+out weak points in your own sec setup.
+
+## Bluetooth
+[btscanner](http://manpages.ubuntu.com/manpages/xenial/en/man1/btscanner.1.html)
+and
+[bluesniff](https://www.usenix.org/legacy/event/woot07/tech/full_papers/spill/spill.pdf)
+are tools used to find bluetooth devices. Caution should be advised using
+bluetooth devices as they could potentially get MITM or similar.
+
+## Meterpreter
+Ho-ly-shit this thing is only made for hacking other people. Real interesting
+to play with to figure out how others would exploit your system / where the
+limitations of the tool lie but... yeah. fuck.
