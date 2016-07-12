@@ -34,3 +34,4 @@ Fuzzing can be done with tools such as `zzuf` and `american fuzzy lop`.
 - [american fuzzy lop (afl)](http://lcamtuf.coredump.cx/afl/)
 - [how to fuzz a server with afl](https://www.fastly.com/blog/how-fuzz-server-american-fuzzy-lop)
 - [bug hunting with afl](https://josephg.com/blog/bug-hunting-with-american-fuzzy-lop/)
+- [test-smells](https://github.com/testdouble/test-smells/tree/master/smells)
