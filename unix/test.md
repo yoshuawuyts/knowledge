@@ -1,6 +1,9 @@
 # test
 How to test unix applications.
 
+## Test smells
+- [test-smells](https://github.com/testdouble/test-smells/tree/master/smells)
+
 ## http / https stress testing
 [ tbi ]
 - [siege(1)](http://linux.die.net/man/1/siege)
@@ -34,4 +37,5 @@ Fuzzing can be done with tools such as `zzuf` and `american fuzzy lop`.
 - [american fuzzy lop (afl)](http://lcamtuf.coredump.cx/afl/)
 - [how to fuzz a server with afl](https://www.fastly.com/blog/how-fuzz-server-american-fuzzy-lop)
 - [bug hunting with afl](https://josephg.com/blog/bug-hunting-with-american-fuzzy-lop/)
-- [test-smells](https://github.com/testdouble/test-smells/tree/master/smells)
+- [fuzzing.info](https://fuzzing.info/papers/)
+- [	Ask HN: What is the emerging state of the art in fuzzing techniques?](https://news.ycombinator.com/item?id=12078243)
