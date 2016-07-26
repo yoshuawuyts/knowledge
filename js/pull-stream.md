@@ -56,9 +56,9 @@ var random = function () {
 
 ## through
 ```js
-var map = function (read, map) {
+var map = function sink (read, map) {
   //return a readable function!
-  return function (end, cb) {
+  return function source (end, cb) {
     read(end, function (end, data) {
       cb(end, data != null ? map(data) : null)
     })
@@ -78,6 +78,16 @@ function postTorrent (req, res, params) {
   }
 }
 ```
+
+```js
+function myCoolFunction () {
+  return (read) => (end, cb) => read(end, (end, data) => {
+    if (end === true) return cb(true)
+    if (end) return cb(end)
+
+    cb(null, 'hey!')
+  })
+}
 
 ## sink
 ```js
