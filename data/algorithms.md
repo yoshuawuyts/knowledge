@@ -42,6 +42,15 @@ Merkle-DAG.
 ## Merge trees
 - [log structured merge trees](http://www.benstopford.com/2015/02/14/log-structured-merge-trees/)
 
+## K-d tree
+Used to organize points on a multi-dimensional tree. Often used for higher
+domensions. Works pretty well for 2d in some cases hah. Nearest neighbour
+lookups for lat-long cords should be done in 2d. This is because the earth is a
+sphere, lol. It's using a data-structure for 3d points, but running it in 2d.
+
+Split a plane up into zones. Find which zone the point is located in.
+- [wikipedia](https://en.wikipedia.org/wiki/K-d_tree)
+
 ## See Also
 - [bost.ocks.org/algorithms](http://bost.ocks.org/mike/algorithms/)
 - [a tour of algorithms](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
