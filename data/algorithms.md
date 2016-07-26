@@ -39,6 +39,9 @@ Check if something is possibly in a set, or definitely not.
 ## Block chains
 Merkle-DAG.
 
+## Merge trees
+- [log structured merge trees](http://www.benstopford.com/2015/02/14/log-structured-merge-trees/)
+
 ## See Also
 - [bost.ocks.org/algorithms](http://bost.ocks.org/mike/algorithms/)
 - [a tour of algorithms](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
