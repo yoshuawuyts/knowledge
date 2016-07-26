@@ -10,7 +10,7 @@ Creating maps, routing and more.
 Consists of 3 elements:
 - tile renderer
 - geo coder (like a table)
-  - lan len -> place
+  - lan len -> place (k-d tree)
   - place -> lat len
 - route planner (driving directions)
 
@@ -20,6 +20,11 @@ Consists of 3 elements:
 - store each grid inside a table, and make it queryable
 - each tile could be stored in a
   [quadtree](https://en.wikipedia.org/wiki/Quadtree)
+
+### geocoder
+- use a [k-d tree](https://en.wikipedia.org/wiki/K-d_tree) for lat-len -> place
+- use a [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
+  for place -> lat-len
 
 ## See Also
 - [node-googlemaps](https://github.com/moshen/node-googlemaps)
