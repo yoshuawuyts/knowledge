@@ -28,3 +28,6 @@ matrix:
   allow_failures:
     - rust: nightly
 ```
+
+## Code coverage
+- [rust-code-coverage](http://sunjay.ca/2016/07/25/rust-code-coverage)
