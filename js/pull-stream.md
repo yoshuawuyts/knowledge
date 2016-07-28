@@ -228,6 +228,30 @@ pull(source, through, sink)
 #### on-end
 #### reduce
 
+## Patterns
+### Eventual values
+Return a stream from a function synchronously, emit data from it
+asynchronously.
+```js
+const notify = require('pull-notify')
+const pull = require('pull-stream')
+const xhr = require('xhr')
+
+pull(request('foobar.com'), pull.log())
+
+function request (url) {
+  const xhr$ = notify()
+
+  xhr(url, (err, res, body) {
+    if (err) return xhr$.abort(err)
+    xhr$(body)
+    xhr$.end()
+  })
+
+  return xhr$.listen()
+}
+```
+
 ## See Also
 - [streams in Node](https://medium.com/@yoshuawuyts/streams-in-node-ab9f13e15d5)
 - [pull-stream.github.io][ps]
