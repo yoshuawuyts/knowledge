@@ -26,6 +26,11 @@ Consists of 3 elements:
 - use a [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
   for place -> lat-len
 
+### route planner
+- start off with an Open Street Map data set. The OSM data set has stuff
+  embedded like speed limits and lengths and stuff. Nodes are rougly
+  proportional to places. Enables calculating transit time
+
 ## See Also
 - [node-googlemaps](https://github.com/moshen/node-googlemaps)
 - [developer.google.com/directions](https://developers.google.com/maps/documentation/directions/intro)
