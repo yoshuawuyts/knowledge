@@ -51,9 +51,10 @@ Spawn a new command; returns the status code:
 use std::process::Command;
 
 fn main() {
-  let _ = Command::new("ls")
+  let output = Command::new("ls")
     .arg("-la")
-    .status();
+    .output()
+    .expect("failed to execute process");
 
   println!("status: {}", output.status);
   println!("stdout: {}", String::from_utf8_lossy(&output.stdout));
