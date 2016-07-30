@@ -1,7 +1,7 @@
 # morning ritual
 
 ## Examples
-### [1.55] ritual by love aesthetics 
+### [1.55] ritual by love aesthetics
 Consistency is king. If you have kids you have to be the responsible one.
 Thinking about this can keep you more sane. Even if you can't always make the
 full ritual, it's good to have one. Best days are when you can make the full
