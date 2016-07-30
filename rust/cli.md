@@ -44,3 +44,20 @@ fn main () {
 
 ## Options parsing
 - [getopts](https://github.com/rust-lang-nursery/getopts)
+
+## Subshell
+Spawn a new command; returns the status code:
+```rust
+use std::process::Command;
+
+fn main() {
+  let _ = Command::new("ls")
+    .arg("-la")
+    .status();
+
+  println!("status: {}", output.status);
+  println!("stdout: {}", String::from_utf8_lossy(&output.stdout));
+  println!("stderr: {}", String::from_utf8_lossy(&output.stderr));
+}
+```
+- https://doc.rust-lang.org/nightly/std/process/struct.Command.html
