@@ -143,6 +143,9 @@ connection of a user behind a NAT to only a single peer, as in telephony, for
 example.
 - https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT
 
+## QUIC
+- [moving the web from TCP to UDP](https://ma.ttias.be/googles-quic-protocol-moving-web-tcp-udp/)
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
