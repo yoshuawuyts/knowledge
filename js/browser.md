@@ -161,3 +161,11 @@ function uploadFile (e) {
 - [drag-drop](https://github.com/feross/drag-drop)
 - [filepicker-element](https://github.com/shama/filepicker-element)
 - [MDN/formdata](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData)
+
+## Hash routing
+In the browser hashes are used for two reasons:
+- to signal anchor tags on the same page
+- to create single-page applications
+
+In essence these two modes might be viewed as two sides of the same coin. In
+the end they're both used to order data on a site.
