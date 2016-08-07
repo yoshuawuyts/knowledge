@@ -43,7 +43,7 @@ fn main () {
 ```
 
 ## Options parsing
-```rs
+```rust
 extern crate getopts;
 
 use getopts::Options;
