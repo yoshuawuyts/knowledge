@@ -79,6 +79,14 @@ fn print_usage(program: &str, opts: Options) {
 if !matches.free.is_empty() {
   let input = matches.free.clone();
   let command = &input[0];
+
+  match command.trim() {
+    "my_cool_command" => {},
+    _ => {
+      println!("Error: unknown command '{}'\n", command.trim());
+      print_usage(&program, options);
+    }
+  }
 } else {
   println!("Error: expected <command>\n");
   print_usage(&program, options);
