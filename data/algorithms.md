@@ -51,6 +51,12 @@ sphere, lol. It's using a data-structure for 3d points, but running it in 2d.
 Split a plane up into zones. Find which zone the point is located in.
 - [wikipedia](https://en.wikipedia.org/wiki/K-d_tree)
 
+## Streaming algorithms
+Streaming algorithms are useful to operate on values that are too big to keep
+in memory at any given time. Unlike windowing and sampling techniques,
+streaming algorithms operate on the whole dataset in realtime.
+- [streaming algorithms](https://www.youtube.com/watch?v=e9httij2RG0)
+
 ## See Also
 - [bost.ocks.org/algorithms](http://bost.ocks.org/mike/algorithms/)
 - [a tour of algorithms](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
