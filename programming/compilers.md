@@ -12,3 +12,7 @@ By having simpler code, optimizers will only have to deal with a part of the
 language, becoming more efficient at their job. Tl;Dr: desugar complex code
 into simpler code which is easier to optimize.
 - [rust-rfcs/1211](https://github.com/rust-lang/rfcs/blob/master/text/1211-mir.md)
+
+## See Also
+- http://prog21.dadgum.com/30.html
+- [the super tiny compiler](https://github.com/thejameskyle/the-super-tiny-compiler)
