@@ -34,3 +34,6 @@ Pick from this list and compose a block of 30 minutes:
 02 min / leave a note for loved one
 05 min / create list of most important tasks
 ```
+
+## See Also
+- [how to make sense of any mess](http://www.howtomakesenseofanymess.com/)
