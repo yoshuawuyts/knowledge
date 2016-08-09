@@ -60,6 +60,7 @@ removed, just request the commit range for certain tag to roll back. Tada!
 - [git flow considered harmful](http://endoflineblog.com/gitflow-considered-harmful)
 - [follow up: git flow considered harmful](http://endoflineblog.com/follow-up-to-gitflow-considered-harmful)
 - [chronological git history is silly](https://news.ycombinator.com/item?id=9745966)
+- [gerrit](https://www.beepsend.com/2016/04/05/abandoning-gitflow-github-favour-gerrit/)
 
 ## Git hooks
 Git hooks are a way of extending git with functionality whenever things happen.
