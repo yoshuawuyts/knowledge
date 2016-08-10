@@ -169,3 +169,29 @@ In the browser hashes are used for two reasons:
 
 In essence these two modes might be viewed as two sides of the same coin. In
 the end they're both used to order data on a site.
+
+## DOM node prototype chain
+```txt
+HTMLDivElement.prototype
+             |
+             |.__proto__
+             |
+    HTMLElement.prototype
+             |
+             |.__proto__
+             |
+      Element.prototype
+             |
+             |.__proto__
+             |
+       Node.prototype
+             |
+             |.__proto__
+             |
+      Object.prototype
+             |
+             |.__proto__
+             |
+           null
+```
+- https://developer.mozilla.org/en/docs/JavaScript-DOM_Prototypes_in_Mozilla
