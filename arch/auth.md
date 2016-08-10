@@ -237,6 +237,52 @@ the implementation more secure because there is no pool of tokens to read from.
 State is then managed internally, which means that if the token was used for
 some reason CSRF happened and appropriate measures can be taken.
 
+
+### permissions lookup
+Something costly would be to do a permissions lookup everytime a request with a
+token comes in. Better would be to embed the permissions inside the cookie, so
+that when the cookie is validated it's clear what the user is allowed to do.
+`JWT`s might be a valid candidate for this.
+
+### token invalidations
+Just like tokens can be created, tokens should also be able to be invalidated.
+Scenarios like device theft/loss or credential compromise should be accounted
+for.
+
+One approach would be to create `vector clock tokens`. E.g. each request has a
+cookie appended to it, where each reply responds with a new cookie. If a
+request is sent without a valid cookie attached all sessions are destroyed and
+the user needs to be reauthenticated. This helps detect credential theft,
+reducing the damage a malicious actor can do without having to rely on methods
+such as IP detection.
+
+A variation on the `vector clock token` approach is the `pooled vector clock
+token` where multiple tokens are valid at the same time. This is useful so
+multiple requests can be sent in parallel without order being guaranteed. This
+should allow for improved perf.
+
+For a `NoScript` scenario multiple tokens could be appended on every request
+where the server updates only one of the tokens on every reply. This would
+break in an eventually consistent scenario on the server though; but that's no
+problem if the user only ever talks to a single server (there's ways of
+securing that). Anyway, this is probably already a bit more of an advanced use
+case than I initially expected it to be hah.
+
+Finally there's the traditional auth model of setting a refresh token which can
+grant privilege tokens. Privilege tokens are alive in some short (acceptable)
+time window. You revoke the refresh token which provides the privilege token.
+This has the upside of taking some strain off the server.
+
+### ticket validation
+> HTTP authentication/authorization that uses cookies intsead of passwords.
+> Works exactly like tickets do when you go to a movie theater or catch a bus.
+> First you get a ticket, in the form of a url, which can be emailed to you.
+> Then that ticket is redeemed, you request that url and a cookie is written
+> with the response, like the ticket being torn when you enter the theater. Now
+> that cookie shows you are authorized to use the website, like the ticket stub
+> shows you are authorized to watch the movie.
+- [ticket auth](https://github.com/dominictarr/ticket-auth)
+
 ### links
 - [owasp/csrf](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29)
 - [whitehatsec/session-token](https://blog.whitehatsec.com/tag/session-token/)
