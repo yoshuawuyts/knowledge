@@ -18,3 +18,5 @@ Time since unix epoch, unix epoch, epoch time
 $ date +'%s'
 ```
 
+## See Also
+- http://www.cyberciti.biz/faq/linux-unix-formatting-dates-for-display/
