@@ -3,27 +3,35 @@ Some ideas on how to build modular applications from day 0. No monoliths, ever.
 The naming of these modules is not important (I made most of them up). It's
 about how the different layers interact with each other that matters.
 
-## server-client model
+## server model
+The top level directory should convey as much information about a project as
+possible. Roughly an application should always be split up as such:
+```txt
+delivery mechanism -> boundries -> message bus -> entities
+```
+### delivery mechanism
+A way of getting messages into the application. Generally some HTTP server but
+could be anything really. It's a plugin to the application. Should take care of
+abstracting out all application details so only pure data flows out to the
+boundries.
 
-__server__
-```text
-app-api ........ endpoint logic
-app-core ....... context functions
-app-domains .... domain logic
-app-main ....... server entry point
-app-services ... business logic
-app-stores ..... database communication
-service-* ...... context unaware handler
-```
+### boundries
+The application specific business logic. Cannot be abstracted into a framework.
+Implements the domain model and exposes it to the outside world over the
+delivery mechanism. Has no notion of details that are hosted in the delivery
+mechanism. Only operates over data.
 
-__client__
-```
-client-actions . business logic
-client-core .... context functions
-client-stores .. database communication
-client-views ... context aware views
-component-* .... context unaware views
-```
+### message bus
+Ties the `boundries` to the `entities` without hard linking them. Generally
+just a function that makes sure the right `entity` is called.
+
+### entities
+Non application specific business logic. Generic services that do a thing.
+
+The application root should be able to b
+
+- database should be a plugin
+- delivery mechanism should be a plugin
 
 __resources__
 - [reactive-mvc-and-the-virtual-dom](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
@@ -155,6 +163,30 @@ __resources__
 ## Sessions
 Sessions provide a way to perform actions without authenticating every request.
 It's the network alternative to gpg agents.
+
+## Continuous Deployment
+Also known as `Continuous Integration` (CI), sorta mostly. The goal is to be
+able to deploy applications fast with very low friction. It's also more secure
+because credentials don't need to be loaded onto individual machines preventing
+theft (to some extent, there's no perfect security).
+
+The flow would be as follows
+- people develop code on feature branches
+- feature branches are pushed and trigger a `build`
+- if a feature branch `build` passes, the code gets manually merged into
+  `development`
+- whenever a merge happens on `development` trigger a `build`
+- in the scripts if branch is `development`, trigger `a docker build`
+- each succesful `docker build` triggers a `deploy`
+
+There's a clear infrastructure requirement here:
+- a git host like GitHub that can host code, keep branches and call webhooks
+- a testing platform like BuildKite or Travis that can execute arbitrary code
+  triggered by a webhook and report pass / fail
+- a building platform like BuildKite or Docker Cloud that can create, tag and
+  upload Docker builds and deploy them to infrastructure
+- a deployment target like Google Cloud or AWS that can be used as a target for
+  the deploys
 
 ## See Also
 - [service disoriented architecture](http://bravenewgeek.com/service-disoriented-architecture/)
