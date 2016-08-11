@@ -212,10 +212,12 @@ git push --delete origin <tag>   # delete remote tag
 git tag -d <tag>                 # delete local tag
 ```
 
-## Update git submodules
+## Git submodules
 ```sh
+$ git submodules add <repo-name>
 $ git submodule update --recursive
 ```
+- https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 ## Remote branches
 ```sh
