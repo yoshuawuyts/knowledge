@@ -62,9 +62,10 @@ $ gcloud container clusters describe <cluster_name>
 $ gcloud compute instances list
 $ gcloud compute ssh <instance_name> --zone=<instance_zone>
 ```
-And to show running docker containers:
+And to attach to a running container:
 ```sh
 $ sudo docker ps -a
+$ sudo docker exect -it <container_id> bash
 ```
 
 ## See Also
