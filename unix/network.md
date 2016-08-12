@@ -153,6 +153,12 @@ $ ss -tl4 '( sport = :<port_number> )'
 $ ss -tl4 '( sport = :22 )'
 ```
 
+Or using `netstat(1)`
+```sh
+$ netstat -lnt
+```
+- http://stackoverflow.com/questions/9609130/quick-way-to-find-if-a-port-is-open-on-linux
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
