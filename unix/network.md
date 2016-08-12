@@ -146,6 +146,13 @@ example.
 ## QUIC
 - [moving the web from TCP to UDP](https://ma.ttias.be/googles-quic-protocol-moving-web-tcp-udp/)
 
+## Inspect if port is open
+`ss(1)` is a tool to validate if a port is open.
+```sh
+$ ss -tl4 '( sport = :<port_number> )'
+$ ss -tl4 '( sport = :22 )'
+```
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
