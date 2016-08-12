@@ -110,6 +110,15 @@ $ kubectl rollout undo deployment/nginx-deployment
 $ kubectl rollout undo deployment/nginx-deployment --to-revision=2
 ```
 
+## Debugging pods and containers
+Sometimes things break and you need to debug stuff. For example SSH in:
+```sh
+$ kubectl get po
+$ kubectl describe pods ${POD_NAME}
+```
+
+- http://kubernetes.io/docs/user-guide/debugging-pods-and-replication-controllers/
+
 ## See Also
 - http://kubernetes.io/docs/getting-started-guides/
 - http://kubernetes.io/docs/hellonode

@@ -57,5 +57,15 @@ Sometimes you want to see a little more. The `describe` command does just that:
 $ gcloud container clusters describe <cluster_name>
 ```
 
+## SSH into instance
+```sh
+$ gcloud compute instances list
+$ gcloud compute ssh <instance_name> --zone=<instance_zone>
+```
+And to show running docker containers:
+```sh
+$ sudo docker ps -a
+```
+
 ## See Also
 - [bin/helm](./helm)
