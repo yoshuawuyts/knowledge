@@ -267,6 +267,11 @@ $ git fetch --all
 $ git reset --hard origin/master
 ```
 
+## Get current git branch
+```sh
+$ git rev-parse --abbrev-ref HEAD
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
