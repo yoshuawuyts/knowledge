@@ -65,7 +65,7 @@ $ gcloud compute ssh <instance_name> --zone=<instance_zone>
 And to attach to a running container:
 ```sh
 $ sudo docker ps -a
-$ sudo docker exect -it <container_id> bash
+$ sudo docker exec -it <container_id> bash
 ```
 
 ## See Also
