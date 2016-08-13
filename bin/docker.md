@@ -74,5 +74,11 @@ CMD [ "npm", "start" ]
 - `COPY` is less fancy therefore more safe
 - http://stackoverflow.com/questions/24958140/docker-copy-vs-add
 
+## Inspect docker properties
+Stuff like labels don't show up in `$ docker images`:
+```sh
+$ docker inspect <image_name>
+```
+
 ## See Also
 - [the challenges of container configuration](https://speakerdeck.com/garethr/the-challenges-of-container-configuration)
