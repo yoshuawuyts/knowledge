@@ -92,8 +92,12 @@ $ kubectl create secret generic <secret_name> \
   --from-file=ssh-privatekey=/path/to/.ssh/id_rsa \
   --from-file=ssh-publickey=/path/to/.ssh/id_rsa.pub
 ```
+Or from a `.yaml` file:
+```sh
+$ kubectl create secret -f ./my-secret.yml
+```
 
-## Create a deployment
+## Create a deployment from a file
 ```sh
 $ kubectl apply -f ./my-deployment.yaml
 ```
