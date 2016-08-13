@@ -33,3 +33,4 @@ machine code in a given executable module.
 
 ## See Also
 - [shrink go binaries with this one weird trick](https://blog.filippo.io/shrink-your-go-binaries-with-this-one-weird-trick/)
+- [elf-binaries-on-linux-understanding-and-analysis](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/)
