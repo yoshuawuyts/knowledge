@@ -69,5 +69,10 @@ EXPOSE 8080
 CMD [ "npm", "start" ]
 ```
 
+## Docker ADD vs COPY
+- `ADD` performs tar auto extraction, and can target URLs
+- `COPY` is less fancy therefore more safe
+- http://stackoverflow.com/questions/24958140/docker-copy-vs-add
+
 ## See Also
 - [the challenges of container configuration](https://speakerdeck.com/garethr/the-challenges-of-container-configuration)
