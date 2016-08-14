@@ -80,5 +80,15 @@ Stuff like labels don't show up in `$ docker images`:
 $ docker inspect <image_name>
 ```
 
+## Remove all stopped containers
+```sh
+$ docker rm "$(docker ps -a -q)"
+```
+
+## Remove all untagged images
+```sh
+$ docker rmi "$(docker images | grep "^<none>" | awk '{ print $3 }')"
+```
+
 ## See Also
 - [the challenges of container configuration](https://speakerdeck.com/garethr/the-challenges-of-container-configuration)
