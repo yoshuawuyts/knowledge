@@ -20,3 +20,8 @@ $ jq '{meetings: .meetings | sort_by(.meetingName)}'
 ```sh
 $ jq -r '.version' < './package.json'
 ```
+
+## Iterate over key-value pairs
+```sh
+$ jq -r '.dependencies|to_entries[] | .key + "@" + .value' < package.json
+```
