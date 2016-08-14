@@ -13,6 +13,11 @@ $ docker run -d -p 80:80 --name webserver nginx
 $ docker run -t --rm <image_id> sh
 ```
 
+## Attach to running container
+```sh
+$ docker exec -it <image_id> sh
+```
+
 ## Attach a volume
 ```sh
 $ docker run \
