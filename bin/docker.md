@@ -6,7 +6,11 @@
 
 ## Run a container
 ```sh
+# daemon mode
 $ docker run -d -p 80:80 --name webserver nginx
+
+# interactive
+$ docker run -t --rm <image_id> sh
 ```
 
 ## Attach a volume
