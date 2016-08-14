@@ -15,3 +15,8 @@ Sort the keys `.meetings.meetingname`:
 ```sh
 $ jq '{meetings: .meetings | sort_by(.meetingName)}'
 ```
+
+## strip quotes from output
+```sh
+$ jq -r '.version' < './package.json'
+```
