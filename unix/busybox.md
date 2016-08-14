@@ -43,5 +43,14 @@ whoami, xargs, yes, zcat, zcip
 ```
 
 ## Alpine Linux
+### Update world
+```sh
+$ apk update
+```
+
+### Install packages
+```sh
+$ apk add <pkg_name>
+```
 - [alpine linux package management](http://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management)
 - [alpine linux packages](https://pkgs.alpinelinux.org/packages)
