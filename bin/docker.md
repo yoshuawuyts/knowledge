@@ -99,5 +99,20 @@ $ docker rm "$(docker ps -a -q)"
 $ docker rmi "$(docker images | grep "^<none>" | awk '{ print $3 }')"
 ```
 
+## Iterate over all docker images
+```sh
+$ docker images -q  # images
+```
+
+## Stop all docker images
+```sh
+$ docker stop "$(docker ps -q)"
+```
+
+## Pass env vars to docker
+```sh
+$ docker run <image_name> -e FOO=bar
+```
+
 ## See Also
 - [the challenges of container configuration](https://speakerdeck.com/garethr/the-challenges-of-container-configuration)
