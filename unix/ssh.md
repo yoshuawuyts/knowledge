@@ -2,6 +2,11 @@
 SSH is the _secure shell protocol_. It allows you to attach your terminal
 window to a remote server and execute commands in it. It's highly useful.
 
+## Generate a key
+```sh
+$ ssh-keygen -b 2048 -t rsa -q -N "" -f <file_name>
+```
+
 ## Attach to remote server
 ```sh
 $ ssh <username>@<ip>
