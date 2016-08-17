@@ -195,3 +195,5 @@ There's a clear infrastructure requirement here:
 - [reusability trap](http://250bpm.com/blog:49)
 - [finish your projects](http://250bpm.com/blog:50)
 - [server-style-guide](https://github.com/jonathanong/server-style-guide)
+- [serverless architecutre](http://martinfowler.com/articles/serverless.html)
+- [architecture, the lost years](https://www.youtube.com/watch?v=WpkDN78P884)
