@@ -239,6 +239,11 @@ $ du -s <directory>    # print size
 $ du -sH <directory>   # print size and follow symlinks
 ```
 
+## Find distro version
+```sh
+$ uname -a
+```
+
 ## See Also
 - [cleaning an arch installation](http://blog.andreascarpino.it/cleaning-an-arch-linux-installation/)
 - [the art of the cli](https://github.com/jlevy/the-art-of-command-line)
