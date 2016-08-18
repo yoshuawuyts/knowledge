@@ -68,5 +68,10 @@ $ sudo docker ps -a
 $ sudo docker exec -it <container_id> bash
 ```
 
+## View active account
+```sh
+$ gloud auth list
+```
+
 ## See Also
 - [bin/helm](./helm)

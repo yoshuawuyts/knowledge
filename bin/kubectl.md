@@ -5,6 +5,28 @@ Kubernetes is for clusters, cluster love kube.
 ```sh
 $ gcloud components install kubectl
 ```
+On the google container engine, the google cloud SDK is installed in one of
+these locations:
+```txt
+/usr/local/share/google/google-cloud-sdk
+/usr/lib/google-cloud-sdk
+```
+
+If `gcloud` doesn't allow upgrades, the config file must be configured to allow
+for it:
+```sh
+$ sed -i -e 's/true/false/' \
+  /usr/local/share/google/google-cloud-sdk/lib/googlecloudsdk/core/config.json
+```
+
+If `kubectl` is installed but the bin cannot be found, you'll probably need to
+source it from the path:
+```sh
+PATH="/usr/lib/google-cloud-sdk/bin:$PATH"
+```
+- https://code.google.com/p/google-cloud-sdk/issues/detail?id=336
+- http://stackoverflow.com/questions/35900502/google-cloud-platform-delete-or-stop-instances-without-prompt
+- http://stackoverflow.com/questions/30029717/kubectl-is-not-installed-on-gce-by-default
 
 ## Run a pod
 Requires a working cluster, preferably created on the goog cloud.
