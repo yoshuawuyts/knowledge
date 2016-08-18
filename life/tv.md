@@ -66,6 +66,7 @@
 - sidonia no kishi - ok mechas in space
 - owari no seraph - vampires & twisted love
 - hello sachie
+- coil a circle of children
 
 ## weird things
 - human traffic
@@ -80,3 +81,6 @@
 - look around you
 - time trumpet
 - black books
+
+## See Also
+- http://letterboxd.com/khoi/films/diary/year/2016/
