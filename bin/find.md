@@ -23,5 +23,10 @@ find ./*/start | while read start; do
 done
 ```
 
+## Find directory on machine
+```sh
+$ find / -name '<dirname>' -type d
+```
+
 ## See Also
 - [grimoire/find](http://www.grymoire.com/Unix/Find.html)
