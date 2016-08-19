@@ -36,6 +36,7 @@ rely on for non-helm kube structures too:
 
 ## Secrets
 - [user-guide/secrets](http://kubernetes.io/docs/user-guide/secrets)
+- https://github.com/kelseyhightower/kube-cert-manager
 
 ## See Also
 - [bin/docker](../bin/docker.md)
