@@ -25,3 +25,10 @@ $ sed -e 's/version=\(.+\)/\1/'
 ```sh
 $ sed "1 i my magical line"
 ```
+
+## Delete first line of output
+```sh
+$ printf '1\n2\n3\n' | sed -e '1d'
+# => 2
+# => 3
+```
