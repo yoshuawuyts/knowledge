@@ -114,5 +114,10 @@ $ docker stop "$(docker ps -q)"
 $ docker run <image_name> -e FOO=bar
 ```
 
+## See if logged in
+```sh
+$ sudo docker info | grep Username
+```
+
 ## See Also
 - [the challenges of container configuration](https://speakerdeck.com/garethr/the-challenges-of-container-configuration)
