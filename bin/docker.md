@@ -121,3 +121,4 @@ $ sudo docker info | grep Username
 
 ## See Also
 - [the challenges of container configuration](https://speakerdeck.com/garethr/the-challenges-of-container-configuration)
+- https://github.com/wsargent/docker-cheat-sheet

@@ -145,8 +145,15 @@ $ kubectl describe pods ${POD_NAME}
 
 - http://kubernetes.io/docs/user-guide/debugging-pods-and-replication-controllers/
 
+## Attach to existing pod
+```sh
+$ kubectl get po
+$ kubectl exec -it <podname> -- bash
+```
+
 ## See Also
 - http://kubernetes.io/docs/getting-started-guides/
 - http://kubernetes.io/docs/hellonode
 - http://kubernetes.io/docs/user-guide/ui/
 - http://kubernetes.io/docs/admin/high-availability/
+- http://kubernetes.io/docs/user-guide/docker-cli-to-kubectl/
