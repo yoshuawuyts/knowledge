@@ -13,6 +13,28 @@ $ kubectl set image deployment/<deployment_name> \
 $ kubectl set image deployment/nginx nginx="nginx:1.9.1"
 ```
 
+To prevent caching of a prior image, the `imagePullPolicy` must be set to
+`Always`:
+```yml
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: nginx
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.9.1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+```
+
 If a container with the same image is deployed, a new deployment will not be
 triggered. To force a new rollout annotations should be updated so that a new
 rollout is forced.
