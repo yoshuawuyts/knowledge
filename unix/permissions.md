@@ -73,3 +73,12 @@ $ sudo usermod -a -G <groupname> <username>
 # give group write permissions
 $ sudo chmod g+w <dirname>
 ```
+
+## Change user
+```sh
+# possibly prepend with "sudo"
+$ su - <username>
+$ whoami
+# => <username>
+```
+- http://stackoverflow.com/questions/11919391/postgresql-error-fatal-role-username-does-not-exist
