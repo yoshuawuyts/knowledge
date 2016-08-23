@@ -13,6 +13,15 @@ $ kubectl set image deployment/<deployment_name> \
 $ kubectl set image deployment/nginx nginx="nginx:1.9.1"
 ```
 
+If a container with the same image is deployed, a new deployment will not be
+triggered. To force a new rollout annotations should be updated so that a new
+rollout is forced.
+```sh
+$ kubectl patch deployment web -p \
+  "{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"date\":\"`date +'%s'`\"}}}}}"
+```
+- https://github.com/kubernetes/kubernetes/issues/27081
+
 ## Get latest deployment status
 ```sh
 $ kubectl rollout status deployment/<deployment_name>
