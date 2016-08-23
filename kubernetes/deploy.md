@@ -27,5 +27,10 @@ $ kubectl patch deployment web -p \
 $ kubectl rollout status deployment/<deployment_name>
 ```
 
+## View deployment history
+```sh
+$ kubectl rollout history deployment/<deployment_name>
+```
+
 ## See Also
 - http://kubernetes.io/docs/user-guide/deployments/#creating-a-deployment
