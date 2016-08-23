@@ -56,3 +56,20 @@ $ sudo passwd <user>
 ```sh
 $ chmod 07555
 ```
+
+## give specific user permissions for dir
+```sh
+# change owner
+$ sudo chmod <username>: <dirname>
+
+# give write permissions
+$ sudo chmod u+w <dirname>
+```
+
+```sh
+# add user to group associated with directory
+$ sudo usermod -a -G <groupname> <username>
+
+# give group write permissions
+$ sudo chmod g+w <dirname>
+```
