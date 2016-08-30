@@ -28,6 +28,12 @@ PATH="/usr/lib/google-cloud-sdk/bin:$PATH"
 - http://stackoverflow.com/questions/35900502/google-cloud-platform-delete-or-stop-instances-without-prompt
 - http://stackoverflow.com/questions/30029717/kubectl-is-not-installed-on-gce-by-default
 
+## Enable from gcloud
+```sh
+$ gcloud container clusters list
+$ gcloud container clusters get-credentials <cluster_name>
+```
+
 ## Run a pod
 Requires a working cluster, preferably created on the goog cloud.
 ```sh
