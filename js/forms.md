@@ -21,6 +21,11 @@ of:
 </form>
 ```
 
+For validation it's useful if every single field in the form is unique. Use
+prefixes if you must; but doing validation on the form level is probably what
+you want to do, or else risk separating at the wrong level which is bad bad not
+good.
+
 ## prevent form data loss on window close
 ```js
 // Get the text field that we're going to track
