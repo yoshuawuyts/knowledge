@@ -152,6 +152,7 @@ $ kubectl describe pods ${POD_NAME}
 - http://kubernetes.io/docs/user-guide/debugging-pods-and-replication-controllers/
 
 ## Attach to existing pod
+Almost like ssh:
 ```sh
 $ kubectl get po
 $ kubectl exec -it <podname> -- bash
