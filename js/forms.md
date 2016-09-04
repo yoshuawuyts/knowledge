@@ -8,16 +8,18 @@ of:
 - `<fieldset>` - groupings of `<input>` and `<label>` into sections
 - `<form>` - the complete form
 
+- Placeholders should be examples of what should go in the field, not the name of the field.
+
 ```html
 <form>
-  <fielset>
-    <label>username</label>
-    <input type="text" name="username" placeholder="username">
-  </fielset>
-  <fielset>
+  <fieldset>
+    <label>Username</label>
+    <input type="text" name="username" placeholder="johnappleseed">
+  </fieldset>
+  <fieldset>
     <label>password</label>
-    <input type="password" name="password" placeholder="password">
-  </fielset>
+    <input type="password" name="password" placeholder="SecurePasswordGoesHere">
+  </fieldset>
 </form>
 ```
 
@@ -28,7 +30,7 @@ good.
 
 ## prevent form data loss on window close
 ```js
-// Get the text field that we're going to track
+// Get the text field (#field) that we're going to track
 var field = document.getElementById("field");
 
 // See if we have an autosave value
