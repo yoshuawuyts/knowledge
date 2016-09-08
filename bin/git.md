@@ -272,6 +272,13 @@ $ git reset --hard origin/master
 $ git rev-parse --abbrev-ref HEAD
 ```
 
+## Fix refs errors
+In case of `remote: fatal error in commit_refs`, run `git gc`
+```sh
+$ git gc
+```
+- http://stackoverflow.com/questions/37341960/how-do-i-fix-remote-fatal-error-in-commit-refs-errors-trying-to-push-with-git
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
