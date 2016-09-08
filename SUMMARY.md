@@ -1,4 +1,4 @@
 # Summary
 
-* architecture
+* [architecture](architecture)
 
