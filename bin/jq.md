@@ -17,6 +17,7 @@ $ jq '{meetings: .meetings | sort_by(.meetingName)}'
 ```
 
 ## strip quotes from output
+Set raw output:
 ```sh
 $ jq -r '.version' < './package.json'
 ```
