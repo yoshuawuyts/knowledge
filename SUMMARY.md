@@ -1,4 +1,5 @@
 # Summary
 
-* [architecture](architecture)
+* [Introduction](README.md)
+* [architecture](architecture/)
 
