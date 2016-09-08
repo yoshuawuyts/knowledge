@@ -32,3 +32,9 @@ $ printf '1\n2\n3\n' | sed -e '1d'
 # => 2
 # => 3
 ```
+
+## Get file extension
+```sh
+$ echo abc.txt | sed 's/.*\.//'
+# => txt
+```
