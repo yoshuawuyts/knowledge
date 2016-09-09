@@ -43,3 +43,4 @@ rely on for non-helm kube structures too:
 - [bin/gcloud](../bin/gcloud.md)
 - [bin/helm](../bin/helm.md)
 - [bin/kubectl](../bin/kubectl.md)
+- https://kubernetesbootcamp.github.io/kubernetes-bootcamp/index.html
