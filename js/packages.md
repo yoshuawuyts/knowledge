@@ -684,3 +684,11 @@
 - [chromecasts](https://github.com/mafintosh/chromecasts) — Query your local
   network for Chromecasts and have them play media
 - [mosca](https://github.com/mcollina/mosca) — MQTT broker as a module
+
+---
+
+## Package log
+Instead of adding packages by hand I'm adding useful JS packages through a CLI;
+that way it's easier to search back in history and append new packages to the
+list.
+
