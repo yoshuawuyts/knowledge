@@ -695,3 +695,4 @@ list.
 * [jxnblk/vhs](https://github.com/jxnblk/vhs)
 * [dominictarr/multiblob](https://github.com/dominictarr/multiblob)
 * [pfrazee/pull-identify-filetype](https://github.com/pfrazee/pull-identify-filetype)
+* [jshttp/mime-types](https://github.com/jshttp/mime-types)
