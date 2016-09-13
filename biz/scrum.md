@@ -9,3 +9,5 @@ works best is:
 - create a list of stuff that needs to be done today, and work down the list
 - create a list of stuff that's been done today, post this at the end of the
   day / the next standup
+- create a list of stuff that needs to be done tomorrow, and as you hit blocks
+  write down todos for the next day
