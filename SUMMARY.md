@@ -8,6 +8,7 @@
   * [caching](./architecture/caching.md)
   * [config](./architecture/config.md)
   * [domains](./architecture/domains.md)
+  * [events](./architecture/events.md)
   * [fs](./architecture/fs.md)
   * [infra](./architecture/infra.md)
   * [mvc](./architecture/mvc.md)
@@ -47,6 +48,8 @@
   * [terraform](./bin/terraform.md)
   * [tr](./bin/tr.md)
   * [varnish](./bin/varnish.md)
+* biz
+  * [scrum](./biz/scrum.md)
 * [books](./books.md)
 * [collaboration](./collaboration.md)
 * css
@@ -57,6 +60,7 @@
   * [algorithms](./data/algorithms.md)
   * [data](./data/data.md)
   * [db](./data/db.md)
+  * [graph](./data/graph.md)
   * [grpc](./data/grpc.md)
   * [json-schema](./data/json-schema.md)
   * [merkle-dag](./data/merkle-dag.md)
@@ -112,6 +116,7 @@
   * [deploy](./kubernetes/deploy.md)
   * [ingress](./kubernetes/ingress.md)
   * [labels](./kubernetes/labels.md)
+  * [pods](./kubernetes/pods.md)
   * [services](./kubernetes/services.md)
 * lib
 * life
@@ -170,6 +175,7 @@
   * [debugging](./rust/debugging.md)
   * [fp](./rust/fp.md)
   * [fs](./rust/fs.md)
+  * [linking](./rust/linking.md)
   * [packages](./rust/packages.md)
   * [primitives](./rust/primitives.md)
   * [rust](./rust/rust.md)
