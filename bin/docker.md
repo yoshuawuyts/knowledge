@@ -1,9 +1,5 @@
 # docker
 
-## Terminology
-- __container:__
-- __image:__
-
 ## Run a container
 ```sh
 # daemon mode
@@ -124,6 +120,11 @@ Pruning containers is something you probably want to do. This can be done by
 converting a container to a tarball, removing unneeded stuff and then creating
 a new container. It's pretty cool.
 - https://github.com/jwilder/docker-squash
+
+## Push container to registry
+```sh
+$ docker push user/image-name
+```
 
 ## See Also
 - [the challenges of container configuration](https://speakerdeck.com/garethr/the-challenges-of-container-configuration)
