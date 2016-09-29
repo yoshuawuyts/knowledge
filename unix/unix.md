@@ -46,6 +46,8 @@ fi
 ```
 
 ## Check if variable exists
+the `-z` flag tests if the value of a string is zero, so in order to test if a
+value exists it must be inverted
 ```sh
 $ test -z <varname>
 ```
