@@ -45,6 +45,11 @@ else
 fi
 ```
 
+## Check if variable exists
+```sh
+$ test -z <varname>
+```
+
 ## Pipe stdout to multiple commands
 ```sh
 $ cat file.txt | tee >(pbcopy) >(do_stuff) >(do_more_stuff) | grep errors
