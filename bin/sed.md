@@ -21,6 +21,11 @@
 $ sed -e 's/version=\(.+\)/\1/'
 ```
 
+## Match zero or more instances
+```sh
+$ sed 's/.*//g'
+```
+
 ## Insert on first line of file
 ```sh
 $ sed "1 i my magical line"
