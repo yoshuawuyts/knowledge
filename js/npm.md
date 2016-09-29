@@ -5,6 +5,13 @@
 $ npm dist-tag ls <package>
 ```
 
+## import npm scripts to shell
+```sh
+dirname=$(dirname "$(readlink -f "$0")")
+node_modules="$(readlink -f "$dirname/../node_modules/.bin")"
+PATH="$PATH:$node_modules"
+```
+
 ## create release candidate
 The `next` tag is commonly used to specify an rc. The `npm version
 [premajor|preminor|prepatch]` commands can be used for this:
