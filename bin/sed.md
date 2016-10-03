@@ -31,6 +31,11 @@ $ sed 's/.*//g'
 $ sed "1 i my magical line"
 ```
 
+## Insert on specific line of file
+```sh
+sed -i '8i This is Line 8' <filename>
+```
+
 ## Delete first line of output
 ```sh
 $ printf '1\n2\n3\n' | sed -e '1d'
