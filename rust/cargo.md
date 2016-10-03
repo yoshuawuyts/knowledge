@@ -36,5 +36,10 @@ To pin versions in `Cargo.toml` the `cargo-edit` command must be exposed to add
 it in `Cargo.toml`.
 - [cargo-edit](https://github.com/killercup/cargo-edit)
 
+## Dont't touch the network
+```sh
+$ cargo run --frozen
+```
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
