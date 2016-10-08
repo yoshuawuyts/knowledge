@@ -18,5 +18,16 @@
 /string/i
 ```
 
+### Match urls
+```js
+/* eslint-disable no-useless-escape */
+const protocol = '^(http(s)?(:\/\/))?(www\.)?'
+const domain = '[a-zA-Z0-9-_\.]+'
+const tld = '(\.[a-zA-Z0-9]{2,})'
+const params = '([-a-zA-Z0-9:%_\+.~#?&//=]*)'
+const qs = '\?.*$'
+/* eslint-enable no-useless-escape */
+```
+
 ## See Also
 - https://www.cheatography.com/davechild/cheat-sheets/regular-expressions/
