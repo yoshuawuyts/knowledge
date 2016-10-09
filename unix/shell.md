@@ -307,6 +307,18 @@ Time since unix epoch, unix epoch, epoch time
 $ date +'%s'
 ```
 
+## Prompt
+Prompt for input, create a shell CLI:
+```sh
+printf 'Would you like to install? (Y/n)\n'
+read -r x
+if [ "$x" = "y" ];then
+  ...
+elif [ "$x" = "" ]; then
+  ...
+fi
+```
+
 ## See Also
 - [grymoire/shell](http://www.grymoire.com/Unix/Sh.html)
 - [rich's sh tricks](http://www.etalabs.net/sh_tricks.html)
