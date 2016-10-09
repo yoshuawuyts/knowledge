@@ -319,6 +319,17 @@ elif [ "$x" = "" ]; then
 fi
 ```
 
+And from inside a function:
+```sh
+choose () {
+  printf 'What kind of project do you want to create? ' > /dev/tty
+  printf '(base|node|rust)\n' > /dev/tty
+  printf '❯ ' > /dev/tty
+  read -r project
+  echo "$project"
+}
+```
+
 ## See Also
 - [grymoire/shell](http://www.grymoire.com/Unix/Sh.html)
 - [rich's sh tricks](http://www.etalabs.net/sh_tricks.html)
