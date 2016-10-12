@@ -22,6 +22,12 @@ $ npm version premajor
 $ npm publish --tag=next
 $ npm install <package>@latest
 ```
+
+## fix .DS_Store file stuff
+```js
+// os x adds this if you view the fixtures in finder and breaks the file count assertions
+try { fs.unlinkSync(path.join(__dirname, 'fixtures', '.DS_Store')) } catch (e) { /* ignore error */ }
+```
 - https://docs.npmjs.com/cli/dist-tag
 - https://docs.npmjs.com/cli/publish
 - https://docs.npmjs.com/cli/version
