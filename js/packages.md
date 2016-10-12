@@ -700,3 +700,4 @@ list.
 * [DylanPiercey/parse-form](https://github.com/DylanPiercey/parse-form)
 * [ahdinosaur/pull-xhr](https://github.com/ahdinosaur/pull-xhr)
 * [mafintosh/utp-native](https://github.com/mafintosh/utp-native)
+* [Raynos/tape-cluster](https://github.com/Raynos/tape-cluster)
