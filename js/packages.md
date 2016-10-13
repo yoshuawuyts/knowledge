@@ -702,3 +702,4 @@ list.
 * [mafintosh/utp-native](https://github.com/mafintosh/utp-native)
 * [Raynos/tape-cluster](https://github.com/Raynos/tape-cluster)
 * [yoshuawuyts/base-elements](https://github.com/yoshuawuyts/base-elements)
+* [pfrazee/suggest-box](https://github.com/pfrazee/suggest-box)
