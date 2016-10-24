@@ -703,3 +703,4 @@ list.
 * [Raynos/tape-cluster](https://github.com/Raynos/tape-cluster)
 * [yoshuawuyts/base-elements](https://github.com/yoshuawuyts/base-elements)
 * [pfrazee/suggest-box](https://github.com/pfrazee/suggest-box)
+* [dominictarr/explain-error](https://github.com/dominictarr/explain-error)
