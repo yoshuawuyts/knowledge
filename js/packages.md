@@ -704,3 +704,4 @@ list.
 * [yoshuawuyts/base-elements](https://github.com/yoshuawuyts/base-elements)
 * [pfrazee/suggest-box](https://github.com/pfrazee/suggest-box)
 * [dominictarr/explain-error](https://github.com/dominictarr/explain-error)
+* [thlorenz/browserify-shim](https://github.com/thlorenz/browserify-shim)
