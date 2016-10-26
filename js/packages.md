@@ -706,3 +706,4 @@ list.
 * [dominictarr/explain-error](https://github.com/dominictarr/explain-error)
 * [thlorenz/browserify-shim](https://github.com/thlorenz/browserify-shim)
 * [sethvincent/beldown](https://github.com/sethvincent/beldown)
+* [sethvincent/create-html](https://github.com/sethvincent/create-html)
