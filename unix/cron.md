@@ -38,3 +38,8 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 ```sh
 0 0 * * 0-5
 ```
+
+## edit cronjobs
+```sh
+$ sudo crontab -e
+```
