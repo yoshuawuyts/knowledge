@@ -707,3 +707,4 @@ list.
 * [thlorenz/browserify-shim](https://github.com/thlorenz/browserify-shim)
 * [sethvincent/beldown](https://github.com/sethvincent/beldown)
 * [sethvincent/create-html](https://github.com/sethvincent/create-html)
+* [kristoferjoseph/svg-symbols](https://github.com/kristoferjoseph/svg-symbols)
