@@ -711,3 +711,4 @@ list.
 * [matthewmueller/envobj](https://github.com/matthewmueller/envobj)
 * [hughsk/closest-package/](https://github.com/hughsk/closest-package/)
 * [sethvincent/beldown](https://github.com/sethvincent/beldown)
+* [mafintosh/ansi-diff-stream](https://github.com/mafintosh/ansi-diff-stream)
