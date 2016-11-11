@@ -713,3 +713,4 @@ list.
 * [sethvincent/beldown](https://github.com/sethvincent/beldown)
 * [mafintosh/ansi-diff-stream](https://github.com/mafintosh/ansi-diff-stream)
 * [watson/progress-string](https://github.com/watson/progress-string)
+* [carter-thaxton/electron-default-menu](https://github.com/carter-thaxton/electron-default-menu)
