@@ -2,14 +2,15 @@
 
 ## Styles
 ```css
-/* TACHYONS v4.0.8 | github.com/tachyons-css/tachyons */
+/*! TACHYONS v4.5.3 | http://tachyons.io */
 /*
- *    ████████╗ █████╗  ██████╗██╗  ██╗██╗   ██╗ ██████╗ ███╗   ██╗███████╗
- *    ╚══██╔══╝██╔══██╗██╔════╝██║  ██║╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝
- *       ██║   ███████║██║     ███████║ ╚████╔╝ ██║   ██║██╔██╗ ██║███████╗
- *       ██║   ██╔══██║██║     ██╔══██║  ╚██╔╝  ██║   ██║██║╚██╗██║╚════██║
- *       ██║   ██║  ██║╚██████╗██║  ██║   ██║   ╚██████╔╝██║ ╚████║███████║
- *       ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+ *
+ *      ________            ______
+ *      ___  __/_____ _________  /______  ______________________
+ *      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
+ *      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
+ *      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
+ *                                 /____/
  *
  *    TABLE OF CONTENTS
  *
@@ -25,7 +26,7 @@
  *
  */
 /* External Library Includes */
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/* normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Correct the line height in all browsers.
@@ -100,11 +101,11 @@ dfn { font-style: italic; }
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 { font-size: 2em; margin: 0.67em 0; }
+h1 { font-size: 2em; margin: .67em 0; }
 /**
  * Add the correct background and color in IE 9-.
  */
-mark { background-color: #ff0; color: #000; }
+mark { background-color: #ffd700; color: #000; }
 /**
  * Add the correct font size in all browsers.
  */
@@ -183,7 +184,7 @@ button:-moz-focusring, [type="button"]:-moz-focusring,
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
  */
-fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: .35em .625em .75em; }
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
@@ -218,7 +219,7 @@ textarea { overflow: auto; }
 /**
  * Correct the text style of placeholders in Chrome, Edge, and Safari.
  */
-::-webkit-input-placeholder { color: inherit; opacity: 0.54; }
+::-webkit-input-placeholder { color: inherit; opacity: .54; }
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
@@ -226,7 +227,9 @@ textarea { overflow: auto; }
 ::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
 /* Modules */
 /*
-  Box Sizing
+ 
+  BOX SIZING
+
 */
 html, body, div, article, section, main, footer, header, form, fieldset, pre,
 code, p, ul, ol, li, dl, dt, dd, textarea, input[type="email"],
@@ -234,7 +237,16 @@ input[type="number"], input[type="password"], input[type="tel"],
 input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
+   IMAGES
+   Docs: http://tachyons.io/docs/elements/images/
+
+*/
+/* Responsive images! */
+img { max-width: 100%; }
+/*
+
    BACKGROUND SIZE
+   Docs: http://tachyons.io/docs/themes/background-size/
 
    Media Query Extensions:
      -ns = not-small
@@ -246,19 +258,66 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
   Often used in combination with background image set as an inline style
   on an html element.
 */
-.cover { background-size: cover; }
-.contain { background-size: contain; }
+.cover { background-size: cover !important; }
+.contain { background-size: contain !important; }
 /*
 
-   BORDER BASE
+    BACKGROUND POSITION
 
-   Legend
+    Base:
+    bg = background
 
-   a = all
-   t = top
-   r = right
-   b = bottom
-   l = left
+    Modifiers:
+    -center = center center
+    -top = top center
+    -right = center right
+    -bottom = bottom center
+    -left = center left
+
+    Media Query Extensions:
+      -ns = not-small
+      -m  = medium
+      -l  = large
+
+ */
+.bg-center { background-repeat: no-repeat; background-position: center center; }
+.bg-top { background-repeat: no-repeat; background-position: top center; }
+.bg-right { background-repeat: no-repeat; background-position: center right; }
+.bg-bottom { background-repeat: no-repeat; background-position: bottom center; }
+.bg-left { background-repeat: no-repeat; background-position: center left; }
+/*
+
+   OUTLINES
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+.outline { outline: 1px solid; }
+.outline-transparent { outline: 1px solid transparent; }
+.outline-0 { outline: 0; }
+/*
+
+    BORDERS
+    Docs: http://tachyons.io/docs/themes/borders/
+
+    Base:
+      b = border
+
+    Modifiers:
+      a = all
+      t = top
+      r = right
+      b = bottom
+      l = left
+      n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .ba { border-style: solid; border-width: 1px; }
@@ -270,6 +329,20 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    BORDER COLORS
+   Docs: http://tachyons.io/docs/themes/borders/
+
+   Border colors can be used to extend the base
+   border classes ba,bt,bb,br,bl found in the _borders.css file.
+
+   The base border class by default will set the color of the border
+   to that of the current text color. These classes are for the cases
+   where you desire for the text and border colors to be different.
+
+   Base:
+     b = border
+
+   Modifiers:
+   --color-name = each color variable name is also a border color name
 
 */
 .b--black { border-color: #000; }
@@ -306,18 +379,22 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 .b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
 .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
 .b--black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
-.b--dark-red { border-color: #f00008; }
-.b--red { border-color: #ff3223; }
-.b--orange { border-color: #f3a801; }
-.b--gold { border-color: #f2c800; }
-.b--yellow { border-color: #ffde37; }
-.b--purple { border-color: #7d5da9; }
-.b--light-purple { border-color: #8d4f92; }
-.b--hot-pink { border-color: #d62288; }
-.b--dark-pink { border-color: #c64774; }
-.b--pink { border-color: #f49cc8; }
-.b--dark-green { border-color: #006c71; }
-.b--green { border-color: #41d69f; }
+.b--dark-red { border-color: #e7040f; }
+.b--red { border-color: #ff4136; }
+.b--light-red { border-color: #ff725c; }
+.b--orange { border-color: #ff6300; }
+.b--gold { border-color: #ffb700; }
+.b--yellow { border-color: #ffd700; }
+.b--light-yellow { border-color: #fbf1a9; }
+.b--purple { border-color: #5e2ca5; }
+.b--light-purple { border-color: #a463f2; }
+.b--dark-pink { border-color: #d5008f; }
+.b--hot-pink { border-color: #ff41b4; }
+.b--pink { border-color: #ff80cc; }
+.b--light-pink { border-color: #ffa3d7; }
+.b--dark-green { border-color: #137752; }
+.b--green { border-color: #19a974; }
+.b--light-green { border-color: #9eebcf; }
 .b--navy { border-color: #001b44; }
 .b--dark-blue { border-color: #00449e; }
 .b--blue { border-color: #357edd; }
@@ -325,14 +402,13 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 .b--lightest-blue { border-color: #cdecff; }
 .b--washed-blue { border-color: #f6fffe; }
 .b--washed-green { border-color: #e8fdf5; }
-.b--washed-yellow { border-color: #fff8d5; }
-.b--light-pink { border-color: #efa4b8; }
-.b--light-yellow { border-color: #f3dd70; }
-.b--light-red { border-color: #ffd3c0; }
+.b--washed-yellow { border-color: #fffceb; }
+.b--washed-red { border-color: #ffdfdf; }
 .b--transparent { border-color: transparent; }
 /*
 
    BORDER RADIUS
+   Docs: http://tachyons.io/docs/themes/border-radius/
 
    Base:
      br   = border-radius
@@ -343,8 +419,10 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
      2    = 2nd step in scale
      3    = 3rd step in scale
      4    = 4th step in scale
-     -100 = 100%
 
+   Literal values:
+     -100 = 100%
+     -pill = 9999px
 
    Media Query Extensions:
      -ns = not-small
@@ -358,6 +436,7 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 .br3 { border-radius: .5rem; }
 .br4 { border-radius: 1rem; }
 .br-100 { border-radius: 100%; }
+.br-pill { border-radius: 9999px; }
 .br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
 .br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -365,15 +444,18 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    BORDER STYLES
+   Docs: http://tachyons.io/docs/themes/borders/
+
+   Depends on base border module in _borders.css
 
    Base:
-     bs = border-style
+     b = border-style
 
    Modifiers:
-     none   = none
-     dotted = dotted
-     dashed = dashed
-     solid  = solid
+     --none   = none
+     --dotted = dotted
+     --dashed = dashed
+     --solid  = solid
 
    Media Query Extensions:
      -ns = not-small
@@ -388,6 +470,7 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    BORDER WIDTHS
+   Docs: http://tachyons.io/docs/themes/borders/
 
    Base:
      bw = border-width
@@ -412,6 +495,7 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 .bw3 { border-width: .5rem; }
 .bw4 { border-width: 1rem; }
 .bw5 { border-width: 2rem; }
+/* Resets */
 .bt-0 { border-top-width: 0; }
 .br-0 { border-right-width: 0; }
 .bb-0 { border-bottom-width: 0; }
@@ -419,6 +503,7 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
   BOX-SHADOW
+  Docs: http://tachyons.io/docs/themes/box-shadow/
 
   Media Query Extensions:
    -ns = not-small
@@ -426,11 +511,11 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
    -l  = large
 
  */
-.shadow-1 { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
-.shadow-2 { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
-.shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
-.shadow-4 { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
-.shadow-5 { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+.shadow-1 { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
+.shadow-2 { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
+.shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
+.shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
+.shadow-5 { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
 /*
 
    CODE
@@ -440,8 +525,27 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    COORDINATES
+   Docs: http://tachyons.io/docs/layout/position/
 
    Use in combination with the position module.
+
+   Base:
+     top
+     bottom
+     right
+     left
+
+   Modifiers:
+     -0  = literal value 0
+     -1  = literal value 1
+     -2  = literal value 2
+     --1 = literal value -1
+     --2 = literal value -2
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .top-0 { top: 0; }
@@ -468,6 +572,7 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    CLEARFIX
+   http://tachyons.io/docs/layout/clearfix/
 
 */
 /* Nicolas Gallaghers Clearfix solution
@@ -482,6 +587,7 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    DISPLAY
+   Docs: http://tachyons.io/docs/layout/display
 
    Base:
     d = display
@@ -538,16 +644,16 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 .flex-column { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 .flex-row { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
 .flex-wrap { -ms-flex-wrap: wrap; flex-wrap: wrap; }
-.items-start { -webkit-box-align: start; -ms-flex-align: start; -ms-grid-row-align: flex-start; align-items: flex-start; }
-.items-end { -webkit-box-align: end; -ms-flex-align: end; -ms-grid-row-align: flex-end; align-items: flex-end; }
-.items-center { -webkit-box-align: center; -ms-flex-align: center; -ms-grid-row-align: center; align-items: center; }
-.items-baseline { -webkit-box-align: baseline; -ms-flex-align: baseline; -ms-grid-row-align: baseline; align-items: baseline; }
-.items-stretch { -webkit-box-align: stretch; -ms-flex-align: stretch; -ms-grid-row-align: stretch; align-items: stretch; }
+.items-start { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+.items-end { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+.items-center { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.items-baseline { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+.items-stretch { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
 .self-start { -ms-flex-item-align: start; align-self: flex-start; }
 .self-end { -ms-flex-item-align: end; align-self: flex-end; }
-.self-center { -ms-flex-item-align: center; align-self: center; }
+.self-center { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
 .self-baseline { -ms-flex-item-align: baseline; align-self: baseline; }
-.self-stretch { -ms-flex-item-align: stretch; align-self: stretch; }
+.self-stretch { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
 .justify-start { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
 .justify-end { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 .justify-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
@@ -572,6 +678,7 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    FLOATS
+   http://tachyons.io/docs/layout/floats/
 
    1. Floated elements are automatically rendered as block level elements.
       Setting floats to display inline will fix the double margin bug in
@@ -599,6 +706,7 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    FONT FAMILY GROUPS
+   Docs: http://tachyons.io/docs/typography/font-family/
 
 */
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
@@ -613,6 +721,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
 .avenir { font-family: 'avenir next', avenir, sans-serif; }
 /* Serif Typefaces */
+.athelas { font-family: athelas, georgia, serif; }
 .georgia { font-family: georgia, serif; }
 .times { font-family: times, serif; }
 .bodoni { font-family: "Bodoni MT", serif; }
@@ -622,6 +731,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    FONT STYLE
+   Docs: http://tachyons.io/docs/typography/font-style/
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .i { font-style: italic; }
@@ -629,6 +744,26 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    FONT WEIGHT
+   Docs: http://tachyons.io/docs/typography/font-weight/
+
+   Base
+     fw = font-weight
+
+   Modifiers:
+     1 = literal value 100
+     2 = literal value 200
+     3 = literal value 300
+     4 = literal value 400
+     5 = literal value 500
+     6 = literal value 600
+     7 = literal value 700
+     8 = literal value 800
+     9 = literal value 900
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .normal { font-weight: normal; }
@@ -645,12 +780,40 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    FORMS
-
+   
 */
 .input-reset { -webkit-appearance: none; -moz-appearance: none; }
+.button-reset::-moz-focus-inner, .input-reset::-moz-focus-inner { border: 0; padding: 0; }
 /*
 
    HEIGHTS
+   Docs: http://tachyons.io/docs/layout/heights/
+
+   Base:
+     h = height
+     min-h = min-height
+     min-vh = min-height vertical screen height
+     vh = vertical screen height
+
+   Modifiers
+     1 = 1st step in height scale
+     2 = 2nd step in height scale
+     3 = 3rd step in height scale
+     4 = 4th step in height scale
+     5 = 5th step in height scale
+
+     -25   = literal value 25%
+     -50   = literal value 50%
+     -75   = literal value 75%
+     -100  = literal value 100%
+
+     -auto = string value of auto
+     -inherit = string value of inherit
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 /* Height Scale */
@@ -659,17 +822,30 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .h3 { height: 4rem; }
 .h4 { height: 8rem; }
 .h5 { height: 16rem; }
-/* Height Percentages */
+/* Height Percentages - Based off of height of parent */
 .h-25 { height: 25%; }
 .h-50 { height: 50%; }
 .h-75 { height: 75%; }
 .h-100 { height: 100%; }
+.min-h-100 { min-height: 100%; }
+/* Screen Height Percentage */
+.vh-25 { height: 25vh; }
+.vh-50 { height: 50vh; }
+.vh-75 { height: 75vh; }
+.vh-100 { height: 100vh; }
+.min-vh-100 { min-height: 100vh; }
 /* String Properties */
 .h-auto { height: auto; }
 .h-inherit { height: inherit; }
 /*
 
    LETTER SPACING
+   Docs: http://tachyons.io/docs/typography/tracking/
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .tracked { letter-spacing: .1em; }
@@ -678,30 +854,63 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    LINE HEIGHT / LEADING
+   Docs: http://tachyons.io/docs/typography/line-height
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .lh-solid { line-height: 1; }
-.lh-title { line-height: 1.3; }
-.lh-copy { line-height: 1.6; }
+.lh-title { line-height: 1.25; }
+.lh-copy { line-height: 1.5; }
 /*
 
    LINKS
+   Docs: http://tachyons.io/docs/elements/links/
 
 */
 .link { text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 .link:link, .link:visited { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 .link:hover { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 .link:active { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:focus { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.link:focus { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; outline: 1px dotted currentColor; }
 /*
 
    LISTS
+   http://tachyons.io/docs/elements/lists/
 
 */
 .list { list-style-type: none; }
 /*
 
    MAX WIDTHS
+   Docs: http://tachyons.io/docs/layout/max-widths/
+
+   Base:
+     mw = max-width
+
+   Modifiers
+     1 = 1st step in width scale
+     2 = 2nd step in width scale
+     3 = 3rd step in width scale
+     4 = 4th step in width scale
+     5 = 5th step in width scale
+     6 = 6st step in width scale
+     7 = 7nd step in width scale
+     8 = 8rd step in width scale
+     9 = 9th step in width scale
+
+     -100 = literal value 100%
+
+     -none  = string value none
+
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 /* Max Width Percentages */
@@ -721,6 +930,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    WIDTHS
+   Docs: http://tachyons.io/docs/layout/widths/
 
    Base:
      w = width
@@ -744,6 +954,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
      -80  = literal value 80%
      -100 = literal value 100%
 
+     -third = 100% / 3 (Not supported in opera mini or IE8)
      -auto  = string value auto
 
 
@@ -762,18 +973,28 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .w-10 { width: 10%; }
 .w-20 { width: 20%; }
 .w-25 { width: 25%; }
+.w-30 { width: 30%; }
 .w-33 { width: 33%; }
 .w-34 { width: 34%; }
 .w-40 { width: 40%; }
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
+.w-70 { width: 70%; }
 .w-75 { width: 75%; }
 .w-80 { width: 80%; }
+.w-90 { width: 90%; }
 .w-100 { width: 100%; }
+.w-third { width: calc( 100% / 3 ); }
+.w-two-thirds { width: calc( 100% / 1.5 ); }
 .w-auto { width: auto; }
 /*
 
     OVERFLOW
+
+    Media Query Extensions:
+      -ns = not-small
+      -m  = medium
+      -l  = large
 
  */
 .overflow-visible { overflow: visible; }
@@ -790,16 +1011,23 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .overflow-y-auto { overflow-y: auto; }
 /*
 
-    POSITIONING
+   POSITIONING
+   Docs: http://tachyons.io/docs/layout/position/
 
- */
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
 .static { position: static; }
 .relative { position: relative; }
 .absolute { position: absolute; }
 .fixed { position: fixed; }
 /*
 
-  Opacity
+    OPACITY
+    Docs: http://tachyons.io/docs/themes/opacity/
 
 */
 .o-100 { opacity: 1; }
@@ -818,6 +1046,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    SKINS
+   Docs: http://tachyons.io/docs/themes/skins/
+
+   Classes for setting foreground and background colors on elements.
+   If you haven't declared a border color, but set border on an element, it will 
+   be set to the current text color. 
 
 */
 /* Text colors */
@@ -851,18 +1084,22 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .light-gray { color: #eee; }
 .near-white { color: #f4f4f4; }
 .white { color: #fff; }
-.dark-red { color: #f00008; }
-.red { color: #ff3223; }
-.orange { color: #f3a801; }
-.gold { color: #f2c800; }
-.yellow { color: #ffde37; }
-.purple { color: #7d5da9; }
-.light-purple { color: #8d4f92; }
-.hot-pink { color: #d62288; }
-.dark-pink { color: #c64774; }
-.pink { color: #f49cc8; }
-.dark-green { color: #006c71; }
-.green { color: #41d69f; }
+.dark-red { color: #e7040f; }
+.red { color: #ff4136; }
+.light-red { color: #ff725c; }
+.orange { color: #ff6300; }
+.gold { color: #ffb700; }
+.yellow { color: #ffd700; }
+.light-yellow { color: #fbf1a9; }
+.purple { color: #5e2ca5; }
+.light-purple { color: #a463f2; }
+.dark-pink { color: #d5008f; }
+.hot-pink { color: #ff41b4; }
+.pink { color: #ff80cc; }
+.light-pink { color: #ffa3d7; }
+.dark-green { color: #137752; }
+.green { color: #19a974; }
+.light-green { color: #9eebcf; }
 .navy { color: #001b44; }
 .dark-blue { color: #00449e; }
 .blue { color: #357edd; }
@@ -870,10 +1107,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .lightest-blue { color: #cdecff; }
 .washed-blue { color: #f6fffe; }
 .washed-green { color: #e8fdf5; }
-.washed-yellow { color: #fff8d5; }
-.light-pink { color: #efa4b8; }
-.light-yellow { color: #f3dd70; }
-.light-red { color: #ffd3c0; }
+.washed-yellow { color: #fffceb; }
+.washed-red { color: #ffdfdf; }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
 .bg-black-70 { background-color: rgba( 0, 0, 0, .7 ); }
@@ -906,18 +1141,22 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-near-white { background-color: #f4f4f4; }
 .bg-white { background-color: #fff; }
 .bg-transparent { background-color: transparent; }
-.bg-dark-red { background-color: #f00008; }
-.bg-red { background-color: #ff3223; }
-.bg-orange { background-color: #f3a801; }
-.bg-gold { background-color: #f2c800; }
-.bg-yellow { background-color: #ffde37; }
-.bg-purple { background-color: #7d5da9; }
-.bg-light-purple { background-color: #8d4f92; }
-.bg-hot-pink { background-color: #d62288; }
-.bg-dark-pink { background-color: #c64774; }
-.bg-pink { background-color: #f49cc8; }
-.bg-dark-green { background-color: #006c71; }
-.bg-green { background-color: #41d69f; }
+.bg-dark-red { background-color: #e7040f; }
+.bg-red { background-color: #ff4136; }
+.bg-light-red { background-color: #ff725c; }
+.bg-orange { background-color: #ff6300; }
+.bg-gold { background-color: #ffb700; }
+.bg-yellow { background-color: #ffd700; }
+.bg-light-yellow { background-color: #fbf1a9; }
+.bg-purple { background-color: #5e2ca5; }
+.bg-light-purple { background-color: #a463f2; }
+.bg-dark-pink { background-color: #d5008f; }
+.bg-hot-pink { background-color: #ff41b4; }
+.bg-pink { background-color: #ff80cc; }
+.bg-light-pink { background-color: #ffa3d7; }
+.bg-dark-green { background-color: #137752; }
+.bg-green { background-color: #19a974; }
+.bg-light-green { background-color: #9eebcf; }
 .bg-navy { background-color: #001b44; }
 .bg-dark-blue { background-color: #00449e; }
 .bg-blue { background-color: #357edd; }
@@ -925,87 +1164,195 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-lightest-blue { background-color: #cdecff; }
 .bg-washed-blue { background-color: #f6fffe; }
 .bg-washed-green { background-color: #e8fdf5; }
-.bg-washed-yellow { background-color: #fff8d5; }
-.bg-light-pink { background-color: #efa4b8; }
-.bg-light-yellow { background-color: #f3dd70; }
-.bg-light-red { background-color: #ffd3c0; }
-/* Skins for specific pseudoclasses */
+.bg-washed-yellow { background-color: #fffceb; }
+.bg-washed-red { background-color: #ffdfdf; }
+/* 
+  
+   SKINS:PSEUDO
+
+   Customize the color of an element when
+   it is focused or hovered over.
+ 
+ */
 .hover-black:hover { color: #000; }
+.hover-black:focus { color: #000; }
 .hover-near-black:hover { color: #111; }
+.hover-near-black:focus { color: #111; }
 .hover-dark-gray:hover { color: #333; }
+.hover-dark-gray:focus { color: #333; }
 .hover-mid-gray:hover { color: #555; }
+.hover-mid-gray:focus { color: #555; }
 .hover-gray:hover { color: #777; }
+.hover-gray:focus { color: #777; }
 .hover-silver:hover { color: #999; }
+.hover-silver:focus { color: #999; }
 .hover-light-silver:hover { color: #aaa; }
+.hover-light-silver:focus { color: #aaa; }
 .hover-moon-gray:hover { color: #ccc; }
+.hover-moon-gray:focus { color: #ccc; }
 .hover-light-gray:hover { color: #eee; }
+.hover-light-gray:focus { color: #eee; }
 .hover-near-white:hover { color: #f4f4f4; }
+.hover-near-white:focus { color: #f4f4f4; }
 .hover-white:hover { color: #fff; }
+.hover-white:focus { color: #fff; }
 .hover-bg-black:hover { background-color: #000; }
+.hover-bg-black:focus { background-color: #000; }
 .hover-bg-near-black:hover { background-color: #111; }
+.hover-bg-near-black:focus { background-color: #111; }
 .hover-bg-dark-gray:hover { background-color: #333; }
+.hover-bg-dark-gray:focus { background-color: #333; }
+.hover-bg-dark-gray:focus { background-color: #555; }
 .hover-bg-mid-gray:hover { background-color: #555; }
 .hover-bg-gray:hover { background-color: #777; }
+.hover-bg-gray:focus { background-color: #777; }
 .hover-bg-silver:hover { background-color: #999; }
+.hover-bg-silver:focus { background-color: #999; }
 .hover-bg-light-silver:hover { background-color: #aaa; }
+.hover-bg-light-silver:focus { background-color: #aaa; }
 .hover-bg-moon-gray:hover { background-color: #ccc; }
+.hover-bg-moon-gray:focus { background-color: #ccc; }
 .hover-bg-light-gray:hover { background-color: #eee; }
+.hover-bg-light-gray:focus { background-color: #eee; }
 .hover-bg-near-white:hover { background-color: #f4f4f4; }
+.hover-bg-near-white:focus { background-color: #f4f4f4; }
 .hover-bg-white:hover { background-color: #fff; }
+.hover-bg-white:focus { background-color: #fff; }
 .hover-bg-transparent:hover { background-color: transparent; }
-.hover-bg-dark-red:hover { background-color: #f00008; }
-.hover-bg-red:hover { background-color: #ff3223; }
-.hover-bg-orange:hover { background-color: #f3a801; }
-.hover-bg-gold:hover { background-color: #f2c800; }
-.hover-bg-yellow:hover { background-color: #ffde37; }
-.hover-bg-purple:hover { background-color: #7d5da9; }
-.hover-bg-light-purple:hover { background-color: #8d4f92; }
-.hover-bg-hot-pink:hover { background-color: #d62288; }
-.hover-bg-dark-pink:hover { background-color: #c64774; }
-.hover-bg-pink:hover { background-color: #f49cc8; }
-.hover-bg-dark-green:hover { background-color: #006c71; }
-.hover-bg-green:hover { background-color: #41d69f; }
+.hover-bg-transparent:focus { background-color: transparent; }
+.hover-dark-red:hover { color: #e7040f; }
+.hover-dark-red:focus { color: #e7040f; }
+.hover-red:hover { color: #ff4136; }
+.hover-red:focus { color: #ff4136; }
+.hover-light-red:hover { color: #ff725c; }
+.hover-light-red:focus { color: #ff725c; }
+.hover-orange:hover { color: #ff6300; }
+.hover-orange:focus { color: #ff6300; }
+.hover-gold:hover { color: #ffb700; }
+.hover-gold:focus { color: #ffb700; }
+.hover-yellow:hover { color: #ffd700; }
+.hover-yellow:focus { color: #ffd700; }
+.hover-light-yellow:hover { color: #fbf1a9; }
+.hover-light-yellow:focus { color: #fbf1a9; }
+.hover-purple:hover { color: #5e2ca5; }
+.hover-purple:focus { color: #5e2ca5; }
+.hover-light-purple:hover { color: #a463f2; }
+.hover-light-purple:focus { color: #a463f2; }
+.hover-dark-pink:hover { color: #d5008f; }
+.hover-dark-pink:focus { color: #d5008f; }
+.hover-hot-pink:hover { color: #ff41b4; }
+.hover-hot-pink:focus { color: #ff41b4; }
+.hover-pink:hover { color: #ff80cc; }
+.hover-pink:focus { color: #ff80cc; }
+.hover-light-pink:hover { color: #ffa3d7; }
+.hover-light-pink:focus { color: #ffa3d7; }
+.hover-dark-green:hover { color: #137752; }
+.hover-dark-green:focus { color: #137752; }
+.hover-green:hover { color: #19a974; }
+.hover-green:focus { color: #19a974; }
+.hover-light-green:hover { color: #9eebcf; }
+.hover-light-green:focus { color: #9eebcf; }
+.hover-navy:hover { color: #001b44; }
+.hover-navy:focus { color: #001b44; }
+.hover-dark-blue:hover { color: #00449e; }
+.hover-dark-blue:focus { color: #00449e; }
+.hover-blue:hover { color: #357edd; }
+.hover-blue:focus { color: #357edd; }
+.hover-light-blue:hover { color: #96ccff; }
+.hover-light-blue:focus { color: #96ccff; }
+.hover-lightest-blue:hover { color: #cdecff; }
+.hover-lightest-blue:focus { color: #cdecff; }
+.hover-washed-blue:hover { color: #f6fffe; }
+.hover-washed-blue:focus { color: #f6fffe; }
+.hover-washed-green:hover { color: #e8fdf5; }
+.hover-washed-green:focus { color: #e8fdf5; }
+.hover-washed-yellow:hover { color: #fffceb; }
+.hover-washed-yellow:focus { color: #fffceb; }
+.hover-washed-red:hover { color: #ffdfdf; }
+.hover-washed-red:focus { color: #ffdfdf; }
+.hover-bg-dark-red:hover { background-color: #e7040f; }
+.hover-bg-dark-red:focus { background-color: #e7040f; }
+.hover-bg-red:hover { background-color: #ff4136; }
+.hover-bg-red:focus { background-color: #ff4136; }
+.hover-bg-light-red:hover { background-color: #ff725c; }
+.hover-bg-light-red:focus { background-color: #ff725c; }
+.hover-bg-orange:hover { background-color: #ff6300; }
+.hover-bg-orange:focus { background-color: #ff6300; }
+.hover-bg-gold:hover { background-color: #ffb700; }
+.hover-bg-gold:focus { background-color: #ffb700; }
+.hover-bg-yellow:hover { background-color: #ffd700; }
+.hover-bg-yellow:focus { background-color: #ffd700; }
+.hover-bg-light-yellow:hover { background-color: #fbf1a9; }
+.hover-bg-light-yellow:focus { background-color: #fbf1a9; }
+.hover-bg-purple:hover { background-color: #5e2ca5; }
+.hover-bg-purple:focus { background-color: #5e2ca5; }
+.hover-bg-light-purple:hover { background-color: #a463f2; }
+.hover-bg-light-purple:focus { background-color: #a463f2; }
+.hover-bg-dark-pink:hover { background-color: #d5008f; }
+.hover-bg-dark-pink:focus { background-color: #d5008f; }
+.hover-bg-hot-pink:hover { background-color: #ff41b4; }
+.hover-bg-hot-pink:focus { background-color: #ff41b4; }
+.hover-bg-pink:hover { background-color: #ff80cc; }
+.hover-bg-pink:focus { background-color: #ff80cc; }
+.hover-bg-light-pink:hover { background-color: #ffa3d7; }
+.hover-bg-light-pink:focus { background-color: #ffa3d7; }
+.hover-bg-dark-green:hover { background-color: #137752; }
+.hover-bg-dark-green:focus { background-color: #137752; }
+.hover-bg-green:hover { background-color: #19a974; }
+.hover-bg-green:focus { background-color: #19a974; }
+.hover-bg-light-green:hover { background-color: #9eebcf; }
+.hover-bg-light-green:focus { background-color: #9eebcf; }
 .hover-bg-navy:hover { background-color: #001b44; }
+.hover-bg-navy:focus { background-color: #001b44; }
 .hover-bg-dark-blue:hover { background-color: #00449e; }
+.hover-bg-dark-blue:focus { background-color: #00449e; }
 .hover-bg-blue:hover { background-color: #357edd; }
+.hover-bg-blue:focus { background-color: #357edd; }
 .hover-bg-light-blue:hover { background-color: #96ccff; }
+.hover-bg-light-blue:focus { background-color: #96ccff; }
 .hover-bg-lightest-blue:hover { background-color: #cdecff; }
+.hover-bg-lightest-blue:focus { background-color: #cdecff; }
 .hover-bg-washed-blue:hover { background-color: #f6fffe; }
+.hover-bg-washed-blue:focus { background-color: #f6fffe; }
 .hover-bg-washed-green:hover { background-color: #e8fdf5; }
-.hover-bg-washed-yellow:hover { background-color: #fff8d5; }
-.hover-bg-light-pink:hover { background-color: #efa4b8; }
-.hover-bg-light-yellow:hover { background-color: #f3dd70; }
-.hover-bg-light-red:hover { background-color: #ffd3c0; }
+.hover-bg-washed-green:focus { background-color: #e8fdf5; }
+.hover-bg-washed-yellow:hover { background-color: #fffceb; }
+.hover-bg-washed-yellow:focus { background-color: #fffceb; }
+.hover-bg-washed-red:hover { background-color: #ffdfdf; }
+.hover-bg-washed-red:focus { background-color: #ffdfdf; }
 /* Variables */
-/* Spacing Scale - based on a ratio of 1:2 */
-/* Media Queries */
 /*
    SPACING
+   Docs: http://tachyons.io/docs/layout/spacing/
 
    An eight step powers of two scale ranging from 0 to 16rem.
-   Namespaces are composable and thus highly grockable - check the legend below
 
-   Legend:
+   Base:
+     p = padding
+     m = margin
 
-   p = padding
-   m = margin
+   Modifiers:
+     a = all
+     h = horizontal
+     v = vertical
+     t = top
+     r = right
+     b = bottom
+     l = left
 
-   a = all
-   h = horizontal
-   v = vertical
-   t = top
-   r = right
-   b = bottom
-   l = left
+     0 = none
+     1 = 1st step in spacing scale
+     2 = 2nd step in spacing scale
+     3 = 3rd step in spacing scale
+     4 = 4th step in spacing scale
+     5 = 5th step in spacing scale
+     6 = 6th step in spacing scale
+     7 = 7th step in spacing scale
 
-   0 = none
-   1 = 1st step in spacing scale
-   2 = 2nd step in spacing scale
-   3 = 3rd step in spacing scale
-   4 = 4th step in spacing scale
-   5 = 5th step in spacing scale
-   6 = 6th step in spacing scale
-   7 = 7th step in spacing scale
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .pa0 { padding: 0; }
@@ -1123,16 +1470,26 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
   TABLES
+  Docs: http://tachyons.io/docs/elements/tables/
 
 */
 .collapse { border-collapse: collapse; border-spacing: 0; }
-.striped--moon-gray:nth-child(odd) { background-color: #aaa; }
+.striped--light-silver:nth-child(odd) { background-color: #aaa; }
 .striped--moon-gray:nth-child(odd) { background-color: #ccc; }
 .striped--light-gray:nth-child(odd) { background-color: #eee; }
 .striped--near-white:nth-child(odd) { background-color: #f4f4f4; }
+.stripe-light:nth-child(odd) { background-color: rgba( 255, 255, 255, .1 ); }
+.stripe-dark:nth-child(odd) { background-color: rgba( 0, 0, 0, .1 ); }
 /*
 
    TEXT DECORATION
+   Docs: http://tachyons.io/docs/typography/text-decoration/
+
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .strike { text-decoration: line-through; }
@@ -1141,6 +1498,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
   TEXT ALIGN
+  Docs: http://tachyons.io/docs/typography/text-align/
+
+  Base
+    t = text-align
+
+  Modifiers
+    l = left
+    r = right
+    c = center
+
+  Media Query Extensions:
+    -ns = not-small
+    -m  = medium
+    -l  = large
 
 */
 .tl { text-align: left; }
@@ -1149,6 +1520,21 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    TEXT TRANSFORM
+   Docs: http://tachyons.io/docs/typography/text-transform/
+
+   Base:
+     tt = text-transform
+
+   Modifiers
+     c = capitalize
+     l = lowercase
+     u = uppercase
+     n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .ttc { text-transform: capitalize; }
@@ -1158,9 +1544,30 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    TYPE SCALE
+   Docs: http://tachyons.io/docs/typography/scale/
 
+   Base:
+    f = font-size
+
+   Modifiers
+     1 = 1st step in size scale
+     2 = 2nd step in size scale
+     3 = 3rd step in size scale
+     4 = 4th step in size scale
+     5 = 5th step in size scale
+     6 = 6th step in size scale
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 */
-/* For Hero Titles */
+/*
+ * For Hero/Marketing Titles
+ *
+ * These generally are too large for mobile
+ * so be careful using them on smaller screens.
+ * */
 .f-6, .f-headline { font-size: 6rem; }
 .f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
@@ -1173,6 +1580,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    TYPOGRAPHY
+   http://tachyons.io/docs/typography/measure/
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 /* Measure is limited to ~66 characters */
@@ -1205,14 +1618,27 @@ code, .code { font-family: Consolas, monaco, monospace; }
  * */
 .aspect-ratio { height: 0; position: relative; }
 .aspect-ratio--16x9 { padding-bottom: 56.25%; }
+.aspect-ratio--9x16 { padding-bottom: 177.77%; }
 .aspect-ratio--4x3 { padding-bottom: 75%; }
+.aspect-ratio--3x4 { padding-bottom: 133.33%; }
+.aspect-ratio--6x4 { padding-bottom: 66.6%; }
+.aspect-ratio--4x6 { padding-bottom: 150%; }
 .aspect-ratio--8x5 { padding-bottom: 62.5%; }
+.aspect-ratio--5x8 { padding-bottom: 160%; }
+.aspect-ratio--7x5 { padding-bottom: 71.42%; }
+.aspect-ratio--5x7 { padding-bottom: 140%; }
+.aspect-ratio--1x1 { padding-bottom: 100%; }
 .aspect-ratio--object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 .overflow-container { overflow-y: scroll; }
 .center { margin-right: auto; margin-left: auto; }
 /*
 
    VISIBILITY
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 /*
@@ -1224,6 +1650,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    WHITE SPACE
 
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 .ws-normal { white-space: normal; }
 .nowrap { white-space: nowrap; }
@@ -1231,6 +1662,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    VERTICAL ALIGN
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .v-base { vertical-align: baseline; }
@@ -1240,7 +1676,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
   HOVER EFFECTS
+  Docs: http://tachyons.io/docs/themes/hovers/
 
+    - Dim
+    - Hide Child
+    - Underline text
+    - Grow
+    - Pointer
+    - Shadow
 
 */
 /*
@@ -1270,14 +1713,71 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .underline-hover:hover, .underline-hover:focus { text-decoration: underline; }
 /* Can combine this with overflow-hidden to make background images grow on hover
  * even if you are using background-size: cover */
-.grow { -webkit-transition: -webkit-transform .2s; transition: -webkit-transform .2s; transition: transform .2s; transition: transform .2s, -webkit-transform .2s; }
+.grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: -webkit-transform .25s ease-out; transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
 .grow:hover, .grow:focus { -webkit-transform: scale( 1.05 ); transform: scale( 1.05 ); }
-.grow-large { -webkit-transition: -webkit-transform .2s; transition: -webkit-transform .2s; transition: transform .2s; transition: transform .2s, -webkit-transform .2s; }
+.grow:active { -webkit-transform: scale( .90 ); transform: scale( .90 ); }
+.grow-large { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: -webkit-transform .25s ease-in-out; transition: -webkit-transform .25s ease-in-out; transition: transform .25s ease-in-out; transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out; }
 .grow-large:hover, .grow-large:focus { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
+.grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
 /* Add pointer on hover */
 .pointer:hover { cursor: pointer; }
-/* Add shadow on hover */
-.shadow-hover:hover, .shadow-hover:focus { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
+/* 
+   Add shadow on hover.
+
+   Performant box-shadow animation pattern from 
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
+*/
+.shadow-hover::after { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); opacity: 0; -webkit-transition: opacity .25s ease-in-out; transition: opacity .25s ease-in-out; }
+.shadow-hover:hover::after, .shadow-hover:focus::after { opacity: 1; }
+/* Combine with classes in skins and skins-pseudo for 
+ * thousands of different transition possibilities. */
+.bg-animate, .bg-animate:hover, .bg-animate:focus { -webkit-transition: background-color .15s ease-in-out; transition: background-color .15s ease-in-out; }
+/*
+
+  Z-INDEX
+
+  Base
+    z = z-index
+
+  Modifiers
+    -0 = literal value 0
+    -1 = literal value 1
+    -2 = literal value 2
+    -3 = literal value 3
+    -4 = literal value 4
+    -5 = literal value 5
+    -999 = literal value 999
+    -9999 = literal value 9999
+
+    -max = largest accepted z-index value as integer
+
+    -inherit = string value inherit
+    -initial = string value initial
+    -unset = string value unset
+
+  MDN: https://developer.mozilla.org/en/docs/Web/CSS/z-index
+  Spec: http://www.w3.org/TR/CSS2/zindex.html
+  Articles:
+    https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
+
+  Tips on extending:
+  There might be a time worth using negative z-index values.
+  Or if you are using tachyons with another project, you might need to
+  adjust these values to suit your needs.
+
+*/
+.z-0 { z-index: 0; }
+.z-1 { z-index: 1; }
+.z-2 { z-index: 2; }
+.z-3 { z-index: 3; }
+.z-4 { z-index: 4; }
+.z-5 { z-index: 5; }
+.z-999 { z-index: 999; }
+.z-9999 { z-index: 9999; }
+.z-max { z-index: 2147483647; }
+.z-inherit { z-index: inherit; }
+.z-initial { z-index: initial; }
+.z-unset { z-index: unset; }
 /*
 
   STYLES
@@ -1295,6 +1795,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Grayscale
    - Solids
    - Transparencies
+   Colors
+
 */
 /*
 
@@ -1332,17 +1834,42 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
   DEBUG CHILDREN
+  Docs: http://tachyons.io/docs/debug/
 
   Just add the debug class to any element to see outlines on its
   children.
 
 */
 .debug * { outline: 1px solid gold; }
-/* Uncomment out the  line below and rebuild the css if you want to use pesticide.io to debug layout .*/
+.debug-white * { outline: 1px solid white; }
+.debug-black * { outline: 1px solid black; }
+/*
+
+   DEBUG GRID
+   http://tachyons.io/docs/debug-grid/
+
+   Can be useful for debugging layout issues
+   or helping to make sure things line up perfectly.
+   Just tack one of these classes onto a parent element.
+
+*/
+.debug-grid { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTRDOTY4N0U2N0VFMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTRDOTY4N0Q2N0VFMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3NjY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3NzY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsBS+GMAAAAjSURBVHjaYvz//z8DLsD4gcGXiYEAGBIKGBne//fFpwAgwAB98AaF2pjlUQAAAABJRU5ErkJggg== ) repeat top left; }
+.debug-grid-16 { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODYyRjhERDU2N0YyMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODYyRjhERDQ2N0YyMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3QTY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3QjY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvCS01IAAABMSURBVHjaYmR4/5+BFPBfAMFm/MBgx8RAGWCn1AAmSg34Q6kBDKMGMDCwICeMIemF/5QawEipAWwUhwEjMDvbAWlWkvVBwu8vQIABAEwBCph8U6c0AAAAAElFTkSuQmCC ) repeat top left; }
+.debug-grid-8-solid { background: white url( data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAAAAD/4QMxaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzExMSA3OS4xNTgzMjUsIDIwMTUvMDkvMTAtMDE6MTA6MjAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkIxMjI0OTczNjdCMzExRTZCMkJDRTI0MDgxMDAyMTcxIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkIxMjI0OTc0NjdCMzExRTZCMkJDRTI0MDgxMDAyMTcxIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QjEyMjQ5NzE2N0IzMTFFNkIyQkNFMjQwODEwMDIxNzEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjEyMjQ5NzI2N0IzMTFFNkIyQkNFMjQwODEwMDIxNzEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAbGhopHSlBJiZBQi8vL0JHPz4+P0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHAR0pKTQmND8oKD9HPzU/R0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0f/wAARCAAIAAgDASIAAhEBAxEB/8QAWQABAQAAAAAAAAAAAAAAAAAAAAYBAQEAAAAAAAAAAAAAAAAAAAIEEAEBAAMBAAAAAAAAAAAAAAABADECA0ERAAEDBQAAAAAAAAAAAAAAAAARITFBUWESIv/aAAwDAQACEQMRAD8AoOnTV1QTD7JJshP3vSM3P//Z ) repeat top left; }
+.debug-grid-16-solid { background: white url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzY3MkJEN0U2N0M1MTFFNkIyQkNFMjQwODEwMDIxNzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzY3MkJEN0Y2N0M1MTFFNkIyQkNFMjQwODEwMDIxNzEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3QzY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3RDY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pve6J3kAAAAzSURBVHjaYvz//z8D0UDsMwMjSRoYP5Gq4SPNbRjVMEQ1fCRDg+in/6+J1AJUxsgAEGAA31BAJMS0GYEAAAAASUVORK5CYII= ) repeat top left; }
+/* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
 @media screen and (min-width: 30em) {
- .cover-ns { background-size: cover; }
- .contain-ns { background-size: contain; }
+ .cover-ns { background-size: cover !important; }
+ .contain-ns { background-size: contain !important; }
+ .bg-center-ns { background-repeat: no-repeat; background-position: center center; }
+ .bg-top-ns { background-repeat: no-repeat; background-position: top center; }
+ .bg-right-ns { background-repeat: no-repeat; background-position: center right; }
+ .bg-bottom-ns { background-repeat: no-repeat; background-position: bottom center; }
+ .bg-left-ns { background-repeat: no-repeat; background-position: center left; }
+ .outline-ns { outline: 1px solid; }
+ .outline-transparent-ns { outline: 1px solid transparent; }
+ .outline-0-ns { outline: 0; }
  .ba-ns { border-style: solid; border-width: 1px; }
  .bt-ns { border-top-style: solid; border-top-width: 1px; }
  .br-ns { border-right-style: solid; border-right-width: 1px; }
@@ -1355,6 +1882,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br3-ns { border-radius: .5rem; }
  .br4-ns { border-radius: 1rem; }
  .br-100-ns { border-radius: 100%; }
+ .br-pill-ns { border-radius: 9999px; }
  .br--bottom-ns { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-ns { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-ns { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -1373,11 +1901,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-0-ns { border-right-width: 0; }
  .bb-0-ns { border-bottom-width: 0; }
  .bl-0-ns { border-left-width: 0; }
- .shadow-1-ns { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
- .shadow-2-ns { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
- .shadow-3-ns { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
- .shadow-4-ns { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
- .shadow-5-ns { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+ .shadow-1-ns { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-2-ns { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-3-ns { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-4-ns { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-5-ns { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
  .top-0-ns { top: 0; }
  .left-0-ns { left: 0; }
  .right-0-ns { right: 0; }
@@ -1422,16 +1950,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .flex-column-ns { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
  .flex-row-ns { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
  .flex-wrap-ns { -ms-flex-wrap: wrap; flex-wrap: wrap; }
- .items-start-ns { -webkit-box-align: start; -ms-flex-align: start; -ms-grid-row-align: flex-start; align-items: flex-start; }
- .items-end-ns { -webkit-box-align: end; -ms-flex-align: end; -ms-grid-row-align: flex-end; align-items: flex-end; }
- .items-center-ns { -webkit-box-align: center; -ms-flex-align: center; -ms-grid-row-align: center; align-items: center; }
- .items-baseline-ns { -webkit-box-align: baseline; -ms-flex-align: baseline; -ms-grid-row-align: baseline; align-items: baseline; }
- .items-stretch-ns { -webkit-box-align: stretch; -ms-flex-align: stretch; -ms-grid-row-align: stretch; align-items: stretch; }
+ .items-start-ns { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+ .items-end-ns { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+ .items-center-ns { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+ .items-baseline-ns { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+ .items-stretch-ns { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
  .self-start-ns { -ms-flex-item-align: start; align-self: flex-start; }
  .self-end-ns { -ms-flex-item-align: end; align-self: flex-end; }
- .self-center-ns { -ms-flex-item-align: center; align-self: center; }
+ .self-center-ns { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
  .self-baseline-ns { -ms-flex-item-align: baseline; align-self: baseline; }
- .self-stretch-ns { -ms-flex-item-align: stretch; align-self: stretch; }
+ .self-stretch-ns { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
  .justify-start-ns { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
  .justify-end-ns { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
  .justify-center-ns { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
@@ -1478,14 +2006,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-50-ns { height: 50%; }
  .h-75-ns { height: 75%; }
  .h-100-ns { height: 100%; }
+ .min-h-100-ns { min-height: 100%; }
+ .vh-25-ns { height: 25vh; }
+ .vh-50-ns { height: 50vh; }
+ .vh-75-ns { height: 75vh; }
+ .vh-100-ns { height: 100vh; }
+ .min-vh-100-ns { min-height: 100vh; }
  .h-auto-ns { height: auto; }
  .h-inherit-ns { height: inherit; }
  .tracked-ns { letter-spacing: .1em; }
  .tracked-tight-ns { letter-spacing: -.05em; }
  .tracked-mega-ns { letter-spacing: .25em; }
  .lh-solid-ns { line-height: 1; }
- .lh-title-ns { line-height: 1.3; }
- .lh-copy-ns { line-height: 1.6; }
+ .lh-title-ns { line-height: 1.25; }
+ .lh-copy-ns { line-height: 1.5; }
  .mw-100-ns { max-width: 100%; }
  .mw1-ns { max-width: 1rem; }
  .mw2-ns { max-width: 2rem; }
@@ -1505,14 +2039,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-10-ns { width: 10%; }
  .w-20-ns { width: 20%; }
  .w-25-ns { width: 25%; }
+ .w-30-ns { width: 30%; }
  .w-33-ns { width: 33%; }
  .w-34-ns { width: 34%; }
  .w-40-ns { width: 40%; }
  .w-50-ns { width: 50%; }
  .w-60-ns { width: 60%; }
+ .w-70-ns { width: 70%; }
  .w-75-ns { width: 75%; }
  .w-80-ns { width: 80%; }
+ .w-90-ns { width: 90%; }
  .w-100-ns { width: 100%; }
+ .w-third-ns { width: calc( 100% / 3 ); }
+ .w-two-thirds-ns { width: calc( 100% / 1.5 ); }
  .w-auto-ns { width: auto; }
  .overflow-visible-ns { overflow: visible; }
  .overflow-hidden-ns { overflow: hidden; }
@@ -1676,8 +2215,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-btm-ns { vertical-align: bottom; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
- .cover-m { background-size: cover; }
- .contain-m { background-size: contain; }
+ .cover-m { background-size: cover !important; }
+ .contain-m { background-size: contain !important; }
+ .bg-center-m { background-repeat: no-repeat; background-position: center center; }
+ .bg-top-m { background-repeat: no-repeat; background-position: top center; }
+ .bg-right-m { background-repeat: no-repeat; background-position: center right; }
+ .bg-bottom-m { background-repeat: no-repeat; background-position: bottom center; }
+ .bg-left-m { background-repeat: no-repeat; background-position: center left; }
+ .outline-m { outline: 1px solid; }
+ .outline-transparent-m { outline: 1px solid transparent; }
+ .outline-0-m { outline: 0; }
+ .outline-l { outline: 1px solid; }
+ .outline-transparent-l { outline: 1px solid transparent; }
+ .outline-0-l { outline: 0; }
  .ba-m { border-style: solid; border-width: 1px; }
  .bt-m { border-top-style: solid; border-top-width: 1px; }
  .br-m { border-right-style: solid; border-right-width: 1px; }
@@ -1690,6 +2240,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br3-m { border-radius: .5rem; }
  .br4-m { border-radius: 1rem; }
  .br-100-m { border-radius: 100%; }
+ .br-pill-m { border-radius: 9999px; }
  .br--bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-m { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-m { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -1708,11 +2259,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-0-m { border-right-width: 0; }
  .bb-0-m { border-bottom-width: 0; }
  .bl-0-m { border-left-width: 0; }
- .shadow-1-m { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
- .shadow-2-m { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
- .shadow-3-m { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
- .shadow-4-m { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
- .shadow-5-m { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+ .shadow-1-m { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-2-m { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-3-m { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-4-m { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-5-m { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
  .top-0-m { top: 0; }
  .left-0-m { left: 0; }
  .right-0-m { right: 0; }
@@ -1757,16 +2308,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .flex-column-m { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
  .flex-row-m { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
  .flex-wrap-m { -ms-flex-wrap: wrap; flex-wrap: wrap; }
- .items-start-m { -webkit-box-align: start; -ms-flex-align: start; -ms-grid-row-align: flex-start; align-items: flex-start; }
- .items-end-m { -webkit-box-align: end; -ms-flex-align: end; -ms-grid-row-align: flex-end; align-items: flex-end; }
- .items-center-m { -webkit-box-align: center; -ms-flex-align: center; -ms-grid-row-align: center; align-items: center; }
- .items-baseline-m { -webkit-box-align: baseline; -ms-flex-align: baseline; -ms-grid-row-align: baseline; align-items: baseline; }
- .items-stretch-m { -webkit-box-align: stretch; -ms-flex-align: stretch; -ms-grid-row-align: stretch; align-items: stretch; }
+ .items-start-m { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+ .items-end-m { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+ .items-center-m { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+ .items-baseline-m { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+ .items-stretch-m { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
  .self-start-m { -ms-flex-item-align: start; align-self: flex-start; }
  .self-end-m { -ms-flex-item-align: end; align-self: flex-end; }
- .self-center-m { -ms-flex-item-align: center; align-self: center; }
+ .self-center-m { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
  .self-baseline-m { -ms-flex-item-align: baseline; align-self: baseline; }
- .self-stretch-m { -ms-flex-item-align: stretch; align-self: stretch; }
+ .self-stretch-m { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
  .justify-start-m { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
  .justify-end-m { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
  .justify-center-m { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
@@ -1813,14 +2364,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-50-m { height: 50%; }
  .h-75-m { height: 75%; }
  .h-100-m { height: 100%; }
+ .min-h-100-ns { min-height: 100%; }
+ .vh-25-m { height: 25vh; }
+ .vh-50-m { height: 50vh; }
+ .vh-75-m { height: 75vh; }
+ .vh-100-m { height: 100vh; }
+ .min-vh-100-m { min-height: 100vh; }
  .h-auto-m { height: auto; }
  .h-inherit-m { height: inherit; }
  .tracked-m { letter-spacing: .1em; }
  .tracked-tight-m { letter-spacing: -.05em; }
  .tracked-mega-m { letter-spacing: .25em; }
  .lh-solid-m { line-height: 1; }
- .lh-title-m { line-height: 1.3; }
- .lh-copy-m { line-height: 1.6; }
+ .lh-title-m { line-height: 1.25; }
+ .lh-copy-m { line-height: 1.5; }
  .mw-100-m { max-width: 100%; }
  .mw1-m { max-width: 1rem; }
  .mw2-m { max-width: 2rem; }
@@ -1840,14 +2397,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-10-m { width: 10%; }
  .w-20-m { width: 20%; }
  .w-25-m { width: 25%; }
+ .w-30-m { width: 30%; }
  .w-33-m { width: 33%; }
  .w-34-m { width: 34%; }
  .w-40-m { width: 40%; }
  .w-50-m { width: 50%; }
  .w-60-m { width: 60%; }
+ .w-70-m { width: 70%; }
  .w-75-m { width: 75%; }
  .w-80-m { width: 80%; }
+ .w-90-m { width: 90%; }
  .w-100-m { width: 100%; }
+ .w-third-m { width: calc( 100% / 3 ); }
+ .w-two-thirds-m { width: calc( 100% / 1.5 ); }
  .w-auto-m { width: auto; }
  .overflow-visible-m { overflow: visible; }
  .overflow-hidden-m { overflow: hidden; }
@@ -2011,8 +2573,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-btm-m { vertical-align: bottom; }
 }
 @media screen and (min-width: 60em) {
- .cover-l { background-size: cover; }
- .contain-l { background-size: contain; }
+ .cover-l { background-size: cover !important; }
+ .contain-l { background-size: contain !important; }
+ .bg-center-l { background-repeat: no-repeat; background-position: center center; }
+ .bg-top-l { background-repeat: no-repeat; background-position: top center; }
+ .bg-right-l { background-repeat: no-repeat; background-position: center right; }
+ .bg-bottom-l { background-repeat: no-repeat; background-position: bottom center; }
+ .bg-left-l { background-repeat: no-repeat; background-position: center left; }
  .ba-l { border-style: solid; border-width: 1px; }
  .bt-l { border-top-style: solid; border-top-width: 1px; }
  .br-l { border-right-style: solid; border-right-width: 1px; }
@@ -2025,6 +2592,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br3-l { border-radius: .5rem; }
  .br4-l { border-radius: 1rem; }
  .br-100-l { border-radius: 100%; }
+ .br-pill-l { border-radius: 9999px; }
  .br--bottom-l { border-radius-top-left: 0; border-radius-top-right: 0; }
  .br--top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -2043,11 +2611,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-0-l { border-right-width: 0; }
  .bb-0-l { border-bottom-width: 0; }
  .bl-0-l { border-left-width: 0; }
- .shadow-1-l { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
- .shadow-2-l { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
- .shadow-3-l { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
- .shadow-4-l { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
- .shadow-5-l { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+ .shadow-1-l { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-2-l { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-3-l { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-4-l { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-5-l { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
  .top-0-l { top: 0; }
  .left-0-l { left: 0; }
  .right-0-l { right: 0; }
@@ -2092,16 +2660,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .flex-column-l { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
  .flex-row-l { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
  .flex-wrap-l { -ms-flex-wrap: wrap; flex-wrap: wrap; }
- .items-start-l { -webkit-box-align: start; -ms-flex-align: start; -ms-grid-row-align: flex-start; align-items: flex-start; }
- .items-end-l { -webkit-box-align: end; -ms-flex-align: end; -ms-grid-row-align: flex-end; align-items: flex-end; }
- .items-center-l { -webkit-box-align: center; -ms-flex-align: center; -ms-grid-row-align: center; align-items: center; }
- .items-baseline-l { -webkit-box-align: baseline; -ms-flex-align: baseline; -ms-grid-row-align: baseline; align-items: baseline; }
- .items-stretch-l { -webkit-box-align: stretch; -ms-flex-align: stretch; -ms-grid-row-align: stretch; align-items: stretch; }
+ .items-start-l { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+ .items-end-l { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+ .items-center-l { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+ .items-baseline-l { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+ .items-stretch-l { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
  .self-start-l { -ms-flex-item-align: start; align-self: flex-start; }
  .self-end-l { -ms-flex-item-align: end; align-self: flex-end; }
- .self-center-l { -ms-flex-item-align: center; align-self: center; }
+ .self-center-l { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
  .self-baseline-l { -ms-flex-item-align: baseline; align-self: baseline; }
- .self-stretch-l { -ms-flex-item-align: stretch; align-self: stretch; }
+ .self-stretch-l { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
  .justify-start-l { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
  .justify-end-l { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
  .justify-center-l { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
@@ -2148,14 +2716,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-50-l { height: 50%; }
  .h-75-l { height: 75%; }
  .h-100-l { height: 100%; }
+ .min-h-100-l { min-height: 100%; }
+ .vh-25-l { height: 25vh; }
+ .vh-50-l { height: 50vh; }
+ .vh-75-l { height: 75vh; }
+ .vh-100-l { height: 100vh; }
+ .min-vh-100-l { min-height: 100vh; }
  .h-auto-l { height: auto; }
  .h-inherit-l { height: inherit; }
  .tracked-l { letter-spacing: .1em; }
  .tracked-tight-l { letter-spacing: -.05em; }
  .tracked-mega-l { letter-spacing: .25em; }
  .lh-solid-l { line-height: 1; }
- .lh-title-l { line-height: 1.3; }
- .lh-copy-l { line-height: 1.6; }
+ .lh-title-l { line-height: 1.25; }
+ .lh-copy-l { line-height: 1.5; }
  .mw-100-l { max-width: 100%; }
  .mw1-l { max-width: 1rem; }
  .mw2-l { max-width: 2rem; }
@@ -2175,14 +2749,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-10-l { width: 10%; }
  .w-20-l { width: 20%; }
  .w-25-l { width: 25%; }
+ .w-30-l { width: 30%; }
  .w-33-l { width: 33%; }
  .w-34-l { width: 34%; }
  .w-40-l { width: 40%; }
  .w-50-l { width: 50%; }
  .w-60-l { width: 60%; }
+ .w-70-l { width: 70%; }
  .w-75-l { width: 75%; }
  .w-80-l { width: 80%; }
+ .w-90-l { width: 90%; }
  .w-100-l { width: 100%; }
+ .w-third-l { width: calc( 100% / 3 ); }
+ .w-two-thirds-l { width: calc( 100% / 1.5 ); }
  .w-auto-l { width: auto; }
  .overflow-visible-l { overflow: visible; }
  .overflow-hidden-l { overflow: hidden; }
