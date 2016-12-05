@@ -720,3 +720,4 @@ list.
 * [localtunnel/localtunnel](https://github.com/localtunnel/localtunnel)
 * [yoshuawuyts/multidrive](https://github.com/yoshuawuyts/multidrive)
 * [sethvincent/level-model](https://github.com/sethvincent/level-model)
+* [date-fns/date-fns](https://github.com/date-fns/date-fns)
