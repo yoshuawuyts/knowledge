@@ -722,3 +722,4 @@ list.
 * [sethvincent/level-model](https://github.com/sethvincent/level-model)
 * [date-fns/date-fns](https://github.com/date-fns/date-fns)
 * [joehand/dat-verb](https://github.com/joehand/dat-verb)
+* [maxogden/collaborator](https://github.com/maxogden/collaborator)
