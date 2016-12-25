@@ -159,6 +159,12 @@ $ netstat -lnt
 ```
 - http://stackoverflow.com/questions/9609130/quick-way-to-find-if-a-port-is-open-on-linux
 
+## Change ip of router
+```sh
+$ open http://192.168.1.1/
+$ open http://192.168.0.1/
+```
+
 ## See Also
 - [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
 - [cloudflare interview questions](https://blog.cloudflare.com/cloudflare-interview-questions/)
