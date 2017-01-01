@@ -723,3 +723,4 @@ list.
 * [date-fns/date-fns](https://github.com/date-fns/date-fns)
 * [joehand/dat-verb](https://github.com/joehand/dat-verb)
 * [maxogden/collaborator](https://github.com/maxogden/collaborator)
+* [sethvincent/read-directory](https://github.com/sethvincent/read-directory)
