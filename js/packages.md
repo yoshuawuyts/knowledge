@@ -724,3 +724,4 @@ list.
 * [joehand/dat-verb](https://github.com/joehand/dat-verb)
 * [maxogden/collaborator](https://github.com/maxogden/collaborator)
 * [sethvincent/read-directory](https://github.com/sethvincent/read-directory)
+* [mcollina/fast-json-parse](https://github.com/mcollina/fast-json-parse)
