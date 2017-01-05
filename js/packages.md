@@ -726,3 +726,4 @@ list.
 * [sethvincent/read-directory](https://github.com/sethvincent/read-directory)
 * [mcollina/fast-json-parse](https://github.com/mcollina/fast-json-parse)
 * [mcollina/syncthrough](https://github.com/mcollina/syncthrough)
+* [pfrazee/pretty-hash](https://github.com/pfrazee/pretty-hash)
