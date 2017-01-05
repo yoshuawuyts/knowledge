@@ -8,5 +8,5 @@ $ rename <expression> <files to target>
 
 ## Strip all leading numbers from files ending on .mp3
 ```sh
-$ rename -n 's/\d{2}_(.*)/\1/' *.mp3
+$ rename -n 's/\d{2}_(.*)/$1/' *.mp3
 ```
