@@ -212,6 +212,15 @@ Or doing linebreaks
 :set nowrap
 ```
 
+## Autocommands
+Sometimes you wanna script a thing when you create a new file or start editing
+one; you can trigger stuff using autocommands:
+```viml
+autocmd BufNewFile,BufReadPost *.md :Goyo
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
 - [vim for writing](https://www.swamphogg.com/2015/vim-setup/)
+- [learn viml the hard way](http://learnvimscriptthehardway.stevelosh.com/chapters/12.html)
+- [spell checking for vim](https://robots.thoughtbot.com/vim-spell-checking)
