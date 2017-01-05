@@ -214,3 +214,4 @@ Or doing linebreaks
 
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
+- [vim for writing](https://www.swamphogg.com/2015/vim-setup/)
