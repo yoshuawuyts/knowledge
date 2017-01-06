@@ -26,6 +26,12 @@ ssh <Host>
 $ ssh-keygen -f ~/.ssh/<key-name>         # interactively generate keys
 $ ssh-copy-id -i <ssh-keyfile> <remote>   # copy key to remote
 ```
+
+If you don't own the private key, the server will throw a warning - e.g. when
+installing a friends public key. You can pass the `-f` flag to `ssh-copy-id` to
+force install it anwyay. If you want to preview how things work pass it the
+`-n` flag for a dry run.
+
 - [3-steps-to-ssh](http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/)
 
 ## Managing configuration
