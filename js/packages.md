@@ -727,3 +727,4 @@ list.
 * [mcollina/fast-json-parse](https://github.com/mcollina/fast-json-parse)
 * [mcollina/syncthrough](https://github.com/mcollina/syncthrough)
 * [pfrazee/pretty-hash](https://github.com/pfrazee/pretty-hash)
+* [domenic/opener](https://github.com/domenic/opener)
