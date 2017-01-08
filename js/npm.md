@@ -31,3 +31,12 @@ try { fs.unlinkSync(path.join(__dirname, 'fixtures', '.DS_Store')) } catch (e) {
 - https://docs.npmjs.com/cli/dist-tag
 - https://docs.npmjs.com/cli/publish
 - https://docs.npmjs.com/cli/version
+
+## save a github url as an npm dep
+```json
+{
+  "dependencies": {
+    "opener": "yoshuawuyts/opener#split-bin",
+  }
+}
+```
