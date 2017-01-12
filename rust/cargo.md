@@ -41,5 +41,15 @@ it in `Cargo.toml`.
 $ cargo run --frozen
 ```
 
+## Install latest cargo version
+```sh
+$ rustup override set nightly
+```
+
+## Use last known good cargo version
+```sh
+$ rustup override set $(<rustc-version)
+```
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
