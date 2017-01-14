@@ -728,3 +728,4 @@ list.
 * [mcollina/syncthrough](https://github.com/mcollina/syncthrough)
 * [pfrazee/pretty-hash](https://github.com/pfrazee/pretty-hash)
 * [domenic/opener](https://github.com/domenic/opener)
+* [mafintosh/block-trace](https://github.com/mafintosh/block-trace)
