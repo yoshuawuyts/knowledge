@@ -111,3 +111,8 @@ public key.
 ```sh
 $ diff <(ssh-keygen -y -f <path_to_private_key.pem>) <path_to_public_key.pub>
 ```
+
+## Exit ssh if frozen
+```sh
+$ <Enter>~.
+```
