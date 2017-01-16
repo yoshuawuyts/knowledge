@@ -16,3 +16,4 @@ into simpler code which is easier to optimize.
 ## See Also
 - http://prog21.dadgum.com/30.html
 - [the super tiny compiler](https://github.com/thejameskyle/the-super-tiny-compiler)
+- [crafting interpreters](http://www.craftinginterpreters.com/contents.html)
