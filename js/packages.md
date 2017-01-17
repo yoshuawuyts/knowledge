@@ -729,3 +729,4 @@ list.
 * [pfrazee/pretty-hash](https://github.com/pfrazee/pretty-hash)
 * [domenic/opener](https://github.com/domenic/opener)
 * [mafintosh/block-trace](https://github.com/mafintosh/block-trace)
+* [mafintosh/add-nginx-ssl](https://github.com/mafintosh/add-nginx-ssl)
