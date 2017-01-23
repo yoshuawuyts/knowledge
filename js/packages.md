@@ -730,3 +730,4 @@ list.
 * [domenic/opener](https://github.com/domenic/opener)
 * [mafintosh/block-trace](https://github.com/mafintosh/block-trace)
 * [mafintosh/add-nginx-ssl](https://github.com/mafintosh/add-nginx-ssl)
+* [juliangruber/tape-run](https://github.com/juliangruber/tape-run)
