@@ -26,3 +26,8 @@ $ jq -r '.version' < './package.json'
 ```sh
 $ jq -r '.dependencies|to_entries[] | .key + "@" + .value' < package.json
 ```
+
+## Delete value
+```sh
+$ jq 'del(.foo)' < package.json
+```
