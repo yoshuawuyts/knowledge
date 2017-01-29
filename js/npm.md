@@ -40,3 +40,12 @@ try { fs.unlinkSync(path.join(__dirname, 'fixtures', '.DS_Store')) } catch (e) {
   }
 }
 ```
+
+## Install native deps on a server
+Sometimes you'll get a permission error when running prebuild scripts; run the
+`--unsafe` flag to circumvent it. This allows random code execution tho, so
+uehhh yeah be careful.
+
+```js
+$ npm install <modulename> --unsafe
+```
