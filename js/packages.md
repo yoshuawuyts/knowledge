@@ -732,3 +732,4 @@ list.
 * [mafintosh/add-nginx-ssl](https://github.com/mafintosh/add-nginx-ssl)
 * [juliangruber/tape-run](https://github.com/juliangruber/tape-run)
 * [mafintosh/subleveldown](https://github.com/mafintosh/subleveldown)
+* [mafintosh/hypercore-archiver](https://github.com/mafintosh/hypercore-archiver)
