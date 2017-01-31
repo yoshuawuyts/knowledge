@@ -731,3 +731,4 @@ list.
 * [mafintosh/block-trace](https://github.com/mafintosh/block-trace)
 * [mafintosh/add-nginx-ssl](https://github.com/mafintosh/add-nginx-ssl)
 * [juliangruber/tape-run](https://github.com/juliangruber/tape-run)
+* [mafintosh/subleveldown](https://github.com/mafintosh/subleveldown)
