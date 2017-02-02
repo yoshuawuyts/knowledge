@@ -733,3 +733,4 @@ list.
 * [juliangruber/tape-run](https://github.com/juliangruber/tape-run)
 * [mafintosh/subleveldown](https://github.com/mafintosh/subleveldown)
 * [mafintosh/hypercore-archiver](https://github.com/mafintosh/hypercore-archiver)
+* [mafintosh/recursive-watch](https://github.com/mafintosh/recursive-watch)
