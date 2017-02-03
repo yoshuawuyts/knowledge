@@ -48,4 +48,5 @@ uehhh yeah be careful.
 
 ```js
 $ npm install <modulename> --unsafe
+$ npm install <modulename> --unsafe-perm
 ```
