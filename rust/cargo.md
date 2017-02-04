@@ -51,5 +51,11 @@ $ rustup override set nightly
 $ rustup override set $(<rustc-version)
 ```
 
+## Incremental compilation
+```sh
+$ CARGO_INCREMENTAL=1 cargo <command>
+$ rustc -Zincremental=<path> <other arguments>
+```
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
