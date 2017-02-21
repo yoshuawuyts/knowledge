@@ -734,3 +734,4 @@ list.
 * [mafintosh/subleveldown](https://github.com/mafintosh/subleveldown)
 * [mafintosh/hypercore-archiver](https://github.com/mafintosh/hypercore-archiver)
 * [mafintosh/recursive-watch](https://github.com/mafintosh/recursive-watch)
+* [Raynos/console-stream](https://github.com/Raynos/console-stream)
