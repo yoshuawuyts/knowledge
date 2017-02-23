@@ -26,3 +26,6 @@ used to loop back to.
 
 ## Takedowns
 - [youtube](https://youtu.be/Dw_dOB1XeXk?t=1m40s)
+
+## See Also
+- http://katjakat.com/shibari/
