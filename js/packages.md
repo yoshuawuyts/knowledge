@@ -735,3 +735,4 @@ list.
 * [mafintosh/hypercore-archiver](https://github.com/mafintosh/hypercore-archiver)
 * [mafintosh/recursive-watch](https://github.com/mafintosh/recursive-watch)
 * [Raynos/console-stream](https://github.com/Raynos/console-stream)
+* [punkave/sanitize-html](https://github.com/punkave/sanitize-html)
