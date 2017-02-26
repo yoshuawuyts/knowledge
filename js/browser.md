@@ -16,7 +16,7 @@ compatibility I'm able to make.
 
 ## Events
 A big gotcha of `dom` events it that they propagate to their parent nodes if left
-unhandled. By setting `this.stopPropegation()` the events are no longer
+unhandled. By setting `this.stopPropagation()` the events are no longer
 propagated to their parents.
 
 Another gotcha with the `dom`, is that when you're building dynamic systems
