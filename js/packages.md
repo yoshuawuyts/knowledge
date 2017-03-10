@@ -738,3 +738,4 @@ list.
 * [punkave/sanitize-html](https://github.com/punkave/sanitize-html)
 * [mafintosh/nanobench](https://github.com/mafintosh/nanobench)
 * [kolodny/run-every](https://github.com/kolodny/run-every)
+* [thlorenz/spok](https://github.com/thlorenz/spok)
