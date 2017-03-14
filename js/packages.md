@@ -740,3 +740,4 @@ list.
 * [kolodny/run-every](https://github.com/kolodny/run-every)
 * [thlorenz/spok](https://github.com/thlorenz/spok)
 * [thlorenz/ocat](https://github.com/thlorenz/ocat)
+* [mafintosh/localcast](https://github.com/mafintosh/localcast)
