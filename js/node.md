@@ -26,3 +26,27 @@ var config = {
 ```
 It must always have 1 socket to do `ipc` over. If you want `stdin` and `stdout`
 to be ignore you can change the `'pipe'` values to `'ignore'`.
+
+## LLDB debuggin
+
+- https://www.npmjs.com/package/llnode
+```sh
+$ brew install llnode
+
+# link it
+$ ln -sf /usr/local/opt/llnode/llnode.dylib \
+    ~/Library/Application\ Support/LLDB/PlugIns/
+
+$ lldb -- node <node commands>
+```
+
+```sh
+# lldb commands
+b     # set breakpoint
+b ls  # list breakpoints
+exit  # exit
+r     # run the program
+bt    # backtrace (C++ only)
+v8 bt # lldb node magic JS backtrace
+```
+- https://lldb.llvm.org/lldb-gdb.html
