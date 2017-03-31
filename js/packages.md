@@ -742,3 +742,4 @@ list.
 * [thlorenz/ocat](https://github.com/thlorenz/ocat)
 * [mafintosh/localcast](https://github.com/mafintosh/localcast)
 * [editdata/infinite-elements](https://github.com/editdata/infinite-elements)
+* [yoshuawuyts/on-idle](https://github.com/yoshuawuyts/on-idle)
