@@ -88,3 +88,4 @@ is true:
 - https://developers.google.com/web/fundamentals/performance/rendering/avoid-large-complex-layouts-and-layout-thrashing
 - https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count
 - https://gist.github.com/paulirish/5d52fb081b3570c81e3a
+- https://csstriggers.com/
