@@ -66,3 +66,4 @@ source.addEventListener('error', function (event) {
 ## See Also
 - http://cjihrig.com/blog/server-sent-events-in-node-js/
 - https://github.com/Yaffle/EventSource
+- https://segment.com/blog/2014-04-03-server-sent-events-the-simplest-realtime-browser-spec/
