@@ -18,7 +18,7 @@ http.createServer(function (req, res) {
   res.write('data: ' + (new Date()) + '\n\n')
   res.write('data: ' + (new Date()) + '\n\n')
 
-  interval = setInterval(function () {
+  var interval = setInterval(function () {
     res.write('data: ' + (new Date()) + '\n\n')
   }, 1000)
 
@@ -36,9 +36,10 @@ outage and when stuff needs to reconnect.
 ```js
 var source = new EventSource('stream')
 source.addEventListener('message', function (event) {
-  output.textContent = event.data
+  console.log('new message', event.data)
 }, false)
 
+// this is our custom event
 source.addEventListener('connecttime', function (event) {
   console.log('Connection was last established at: ' + event.data)
 }, false)
