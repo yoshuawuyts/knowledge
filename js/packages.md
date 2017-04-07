@@ -744,3 +744,4 @@ list.
 * [editdata/infinite-elements](https://github.com/editdata/infinite-elements)
 * [yoshuawuyts/on-idle](https://github.com/yoshuawuyts/on-idle)
 * [mayhemydg/iltorb](https://github.com/mayhemydg/iltorb)
+* [ramitos/jsctags](https://github.com/ramitos/jsctags)
