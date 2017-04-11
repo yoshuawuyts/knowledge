@@ -33,6 +33,8 @@ inflexible, but also very simple. It does a whole bunch of namespacing, and
 when run through a service file it can even do networking and resource
 limiting. It's pretty great hey.
 
+To run processes in the background you must use a unit file.
+
 ```sh
 # Clone Debian
 $ mkdir debian-tree
@@ -57,6 +59,7 @@ $ machinectl -H foo@example.com:debian-tree
 $ mv ~/debian-tree /var/lib/machines/debian-tree
 $ systemctl start systemd-nspawn@debian-tree.service    # start now
 $ systemctl enable systemd-nspawn@debian-tree.service   # autostart on boot
+$ systemctl disable systemd-nspawn@debian-tree.service  # exit
 
 # View logs
 $ journalctl -M debian-tree
@@ -68,8 +71,21 @@ $ systemd-analyze blame -M debian-tree # break down the boot time per-unit
 
 ```service
 # my-container.service
+[Unit]
+Description=Container myalpine
+
 [Service]
-ExecStart=/usr/bin/foobard
+ExecStart=/usr/bin/systemd-nspawn \
+  --quiet \
+  --keep-unit \
+  --boot \
+  --link-journal=try-guest \
+  --directory=/var/lib/container/mynewdebian \
+  --network-macvlan=eth0
+KillMode=mixed
+Type=notify
+RestartForceExitStatus=133
+SuccessExitStatus=133
 
 [Install]
 WantedBy=multi-user.target
