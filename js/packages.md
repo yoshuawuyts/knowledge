@@ -746,3 +746,4 @@ list.
 * [mayhemydg/iltorb](https://github.com/mayhemydg/iltorb)
 * [ramitos/jsctags](https://github.com/ramitos/jsctags)
 * [thlorenz/nif](https://github.com/thlorenz/nif)
+* [imakewebthings/waypoints](https://github.com/imakewebthings/waypoints)
