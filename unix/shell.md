@@ -137,10 +137,10 @@ appropriate flags:
 getopt -T > /dev/null
 if [ $? -eq 4 ]; then
   # GNU enhanced getopt is available
-  eval set -- "$(getopt --long help,output:,version --options ho:v -- "$@")"
+  eval set -- "$(getopt --long help,output:,version --options ho:v -- $*)"
 else
   # Original getopt is available
-  eval set -- "$(getopt ho:v "$@")"
+  eval set -- "$(getopt ho:v $*)"
 fi
 ```
 
@@ -169,8 +169,8 @@ done
 ```sh
 # set CLI flags
 getopt -T > /dev/null
-if [ "$?" -eq 4 ]; then args="$(getopt --long help --options h -- "$*")"
-else args="$(getopt h "$*")"; fi
+if [ "$?" -eq 4 ]; then args="$(getopt --long help --options h -- $*)"
+else args="$(getopt h $*)"; fi
 [ ! $? -eq 0 ] && { usage && exit 2; }
 eval set -- "$args"
 
