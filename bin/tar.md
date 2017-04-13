@@ -15,5 +15,17 @@ $ tar -czf /tmp/my-dir .              # Tar the local dir to /tmp/my-dir
 $ tar -xzf ./archive.tgz -C ./target-dir  # Untar to ./target-dir
 ```
 
+## Merging archives
+Remember that this will not work if you also gzip.
+```sh
+# slow
+$ tar --concatenate -vf buffer1.tar buffer2.tar
+
+# fast
+$ cat buffer1.tar >> image.tar
+$ cat buffer2.tar >> image.tar
+```
+
 ## See Also
-- [stackoverflow](http://stackoverflow.com/questions/939982/how-do-i-tar-a-directory-of-files-and-folders-without-including-the-directory-it)
+- http://stackoverflow.com/questions/939982/how-do-i-tar-a-directory-of-files-and-folders-without-including-the-directory-it
+- https://superuser.com/questions/941475/concatenate-multiple-tar-files-in-one-command
