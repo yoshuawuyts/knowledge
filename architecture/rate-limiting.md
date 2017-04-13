@@ -57,7 +57,7 @@ every time the user makes a request. If the counter hits 0, reject the request.
 - Set up alerts and metrics to understand how often they trigger.
 - Do dry runs on limiters to figure out how much traffic they would block.
 
-### Buid order
+### Build order
 - Build request rate limiters first
 - Introduce the other types of limiters & shedders as you scale
 
@@ -65,3 +65,4 @@ every time the user makes a request. If the counter hits 0, reject the request.
 - https://stripe.com/blog/rate-limiters
 - https://gist.github.com/ptarjan/e38f45f2dfe601419ca3af937fff574d
 - https://en.wikipedia.org/wiki/Token_bucket
+- https://medium.com/figma-design/an-alternative-approach-to-rate-limiting-f8a06cf7c94c
