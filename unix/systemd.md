@@ -45,6 +45,9 @@ $ systemd-nspawn -D debian-tree/ /bin/echo "hello, outside world!"
 $ systemd-nspawn -D debian-tree/ /bin/bash
 $ systemd-nspawn -D debian-tree/ /sbin/init
 
+# Bind a volume
+$ systemd-nspawn -D debian-tree --bind /var/hostdir:/var/containerdir /bin/sh
+
 # Manage containers
 $ machinectl list
 $ machinectl status debian-tree
@@ -69,7 +72,7 @@ $ systemd-analyze -M debian-tree       # list startup time
 $ systemd-analyze blame -M debian-tree # break down the boot time per-unit
 ```
 
-```service
+```systemd
 # my-container.service
 [Unit]
 Description=Container myalpine
