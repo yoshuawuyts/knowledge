@@ -2,6 +2,12 @@
 Butter filesystem, better filesystem. Copy-on-write filesystem lik zfs but open
 source.
 
+## Installation
+```sh
+$ sudo apt-get install btrfs-tools  # Deb based
+$ sudo yum install btrfs-progs      # RHEL based
+```
+
 ## Creating btrfs volume
 ```sh
 # Allocate a file to become the block device
