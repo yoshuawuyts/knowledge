@@ -98,3 +98,4 @@ WantedBy=multi-user.target
 - https://chimeracoder.github.io/docker-without-docker/#24
 - http://0pointer.net/blog/systemd-for-administrators-part-xxi.html
 - https://gist.github.com/sfan5/52aa53f5dca06ac3af30455b203d3404
+- https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
