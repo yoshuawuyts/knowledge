@@ -748,3 +748,5 @@ list.
 * [thlorenz/nif](https://github.com/thlorenz/nif)
 * [imakewebthings/waypoints](https://github.com/imakewebthings/waypoints)
 * [yoshuawuyts/log-http](https://github.com/yoshuawuyts/log-http)
+* [sethvincent/ebook-convert](https://github.com/sethvincent/ebook-convert)
+* [sethvincent/ebook-convert](https://github.com/sethvincent/ebook-convert)
