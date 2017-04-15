@@ -10,6 +10,9 @@ $ sudo yum install btrfs-progs      # RHEL based
 
 ## Creating btrfs volume
 ```sh
+# Inspect
+$ lsblk -f   # Show block devices
+
 # Allocate a file to become the block device
 $ dd if=/dev/zero of=/btrfs.img bs=1G count=4  # slow
 $ sudo fallocate -l 4G /btrfs.img              # fast
