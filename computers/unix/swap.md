@@ -17,9 +17,9 @@ $ sudo dd if='/dev/zero' of='/swapfile' bs='1G' count='4'  # slow
 $ sudo fallocate -l 4G /swapfile                           # fast
 
 # Enabling swapfile
-$ sudo chmod 600 swapfile  # set permissions
-$ sudo mkswap /swapfile    # setup swap space
-$ sudo swapon /swapfile    # use swap space
+$ sudo chmod 600 /swapfile  # set permissions
+$ sudo mkswap /swapfile     # setup swap space
+$ sudo swapon /swapfile     # use swap space
 
 # Persisting swapfile
 $ printf '/swapfile   none    swap    sw    0   0\n' >> /etc/fstab
