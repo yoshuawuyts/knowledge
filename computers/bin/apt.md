@@ -17,3 +17,9 @@ if [ ! -z "${pkgs}" ]; then
   apt-get install -qq -y "${pkgs[@]}"
 fi
 ```
+
+## Usage
+```sh
+$ apt-cache search <package-name>   # Seach for a package
+$ apt-cache show <package-name>     # View more details on a package
+```

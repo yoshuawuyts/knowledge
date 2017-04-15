@@ -37,5 +37,13 @@ Space     # grab text
 PREFIX ]  # paste text
 ```
 
+## Always boot tmux
+```sh
+# ~/.tmux.conf
+new-session
+set -g history-limit 30000
+```
+
 ## See Also
 - http://danielallendeutsch.com/blog/16-using-tmux-properly.html
+- https://blog.filippo.io/my-remote-shell-session-setup/
