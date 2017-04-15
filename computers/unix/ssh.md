@@ -112,6 +112,11 @@ public key.
 $ diff <(ssh-keygen -y -f <path_to_private_key.pem>) <path_to_public_key.pub>
 ```
 
+## Stream over SSH
+```sh
+$ tar -c something/ | ssh user@host 'tar -x && something/do.sh'
+```
+
 ## Exit ssh if frozen
 ```sh
 $ <Enter>~.
