@@ -1,5 +1,7 @@
 # tar
-Create an archive by concatenating all files and do some indexing magic.
+Create an archive by concatenating all files and do some indexing magic. The
+arguments in `tar(1)` are positional, so remember that stuff like `-C` comes
+after the filename, whereas `-czf` / `-xzf` come before the filename.
 
 ## Create archives
 Archives are created relative to root `/` unless the `-C` flag is passed.
