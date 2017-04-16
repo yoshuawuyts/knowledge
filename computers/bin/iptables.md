@@ -1,4 +1,4 @@
-# iptables
+# Iptables
 Iptables is the port configuration tool for linux.
 
 ## Persisting iptables rules
