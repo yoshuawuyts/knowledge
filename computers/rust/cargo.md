@@ -57,5 +57,20 @@ $ CARGO_INCREMENTAL=1 cargo <command>
 $ rustc -Zincremental=<path> <other arguments>
 ```
 
+## Check for correctness
+```sh
+$ cargo install cargo-check  # install cargo-check
+$ cargo check                # run cargo-check
+```
+- https://github.com/rsolomo/cargo-check
+
+## Publishing scripts
+```sh
+$ cargo login <token>           # login
+$ cargo package                 # bundle into crates.io ready package
+$ cargo publish                 # publish a package
+$ cargo yank --vers <version>   # remove a version
+```
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)

@@ -3,9 +3,10 @@
 ## Managing versions
 Manage multiple versions using multirust.
 ```sh
-$ multirust update   # get latest versions for {stable,beta,nightly}
+$ rustup update <channel>   # get latest versions for {stable,beta,nightly}
 ```
 - [multirust](https://github.com/brson/multirust)
+- [rustup](https://www.rustup.rs/)
 
 ## See Also
 - [rust vs java](https://llogiq.github.io/2016/02/28/java-rust.html)
