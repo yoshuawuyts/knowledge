@@ -72,5 +72,8 @@ $ cargo publish                 # publish a package
 $ cargo yank --vers <version>   # remove a version
 ```
 
+## Docs
+- https://docs.rs/
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
