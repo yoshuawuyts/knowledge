@@ -5,7 +5,8 @@ Manage who can do what on the system.
 ### create user
 Either `useradd` or `adduser`
 ```sh
-$ sudo adduser -m <name>   # create user + home dir
+$ sudo adduser -m <name>               # create user + home dir
+$ sudo adduser admin --ingroup admin   # create admin user in admin group
 
 # now it's time to make the user the owner of the home dir,
 # and set the right permissions for all files within.
