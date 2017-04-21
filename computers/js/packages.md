@@ -754,3 +754,4 @@ list.
 * [mafintosh/directory-index-html](https://github.com/mafintosh/directory-index-html)
 * [joehand/hyperdrive-http](https://github.com/joehand/hyperdrive-http)
 * [kangax/html-minifier](https://github.com/kangax/html-minifier)
+* [yoshuawuyts/log-http](https://github.com/yoshuawuyts/log-http)
