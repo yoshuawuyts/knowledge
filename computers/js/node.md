@@ -50,3 +50,8 @@ bt    # backtrace (C++ only)
 v8 bt # lldb node magic JS backtrace
 ```
 - https://lldb.llvm.org/lldb-gdb.html
+
+## bin thingy
+```js
+#!/usr/bin/env node
+```
