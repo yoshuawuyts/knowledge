@@ -755,3 +755,4 @@ list.
 * [joehand/hyperdrive-http](https://github.com/joehand/hyperdrive-http)
 * [kangax/html-minifier](https://github.com/kangax/html-minifier)
 * [yoshuawuyts/log-http](https://github.com/yoshuawuyts/log-http)
+* [tbranyen/hyperlist](https://github.com/tbranyen/hyperlist)
