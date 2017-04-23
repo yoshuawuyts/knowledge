@@ -761,3 +761,4 @@ list.
 * [uber/deck.gl](https://github.com/uber/deck.gl)
 * [uber/react-vis](https://github.com/uber/react-vis)
 * [uber/jaeger-client-node](https://github.com/uber/jaeger-client-node)
+* [lovell/farmhash](https://github.com/lovell/farmhash)
