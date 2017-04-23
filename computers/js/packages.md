@@ -762,3 +762,4 @@ list.
 * [uber/react-vis](https://github.com/uber/react-vis)
 * [uber/jaeger-client-node](https://github.com/uber/jaeger-client-node)
 * [lovell/farmhash](https://github.com/lovell/farmhash)
+* [timwis/hyperlist-component](https://github.com/timwis/hyperlist-component)
