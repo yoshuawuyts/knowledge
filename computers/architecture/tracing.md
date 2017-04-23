@@ -13,3 +13,6 @@ Open tracing is a spec for cross-vendor tracing.
 - http://opentracing.io/documentation/
 - https://research.google.com/pubs/pub36356.html
 - https://github.com/opentracing/opentracing-javascript
+- http://opentracing.io/documentation/pages/spec.html
+- https://github.com/opentracing/specification/blob/master/specification.md
+- https://github.com/opentracing/specification/blob/master/semantic_conventions.md
