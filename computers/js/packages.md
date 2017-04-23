@@ -758,3 +758,4 @@ list.
 * [tbranyen/hyperlist](https://github.com/tbranyen/hyperlist)
 * [opentracing/opentracing-javascript](https://github.com/opentracing/opentracing-javascript)
 * [d3/d3-hexbin](https://github.com/d3/d3-hexbin)
+* [uber/deck.gl](https://github.com/uber/deck.gl)
