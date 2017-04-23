@@ -756,3 +756,4 @@ list.
 * [kangax/html-minifier](https://github.com/kangax/html-minifier)
 * [yoshuawuyts/log-http](https://github.com/yoshuawuyts/log-http)
 * [tbranyen/hyperlist](https://github.com/tbranyen/hyperlist)
+* [opentracing/opentracing-javascript](https://github.com/opentracing/opentracing-javascript)
