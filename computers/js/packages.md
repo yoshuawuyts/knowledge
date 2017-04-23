@@ -760,3 +760,4 @@ list.
 * [d3/d3-hexbin](https://github.com/d3/d3-hexbin)
 * [uber/deck.gl](https://github.com/uber/deck.gl)
 * [uber/react-vis](https://github.com/uber/react-vis)
+* [uber/jaeger-client-node](https://github.com/uber/jaeger-client-node)
