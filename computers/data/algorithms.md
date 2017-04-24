@@ -61,3 +61,4 @@ streaming algorithms operate on the whole dataset in realtime.
 - [bost.ocks.org/algorithms](http://bost.ocks.org/mike/algorithms/)
 - [a tour of algorithms](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
 - [complete guide to blockchain technology](http://blockstrap.com/en/a-complete-beginners-guide-to-blockchain-technology/)
+- https://research.swtch.com/glob
