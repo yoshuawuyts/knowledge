@@ -31,3 +31,8 @@ $ jq -r '.dependencies|to_entries[] | .key + "@" + .value' < package.json
 ```sh
 $ jq 'del(.foo)' < package.json
 ```
+
+## Add value
+```sh
+$ jq '. + { license: "MIT" }') < package.json
+```
