@@ -765,3 +765,4 @@ list.
 * [timwis/hyperlist-component](https://github.com/timwis/hyperlist-component)
 * [indutny/hyperfeed](https://github.com/indutny/hyperfeed)
 * [joehand/neat-log](https://github.com/joehand/neat-log)
+* [bbecquet/jKstra](https://github.com/bbecquet/jKstra)
