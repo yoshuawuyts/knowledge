@@ -767,3 +767,4 @@ list.
 * [joehand/neat-log](https://github.com/joehand/neat-log)
 * [bbecquet/jKstra](https://github.com/bbecquet/jKstra)
 * [shama/workerify](https://github.com/shama/workerify)
+* [schnerd/chrome-headless-screenshots](https://github.com/schnerd/chrome-headless-screenshots)
