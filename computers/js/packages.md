@@ -771,3 +771,4 @@ list.
 * [tristanls/k-bucket](https://github.com/tristanls/k-bucket)
 * [mafintosh/udp-request](https://github.com/mafintosh/udp-request)
 * [mafintosh/xor-distance](https://github.com/mafintosh/xor-distance)
+* [component/throttle](https://github.com/component/throttle)
