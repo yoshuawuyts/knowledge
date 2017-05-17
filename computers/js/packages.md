@@ -772,3 +772,4 @@ list.
 * [mafintosh/udp-request](https://github.com/mafintosh/udp-request)
 * [mafintosh/xor-distance](https://github.com/mafintosh/xor-distance)
 * [component/throttle](https://github.com/component/throttle)
+* [component/throttle](https://github.com/component/throttle)
