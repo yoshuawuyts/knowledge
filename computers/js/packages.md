@@ -768,3 +768,4 @@ list.
 * [bbecquet/jKstra](https://github.com/bbecquet/jKstra)
 * [shama/workerify](https://github.com/shama/workerify)
 * [schnerd/chrome-headless-screenshots](https://github.com/schnerd/chrome-headless-screenshots)
+* [tristanls/k-bucket](https://github.com/tristanls/k-bucket)
