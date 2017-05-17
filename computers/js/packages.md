@@ -769,3 +769,4 @@ list.
 * [shama/workerify](https://github.com/shama/workerify)
 * [schnerd/chrome-headless-screenshots](https://github.com/schnerd/chrome-headless-screenshots)
 * [tristanls/k-bucket](https://github.com/tristanls/k-bucket)
+* [mafintosh/udp-request](https://github.com/mafintosh/udp-request)
