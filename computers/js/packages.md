@@ -773,3 +773,4 @@ list.
 * [mafintosh/xor-distance](https://github.com/mafintosh/xor-distance)
 * [component/throttle](https://github.com/component/throttle)
 * [component/throttle](https://github.com/component/throttle)
+* [sindresorhus/clipboardy](https://github.com/sindresorhus/clipboardy)
