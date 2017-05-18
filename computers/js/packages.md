@@ -774,3 +774,4 @@ list.
 * [component/throttle](https://github.com/component/throttle)
 * [component/throttle](https://github.com/component/throttle)
 * [sindresorhus/clipboardy](https://github.com/sindresorhus/clipboardy)
+* [mafintosh/browser-server](https://github.com/mafintosh/browser-server)
