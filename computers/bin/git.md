@@ -284,6 +284,11 @@ $ git gc
 $ git shortlog -n -s | head
 ```
 
+## Generate a patch file
+```sh
+$ git diff <target-commit> --no-color > patch.diff
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
