@@ -776,3 +776,4 @@ list.
 * [sindresorhus/clipboardy](https://github.com/sindresorhus/clipboardy)
 * [mafintosh/browser-server](https://github.com/mafintosh/browser-server)
 * [lovell/sharp](https://github.com/lovell/sharp)
+* [substack/vector-text-atlas](https://github.com/substack/vector-text-atlas)
