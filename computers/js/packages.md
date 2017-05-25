@@ -777,3 +777,4 @@ list.
 * [mafintosh/browser-server](https://github.com/mafintosh/browser-server)
 * [lovell/sharp](https://github.com/lovell/sharp)
 * [substack/vector-text-atlas](https://github.com/substack/vector-text-atlas)
+* [mikolalysenko/vectorize-text](https://github.com/mikolalysenko/vectorize-text)
