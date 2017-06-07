@@ -780,3 +780,4 @@ list.
 * [mikolalysenko/vectorize-text](https://github.com/mikolalysenko/vectorize-text)
 * [regl-project/resl](https://github.com/regl-project/resl)
 * [regl-project/multi-regl](https://github.com/regl-project/multi-regl)
+* [yoshuawuyts/nanobeacon](https://github.com/yoshuawuyts/nanobeacon)
