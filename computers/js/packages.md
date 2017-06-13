@@ -783,3 +783,4 @@ list.
 * [yoshuawuyts/nanobeacon](https://github.com/yoshuawuyts/nanobeacon)
 * [veltman/flubber](https://github.com/veltman/flubber)
 * [mreinstein/remove-array-items](https://github.com/mreinstein/remove-array-items)
+* [mafintosh/hls-decryptor](https://github.com/mafintosh/hls-decryptor)
