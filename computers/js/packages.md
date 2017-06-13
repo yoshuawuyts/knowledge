@@ -782,3 +782,4 @@ list.
 * [regl-project/multi-regl](https://github.com/regl-project/multi-regl)
 * [yoshuawuyts/nanobeacon](https://github.com/yoshuawuyts/nanobeacon)
 * [veltman/flubber](https://github.com/veltman/flubber)
+* [mreinstein/remove-array-items](https://github.com/mreinstein/remove-array-items)
