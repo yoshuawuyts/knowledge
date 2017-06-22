@@ -23,3 +23,13 @@ Probably the best way of securing email is to host your own provider. After the
 lavabit shutdown, it's probably a good option to use
 [riseup](https://help.riseup.net/).
 
+## Mu
+[Mu mailfinder](https://www.djcbsoftware.nl/code/mu/)
+```sh
+$ mu cfind --format=mutt-alias > aliases
+```
+
+## See Also
+- http://nullprogram.com/blog/2017/06/15/
+- https://wiki.archlinux.org/index.php/Procmail
+- http://www.postfix.org/
