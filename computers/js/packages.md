@@ -784,3 +784,4 @@ list.
 * [veltman/flubber](https://github.com/veltman/flubber)
 * [mreinstein/remove-array-items](https://github.com/mreinstein/remove-array-items)
 * [mafintosh/hls-decryptor](https://github.com/mafintosh/hls-decryptor)
+* [mafintosh/webassembly-binary-toolkit](https://github.com/mafintosh/webassembly-binary-toolkit)
