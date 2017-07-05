@@ -772,7 +772,6 @@ list.
 * [mafintosh/udp-request](https://github.com/mafintosh/udp-request)
 * [mafintosh/xor-distance](https://github.com/mafintosh/xor-distance)
 * [component/throttle](https://github.com/component/throttle)
-* [component/throttle](https://github.com/component/throttle)
 * [sindresorhus/clipboardy](https://github.com/sindresorhus/clipboardy)
 * [mafintosh/browser-server](https://github.com/mafintosh/browser-server)
 * [lovell/sharp](https://github.com/lovell/sharp)
@@ -786,3 +785,4 @@ list.
 * [mafintosh/hls-decryptor](https://github.com/mafintosh/hls-decryptor)
 * [mafintosh/webassembly-binary-toolkit](https://github.com/mafintosh/webassembly-binary-toolkit)
 * [lightstep/lightstep-tracer-javascript](https://github.com/lightstep/lightstep-tracer-javascript)
+* [thlorenz/ansicolors](https://github.com/thlorenz/ansicolors)
