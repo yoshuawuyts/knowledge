@@ -15,6 +15,16 @@ if (input.value != primaryEmail) {
 - submit the form or use `form.reportValidity()`
 - if you submit the form, make sure it doesn't actually submit
 
+Prevent forms from submitting if not all fields are valid
+```js
+form.addEventListener('submit', function(evt) {
+  if (form.checkValidity() === false) {
+    evt.preventDefault()
+    return false
+  }
+});
+```
+
 ## See Also
 - https://developers.google.com/web/fundamentals/design-and-ui/input/forms/
 - https://dev.w3.org/html5/spec-preview/constraints.html#constraint-validation
