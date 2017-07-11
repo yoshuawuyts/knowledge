@@ -2,14 +2,6 @@
 Rendering in the browser is somewhat of a fine art. Knowing when and how to
 break up render calls is important.
 
-## Animations
-### will-change attribute
-To mark that an element will be animated, the `will-change: transform` property
-in CSS is useful. The browser already tries and figure this out bey default,
-but in the case a (delayed) animation is causing a performance bottleck, this
-should help optimize. It can cause visual changes, however.
-- https://developer.mozilla.org/en/docs/Web/CSS/will-change
-
 ## Forced layout
 ### Element
 ##### Box metrics
@@ -32,7 +24,7 @@ should help optimize. It can cause visual changes, however.
 - `elem.innerText`
   ([source](https://code.google.com/p/chromium/codesearch#chromium/src/third_party/WebKit/Source/core/dom/Element.cpp&q=updateLayoutIgnorePendingStylesheets%20-f:out%20-f:test&sq=package:chromium&l=2626&ct=rc&cd=4&dr=C))
 
-### getComputedStyle
+#### getComputedStyle
 `window.getComputedStyle()` will typically force style recalc
 ([source](https://code.google.com/p/chromium/codesearch#chromium/src/third_party/WebKit/Source/core/dom/Document.cpp&sq=package:chromium&type=cs&l=1860&q=updateLayoutTreeForNodeIfNeeded))
 
@@ -55,7 +47,7 @@ is true:
   * `motion-path`, `motion-offset`, `motion-rotation`
   * `x`, `y`, `rx`, `ry`
 
-### window
+## window
 - `window.scrollX`, `window.scrollY`
 - `window.innerHeight`, `window.innerWidth`
 - `window.getMatchedCSSRules()` only forces style
@@ -79,12 +71,68 @@ is true:
   List](http://gent.ilcore.com/2011/03/how-not-to-trigger-layout-in-webkit.html)
   pointed to a few.
 
-
 ### contenteditable
 - Lots & lots of stuff, …including copying an image to clipboard
   ([source](https://code.google.com/p/chromium/codesearch#chromium/src/third_party/WebKit/Source/core/editing/Editor.cpp&sq=package:chromium&l=420&dr=C&rcl=1442532378))
 
+## Contain
+> The contain property allows an author to indicate that an element and its
+> contents are, as much as possible, independent of the rest of the document
+> tree. This allows the browser to recalculate layout, style, paint, size, or
+> any combination of them for a limited area of the DOM and not the entire
+> page.
+
+```css
+/* No layout containment. */
+contain: none;
+
+/* Turn on containment for layout, style, paint, and size. */
+contain: strict;
+
+/* Turn on containment for layout, style, and paint. */
+contain: content;
+
+/* Turn on size containment for an element. */
+contain: size;
+
+/* Turn on layout containment for an element. */
+contain: layout;
+
+/* Turn on style containment for an element. */
+contain: style;
+
+/* Turn on paint containment for an element. */
+contain: paint;
+```
+
+## Will-change
+> The will-change CSS property provides a way for authors to hint browsers
+> about the kind of changes to be expected on an element, so that the browser
+> can set up appropriate optimizations ahead of time before the element is
+> actually changed. These kind of optimizations can increase the responsiveness
+> of a page by doing potentially expensive work ahead of time before they are
+> actually required
+
+```css
+/* Keyword values */
+will-change: auto;
+will-change: scroll-position;
+will-change: contents;
+will-change: transform;        /* Example of <custom-ident> */
+will-change: opacity;          /* Example of <custom-ident> */
+will-change: left, top;        /* Example of two <animateable-feature> */
+
+/* Global values */
+will-change: inherit;
+will-change: initial;
+will-change: unset;
+```
+
 ## See Also
+- https://developer.mozilla.org/en-US/docs/Web/CSS/contain
+- https://medium.com/outsystems-experts/flip-your-60-fps-animations-flip-em-good-372281598865
+- https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108
+- https://developer.mozilla.org/en/docs/Web/CSS/will-change
 - https://developers.google.com/web/fundamentals/performance/rendering/avoid-large-complex-layouts-and-layout-thrashing
 - https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count
 - https://gist.github.com/paulirish/5d52fb081b3570c81e3a
