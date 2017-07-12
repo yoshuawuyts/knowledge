@@ -17,15 +17,51 @@ if (input.value != primaryEmail) {
 
 Prevent forms from submitting if not all fields are valid
 ```js
-form.addEventListener('submit', function(evt) {
-  if (form.checkValidity() === false) {
-    evt.preventDefault()
-    return false
-  }
-});
+form.addEventListener('submit', function(e) {
+  e.preventDefault()
+  if (!e.target.checkValidity()) return false
+  emitt('form:submit', new window.FormData(e.target))
+})
 ```
+
+## Native validation
+```js
+css`
+  input:invalid {
+    border-color: red;
+  }
+  input,
+  input:valid {
+    border-color: #ccc;
+  }
+`
+html`
+  <form action="somefile.php" method="POST">
+    <input
+      type="text"
+      name="username"
+      placeholder="Username"
+      pattern="[a-z]{1,15}"
+      oninvalid=${oninvalid}
+      title="Username should only contain lowercase letters. e.g. john">
+  </form>
+`
+
+function oninvalid (event) {
+  event.target.setCustomValidity(event.target.title)
+}
+```
+
+## Only allow certain filetypes
+This restricts selection to only certain filetypes too.
+```html
+<input type="file" name="pic" id="pic" accept="image/gif, image/jpeg" />
+```
+- https://stackoverflow.com/questions/181214/file-input-accept-attribute-is-it-useful
+- https://stackoverflow.com/questions/7575482/restrict-file-upload-selection-to-specific-types
 
 ## See Also
 - https://developers.google.com/web/fundamentals/design-and-ui/input/forms/
 - https://dev.w3.org/html5/spec-preview/constraints.html#constraint-validation
 - https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reportValidity
+- https://webdesign.tutsplus.com/tutorials/html5-form-validation-with-the-pattern-attribute--cms-25145
