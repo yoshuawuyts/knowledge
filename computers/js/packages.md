@@ -787,3 +787,4 @@ list.
 * [lightstep/lightstep-tracer-javascript](https://github.com/lightstep/lightstep-tracer-javascript)
 * [thlorenz/ansicolors](https://github.com/thlorenz/ansicolors)
 * [KingPixil/wade](https://github.com/KingPixil/wade)
+* [calvinmetcalf/process-nextick-args](https://github.com/calvinmetcalf/process-nextick-args)
