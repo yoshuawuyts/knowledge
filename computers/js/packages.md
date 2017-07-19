@@ -786,3 +786,4 @@ list.
 * [mafintosh/webassembly-binary-toolkit](https://github.com/mafintosh/webassembly-binary-toolkit)
 * [lightstep/lightstep-tracer-javascript](https://github.com/lightstep/lightstep-tracer-javascript)
 * [thlorenz/ansicolors](https://github.com/thlorenz/ansicolors)
+* [KingPixil/wade](https://github.com/KingPixil/wade)
