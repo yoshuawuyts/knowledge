@@ -788,3 +788,4 @@ list.
 * [thlorenz/ansicolors](https://github.com/thlorenz/ansicolors)
 * [KingPixil/wade](https://github.com/KingPixil/wade)
 * [calvinmetcalf/process-nextick-args](https://github.com/calvinmetcalf/process-nextick-args)
+* [dmnd/dedent](https://github.com/dmnd/dedent)
