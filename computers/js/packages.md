@@ -789,3 +789,4 @@ list.
 * [KingPixil/wade](https://github.com/KingPixil/wade)
 * [calvinmetcalf/process-nextick-args](https://github.com/calvinmetcalf/process-nextick-args)
 * [dmnd/dedent](https://github.com/dmnd/dedent)
+* [epochjs/epoch](https://github.com/epochjs/epoch)
