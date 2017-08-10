@@ -790,3 +790,4 @@ list.
 * [calvinmetcalf/process-nextick-args](https://github.com/calvinmetcalf/process-nextick-args)
 * [dmnd/dedent](https://github.com/dmnd/dedent)
 * [epochjs/epoch](https://github.com/epochjs/epoch)
+* [0x00A/asde](https://github.com/0x00A/asde)
