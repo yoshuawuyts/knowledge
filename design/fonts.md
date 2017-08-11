@@ -25,7 +25,7 @@
 
 ### bakken baeck
 - body: Maison Neue Mono
-- headings: Maison Neue Mono
+- headings: GT America
 - note: logo is different type, stands out a lot!
 - https://bakkenbaeck.com
 
