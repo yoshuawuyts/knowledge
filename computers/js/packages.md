@@ -791,3 +791,4 @@ list.
 * [dmnd/dedent](https://github.com/dmnd/dedent)
 * [epochjs/epoch](https://github.com/epochjs/epoch)
 * [0x00A/asde](https://github.com/0x00A/asde)
+* [bcomnes/twitter-component](https://github.com/bcomnes/twitter-component)
