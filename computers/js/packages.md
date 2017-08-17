@@ -794,3 +794,4 @@ list.
 * [bcomnes/twitter-component](https://github.com/bcomnes/twitter-component)
 * [tommoor/electron-lets-move](https://github.com/tommoor/electron-lets-move)
 * [mongodb-js/electron-squirrel-startup](https://github.com/mongodb-js/electron-squirrel-startup)
+* [inxilpro/node-app-root-path](https://github.com/inxilpro/node-app-root-path)
