@@ -796,3 +796,4 @@ list.
 * [mongodb-js/electron-squirrel-startup](https://github.com/mongodb-js/electron-squirrel-startup)
 * [inxilpro/node-app-root-path](https://github.com/inxilpro/node-app-root-path)
 * [sindresorhus/clean-stack](https://github.com/sindresorhus/clean-stack)
+* [tmcw/sitemap-static](https://github.com/tmcw/sitemap-static)
