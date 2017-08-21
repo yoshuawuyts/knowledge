@@ -798,3 +798,4 @@ list.
 * [sindresorhus/clean-stack](https://github.com/sindresorhus/clean-stack)
 * [tmcw/sitemap-static](https://github.com/tmcw/sitemap-static)
 * [bcomnes/youtube-component](https://github.com/bcomnes/youtube-component)
+* [dwyl/decache](https://github.com/dwyl/decache)
