@@ -800,3 +800,4 @@ list.
 * [bcomnes/youtube-component](https://github.com/bcomnes/youtube-component)
 * [dwyl/decache](https://github.com/dwyl/decache)
 * [TabDigital/loop-lag](https://github.com/TabDigital/loop-lag)
+* [mafintosh/to-buffer](https://github.com/mafintosh/to-buffer)
