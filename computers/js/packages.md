@@ -801,3 +801,4 @@ list.
 * [dwyl/decache](https://github.com/dwyl/decache)
 * [TabDigital/loop-lag](https://github.com/TabDigital/loop-lag)
 * [mafintosh/to-buffer](https://github.com/mafintosh/to-buffer)
+* [paulcbetts/xvfb-maybe](https://github.com/paulcbetts/xvfb-maybe)
