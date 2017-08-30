@@ -805,3 +805,4 @@ list.
 * [npm/node-which](https://github.com/npm/node-which)
 * [javascript-studio/studio-changes](https://github.com/javascript-studio/studio-changes)
 * [naugtur/blocked-at](https://github.com/naugtur/blocked-at)
+* [goto-bus-stop/common-shakeify](https://github.com/goto-bus-stop/common-shakeify)
