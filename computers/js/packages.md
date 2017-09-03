@@ -808,3 +808,4 @@ list.
 * [goto-bus-stop/common-shakeify](https://github.com/goto-bus-stop/common-shakeify)
 * [emilbayes/buffer-urlencoded](https://github.com/emilbayes/buffer-urlencoded)
 * [emilbayes/buffer-urlencoded](https://github.com/emilbayes/buffer-urlencoded)
+* [mafintosh/neat-input](https://github.com/mafintosh/neat-input)
