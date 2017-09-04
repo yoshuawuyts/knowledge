@@ -810,3 +810,4 @@ list.
 * [emilbayes/buffer-urlencoded](https://github.com/emilbayes/buffer-urlencoded)
 * [mafintosh/neat-input](https://github.com/mafintosh/neat-input)
 * [TooTallNate/keypress](https://github.com/TooTallNate/keypress)
+* [Daplie/node-walk](https://github.com/Daplie/node-walk)
