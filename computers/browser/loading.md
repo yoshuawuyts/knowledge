@@ -10,6 +10,7 @@ Here's how to immediately apply preloaded stylesheets:
 ```js
 <link rel="preload" href="style.css" onload="this.rel=stylesheet">
 ```
+- http://devdocs.io/html/link_types
 
 ## Prefetch
 Load a resource eventually; no rush but it'll probably be used soonish

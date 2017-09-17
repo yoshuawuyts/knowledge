@@ -143,3 +143,4 @@ box-shadow: [horizontal offset] [vertical offset]
 ## See also
 - [medium's CSS coding guidelines](https://gist.github.com/fat/a47b882eb5f84293c4ed)
 - [medium's CSS post thingy](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
+- http://stephenradford.me/removing-the-white-bars-in-safari-on-iphone-x/

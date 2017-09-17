@@ -28,6 +28,10 @@ http.createServer(function (req, res) {
 }).listen(8080)
 ```
 
+```js
+res.write(`id:${id++}\ndata:{ "type:": "heartbeat" }\n\n`)
+```
+
 ## Browser implementation
 This should probably be coupled with an exponential backoff library that also
 implements jitter - that way you keep servers happy in case of a potential
