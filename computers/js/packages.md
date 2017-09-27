@@ -812,3 +812,4 @@ list.
 * [TooTallNate/keypress](https://github.com/TooTallNate/keypress)
 * [Daplie/node-walk](https://github.com/Daplie/node-walk)
 * [rvagg/github-webhook-handler](https://github.com/rvagg/github-webhook-handler)
+* [axross/tap-diff](https://github.com/axross/tap-diff)
