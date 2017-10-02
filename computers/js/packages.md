@@ -813,3 +813,4 @@ list.
 * [Daplie/node-walk](https://github.com/Daplie/node-walk)
 * [rvagg/github-webhook-handler](https://github.com/rvagg/github-webhook-handler)
 * [axross/tap-diff](https://github.com/axross/tap-diff)
+* [YerkoPalma/choo-websocket](https://github.com/YerkoPalma/choo-websocket)
