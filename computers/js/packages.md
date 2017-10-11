@@ -815,3 +815,4 @@ list.
 * [axross/tap-diff](https://github.com/axross/tap-diff)
 * [YerkoPalma/choo-websocket](https://github.com/YerkoPalma/choo-websocket)
 * [popeindustries/sw-test-env](https://github.com/popeindustries/sw-test-env)
+* [goto-bus-stop/minify-stream](https://github.com/goto-bus-stop/minify-stream)
