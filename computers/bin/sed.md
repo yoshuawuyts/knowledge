@@ -48,3 +48,8 @@ $ printf '1\n2\n3\n' | sed -e '1d'
 $ echo abc.txt | sed 's/.*\.//'
 # => txt
 ```
+
+## Only match lines that match
+```sh
+$ nvm ls | sed -n '/<regex>/p'
+```
