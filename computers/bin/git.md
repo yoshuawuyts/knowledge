@@ -289,6 +289,11 @@ $ git shortlog -n -s | head
 $ git diff <target-commit> --no-color > patch.diff
 ```
 
+## Useful patch file
+```sh
+$ git diff --ignore-space-at-eol -b -w --ignore-blank-lines
+```
+
 ## See Also
 - [how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 - [git koans](http://stevelosh.com/blog/2013/04/git-koans/)
