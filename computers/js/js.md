@@ -217,15 +217,34 @@ function capitalize (text) {
 ## Get year month day
 ```js
 (new Date()).getFullYear() // year
-(new Date()).getMonth() // month
-(new Date()).getDate() // day of month
-(new Date()).day() // day of week (number)
+(new Date()).getMonth()    // month
+(new Date()).getDate()     // day of month
+(new Date()).getDay()      // day of week (number)
 ```
 
 ## Get name of thing
 ```js
 <obj>.constructor.name
 ```
+
+## Typed Arrays
+| Name         | C TypeName | Bytes | Floating Point | Lowest      | Highest
+| ------------ | ---------- | ----- | -------------- | ----------- | ---------- |
+| Int8Array  	 | int8_t     | 1     | No             | -128        | 127
+| Uint8Array   | uint8_t    | 1     | No             | 0           | 255
+| Int16Array   | int16_t    | 2     | No             | -32768      | 32767
+| Uint16Array  | uint16_t   | 2     | No             | 0           | 65535
+| Int32Array   | int32_t    | 4     | No             | -2147483648 | 2147483647
+| Uint32Array  | uint32_t   | 4     | No             | 0           | 4294967295
+| Float32Array | float      | 4     | Yes            | 1.2x10-38   | 3.4x1038
+| Float64Array | double     | 8     | No             | 5.0x10-324  | 1.8x10308
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays
+
+## Validate if typed array
+```js
+ArrayBuffer.isView(data)
+```
+- https://stackoverflow.com/questions/15251879/how-to-check-if-a-variable-is-a-typed-array-in-javascript
 
 ## See Also
 - [ES6 compat table](https://kangax.github.io/compat-table/es6/) - caniuse for js
