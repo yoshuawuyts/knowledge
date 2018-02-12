@@ -61,9 +61,6 @@ overhead in terms of time management.
   - https://www.upwork.com
   - http://www.happyfuncorp.com
 
-- on-site
-  - http://getlambda.com/
-
 ### full-time
 - remote
   - https://weworkremotely.com/
