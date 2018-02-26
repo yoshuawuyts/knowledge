@@ -13,3 +13,4 @@ Rust packages
 - https://github.com/fitzgen/svelte - WASM code size profiler.
 - https://github.com/ashleygwilliams/wasm-pack - pack up wasm and publish to
   npm.
+- https://github.com/carllerche/h2 - tokio http2.
