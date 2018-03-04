@@ -16,4 +16,4 @@ Rust packages
 - https://github.com/carllerche/h2 - tokio http2.
 - https://github.com/mitsuhiko/indicatif - progress bars
 - https://github.com/assert-rs/assert_cli - test CLI applications
-\- https://github.com/slog-rs/slog \- structured logging
+- https://github.com/slog-rs/slog - structured logging
