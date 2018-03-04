@@ -14,3 +14,4 @@ Rust packages
 - https://github.com/ashleygwilliams/wasm-pack - pack up wasm and publish to
   npm.
 - https://github.com/carllerche/h2 - tokio http2.
+- https://github.com/mitsuhiko/indicatif - progress bars
