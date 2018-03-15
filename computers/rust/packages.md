@@ -19,3 +19,4 @@ Rust packages
 - https://github.com/slog-rs/slog - structured logging
 - https://github.com/soc/directories-rs - cross-platform directories
 - https://github.com/mitsuhiko/indicatif - Progress bars
+- https://github.com/Aatch/ramp - Arbitrary floating point precision
