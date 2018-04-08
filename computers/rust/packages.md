@@ -21,3 +21,4 @@ Rust packages
 - https://github.com/mitsuhiko/indicatif - Progress bars
 - https://github.com/Aatch/ramp - Arbitrary floating point precision
 - https://github.com/pingcap/fail-rs - Fail points for Rust
+- https://github.com/BurntSushi/quickcheck - QuickCheck for Rust (with Shrinking).
