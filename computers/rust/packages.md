@@ -22,3 +22,4 @@ Rust packages
 - https://github.com/Aatch/ramp - Arbitrary floating point precision
 - https://github.com/pingcap/fail-rs - Fail points for Rust
 - https://github.com/BurntSushi/quickcheck - QuickCheck for Rust (with Shrinking).
+- https://github.com/rust-fuzz/cargo-fuzz - Command line helpers for fuzzing
