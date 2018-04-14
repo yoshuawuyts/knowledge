@@ -25,3 +25,4 @@ Rust packages
 - https://github.com/rust-fuzz/cargo-fuzz - Command line helpers for fuzzing
 - https://github.com/altsysrq/proptest - Property testing for Rust
 - https://docs.rs/dialoguer/0.1.0/dialoguer/ - interactive CLI dialogue module
+- https://docs.rs/console/0.6.1/console/ - Modify the console in various ways. CLI toolkit.
