@@ -28,3 +28,4 @@ Rust packages
 - https://docs.rs/console/0.6.1/console/ - Modify the console in various ways. CLI toolkit.
 - https://github.com/dtolnay/indoc - Uindent multiline strings
 - https://github.com/hwchen/keyring-rs - Cross-platform keyring module
+- https://github.com/JelteF/derive_more - Derive (more) common built-in traits for custom types
