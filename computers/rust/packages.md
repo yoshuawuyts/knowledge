@@ -29,3 +29,4 @@ Rust packages
 - https://github.com/dtolnay/indoc - Uindent multiline strings
 - https://github.com/hwchen/keyring-rs - Cross-platform keyring module
 - https://github.com/JelteF/derive_more - Derive (more) common built-in traits for custom types
+- https://github.com/oconnor663/duct.rs - Shell pipelines
