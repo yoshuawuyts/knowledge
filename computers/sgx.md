@@ -9,6 +9,13 @@ enforced by hardware.
 Remote Attestation is done by the SGX computing a hash value of data passed,
 which allows you to verify it's running the right code.
 
+## Pitch
+- High performance memory encryption engine
+- Local/Remote attestation support
+- Best choice for "My algorithm, your data, whoever's CPU"
+- And Secure-Multiparty-Computing
+- Previous sample: PowerDVD, WolfSSL
+
 ## Limitations
 - Supported amount of memory is limited (128GB).
 
