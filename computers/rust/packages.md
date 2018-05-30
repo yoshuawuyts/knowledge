@@ -30,3 +30,4 @@ Rust packages
 - https://github.com/hwchen/keyring-rs - Cross-platform keyring module
 - https://github.com/JelteF/derive_more - Derive (more) common built-in traits for custom types
 - https://github.com/oconnor663/duct.rs - Shell pipelines
+- https://github.com/killercup/clap-verbosity-flag - Easily add a --verbose flag to CLIs using Structopt
