@@ -32,3 +32,4 @@ Rust packages
 - https://github.com/oconnor663/duct.rs - Shell pipelines
 - https://github.com/killercup/clap-verbosity-flag - Easily add a --verbose flag to CLIs using Structopt
 - https://github.com/crossbeam-rs/crossbeam-channel - Multi-producer, multi-consumer channels for message passing
+- https://github.com/gimli-rs/gimli - DWARF parser
