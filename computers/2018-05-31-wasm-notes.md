@@ -111,6 +111,8 @@
 - (bunch of talk about how C++ & WASM are done _today_)
 - Node's NAPI is great. Libuv is not ABI stable - that's probably a thing to
   look at stabilizing. Those guarantees would make things a lot better.
+  (2018-06-20: [@bnoordhuis says LibUV _is_ ABI
+  stable](https://github.com/yoshuawuyts/knowledge/issues/52)).
 
 ## What's the process after this workshop?
 - What do we think are the next steps after this?
