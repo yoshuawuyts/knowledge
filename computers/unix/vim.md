@@ -236,6 +236,27 @@ zg  " Mark a word as OK.
 zw  " Mark a word as Not OK.
 ```
 
+## Replacing multiple cursors
+Multiple cursors isn't needed when using vim. Instead there's a combination of
+methods to apply the same functionality using stock options.
+
+```txt
+* (normal mode)  " Find all definitions for the current word under the cursor.
+g* (normal mode) " Same as `*`, but with a less strict filter.
+g# (normal mode) " Same as `*`, but with a less strict filter.
+cgn              " Go to the next definition of the word, and edit it.
+.                " Replay the previous replacement on the next word.
+gn               " Go to the next definition of the word (without replacing).
+```
+
+The flow to replace multiple cursors then becomes:
+- Search for the definition under the cursor using `*` or `g*`.
+- Apply `cgn` to enter edit mode.
+- Replay action as many times as you need using `.`.
+
+### See Also
+- https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
 - [vim for writing](https://www.swamphogg.com/2015/vim-setup/)
