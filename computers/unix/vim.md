@@ -251,11 +251,24 @@ gn               " Go to the next definition of the word (without replacing).
 
 The flow to replace multiple cursors then becomes:
 - Search for the definition under the cursor using `*` or `g*`.
-- Apply `cgn` to enter edit mode.
+- Apply `cgn` to enter edit mode on the next node.
 - Replay action as many times as you need using `.`.
+
+
+### Key Binding
+Replacing values in a file is a relatively common action. To speed this up it
+might be useful to bind it to a key or key combination. The following snippet
+edits the word under the cursor, and allows replaying the action on next
+instances using `n` and `.`. The key feature here is that it can skip over false
+positives, which makes it highly flexible.
+
+```vim
+nmap ! g*Nciw
+```
 
 ### See Also
 - https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db
+- http://vim.wikia.com/wiki/Search_and_replace_the_word_under_the_cursor
 
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
