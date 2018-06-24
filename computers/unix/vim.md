@@ -269,6 +269,7 @@ nmap ! g*Nciw
 ### See Also
 - https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db
 - http://vim.wikia.com/wiki/Search_and_replace_the_word_under_the_cursor
+- http://vim.wikia.com/wiki/Search_and_replace#substitute_last_search
 
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
