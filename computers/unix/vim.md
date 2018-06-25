@@ -263,13 +263,23 @@ instances using `n` and `.`. The key feature here is that it can skip over false
 positives, which makes it highly flexible.
 
 ```vim
-nmap ! g*Nciw
+nmap ! g*Ncw
 ```
 
 ### See Also
 - https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db
 - http://vim.wikia.com/wiki/Search_and_replace_the_word_under_the_cursor
 - http://vim.wikia.com/wiki/Search_and_replace#substitute_last_search
+
+## Jump between panes
+Pane switching doesn't need to be a pain.
+```vim
+C-w C-w  " Jump to next pane in order.
+C-w C-j  " Jump to bottom pane.
+C-w C-k  " Jump to top pane.
+C-w C-h  " Jump to left pane.
+C-w C-l  " Jump to right pane.
+```
 
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
