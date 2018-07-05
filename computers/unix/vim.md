@@ -281,6 +281,28 @@ C-w C-h  " Jump to left pane.
 C-w C-l  " Jump to right pane.
 ```
 
+## Hex mode
+Sometimes you need to edit binary files. That's what hex mode is for. The
+recommended way to do this is by installing a hex mode plugin. If you want to do
+it manually, it can be done by calling out to `%!xxd`.
+
+```vim
+%!xxd        " Enter the hex mode editor
+:set binary  " Prevent errors in hex mode
+%!xxd -r     " Exit hex mode
+```
+
+But it's better to install the [hexmode](https://github.com/fidian/hexmode) vim
+plugin. Map it to `Command + H` with the following key bindings:
+```vim
+nnoremap <C-H> :Hexmode<CR>
+inoremap <C-H> <Esc>:Hexmode<CR>
+vnoremap <C-H> :<C-U>Hexmode<CR>
+```
+
+- https://github.com/fidian/hexmode
+- http://vim.wikia.com/wiki/Improved_Hex_editing
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
 - [vim for writing](https://www.swamphogg.com/2015/vim-setup/)
