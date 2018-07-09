@@ -34,3 +34,4 @@ Rust packages
 - https://github.com/crossbeam-rs/crossbeam-channel - Multi-producer, multi-consumer channels for message passing
 - https://github.com/gimli-rs/gimli - DWARF parser
 - https://github.com/tantivy-search/tantivy - Full text search in Rust
+- https://github.com/buntine/barcoders - Barcode parsing library
