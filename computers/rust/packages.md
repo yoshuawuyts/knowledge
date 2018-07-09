@@ -36,3 +36,4 @@ Rust packages
 - https://github.com/tantivy-search/tantivy - Full text search in Rust
 - https://github.com/buntine/barcoders - Barcode parsing library
 - https://crates.io/crates/strum - Convert strings to enums, and enums to strings
+- https://crates.io/crates/lettre - Email client
