@@ -37,3 +37,4 @@ Rust packages
 - https://github.com/buntine/barcoders - Barcode parsing library
 - https://crates.io/crates/strum - Convert strings to enums, and enums to strings
 - https://crates.io/crates/lettre - Email client
+- https://crates.io/crates/maud - html templates
