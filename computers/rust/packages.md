@@ -38,3 +38,4 @@ Rust packages
 - https://crates.io/crates/strum - Convert strings to enums, and enums to strings
 - https://crates.io/crates/lettre - Email client
 - https://crates.io/crates/maud - html templates
+- https://crates.io/crates/wkhtmltopdf - HTML to PDF
