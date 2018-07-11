@@ -300,6 +300,11 @@ inoremap <C-H> <Esc>:Hexmode<CR>
 vnoremap <C-H> :<C-U>Hexmode<CR>
 ```
 
+And to auto-detect it for certain files:
+```
+let g:hexmode_patterns = '*.bin,*.exe,*.dat,*.o'
+```
+
 - https://github.com/fidian/hexmode
 - http://vim.wikia.com/wiki/Improved_Hex_editing
 
