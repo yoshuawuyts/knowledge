@@ -1,4 +1,4 @@
-LENTIL BOLOGNESE:
+# Lentil Bolognese:
 
 - Make sure you start early, cause the lentils need to soak for about 45mins
   first. So start soaking like a cup and a half of green lentils.  (i'm
