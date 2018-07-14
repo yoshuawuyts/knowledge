@@ -40,3 +40,4 @@ Rust packages
 - https://crates.io/crates/maud - html templates
 - https://crates.io/crates/wkhtmltopdf - HTML to PDF
 - https://github.com/libpnet/libpnet - low level networking
+- https://github.com/seanmonstar/num_cpus - Count the number of CPUs a system has available
