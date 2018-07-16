@@ -42,3 +42,4 @@ Rust packages
 - https://github.com/libpnet/libpnet - low level networking
 - https://github.com/seanmonstar/num_cpus - Count the number of CPUs a system has available
 - https://github.com/alexcrichton/cargo-edit-locally - Edit cargo files locally
+- https://github.com/xiph/rav1e - Fast video encoder
