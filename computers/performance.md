@@ -5,6 +5,7 @@
 ```sh
 vmstat         # General system info
 mpstat         # CPU info
+iostat         # Disk info
 netstat        # Network info
 lsblk          # Show devices
 lsblk -f       # show disk partitions
