@@ -75,5 +75,10 @@ $ cargo yank --vers <version>   # remove a version
 ## Docs
 - https://docs.rs/
 
+## Add GitHub Org Team to Maintainers
+```sh
+$ cargo owner --add github:<organization>:<team>
+```
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
