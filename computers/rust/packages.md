@@ -44,3 +44,4 @@ Rust packages
 - https://github.com/alexcrichton/cargo-edit-locally - Edit cargo files locally
 - https://github.com/xiph/rav1e - Fast video encoder
 - https://github.com/alexcrichton/futures-await - Async await syntax for the futures crate
+- https://github.com/google/pulldown-cmark - Markdown parser
