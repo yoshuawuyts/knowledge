@@ -45,3 +45,4 @@ Rust packages
 - https://github.com/xiph/rav1e - Fast video encoder
 - https://github.com/alexcrichton/futures-await - Async await syntax for the futures crate
 - https://github.com/google/pulldown-cmark - Markdown parser
+- https://github.com/gyscos/Cursive - ncurses wrapper
