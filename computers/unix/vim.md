@@ -181,7 +181,13 @@ zo " open a fold
 zO " open all folds
 za " toggle a fold
 zA " toggle all folds
+
+zM " Close all folds ("m" stands for "More")
+zm " Close folds level by level
+zR " Open all folds ("r" stands for "Reduce")
+zr " Open folds level by level
 ```
+- https://stackoverflow.com/questions/4559571/how-can-i-automatically-fold-all-functions-in-a-file-with-vim#4559609
 
 ## Macros
 ```vim
