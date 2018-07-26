@@ -178,16 +178,18 @@ t<char>  " jump to char before match
 zc " close a fold
 zC " close all folds
 zo " open a fold
-zO " open all folds
+zO " open all folds under selection
 za " toggle a fold
-zA " toggle all folds
+zA " toggle all folds under selection
+zM " Close all folds in the file ("m" stands for "More")
+zm " Close folds in the file level by level
+zR " Open all folds in the file ("r" stands for "Reduce")
+zr " Open folds in the file level by level
 
-zM " Close all folds ("m" stands for "More")
-zm " Close folds level by level
-zR " Open all folds ("r" stands for "Reduce")
-zr " Open folds level by level
+set foldlevel=0 " Set the indentation level at which folds should start
 ```
 - https://stackoverflow.com/questions/4559571/how-can-i-automatically-fold-all-functions-in-a-file-with-vim#4559609
+- https://vi.stackexchange.com/questions/4627/change-what-vim-displays-when-there-is-a-fold#4628
 
 ## Macros
 ```vim
