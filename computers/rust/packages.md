@@ -47,3 +47,4 @@ Rust packages
 - https://github.com/google/pulldown-cmark - Markdown parser
 - https://github.com/gyscos/Cursive - ncurses wrapper
 - https://github.com/sharkdp/hyperfine - Benchmark arbitrary things
+- https://github.com/BurntSushi/fst - Finite state machines
