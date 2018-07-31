@@ -190,6 +190,8 @@ set foldlevel=0 " Set the indentation level at which folds should start
 ```
 - https://stackoverflow.com/questions/4559571/how-can-i-automatically-fold-all-functions-in-a-file-with-vim#4559609
 - https://vi.stackexchange.com/questions/4627/change-what-vim-displays-when-there-is-a-fold#4628
+- https://vi.stackexchange.com/questions/6635/get-rid-of-extra-fold-dashes-when-using-vim-folding
+- https://github.com/chrisbra/vim_dotfiles/blob/a1a106081884647922395fe4512aa8fcc887d64c/plugin/CustomFoldText.vim
 
 ## Macros
 ```vim
