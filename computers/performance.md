@@ -17,8 +17,20 @@ The general recipe for scalable architecture looks roughly as follows.
 4. __Eliminate shared mutable state:__ mutation of shared state causes
    cache-coherence traffic, and can become a bottleneck in your system.
 
+### Sources
 - http://www.1024cores.net/home/scalable-architecture/general-recipe
 - http://www.1024cores.net/home/scalable-architecture/parallel-disk-io
+- http://www.1024cores.net/home/scalable-architecture/task-scheduling-strategies
+
+## Task Scheduling Strategies
+- __work stealing:__ when a thread is out of work, it randomly chooses another
+  thread and tries to steal work from it.
+- __work distribution:__ when new work is submitted, it's preferably scheduled
+  on threads that are idle or lightly loaded.
+- __work balancing:__ periodically collect information about all threads, and
+    re-distribute work amongst threads.
+
+### Sources
 - http://www.1024cores.net/home/scalable-architecture/task-scheduling-strategies
 
 ## Analysis
