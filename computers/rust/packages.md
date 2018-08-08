@@ -49,3 +49,4 @@ Rust packages
 - https://github.com/sharkdp/hyperfine - Benchmark arbitrary things
 - https://github.com/BurntSushi/fst - Finite state machines
 - https://crates.io/crates/microstate - Finite state machine
+- https://github.com/carllerche/bytes - Helper method to work with bytes
