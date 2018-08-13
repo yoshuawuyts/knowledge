@@ -51,3 +51,4 @@ Rust packages
 - https://crates.io/crates/microstate - Finite state machine
 - https://github.com/carllerche/bytes - Helper method to work with bytes
 - https://github.com/nox/serde_urlencoded - Parse urls using serde
+- https://github.com/nagisa/rust_libloading - Dynamically load shared libraries
