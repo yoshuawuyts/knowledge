@@ -52,3 +52,4 @@ Rust packages
 - https://github.com/carllerche/bytes - Helper method to work with bytes
 - https://github.com/nox/serde_urlencoded - Parse urls using serde
 - https://github.com/nagisa/rust_libloading - Dynamically load shared libraries
+- https://docs.rs/thread_local/0.3.6/thread_local/ - Thread local storage
