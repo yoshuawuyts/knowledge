@@ -58,3 +58,4 @@ Rust packages
 - https://crates.io/crates/phf_codegen - Compile time perfect hash function
 - https://crates.io/crates/phf - perfect hash function
 - https://docs.rs/webpki/0.18.1/webpki/ - Web PKI Certificate validation
+- https://github.com/michaelsproul/rust_radix_trie - radix trie
