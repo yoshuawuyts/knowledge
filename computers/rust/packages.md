@@ -56,3 +56,4 @@ Rust packages
 - https://github.com/samscott89/serde_qs - Nested querystring support for Serde
 - https://github.com/abonander/mime_guess - detect MIME types
 - https://crates.io/crates/phf_codegen - Compile time perfect hash function
+- https://crates.io/crates/phf - perfect hash function
