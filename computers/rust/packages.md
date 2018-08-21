@@ -59,3 +59,4 @@ Rust packages
 - https://crates.io/crates/phf - perfect hash function
 - https://docs.rs/webpki/0.18.1/webpki/ - Web PKI Certificate validation
 - https://github.com/michaelsproul/rust_radix_trie - radix trie
+- https://github.com/tailhook/humantime - Human friendly time parser & formatter
