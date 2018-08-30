@@ -61,3 +61,4 @@ Rust packages
 - https://github.com/michaelsproul/rust_radix_trie - radix trie
 - https://github.com/tailhook/humantime - Human friendly time parser & formatter
 - https://github.com/softprops/hubcaps - GitHub client
+- https://github.com/dekellum/body-image - Process big HTTP payloads by offloading to disk
