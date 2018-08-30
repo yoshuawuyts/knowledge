@@ -62,3 +62,4 @@ Rust packages
 - https://github.com/tailhook/humantime - Human friendly time parser & formatter
 - https://github.com/softprops/hubcaps - GitHub client
 - https://github.com/dekellum/body-image - Process big HTTP payloads by offloading to disk
+- https://docs.rs/cargo_toml/0.3.0/cargo_toml/ - Cargo.toml parser
