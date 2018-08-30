@@ -318,6 +318,12 @@ let g:hexmode_patterns = '*.bin,*.exe,*.dat,*.o'
 - https://github.com/fidian/hexmode
 - http://vim.wikia.com/wiki/Improved_Hex_editing
 
+## Select Line Without Newline
+```viml
+vgl  " select line without newline
+```
+- https://stackoverflow.com/a/41456368/1541707
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
 - [vim for writing](https://www.swamphogg.com/2015/vim-setup/)
