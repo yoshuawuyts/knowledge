@@ -66,3 +66,4 @@ Rust packages
 - https://github.com/Nemo157/cargo-lichking - Check licenses you depend on
 - https://github.com/levex/cgroups-rs - Manage Linux control groups
 - https://github.com/TimNN/cargo-lipo - Automatically create universal libraries for iOS
+- https://github.com/jni-rs/jni-rs - Native Java bindings
