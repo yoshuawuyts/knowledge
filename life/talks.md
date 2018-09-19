@@ -26,13 +26,13 @@ Call for proposals help land talks - they're important.
 - Who is the talk for?
 - What will people hopefully learn from it?
 - Why is it relevant for the specific audience?
-- What's unique abou the talk? Why should I watch it?
+- What's unique about the talk? Why should I watch it?
 
-- start by writing only keywords
-- place yourself in the perspective of future audience
-- write a brief abstract
-- use "you will" instead of "I will"
-- ask questions and leave unanswered
+- Start by writing only keywords.
+- Place yourself in the perspective of future audience.
+- Write a brief abstract.
+- Use "you will" instead of "I will".
+- Ask questions and leave unanswered.
 
 - [how to prepare for a tech conference talk](http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/)
 
