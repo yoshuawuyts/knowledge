@@ -68,3 +68,4 @@ Rust packages
 - https://github.com/TimNN/cargo-lipo - Automatically create universal libraries for iOS
 - https://github.com/jni-rs/jni-rs - Native Java bindings
 - https://github.com/paholg/typenum - Compile time numbers
+- https://github.com/QuietMisdreavus/handler_map - Event Emitter
