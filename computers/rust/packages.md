@@ -69,3 +69,4 @@ Rust packages
 - https://github.com/jni-rs/jni-rs - Native Java bindings
 - https://github.com/paholg/typenum - Compile time numbers
 - https://github.com/QuietMisdreavus/handler_map - Event Emitter
+- https://github.com/rust-embedded/cargo-binutils - Cargo subcommands to invoke the LLVM tools shipped with the Rust toolchain
