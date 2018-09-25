@@ -72,3 +72,4 @@ Rust packages
 - https://github.com/rust-embedded/cargo-binutils - Cargo subcommands to invoke the LLVM tools shipped with the Rust toolchain
 - https://crates.io/crates/cargo-binutils - Cargo subcommands to invoke the LLVM tools shipped with the Rust toolchain
 - https://github.com/redsift/redbpf - Rust eBPF library
+- https://github.com/softprops/hyperlocal - rustlang hyper bindings for local unix domain sockets
