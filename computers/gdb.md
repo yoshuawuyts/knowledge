@@ -15,6 +15,7 @@ info registers              # print out all registers
 info registers <register>   # print out info for a specific register
 show args                   # print all CLI args
 quit                        # exit
+C-r                         # reverse search
 ```
 
 ## Config
