@@ -1,21 +1,29 @@
 # gdb
 GNU Debugger.
 
-## Debugging an assembly program
+## Debugging a program
 ```sh
 $ gdb ./binary
 ```
 ```sh
-b _start                    # breakpoint at _start
-b _start                    # breakpoint at _start
+# Basics
 run                         # start the program
+step                        # step to next instruction
 s                           # step to next instruction
 r <argument>                # pass arguments to the CLI
+quit                        # exit
+q                           # exit
+C-r                         # reverse search
+
+# Set breakpoint
+break _start                # breakpoint at _start
+b _start                    # breakpoint at _start
+clear _start                # delete the first breakpoint
+
+# Printing
 info registers              # print out all registers
 info registers <register>   # print out info for a specific register
 show args                   # print all CLI args
-quit                        # exit
-C-r                         # reverse search
 ```
 
 ## Config
