@@ -144,6 +144,15 @@ server {
 - http://m12.io/blog/http-2-with-haproxy-and-nginx-guide
 - https://github.com/million12/docker-nginx
 
+## Make logs accessible from journalctl
+```nginx
+server {
+    error_log syslog:server=unix:/dev/log;
+    access_log syslog:server=unix:/dev/log;
+    ...
+}
+```
+
 ## See Also
 - [scripting nginx with lua](http://www.londonlua.org/scripting_nginx_with_lua/slides.html)
 - [openresty/lua-nginx-module](https://github.com/openresty/lua-nginx-module/)
