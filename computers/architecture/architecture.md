@@ -13,9 +13,9 @@ delivery mechanism -> boundries -> message bus -> entities
 A way of getting messages into the application. Generally some HTTP server but
 could be anything really. It's a plugin to the application. Should take care of
 abstracting out all application details so only pure data flows out to the
-boundries.
+boundaries.
 
-### boundries
+### boundaries
 The application specific business logic. Cannot be abstracted into a framework.
 Implements the domain model and exposes it to the outside world over the
 delivery mechanism. Has no notion of details that are hosted in the delivery
