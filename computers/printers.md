@@ -30,7 +30,14 @@ $ sudo lpinfo -v   # List available printers
 $ lpinfo -m        # list the model files. There should be a Brother `.ppd` in here
 $ sudo lpadmin -p name -E -v 'usb://my-printer' -m something.ppd  # Enable a printer
 
-$ sudo lpadmin -p BROTHER -E -v 'usb://Brother/HL-L2310D%20series?serial=E78096C8N348699' -m HL2030.ppd  # Enable the Brother printer
+# Enable brother printer with HL2030D package
+$ sudo lpadmin -p BROTHER -E -v 'usb://Brother/HL-L2310D%20series?serial=E78096C8N348699' \
+  -m HL2030.ppd  # Enable the Brother printer
+$ lpoptions -d BROTHER  # Set brother printer as default
+
+# Enable brother printer with the HL2310D package
+$ sudo lpadmin -p BROTHER -E -v 'usb://Brother/HL-L2310D%20series?serial=E78096C8N348699' \
+  -m lsb/usr/cupsfilters/brother-HLL2310D-cups-en.ppd
 $ lpoptions -d BROTHER  # Set brother printer as default
 ```
 

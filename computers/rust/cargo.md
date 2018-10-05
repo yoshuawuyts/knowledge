@@ -80,5 +80,20 @@ $ cargo yank --vers <version>   # remove a version
 $ cargo owner --add github:<organization>:<team>
 ```
 
+## Workspace
+```toml
+[workspace]
+members = [
+  "futures",
+  "futures-core",
+  "futures-channel",
+  "futures-executor",
+  "futures-io",
+  "futures-sink",
+  "futures-util",
+  "futures-test",
+]
+```
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
