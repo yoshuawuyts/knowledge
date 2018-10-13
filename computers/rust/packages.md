@@ -75,3 +75,4 @@ Rust packages
 - https://github.com/softprops/hyperlocal - rustlang hyper bindings for local unix domain sockets
 - https://github.com/rust-syndication/rss - RSS
 - cargo-edit-locally - Cargo subcommand which intends to allow easy management of the [replace] section of Cargo.toml
+- https://github.com/GuillaumeGomez/minifier-rs - minify html,css,js
