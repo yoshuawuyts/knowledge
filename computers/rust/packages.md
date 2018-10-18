@@ -78,3 +78,4 @@ Rust packages
 - https://github.com/GuillaumeGomez/minifier-rs - minify html,css,js
 - https://github.com/alanhoff/rust-webview - inline webview
 - https://crates.io/crates/cssparser - css parser
+- https://github.com/RustCrypto/traits - Crypto traits
