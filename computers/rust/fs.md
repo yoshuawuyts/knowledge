@@ -2,8 +2,19 @@
 Rust has pretty good filesystem support. It has sync methods of reading files,
 but also readers that use cursors to read out files one chunk at the time.
 
-## read a file
-### reader
+## Read a File
+### Read To STring
+```rust
+use std::fs;
+use std::error;
+
+pub fn read (location: &str) -> Result<(), dyn Box<error::Error>>{
+  let content = fs::read_to_string(location)?;
+  println!("{}", content);
+  Ok(())
+}
+```
+### Reader
 ```rust
 use std::io::BufReader;
 use std::fs::File;
