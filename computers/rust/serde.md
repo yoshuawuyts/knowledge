@@ -26,3 +26,17 @@ pub struct Manifest<'s, 'i, 'r> {
 
 ### Links
 - https://serde.rs/field-attrs.html
+
+## Deserialize Reqwest to Struct
+```rust
+#[derive(Debug, Clone, Deserialize)]
+struct PrivateKey {
+  key: String,
+}
+
+fn make_req() -> String {
+  let url = "https://foo.com/key"
+  let key: PrivateKey = reqwest::get(&url)?.json()?;
+  Ok(key.key)
+}
+```
