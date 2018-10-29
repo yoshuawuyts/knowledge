@@ -80,3 +80,4 @@ Rust packages
 - https://crates.io/crates/cssparser - css parser
 - https://github.com/RustCrypto/traits - Crypto traits
 - https://github.com/mdsteele/rust-icns - Encode / Decode Apple .icns files
+- https://github.com/bluejekyll/trust-dns - DNS library
