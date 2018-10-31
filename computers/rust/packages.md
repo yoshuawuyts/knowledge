@@ -84,3 +84,4 @@ Rust packages
 - https://github.com/dtolnay/cargo-expand - Expand macro output
 - https://docs.rs/slab/0.4.1/slab/ - pre-allocate storage for a single data type
 - https://github.com/Amanieu/hashbrown - Fast(er) Hash Map, port of SwissTable
+- https://github.com/blt/bughunt-rust - stateful quickcheck test collection for Rust's stdlib
