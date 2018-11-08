@@ -87,3 +87,4 @@ Rust packages
 - https://github.com/blt/bughunt-rust - stateful quickcheck test collection for Rust's stdlib
 - https://docs.rs/approx/0.3.0/approx/ - Approximate numbers
 - https://github.com/google/mundane - BoringSSL wrapper
+- https://github.com/maps4print/azul - Rust Electron thingy
