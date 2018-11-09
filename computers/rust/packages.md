@@ -88,3 +88,4 @@ Rust packages
 - https://docs.rs/approx/0.3.0/approx/ - Approximate numbers
 - https://github.com/google/mundane - BoringSSL wrapper
 - https://github.com/maps4print/azul - Rust Electron thingy
+- https://crates.io/crates/breakpoint - Set breakpoints in the debugger
