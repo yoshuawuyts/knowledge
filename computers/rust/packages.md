@@ -89,3 +89,4 @@ Rust packages
 - https://github.com/google/mundane - BoringSSL wrapper
 - https://github.com/maps4print/azul - Rust Electron thingy
 - https://crates.io/crates/breakpoint - Set breakpoints in the debugger
+- https://crates.io/crates/generational-arena - Generational arena module
