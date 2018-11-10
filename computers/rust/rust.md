@@ -20,6 +20,16 @@ $ rustup update <channel>   # get latest versions for {stable,beta,nightly}
 )]
 ```
 
+## Closures
+```rust
+let square = |x| x * x;     // Fn
+let mut square = || x *= x; // FnMut
+let square = move || x * x; // FnOnce
+```
+- __Fn__ can close over external variables in a read-only fashion aka "borrow".
+- __FnMut__ can close over external values mutably, aka "mutable borrow".
+- __FnOnce__ takes ownership of external variables referenced. Aka "owned".
+
 ## See Also
 - [rust vs java](https://llogiq.github.io/2016/02/28/java-rust.html)
 - [rust's built in traits](https://llogiq.github.io/2015/07/30/traits.html)
