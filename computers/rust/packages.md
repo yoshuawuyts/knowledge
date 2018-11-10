@@ -91,3 +91,4 @@ Rust packages
 - https://crates.io/crates/breakpoint - Set breakpoints in the debugger
 - https://crates.io/crates/generational-arena - Generational arena module
 - https://github.com/bluss/arrayvec - Stack-allocated vector
+- https://github.com/darfink/tap-rs - Chain operations that don't return Self
