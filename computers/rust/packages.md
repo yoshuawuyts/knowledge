@@ -92,3 +92,4 @@ Rust packages
 - https://crates.io/crates/generational-arena - Generational arena module
 - https://github.com/bluss/arrayvec - Stack-allocated vector
 - https://github.com/darfink/tap-rs - Chain operations that don't return Self
+- https://github.com/fitzgen/derive_is_enum_variant - Derive is_* methods for enum variants
