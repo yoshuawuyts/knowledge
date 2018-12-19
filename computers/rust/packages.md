@@ -94,3 +94,4 @@ Rust packages
 - https://github.com/darfink/tap-rs - Chain operations that don't return Self
 - https://github.com/fitzgen/derive_is_enum_variant - Derive is_* methods for enum variants
 - https://github.com/rustwasm/wee_alloc - WASM allocator
+- https://github.com/media-io/yaserde - Serde XML parser
