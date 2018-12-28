@@ -40,3 +40,25 @@ fn make_req() -> String {
   Ok(key.key)
 }
 ```
+
+Implemented as:
+```rust
+/// Try to deserialize the response body as JSON using `serde`.
+#[inline]
+pub fn json<T: DeserializeOwned>(&mut self) -> Json<T> {
+    let body = mem::replace(&mut self.body, Decoder::empty());
+
+    Json {
+        concat: body.concat2(),
+        _marker: PhantomData,
+    }
+}
+
+/// A JSON object.
+pub struct Json<T> {
+    concat: Concat2<Decoder>,
+    _marker: PhantomData<T>,
+}
+```
+- https://github.com/seanmonstar/reqwest/blob/478ef9bf158b74de7302c4a9046fda80e97a4731/src/async_impl/decoder.rs
+- https://github.com/seanmonstar/reqwest/blob/478ef9bf158b74de7302c4a9046fda80e97a4731/src/async_impl/response.rs#L113
