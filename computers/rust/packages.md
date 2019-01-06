@@ -95,3 +95,4 @@ Rust packages
 - https://github.com/fitzgen/derive_is_enum_variant - Derive is_* methods for enum variants
 - https://github.com/rustwasm/wee_alloc - WASM allocator
 - https://github.com/media-io/yaserde - Serde XML parser
+- https://github.com/Xaeroxe/nonzero_signed - NonZero signed integers. {i8,i16,i32,i64}
