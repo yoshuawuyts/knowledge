@@ -96,3 +96,4 @@ Rust packages
 - https://github.com/rustwasm/wee_alloc - WASM allocator
 - https://github.com/media-io/yaserde - Serde XML parser
 - https://github.com/Xaeroxe/nonzero_signed - NonZero signed integers. {i8,i16,i32,i64}
+- https://github.com/LivingInSyn/rbtag - Embed build time / commit in the resulting binary
