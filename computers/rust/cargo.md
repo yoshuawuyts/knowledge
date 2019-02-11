@@ -95,5 +95,25 @@ members = [
 ]
 ```
 
+## Patch dependencies
+You can override dependencies in Cargo.toml by setting the `[patch]` section:
+```toml
+[patch.crates-io]
+foo = { git = 'https://github.com/example/foo' }
+bar = { path = 'my/local/bar' }
+```
+- https://doc.rust-lang.org/cargo/reference/manifest.html#the-patch-section
+
+
+## Git Dependencies
+```toml
+[dependencies]
+rand = { git = "https://github.com/rust-lang-nursery/rand", branch = "next" }
+
+[dev-dependencies.basic-cookies]
+git = "https://github.com/yoshuawuyts/basic-cookies"
+branch = "fix-cookie-token"
+```
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
