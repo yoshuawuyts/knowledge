@@ -19,9 +19,10 @@ let rt = syn::parse_macro_input!(attr as syn::Expr);
 
 ## Optional Macro Value with Syn
 ```rust
-let rt = match syn::parse::<syn::Expr>(attr) {
-  Ok(data) => data,
-  Err(_) => syn::parse_str("replacement_string").unwrap(),
+let rt = if attr.is_empty() {
+  syn::parse_str("string replacement").unwrap()
+} else {
+  syn::parse_macro_input!(attr as syn::Expr)
 };
 ```
 
