@@ -99,7 +99,6 @@ members = [
 You can override dependencies in Cargo.toml by setting the `[patch]` section:
 ```toml
 [patch.crates-io]
-foo = { git = 'https://github.com/example/foo' }
 bar = { path = 'my/local/bar' }
 ```
 - https://doc.rust-lang.org/cargo/reference/manifest.html#the-patch-section
