@@ -45,5 +45,14 @@ impl fmt::Display for Point {
 }
 ```
 
+## Implement Display
+```rust
+impl fmt::Display for Point {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "({}, {})", self.x, self.y)
+    }
+}
+```
+
 ## See Also
 - [rust-xxdb](https://michaelwoerister.github.io/2015/03/27/rust-xxdb.html)
