@@ -1,9 +1,14 @@
 # packages
 
+## WSL
+```powershell
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
 ## Drivers
 - Archer T6E - network card
-- AMD Ryzen Threadripper 2920
-- AMD Radeon RX560
+- AMD Ryzen Threadripper 2920 - CPU
+- AMD Radeon RX560 - GPU
 
 ## Others
 - NZXT CAM - system monitoring software
