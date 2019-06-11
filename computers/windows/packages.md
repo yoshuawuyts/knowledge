@@ -1,5 +1,9 @@
 # packages
 
+## Refs
+- https://docs.microsoft.com/en-us/windows/wsl/install-win10
+- https://code.visualstudio.com/docs/remote/wsl
+
 ## WSL
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
