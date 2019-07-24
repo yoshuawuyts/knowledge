@@ -331,6 +331,13 @@ vgl  " select line without newline
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 ```
 
+## Rebase against a branch and always pick our changes
+Use `rebase -X theirs`, where "theirs" means "override theirs".
+```sh
+$ git rebase master -X theirs
+$ git rebase <other_branch> -X theirs
+```
+
 ## See Also
 - [how to boost your vim productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
 - [vim for writing](https://www.swamphogg.com/2015/vim-setup/)
