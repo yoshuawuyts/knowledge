@@ -1,6 +1,15 @@
 # Pinning
 
+## What is pinning?
+
+> The metaphor is to pinning something to a corkboard, if something allows you
+> to `Unpin` it then you can remove the Pin on it at any point and re-Pin it in
+> a new location.
+
+_By Nemo157 on Discord_
+
 ## Pin projections
+
 Pinning projection is safe when:
 1. `Timeout` is only Unpin when `F` is Unpin. (Ok for default auto impl)
 2. `drop` never moves out of `F`. (No manual `Drop` impl and no `#[repr(packed)]`)
