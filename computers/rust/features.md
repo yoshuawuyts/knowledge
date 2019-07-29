@@ -8,8 +8,16 @@
 ```toml
 [features]
 default = ["middleware-logger"]
-middleware-logger = []
+middleware-logger = ["log"]
 
 [dependencies]
 log = { version = "0.4.7", optional = true }
+```
+
+## Rust Usage
+```rust
+mod middleware {
+#[cfg(feature = "middleware-logger")]
+    pub mod logger;
+}
 ```
