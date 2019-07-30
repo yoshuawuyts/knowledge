@@ -21,3 +21,10 @@ mod middleware {
     pub mod logger;
 }
 ```
+
+## Forwarding Features
+It's possible to expose dependency feature flags from your own crate:
+```rust
+[features]
+curl-static = ["url/static-curl"]
+```
