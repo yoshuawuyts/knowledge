@@ -28,3 +28,9 @@ It's possible to expose dependency feature flags from your own crate:
 [features]
 curl-static = ["url/static-curl"]
 ```
+
+## Enable dependencies only on specific platforms
+```rust
+[target.'cfg(any(target_os = "linux", target_os = "macos", target_os="windows"))'.dependencies]
+fs2 = "0.4.3"
+```
