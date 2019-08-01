@@ -100,3 +100,4 @@ Rust packages
 - https://github.com/cmyr/cargo-instruments - MacOS performance instrumentation for Rust
 - https://github.com/athre0z/color-backtrace - Colorize backtraces
 - https://github.com/fpapado/blurhash-rust-wasm - Compact visual representation of an image
+- https://github.com/heim-rs/heim - OS information
