@@ -22,6 +22,13 @@ mod middleware {
 }
 ```
 
+Or using `if` statements:
+```rust
+if cfg!(feature = "middleware-logger") {
+    pub mod logger;
+}
+```
+
 ## Forwarding Features
 It's possible to expose dependency feature flags from your own crate:
 ```rust
