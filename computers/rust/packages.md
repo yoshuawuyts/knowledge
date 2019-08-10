@@ -101,3 +101,4 @@ Rust packages
 - https://github.com/athre0z/color-backtrace - Colorize backtraces
 - https://github.com/fpapado/blurhash-rust-wasm - Compact visual representation of an image
 - https://github.com/heim-rs/heim - OS information
+- https://github.com/alexcrichton/socket2-rs - Utilities for handling sockets
