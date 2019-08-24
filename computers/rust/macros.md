@@ -50,5 +50,29 @@ macro_rules! span_inner {
 }
 ```
 
+## Debugging
+### trace-macros
+
+```rust
+#![feature(trace_macros)]
+
+fn main() {
+    trace_macros!(true);
+    println!("Hello, Rust!");
+    trace_macros!(false);
+}
+```
+
+- https://doc.rust-lang.org/unstable-book/language-features/trace-macros.html
+
+### external-macro-backtrace
+
+Provide backtraces when compilation fails during resolution of another crate's
+macros. (non-local macros)
+
+```rust
+$ cargo build -Z external-macro-backtrace
+```
+
 ## References
 - https://doc.rust-lang.org/book/first-edition/procedural-macros.html
