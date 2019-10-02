@@ -114,5 +114,10 @@ git = "https://github.com/yoshuawuyts/basic-cookies"
 branch = "fix-cookie-token"
 ```
 
+## Deprecating Crates
+- use [`std::compile_error`](https://doc.rust-lang.org/std/macro.compile_error.html)
+  to mention the crate is now deprecated.
+- publish new major version
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
