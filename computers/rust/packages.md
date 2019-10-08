@@ -103,3 +103,4 @@ Rust packages
 - https://github.com/heim-rs/heim - OS information
 - https://github.com/alexcrichton/socket2-rs - Utilities for handling sockets
 - https://github.com/orlp/slotmap - slab-like data structure
+- https://github.com/laumann/compiletest-rs - Compile Test, console output assertions
