@@ -119,5 +119,15 @@ branch = "fix-cookie-token"
   to mention the crate is now deprecated.
 - publish new major version
 
+## Pass -Z flags
+```rust
+$ cargo +my_toolchain rustc -- -Z self-profile
+```
+
+## Capture compilation times
+```rust
+$ cargo +nightly build -Z timings
+```
+
 ## See Also
 - [cargo manifest format](http://doc.crates.io/manifest.html)
