@@ -1,5 +1,28 @@
 # Errors
+
+## Creating a new error
+
+```rust
+use std::error::Error;
+use std::fmt::{self, Display};
+
+/// An error returned when failing to convert into a status code.
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
+pub struct ConversionError {
+    _private: (),
+}
+
+impl Error for ConversionError {}
+
+impl fmt::Display for ConversionError {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        "Error".fmt(f)
+    }
+}
+```
+
 ## Failure Boilerplate
+
 ```rust
 use failure::{self, Backtrace, Context, Fail};
 use std::fmt::{self, Display};
