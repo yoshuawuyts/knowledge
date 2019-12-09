@@ -104,3 +104,4 @@ Rust packages
 - https://github.com/alexcrichton/socket2-rs - Utilities for handling sockets
 - https://github.com/orlp/slotmap - slab-like data structure
 - https://github.com/laumann/compiletest-rs - Compile Test, console output assertions
+- https://github.com/brendanzab/codespan - rustc style error reporting / formatting with the ^^^ brackets
