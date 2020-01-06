@@ -9,7 +9,7 @@ if cfg!(debug_assertions) {
 
 ## Add Debugging for specific fields
 ```rust
-use std::fmt;
+use std::fmt::{self, Debug};
 
 impl<T> fmt::Debug for Blocking<T> {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
@@ -47,12 +47,34 @@ impl fmt::Display for Point {
 
 ## Implement Display
 ```rust
-impl fmt::Display for Point {
+use std::fmt::{self, Display};
+impl Display for Point {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(f, "({}, {})", self.x, self.y)
     }
 }
 ```
+
+## Implement Debug
+```rust
+use std::fmt::{self, Debug};
+impl Debug for Point {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(f, "({}, {})", self.x, self.y)
+    }
+}
+```
+
+## Enable debug info for release builds
+```sh
+$ RUSTFLAGS=-g cargo build --release
+```
+
+```toml
+[profile.release]
+debug = true
+```
+- https://stackoverflow.com/questions/38803760/how-to-get-a-release-build-with-debugging-information-when-using-cargo
 
 ## See Also
 - [rust-xxdb](https://michaelwoerister.github.io/2015/03/27/rust-xxdb.html)
