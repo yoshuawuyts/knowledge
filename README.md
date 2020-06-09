@@ -1,5 +1,5 @@
-# knowledge
-💡 document everything
+# notes
+notes on things
 
 ## See Also
 See [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) for other
