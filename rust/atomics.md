@@ -1,4 +1,5 @@
 # atomics
+
 ## Create a global counter
 ```rust
 use std::sync::atomic::{AtomicUsize, Ordering};
