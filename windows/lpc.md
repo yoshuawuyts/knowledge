@@ -1,4 +1,5 @@
 # Local Inter-Process Communication (LPC)
+
 LPC is an internal, undocumented inter-process communication facility
 provided by the Microsoft Windows NT kernel for lightweight IPC between
 processes on the same computer.
