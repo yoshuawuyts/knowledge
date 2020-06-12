@@ -30,6 +30,7 @@ async fn main() {
 3. Use the method `recv_cancel` on Stream or Future that takes a token.
 
 ### Usage
+
 ```rust
 use stop_token::StopToken;
 
