@@ -9,18 +9,15 @@
 ```rust
 use stop_token::StopToken;
 
-async fn do_work(work: impl Stream<Item = Event>, stop_token: StopToken) {
+async fn main() {
+    let stop_source = StopSource::new();
+    let stop_token = stop_source.stop_token();
+
     // The `work` stream will end early: as soon as `stop_token` is cancelled. 
     let mut work = stop_token.stop_stream(work);
     while let Some(event) = work.next().await {
         process_event(event).await
     }
-}
-
-async fn main() {
-    let stop_source = StopSource::new();
-    let stop_token = stop_source.stop_token();
-    do_work(stream, stop_token);
 }
 ```
 
@@ -32,6 +29,23 @@ async fn main() {
 2. Create a stop token.
 3. Use the method `recv_cancel` on Stream or Future that takes a token.
 
+### Usage
+```rust
+use stop_token::StopToken;
+
+async fn main() {
+    let src = StopSource::new();
+    let token = src.token();
+
+    // The `work` stream will end early: as soon as `token` is StopSource. 
+    for ev.await in work.stop_on(token) {
+        process_event(event).await
+    }
+}
+```
+
+
+### Implemenation
 ```rust
 // async_std::sync
 pub struct StopSource;
@@ -45,10 +59,10 @@ impl Clone for StopToken {};
 // async_std::stream
 pub struct StopStream<T>;
 impl<T> Stream for StopStream<T> { type Item = T; }
-impl Stream { fn recv_cancel(&StopToken) -> StopStream; }
+impl Stream { fn stop_on(&StopToken) -> StopStream; }
 
 // async_std::future
 pub struct StopFuture<T>;
 impl<T> Future for StopFuture<T> { type Output = Result<T, StopError>; }
-impl Future { fn recv_cancel(&StopToken) -> StopFuture; }
+impl Future { fn stop_on(&StopToken) -> StopFuture; }
 ```
