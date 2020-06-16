@@ -139,3 +139,16 @@ type PointStamp = (TimeStamp, Edge | Vertex);
                               |-----------|
                                  Location
 ```
+
+### Scheduler
+
+The scheduler maintains a set of _active pointstamps_; the nodes/events that
+correspond to at least one unprocessed event. Per pointstamp it keeps two sets:
+
+- _occurance count_ of how many events in the queue relate to the pointstamp
+- _precursor count_ of how many active pointstamps precede it in the
+                    could-result-in-order.
+
+## Resources
+
+- https://blog.acolyer.org/2015/06/12/naiad-a-timely-dataflow-system/
