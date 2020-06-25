@@ -33,7 +33,7 @@ shape of the object is:
 
 - https://docs.datadoghq.com/api/v1/authentication/
 
-## Send logs
+## Sending logs directly to Datadog
 Send logs to datadog. Restrictions
 
 - Up to 5mb total for the payload
@@ -60,3 +60,8 @@ EOF
 }
 ```
 - https://docs.datadoghq.com/api/v1/logs/#send-logs
+
+
+## Sending logs to the DataDog agent
+
+- https://docs.datadoghq.com/api/v1/tracing/#send-traces
