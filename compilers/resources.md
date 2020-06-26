@@ -42,7 +42,7 @@ video](https://rustc-dev-guide.rust-lang.org/query.html) available on YouTube.
 - Talk on modern compiler architecture https://www.youtube.com/watch?v=wSdV1M7n4gQ
 - Rustc's query engine (salsa) https://github.com/salsa-rs/salsa
 - Rustc's query architecture https://rustc-dev-guide.rust-lang.org/query.html
-- Introduction to salsa https://rustc-dev-guide.rust-lang.org/query.html
+- Introduction to salsa https://www.youtube.com/watch?v=_muY4HjSqVw&feature=youtu.be
 
 ## Parsing
 
