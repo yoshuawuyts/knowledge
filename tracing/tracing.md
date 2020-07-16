@@ -30,3 +30,24 @@ Always start with white-box tracing. This is the part of the system you can
 control. Adding black-box tracing can be done by creating a span for it
 inside the white-box system. E.g. "here's a call with some parameters to our
 mainframe that took 40ms".
+
+## RPC calls
+
+In order to perform an RPC call two operations need to be performed:
+
+- __inject__ a trace ID into the request on the side of the caller.
+- __extract__ a trace ID from the request on the side of the callee.
+
+When a request is received a trace ID is extracted a new trace is created.
+When a request is made, the previously extracted ID is used to create a new
+ID, which is passed to the new request.
+
+A mechanism for propagating IDs through the application should be done
+implemented in the _scope manager_.
+
+## Tracing for mobile
+
+- be mindful data if there's no connection -- can add up and overwhelm
+- flush when a page switches focus
+- debounce clicks so spans aren't repeatedly created
+- be mindful of privacy laws
