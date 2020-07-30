@@ -47,6 +47,7 @@ async fn main() {
 
 
 ### Implemenation
+
 ```rust
 // async_std::sync
 pub struct StopSource;
@@ -67,3 +68,11 @@ pub struct StopFuture<T>;
 impl<T> Future for StopFuture<T> { type Output = Result<T, StopError>; }
 impl Future { fn stop_on(&StopToken) -> StopFuture; }
 ```
+
+## Differences with C++
+
+One of the downsides of C++ futures is that they don't support adapters
+directly on them, so this API would not be expressible there.
+
+## References
+- http://open-std.org/JTC1/SC22/WG21/docs/papers/2019/p0660r10.pdf
