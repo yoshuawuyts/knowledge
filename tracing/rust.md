@@ -13,6 +13,10 @@ For Rust we would use `task-local storage` that is implemented on top of
 this for tracing is minimal [citation of Dapper required]. This mechanism is
 referred to in the book as a "scope manager".
 
+## tokio-rs/tracing
+- https://github.com/davidbarsky/tracing-tree/
+- https://gist.github.com/davidbarsky/d98781f3a9090bb12c6136ab6c631c4f
+
 ## References
 
 - https://github.com/rust-lang/rust/issues/73522

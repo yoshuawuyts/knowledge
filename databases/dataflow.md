@@ -188,3 +188,4 @@ be done by storing the full bookkeeping in e.g. a HashMap.
 ## Resources
 
 - https://blog.acolyer.org/2015/06/12/naiad-a-timely-dataflow-system/
+- https://timelydataflow.github.io/differential-dataflow/
