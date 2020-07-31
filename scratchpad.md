@@ -1,7 +1,8 @@
 # tide changelog
 
-This release introduces first-class support sessions, fixes a few
-long-standing bugs with our default middleware, and
+This release introduces first-class support sessions, fixes a 
+long-standing bug with our default middleware, and renamed the API to
+register middleware through.
 
 # Sessions
 
@@ -11,8 +12,24 @@ belonging to the same origin. Which is a pre-requisite to build common
 web-app features such as user accounts, multi-request transactions, and
 [channels](https://blog.yoshuawuyts.com/tide-channels/).
 
-This feature builds on the newly released [`async-session`
-2.0.0](https://docs.rs/async-session/2.0.0) library, an
+Tide sessions are generic over backend stores and signing strategy. It builds
+on the newly released [`async-session`
+2.0.0](https://docs.rs/async-session/2.0.0) library, which is a set of common
+traits that types that make up a session. But beyond that, much of it is
+implementation specific.
+
+Tide ships with a `memory` and `cookie` store by default. However we have
+also published several convenient session store implementations for common
+databases, providing a nice selection to choose from:
+
+- Memory Session (shipped with Tide)
+- Cookie Session (shipped with Tide)
+- [async-sqlx-session](https://docs.rs/async-sqlx-session) (SQLite only for now; we hope to support more)
+- [async-redis-session](https://docs.rs/async-redis-session)
+- [async-mongodb-session](https://docs.rs/async-mongodb-session)
+
+Using "Redis" as the backing session store for Tide is as easy as writing 3
+lines and including a dependency in your Cargo.toml:
 
 ```rust
 use async_redis_session::RedisSessionStore;
@@ -25,7 +42,7 @@ async fn main() -> tide::Result<()> {
 
     // Create a Redis-backed session store and use it in the app
     let store = RedisSessionStore::new("redis://127.0.0.1:6379")?;
-    let secret = std::env::var("TIDE_SECRET").unwrap();
+    let secret = std::env::var("SESSION_SECRET").unwrap();
     app.with(SessionMiddleware::new(store, secret.as_bytes()));
 
     app.at("/").get(|mut req: Request<()>| async move {
@@ -51,3 +68,5 @@ async fn main() -> tide::Result<()> {
 }
 ```
 
+It's still early for Tide sessions. But we're incredibly excited for how
+convenient it already is, and excited for the possibilities this will enable!
