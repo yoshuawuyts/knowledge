@@ -1,8 +1,8 @@
 # tide changelog
 
 This release introduces first-class support sessions, fixes a 
-long-standing bug with our default middleware, and renamed the API to
-register middleware through.
+long-standing bug with our default middleware, clarifies our stability
+guarantees, and renamed the API to register middleware through.
 
 # Sessions
 
@@ -70,3 +70,80 @@ async fn main() -> tide::Result<()> {
 
 It's still early for Tide sessions. But we're incredibly excited for how
 convenient it already is, and excited for the possibilities this will enable!
+
+## Renaming Server::middleware to Server::with
+
+This patch renames `Server::middleware` to `Server::with` in order to
+streamline much of the middleware APIs.
+
+```rust
+// After this patch
+let mut app = tide::new();
+app.with(MyMiddleware::new());
+app.at("/").get(|_| async move { Ok("hello chashu") });
+app.listen("localhost:8080").await?;
+
+// Before this patch
+let mut app = tide::new();
+app.middleware(MyMiddleware::new());
+app.at("/").get(|_| async move { Ok("hello chashu") });
+app.listen("localhost:8080").await?;
+```
+
+A small change, but ever so convenient.
+
+## No more duplicate log messages
+
+Ever since we introduced application nesting we've had issues with default
+middleware running twice. This patch fixes that for our logging middleware in
+two ways:
+
+1. We've introduced a `logger` Cargo feature to disable the default logging middleware #661
+2. We now track calls to the logger inside the state map to ensure
+it's only called once per app #662
+
+There may be room to optimize this further in the future, and perhaps extend
+the same mechanisms to work for more built-in middleware. But for now this
+patch resolves the most common issues people were reporting.
+
+## Clarification on stability
+
+Tide has been deployed to production in many places: independent authors
+taking control of their publishing pipelines, software professionals building
+internal tooling, and enterprises running it in key parts of their
+infrastructure.
+
+In past Tide releases shipped with a warning that actively recommended
+against using it in any critical path. However we've chosen to no longer
+include that warning starting this release. Much of the work at the protocol
+layer and below has completed, and we've received positive reports on how it
+performs.
+
+For the foreseable future Tide will remain on the `0.x.x` semver range. While
+we're confident in our foundations, we want to keep iterating on the API.
+Once we find that work has slowed down we may decide when to release a 1.0.0
+release.
+
+## Added
+
+- Added `From<StatusCode> for Response` #650
+- Added a feature-flag to disable the default logger middleware #661
+- Added `impl Into<Request> for http_types::Request` #670
+
+## Changes
+
+- Rename `Server::middleware` to `Server::with` #666
+- Relax Sync bound on Fut required on sse::upgrade #647
+- Consistency improvements for examples #651
+- Bumped version number in docs #652
+- Add enable logging in README example #657
+- Remove "experimental" warning #667
+
+## Fixes
+
+- Guarantee the log middleware is only run once per request #662
+
+## Internal
+
+- Enable clippy for tests #655
+- Reorder deps in cargo.toml #658
