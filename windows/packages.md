@@ -19,3 +19,5 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 - scoop.sh - package installer
 - blender open data - system benchmark
 - ililim/dual-key-remap - set ctrl+esc on caps-lock
+- `winget install FileConverter` - convert files (mp4 -> gif)
+- `winget install Mystiq` - ffmpeg frontend
